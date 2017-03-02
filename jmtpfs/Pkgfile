@@ -1,0 +1,18 @@
+# Description: mtpfs with better support for Android
+# URL: http://research.jacquette.com/jmtpfs-exchanging-files-between-android-devices-and-linux/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: fuse libmtp
+
+name=jmtpfs
+version=0.5
+release=1
+
+source=("https://github.com/JasonFerrara/jmtpfs/archive/v${version}.tar.gz")
+
+build() {
+    cd "${SRC}/${name}-${version}"
+    ./configure CXXFLAGS=-lpthread --prefix=/usr
+    make
+
+    make DESTDIR="${PKG}" install
+}

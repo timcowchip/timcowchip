@@ -1,0 +1,16 @@
+# Description: CD/DVD burning application
+# URL: http://sourceforge.net/projects/gnomebaker/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: fltk, libburn, libisoburn
+
+name=flburn
+version=0.0.3
+release=2
+source=(https://bitbucket.org/timcowchip/linux-parts/raw/148bbeb2216067a1923dc19497f8fe01d5b0925d/$name-$version.tar.bz2)
+
+build() {
+	cd $name-code
+	make
+	
+	install -D -m755 "$name" "$PKG/usr/bin/$name"
+}

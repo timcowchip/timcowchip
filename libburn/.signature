@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcow.pub
+RWQl8gtaJ/lzqmRJhf4OAWwsI1O875Vc59gt8rMOIVXUOeHrfZW6wMkS/4EaDFCNbV5AbERG8LaAn0K2PolXaQmF6/QRD52kDQo=
+SHA256 (Pkgfile) = 486b07277edc6f0b4e59d9ca6f356bcf190b248fe1486c4aa8eaf1bc46cb5573
+SHA256 (.footprint) = 9097afb2027dd4e72534e1ec37353f7aeead66fad65ef9868bcda674341b14f6
+SHA256 (libburn-1.4.0.tar.gz) = 6c975abae4ae1f80e47fc5d1e235f85157f73e954c84627a5ef85d8b1b95ae94

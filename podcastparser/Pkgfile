@@ -1,0 +1,14 @@
+# Description: podcastparser is a podcast parser written in Python
+# URL: http://gpodder.org/podcastparser/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: setuptools
+
+name=podcastparser
+version=0.6.1
+release=1
+source=(https://github.com/gpodder/podcastparser/archive/0.6.1/podcastparser-0.6.1.tar.gz)
+
+build() {
+  cd $name-$version
+  python setup.py install --root=$PKG
+}

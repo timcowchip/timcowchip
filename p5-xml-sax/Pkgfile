@@ -1,0 +1,25 @@
+# Description:	Perl XML Modules
+# URL:		http://search.cpan.org/~grantm/XML-SAX-0.99/
+# Maintainer:     Chris Farrell, timcowchip at gmail dot com 
+# Depends on:	p5-xml-sax-base p5-xml-namespacesupport
+
+name=p5-xml-sax
+version=0.99
+release=1
+source=(
+http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/XML-SAX-$version.tar.gz
+perl-xml-sax.patch
+)
+
+build () {
+	cd XML-SAX-$version
+	patch -p1 -i $SRC/perl-xml-sax.patch
+
+	PERL_MM_USE_DEFAULT=1 perl Makefile.PL INSTALLDIRS=site
+
+	make OPTIMIZE="$CFLAGS"
+	make DESTDIR="$PKG" install
+
+	find "$PKG" \( -name perllocal.pod -o -name .packlist \) -exec rm {} \;
+	find "$PKG" -depth -type d -empty -exec rm -rf {} \;
+}

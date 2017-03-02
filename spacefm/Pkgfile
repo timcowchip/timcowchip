@@ -1,0 +1,24 @@
+# Description: Multi-panel tabbed file manager.
+# URL: http://ignorantguru.github.io/spacefm/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: gtk3 eudev shared-mime-info desktop-file-utils ffmpegthumbnailer xorg-libxdamage 
+
+name=spacefm
+version=1.0.5
+release=1
+source=(https://github.com/IgnorantGuru/$name/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	CONFIG_SHELL=/bin/bash \
+	./configure \
+		--prefix=/usr \
+		--disable-nls \
+		--disable-pixmaps
+		
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{locale,doc}
+}

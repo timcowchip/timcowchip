@@ -1,0 +1,21 @@
+# Description: Command-line JSON processor
+# URL: http://stedolan.github.io/jq/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: oniguruma
+
+name=jq
+version=1.5
+release=5
+
+source=(https://github.com/stedolan/jq/releases/download/${name}-${version}/${name}-${version}.tar.gz)
+
+build() {
+        
+    cd "${name}-${version}"
+    ./configure --prefix=/usr
+    make
+
+    make DESTDIR="${PKG}" prefix=/usr install
+    rm -rf ${PKG}/usr/share/doc/
+    
+}

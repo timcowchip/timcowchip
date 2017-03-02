@@ -1,0 +1,24 @@
+# Description:  Lightweight and highly configurable tiling window manager for X
+# URL: http://wmfs.info/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: xorg-libxft, xorg-libx11, imlib2, 
+
+name=wmfs2
+version=201003
+release=2
+source=(https://bitbucket.org/timcowchip/linux-parts/raw/4baa40727b945ddb9c9963efd7ba985844b42230/$name-$version.tar.gz)
+
+build() {
+
+	cd wmfs-master
+
+	cd wmfs-master
+
+  ./configure --prefix /usr \
+              --xdg-config-dir /etc/xdg \
+	       --man-prefix /usr/share/man \
+	       --without-xinerama 
+
+  make 
+  make DESTDIR=$PKG install 
+}

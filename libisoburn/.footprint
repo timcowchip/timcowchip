@@ -1,0 +1,19 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/osirrox -> xorriso
+lrwxrwxrwx	root/root	usr/bin/xorrecord -> xorriso
+-rwxr-xr-x	root/root	usr/bin/xorriso
+-rwxr-xr-x	root/root	usr/bin/xorriso-tcltk
+lrwxrwxrwx	root/root	usr/bin/xorrisofs -> xorriso
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/libisoburn/
+-rw-r--r--	root/root	usr/include/libisoburn/libisoburn.h
+-rw-r--r--	root/root	usr/include/libisoburn/xorriso.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libisoburn.a
+-rwxr-xr-x	root/root	usr/lib/libisoburn.la
+lrwxrwxrwx	root/root	usr/lib/libisoburn.so -> libisoburn.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libisoburn.so.1 -> libisoburn.so.1.97.0
+-rwxr-xr-x	root/root	usr/lib/libisoburn.so.1.97.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libisoburn-1.pc

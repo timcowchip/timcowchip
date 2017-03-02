@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcow.pub
+RWQl8gtaJ/lzqplqK7NdJ8aKZB0T3TQHUzGc9TviQBhyMPYE7X8Ad0aw/K3RLpMk7JwRsFzjDgJpPsDjB5K+j7i9aIJG1ikTSAU=
+SHA256 (Pkgfile) = 508a66d3b8cb36ac2dd60edc293223382751e2fb133e48364918f9a7ba6a407f
+SHA256 (.footprint) = d9eb88d1703665700af4689e10f936aed801e0fdca9fc5306287ef2fdf992095
+SHA256 (build-docbook-catalog-1.20.tar.xz) = 9475e60a7eda5d9a427315c0bd60a04b7e1f8a214596d470073aaf9db8ed47d2

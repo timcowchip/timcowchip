@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcow.pub
+RWQl8gtaJ/lzqojksUbTUqu7LcFxWPcvlWEHtS16yt7rqzlDBvgOFcCkj4AAr5Veybm9K9XldWV3eHGirxf0DiMCZN5SgvIWSwI=
+SHA256 (Pkgfile) = f9fef759aeb83ea3fae74f9e318ff2d080fdcbdb82b66193d33cab66afba377d
+SHA256 (.footprint) = 4316dbe3dae3205bba279aa57aebb8fcd0e27f8460f840972704626baed4fb17
+SHA256 (libisofs-1.4.0.tar.gz) = 6e62824d879ffe85c0e4363677fd10f177a4c85af049d0861c70bf442b901fce

@@ -1,0 +1,15 @@
+# Description: generates docbook catalogs
+# URL: https://sources.gentoo.org/gentoo-src/build-docbook-catalog/
+# Maintainer:  Chris Farrell, timcowchip at gmail dot com 
+# Depends on: libxml2 libxslt docbook-xml docbook-xsl
+
+name=build-docbook-catalog
+version=1.20
+release=1
+source=(http://gentoo.osuosl.org/distfiles/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	sed -i -e '/^DOCBOOKDIR=/s/sgml/xml/' build-docbook-catalog
+	make install PREFIX=/usr DESTDIR=$PKG
+}

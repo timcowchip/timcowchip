@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcow.pub
+RWQl8gtaJ/lzqmUDSy2M9lC4QmMTFbJ+0v0wcN1wuwICkquHKW5VSXI+gYG62wMp4nFgsoL5+Plb5AyInDFM8HQhvbpqUE+bCAU=
+SHA256 (Pkgfile) = a1986f04388e74e78bb75e366e6cf09f8e212c56c55a74a4b68f554d7963ac90
+SHA256 (.footprint) = 318911da456c4d6e297d7c14fe7c4a1ebe4507068dc9a7c49e9c606628cfd1ae
+SHA256 (tint2-0.12.12.tar.gz) = 88cc4a28ea251f671f99d4c91e63a44b6c3f8e7d25fbef0003c85cbb7fc5c92f
