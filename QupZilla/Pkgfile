@@ -1,0 +1,25 @@
+# Description: "A fast open source browser based on QtWebengine, written in Qt Framework
+# URL: http://www.qupzilla.com/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: qtwebengine mesa desktop-file-utils hicolor-icon-theme gdb
+
+name=QupZilla
+version=2.1.1
+release=4
+
+source=("https://bitbucket.org/timcowchip/linux-parts/raw/5486cefbcb963f75a23e68ebf420b1246946cce0/$name-$version.tar.gz")
+
+build() {
+    cd $name-$version/
+
+    export USE_WEBGL="true"
+    #export NO_X11="true"
+   
+    /usr/lib/qt5/bin/qmake 
+    make
+
+    make INSTALL_ROOT=${PKG}/ install
+    
+    rm -rf ${PKG}/usr/share/doc/
+    rm -rf ${PKG}/usr/share/locale/
+}
