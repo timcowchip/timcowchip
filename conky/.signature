@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/timcow.pub
-RWQl8gtaJ/lzqlxJQHSBc3Y0kp/vxryx/Ya36zOymjG2hbxbqhK6Wj5NFdlaTUvqYqWZELD1n/eXBEMcdFTRzX/LiBDX5VH2WQE=
-SHA256 (Pkgfile) = 5a49e9ec107509e97a6dec24c5d7870e2c6571b624a0a9ea324dea5073aefa45
-SHA256 (.footprint) = bdfcc080d6a9409e79f3488210fb3adeba3202db023e3f18c5507d0385cea33b
-SHA256 (v1.10.6.tar.gz) = 4c80982960b2a72e3e33cef33347c97b9239ed110d9584da4e7f17f28faf60ca
-SHA256 (lua53.patch) = 16516bdae848f85be949185746418fa5810d426e1f25b6dbbcefdbf4a0b8e6f3
