@@ -1,0 +1,25 @@
+# Description: Lightweight Qt-based terminal emulator
+# URL: https://github.com/qterminal/qterminal
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: qt5 qtermwidget
+
+name=qterminal
+version=0.6.0
+release=1
+
+source=("https://bitbucket.org/timcowchip/linux-parts/raw/7df2b76f83b152f34f3381d56c4470d777bd83e5/$name-$version.tar.xz")
+
+
+
+build() {
+	mkdir -p build
+	cd build
+	cmake "$SRC/$name-$version" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DUSE_SYSTEM_QXT=OFF \
+		-DUSE_QT5=true
+	make
+
+	make DESTDIR="$PKG" install
+}

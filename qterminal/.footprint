@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/qterminal
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/qterminal.desktop
+-rw-r--r--	root/root	usr/share/applications/qterminal_drop.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/qterminal.png
+drwxr-xr-x	root/root	usr/share/qterminal/
+drwxr-xr-x	root/root	usr/share/qterminal/translations/
+-rw-r--r--	root/root	usr/share/qterminal/translations/qterminal_cs.qm
+-rw-r--r--	root/root	usr/share/qterminal/translations/qterminal_de.qm
+-rw-r--r--	root/root	usr/share/qterminal/translations/qterminal_es.qm
+-rw-r--r--	root/root	usr/share/qterminal/translations/qterminal_et.qm
+-rw-r--r--	root/root	usr/share/qterminal/translations/qterminal_it.qm
+-rw-r--r--	root/root	usr/share/qterminal/translations/qterminal_ru.qm

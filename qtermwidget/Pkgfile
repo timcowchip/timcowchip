@@ -1,0 +1,24 @@
+# Description: A terminal widget for Qt
+# URL: https://github.com/qterminal/qtermwidget
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: cmake qt5 libsm libxcb
+
+name=qtermwidget
+version=0.6.0
+release=1
+
+source=("https://bitbucket.org/timcowchip/linux-parts/raw/7df2b76f83b152f34f3381d56c4470d777bd83e5/$name-$version.tar.xz")
+
+build() {
+	mkdir -p build
+	cd build
+	cmake "$SRC/$name-$version" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_DESIGNER_PLUGIN=0 \
+		-DUSE_QT5=true
+	make
+
+	make DESTDIR="$PKG" install
+}
