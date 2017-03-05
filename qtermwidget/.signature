@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqkE1BT4c9WDtsdeBTWYDd4MkEOHGiW+0X3qTEn9Pil6BUPpqkiWSG1O7QSMRUV6+OkhrxdmK9ec1M2Em5CSj3w4=
-SHA256 (Pkgfile) = 168a2c41d26b774e51d7f094653d02ff55bfe321b481045bb0e190377cd397e9
+RWQl8gtaJ/lzquZLpxSxY9f7bdPM68GzZclh6QMhdY4Wf7SUjKztoLKvDuDW99DpHkt2XDRvhpsS+DqAI5sv5jEee+ch0zJTCQA=
+SHA256 (Pkgfile) = d0f01486ccc2347ce98b956981a0fb6979750de30202df5e1e51b4bbc73b5fa4
 SHA256 (.footprint) = 7647cf7202281ae2fc40c5b228b61caf21845424a805ced226d26abd1797dc88
 SHA256 (qtermwidget-0.6.0.tar.xz) = 1ea148e67c3e28a53ca24a3c91532507ddd6c5d28611467e7a67334d945cd010

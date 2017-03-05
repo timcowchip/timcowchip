@@ -1,7 +1,7 @@
 # Description: A terminal widget for Qt
 # URL: https://github.com/qterminal/qtermwidget
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: cmake qt5 libsm libxcb
+# Depends on: cmake qt5 xorg-libsm xorg-libxcb
 
 name=qtermwidget
 version=0.6.0
