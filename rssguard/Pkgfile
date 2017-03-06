@@ -10,7 +10,7 @@ source=(https://bitbucket.org/timcowchip/linux-parts/raw/8a4ad3da8fd8c09d69b9dc4
 
 build() {
   cd $name-$version
-  qmake-qt5 -r CONFIG+=release PREFIX=/usr 
+  qmake-qt5 -r CONFIG+=release PREFIX=/usr INSTALL_ROOT=. QMAKE_CFLAGS_RELEASE="$CPPFLAGS $CFLAGS" QMAKE_CXXFLAGS_RELEASE="$CPPFLAGS $CXXFLAGS" QMAKE_LFLAGS_RELEASE="$LDFLAGS"
   make
 
   make INSTALL_ROOT="$PKG/" install

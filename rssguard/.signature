@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqsfWkx8hSpduz34HMkx4yUCpGt0ff10bdlt7HITnpqRzYatdtHsqSfKN5jeXSvA5uJHUFGC9suV9zMZC7rTnqgw=
-SHA256 (Pkgfile) = 6c9e134dd815089c62a1f1f3ccf0fdee08437004626ac51a3e8074529620e1c0
+RWQl8gtaJ/lzqtxlc3xCT/1Eg2ZVYHUhSlHqgcqemgQXnTMVJNROFB9rV+5O54SnNyJp5aKBd0LIBV3W1f/Guldo3S5CWDDGpgg=
+SHA256 (Pkgfile) = 78ce364f4a2d844f0ab9040605e120e73656c5ad77bf625e21a4b26bc105eda1
 SHA256 (.footprint) = ff4db826c67d480b3db4d5ebda3d6f524d62fdcd767f16151b839a5d5a33a453
 SHA256 (rssguard-3.3.7.tar.gz) = a90542dbd14d8a4b0cf925e3ad0ee16edd0c1229d8f6c96fb615eec12bfd61ff
