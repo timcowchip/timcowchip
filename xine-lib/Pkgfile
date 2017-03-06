@@ -1,5 +1,5 @@
 # Description: A small utility to copy DVD
-# URL: http://sourceforge.net/projects/k9copy-reloaded
+# URL: http://xine.sourceforge.net
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
 # Depends on: ffmpeg flac gdk-pixbuf glu liba52 libdca libdvdnav libgmp libmad libmng libmpcdec util-linux vcdimager
 
