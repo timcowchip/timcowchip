@@ -12,7 +12,6 @@ d:qtermwidget
 d:QupZilla
 d:podcastparser
 d:rssguard
-d:mariadb
 d:qterminal
 f:282593137b642c6bc2ef4613c53262a5:libisofs/.footprint
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
@@ -70,8 +69,6 @@ f:f8c7fc38cd792a8f0e84618ddefd49c6:rssguard/.footprint
 f:b74545cd604beabbcd5bf0e0ffdd3c30:rssguard/.md5sum
 f:035699fbe997a89a4298018ffcc7f436:rssguard/Pkgfile
 f:f868050e262b96d727ccd1ed13cbb47e:rssguard/.signature
-f:ff8b96edeeb22425117309a249055310:mariadb/mariadb-10.1.21.tar.gz
-f:3978c5b6aeaab9bdff099a836944cc3a:mariadb/Pkgfile
 f:104fec05697fe1d94dd9f0db21c95101:qterminal/.footprint
 f:902122fb7657ef8a92f9e5b8bf9bd752:qterminal/.md5sum
 f:0d1dbab1d49904b8da7d79611e975dd2:qterminal/Pkgfile
