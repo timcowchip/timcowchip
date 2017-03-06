@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqmQUVxrmK/jKmVuzbpUDU7bsvD4lVUgpJ5dv7qFf0tkRjnXgMtPqmdQ6jHsoW62jBlyqb15oHjSYhQ79e3KrXwo=
+SHA256 (Pkgfile) = 00070ff32b0b19b6932295a1597d4e1146576b62e97c2ef852ff198979e16b0d
+SHA256 (.footprint) = e4f71053717f1b717808fbe5ff31f2ce39e0b9b081ec69cc29becf03450b5150
+SHA256 (xine-lib-1.2.6.tar.xz) = bd041d738817c7c0c6392a3c0e5bda5a664a47e035135b5a449364f8c9b6a005

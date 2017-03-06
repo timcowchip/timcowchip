@@ -1,0 +1,34 @@
+# Description: A small utility to copy DVD
+# URL: http://sourceforge.net/projects/k9copy-reloaded
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: ffmpeg flac gdk-pixbuf glu liba52 libdca libdvdnav libgmp libmad libmng libmpcdec util-linux vcdimager
+
+name=xine-lib
+version=1.2.6
+release=2
+source=(http://downloads.sourceforge.net/project/xine/$name/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--disable-nls \
+		--enable-a52dec \
+		--enable-faad \
+		--enable-musepack \
+		--with-external-dvdnav \
+		--disable-dependency-tracking
+
+	sed -i src/video_out/Makefile -e 's/XCB_LIBS = -lxcb-shape/XCB_LIBS = -lxcb-shape -lxcb/'
+	sed -i src/video_out/Makefile -e 's/xineplug_vo_out_raw_la_CFLAGS = $(AM_CFLAGS) $(AVUTIL_CFLAGS)/xineplug_vo_out_raw_la_CFLAGS = $(AM_CFLAGS) $(AVUTIL_CFLAGS) $(XCB_LIB)/'
+	sed -i src/video_out/Makefile -e 's/xineplug_vo_out_xcbxv_la_LIBADD = $(XINE_LIB) $(PTHREAD_LIBS) $(LTLIBINTL) $(XCBXV_LIBS) $(XCB_LIBS)/xineplug_vo_out_xcbxv_la_LIBADD = $(XINE_LIB) $(PTHREAD_LIBS) $(LTLIBINTL) $(XCBXV_LIBS) $(XCB_LIBS) $(XCBSHM_LIBS)/'
+	sed -i src/dxr3/ffmpeg_encoder.c -e 's/avcodec_alloc_frame/av_frame_alloc/g'
+	sed -i src/combined/ffmpeg/ff_video_decoder.c -e 's/avcodec_alloc_frame/av_frame_alloc/g'
+	sed -i src/combined/ffmpeg/ff_audio_decoder.c -e 's/avcodec_alloc_frame/av_frame_alloc/g'
+	sed -i src/combined/ffmpeg/ff_audio_decoder.c -e 's/avcodec_free_frame/av_frame_free/g'
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}
