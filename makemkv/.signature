@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqk9g7QGpt7hnxmIWI9WCCtjc8XO2KxBNFdY9tjQAXE+YZ5DDcPoSwHREuVOnXBVxVuW1sEeYMtEgvbIoHeQ9lwc=
+SHA256 (Pkgfile) = 4559cf547830b94d7f199ac50e4f4c317114c4b7891ea246b4a0f2e01428cf14
+SHA256 (.footprint) = 87b01f57c56f347180a92f00151a42e569533a5a44976b6113695472dcb211f1
+SHA256 (makemkv-bin-1.10.4.tar.gz) = bc6f66897c09b0b756b352cc02a092c5b3a9547e4c129b3472ae4c605eff94aa
+SHA256 (makemkv-oss-1.10.4.tar.gz) = bacbd6a27ebd67f2e6f6c4356cafb92918d54a8bb15872f694232043039f63c4
+SHA256 (makemkv.1) = 5573b2e4bade10d8cd258a7c235eb46f66ef8c8c97e5d5eb090c38fa0f94389b
+SHA256 (makemkvcon.1) = f12c0facf2f0071a9f728b138986f0a4c2b4ff6ace2dfb2e96364e215e9fda6f
+SHA256 (mmdtsdec.1) = 2a6237d3d5ce073734c658c7ec5d2141ecd0047e6d3c45d1bd594135c928878f
