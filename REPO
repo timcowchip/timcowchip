@@ -1,7 +1,6 @@
 d:libisofs
 d:gpodder
 d:libisoburn
-d:makemkv
 d:lumina-desktop
 d:libburn
 d:trojita
@@ -10,10 +9,8 @@ d:isomaster
 d:mygpoclient
 d:flburn
 d:qtermwidget
-d:xine-lib
 d:QupZilla
 d:podcastparser
-d:handbrake
 d:qterminal
 f:282593137b642c6bc2ef4613c53262a5:libisofs/.footprint
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
@@ -27,13 +24,6 @@ f:89a30933de19fddd08a617cd60154787:libisoburn/.footprint
 f:08a34f2fdd6a0a11b1a7c2bf610a756b:libisoburn/.md5sum
 f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
 f:48b37468d225b07131c88c73916ef5cb:libisoburn/.signature
-f:7f4b112c5178860cc2eb25059ae1af2a:makemkv/makemkvcon.1
-f:1f9b3a91427a2015434e501542443f4c:makemkv/makemkv.1
-f:c168b27fdbddd65048efef51e7312d15:makemkv/.footprint
-f:e0da4cfa9bf5ea6b4ee0334b654eb7e2:makemkv/.md5sum
-f:bdf26150a37261f156ffd2daaa37b7d8:makemkv/Pkgfile
-f:44e52965c108d2c2d0c6462b23cde78e:makemkv/.signature
-f:9476154228bf1b1f983178ba8565ac44:makemkv/mmdtsdec.1
 f:95b2a602d2c20e342dbaf900c9021854:lumina-desktop/.footprint
 f:17212215dca65fd46bb5d5b51af46cf8:lumina-desktop/.md5sum
 f:bc9ec2524ffe5a2782066cd5eb65a856:lumina-desktop/Pkgfile
@@ -66,10 +56,6 @@ f:c0af7e75eb59b0cb7eead740423644bb:qtermwidget/.footprint
 f:1e15aa733efead39ac3bc95db5d0aacb:qtermwidget/.md5sum
 f:c63354a86bfea558b6d9dd7b71a154b5:qtermwidget/Pkgfile
 f:1c2c788f7adcdb682b9f28be237f57aa:qtermwidget/.signature
-f:8ce6265f277d20bcc939e218dcba9c4d:xine-lib/.footprint
-f:6ebab542744f5f245fb857c5ce088314:xine-lib/.md5sum
-f:e5fd535a9f5a4887df42a96f034cf5e3:xine-lib/Pkgfile
-f:ae45aa73e6b85a05b61d3e65a00b2551:xine-lib/.signature
 f:119b015388ddeec49df92fa3c28f7b07:QupZilla/.footprint
 f:9c28aea0efdbae4631c516ce7784eb96:QupZilla/.md5sum
 f:2ee41aa59bba5f983aa7cf589acc94b3:QupZilla/Pkgfile
@@ -78,10 +64,6 @@ f:f50a108c1bf60d1f97b012e0cb2b44ca:podcastparser/.footprint
 f:52bdb1fbc1456e1d20945fe1e6e8a1a2:podcastparser/.md5sum
 f:ec00d9c9a66a2f698f361deabd50dfb5:podcastparser/Pkgfile
 f:4ffa1771f6954e3ac0e2acbf3b5ba13a:podcastparser/.signature
-f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
-f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
-f:f4b2c7b69c51713b847224415277d497:handbrake/Pkgfile
-f:0abed840628c47b60f98e0834bc8c807:handbrake/.signature
 f:104fec05697fe1d94dd9f0db21c95101:qterminal/.footprint
 f:902122fb7657ef8a92f9e5b8bf9bd752:qterminal/.md5sum
 f:0d1dbab1d49904b8da7d79611e975dd2:qterminal/Pkgfile
