@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqrPyXBDCZ7X3LNGth+IqMHJGqszwmgWq6Q2YUaYEUU23x4+xAHXu4aoKLtBhMxLYSNTnGfIqINiToKU66TjCVw8=
-SHA256 (Pkgfile) = 74086c0c30bf487ad4810adedb3da7a843589aa3e3d9e559a8d28d4a6396c041
+RWQl8gtaJ/lzqlMhbLgcdzsBWpB5Xp+cb+I9RANzj+8/NmngABeaQN2Mr8/sDTh9P0PL0L3OFpKbeEnWLjFeeeklX29n5cIXBAk=
+SHA256 (Pkgfile) = d4358eb09c1928fa83c5f560c8eea4fa074581e41d213b3ae47b3ba8f0771800
 SHA256 (.footprint) = afc49c9a5ac0d1e1fe7424d86f57eec523fd483ff1973c3d8a80b5ec9918c44e
 SHA256 (lxqt-build-tools-0.3.2.tar.xz) = 726fca2597fb438cc6dcdea1b9e34d719ff0fa371fcd9a304c608e425ff364ef
