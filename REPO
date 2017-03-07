@@ -5,6 +5,7 @@ d:lumina-desktop
 d:libburn
 d:trojita
 d:qmmp
+d:lxqt-build-tools
 d:isomaster
 d:mygpoclient
 d:flburn
@@ -41,6 +42,10 @@ f:1a76e5bd826e086a74bca6e6711913c2:qmmp/.footprint
 f:c68fb4f71b8fd68496db4721e0449c53:qmmp/.md5sum
 f:04d1782de55712de2a96140d31051828:qmmp/Pkgfile
 f:6148d60ffe27af6c707415e27ed53037:qmmp/.signature
+f:2e2d15721c5d7883326beeab0a2dfd90:lxqt-build-tools/.footprint
+f:e85b391a7f002e2ca980eea37edaa5a9:lxqt-build-tools/.md5sum
+f:ec3a9ebe73b1ce83e5f2a0b0c6349de5:lxqt-build-tools/Pkgfile
+f:462dbb3903c78972e8a462657bcf3893:lxqt-build-tools/.signature
 f:b711bf3c00613d95ff98206d16ea5bd4:isomaster/.footprint
 f:151c0053a66b5b08779c7666a920fad6:isomaster/.md5sum
 f:def006a7e0ef0404238dac978780d9b5:isomaster/Pkgfile
@@ -53,10 +58,10 @@ f:da9d81bd7b09e75f67463c6955f217b2:flburn/.footprint
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
 f:ebfa53bf77297e3b484531a4254d4610:flburn/Pkgfile
 f:a9e3391ecafb9df749ff1efc6c7664a0:flburn/.signature
-f:c0af7e75eb59b0cb7eead740423644bb:qtermwidget/.footprint
-f:1e15aa733efead39ac3bc95db5d0aacb:qtermwidget/.md5sum
-f:c63354a86bfea558b6d9dd7b71a154b5:qtermwidget/Pkgfile
-f:1c2c788f7adcdb682b9f28be237f57aa:qtermwidget/.signature
+f:9d89b4d854345d665ce4632ea0031d58:qtermwidget/.footprint
+f:7a4c9d32420179b7a47c7ac2ce08621e:qtermwidget/.md5sum
+f:ecbc2c9ae853fd72beca21ffedd04ed6:qtermwidget/Pkgfile
+f:df9d4c85ec1f4d44660ebc56e2daf7ce:qtermwidget/.signature
 f:119b015388ddeec49df92fa3c28f7b07:QupZilla/.footprint
 f:9c28aea0efdbae4631c516ce7784eb96:QupZilla/.md5sum
 f:2ee41aa59bba5f983aa7cf589acc94b3:QupZilla/Pkgfile
@@ -69,7 +74,7 @@ f:f8c7fc38cd792a8f0e84618ddefd49c6:rssguard/.footprint
 f:b74545cd604beabbcd5bf0e0ffdd3c30:rssguard/.md5sum
 f:035699fbe997a89a4298018ffcc7f436:rssguard/Pkgfile
 f:f868050e262b96d727ccd1ed13cbb47e:rssguard/.signature
-f:104fec05697fe1d94dd9f0db21c95101:qterminal/.footprint
-f:902122fb7657ef8a92f9e5b8bf9bd752:qterminal/.md5sum
-f:0d1dbab1d49904b8da7d79611e975dd2:qterminal/Pkgfile
-f:2c5fa13f001f9feabd1d79d00d2c1e13:qterminal/.signature
+f:3e22ca46a2d7bb8d980e5f738afd9f7e:qterminal/.footprint
+f:6f2cd2e66b2d42766df4a4ba7e483617:qterminal/.md5sum
+f:4da0eea2ae095d2ee82e9c31fa636cbd:qterminal/Pkgfile
+f:de7cd24da1fa2a981a0fa66dda3a8f1d:qterminal/.signature
