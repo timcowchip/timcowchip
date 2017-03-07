@@ -4,15 +4,15 @@
 # Depends on: cmake qt5 xorg-libsm xorg-libxcb
 
 name=qtermwidget
-version=0.6.0
+version=0.7.1
 release=1
 
-source=("https://bitbucket.org/timcowchip/linux-parts/raw/7df2b76f83b152f34f3381d56c4470d777bd83e5/$name-$version.tar.xz")
+source=("https://bitbucket.org/timcowchip/linux-parts/raw/561a08f44d9a73af48598c9f34d62700c243b3fe/$name-$version.tar.gz")
 
 build() {
 	mkdir -p build
 	cd build
-	cmake "$SRC/$name-$version" \
+	cmake "$SRC/$name-master" \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DCMAKE_BUILD_TYPE=Release \
