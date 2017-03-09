@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcow.pub
+RWQl8gtaJ/lzquPMFDNbHd7EN61T6U9CZDb/IsoMmJ8ALWBbTKjh1CKJQ05o3nneAlT26fqE/g8HzUb8t+J3TlIhPOXdWt7b+g8=
+SHA256 (Pkgfile) = bf4574d88c72908e9d627da59a2e026c068fcb5c139bf2a084724c98d66709d1
+SHA256 (.footprint) = 61050d922e42612c2c771ffd45f2dea0c86ba53a7b0cf00e630ca7bcd37458f5
+SHA256 (rotation.php?file=HandBrake-1.0.3.tar.bz2) = 591fb489edd6146136f0a92f895c2098365f612ad308d5ff9dc83223ad73ed27
