@@ -1,6 +1,7 @@
 d:libisofs
 d:gpodder
 d:libisoburn
+d:makemkv
 d:lumina-desktop
 d:libburn
 d:trojita
@@ -13,6 +14,8 @@ d:qtermwidget
 d:QupZilla
 d:podcastparser
 d:rssguard
+d:handbrake
+d:audacity
 d:qterminal
 f:282593137b642c6bc2ef4613c53262a5:libisofs/.footprint
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
@@ -26,6 +29,13 @@ f:89a30933de19fddd08a617cd60154787:libisoburn/.footprint
 f:08a34f2fdd6a0a11b1a7c2bf610a756b:libisoburn/.md5sum
 f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
 f:48b37468d225b07131c88c73916ef5cb:libisoburn/.signature
+f:7f4b112c5178860cc2eb25059ae1af2a:makemkv/makemkvcon.1
+f:1f9b3a91427a2015434e501542443f4c:makemkv/makemkv.1
+f:c168b27fdbddd65048efef51e7312d15:makemkv/.footprint
+f:e0da4cfa9bf5ea6b4ee0334b654eb7e2:makemkv/.md5sum
+f:bdf26150a37261f156ffd2daaa37b7d8:makemkv/Pkgfile
+f:44e52965c108d2c2d0c6462b23cde78e:makemkv/.signature
+f:9476154228bf1b1f983178ba8565ac44:makemkv/mmdtsdec.1
 f:95b2a602d2c20e342dbaf900c9021854:lumina-desktop/.footprint
 f:17212215dca65fd46bb5d5b51af46cf8:lumina-desktop/.md5sum
 f:bc9ec2524ffe5a2782066cd5eb65a856:lumina-desktop/Pkgfile
@@ -74,6 +84,16 @@ f:f8c7fc38cd792a8f0e84618ddefd49c6:rssguard/.footprint
 f:b74545cd604beabbcd5bf0e0ffdd3c30:rssguard/.md5sum
 f:035699fbe997a89a4298018ffcc7f436:rssguard/Pkgfile
 f:f868050e262b96d727ccd1ed13cbb47e:rssguard/.signature
+f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
+f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
+f:f4b2c7b69c51713b847224415277d497:handbrake/Pkgfile
+f:0abed840628c47b60f98e0834bc8c807:handbrake/.signature
+f:15feacb5eb97fa46e7ec2c79713f9f90:audacity/.footprint
+f:af8557a51482e364473f0e12049ec475:audacity/.md5sum
+f:bdde7f953a452c28a974d3b70446070c:audacity/Pkgfile
+f:62bd98bd4f27e8152556d3b274c8a8c7:audacity/ffmpeg.patch
+f:62c3ae5043c9582a9ba91351e56a5c1b:audacity/.signature
+f:63373feff13b4b9ef358ab2cfcc692f7:audacity/fix-build-errors.patch
 f:3e22ca46a2d7bb8d980e5f738afd9f7e:qterminal/.footprint
 f:6f2cd2e66b2d42766df4a4ba7e483617:qterminal/.md5sum
 f:4da0eea2ae095d2ee82e9c31fa636cbd:qterminal/Pkgfile
