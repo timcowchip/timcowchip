@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/timcow.pub
-RWQl8gtaJ/lzqpRt0NYB7VwAu7LnOhsg2OgtmOm+3BjzDKt9Wuay3FLVe/07VvPROTosCzSICLEVa2pxqziwEX1tcGJTkudKXwk=
-SHA256 (Pkgfile) = 7e37083b17c3c510b516be3fb82f6c0743153c9a87a82df90e49d40e92eeb4e7
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqmfCfJ9Mt2lR0zigpNonU7+xDlBtTtn3QjyNCMFiXp2SqZCBTFVwcYjFlXhqI3HH1sYwzEBFGQBsNxoXZtPimwk=
+SHA256 (Pkgfile) = 7c9d882c7fe241a95d77515ca34876c9f20738a49d31505449ce4e53f91fba0c
 SHA256 (.footprint) = 6903c5c0a08f24e30ccdb50565b7dee2a5c60178cf6fc276afb34398665260d2
 SHA256 (mygpoclient-1.7.tar.gz) = 6a0b7b1fe2b046875456e14eda3e42430e493bf2251a64481cf4fd1a1e21a80e
