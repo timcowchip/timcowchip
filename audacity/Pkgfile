@@ -7,7 +7,7 @@
 name=audacity
 version=2.1.2
 release=1
-source=("$name-$version.tar.gz" "ffmpeg.patch" "fix-build-errors.patch")
+source=("https://github.com/timcowchip/DISTFILES/blob/master/$name-$version.tar.gz?raw=true" "ffmpeg.patch" "fix-build-errors.patch")
 build() {
   cd $name-Audacity-$version
 

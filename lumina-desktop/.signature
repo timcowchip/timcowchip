@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/timcow.pub
-RWQl8gtaJ/lzqo6R7AKYDH73abFPW4/Du87Kd0j2D3QQ5nutVz6TrS1VrC3wd72HJBA4XT9K7oTKSLd/i5/O75Moh02vULfR8gs=
-SHA256 (Pkgfile) = 1da55297663a6c131abac76456dec312d3784e6e8f6b97328252fb1f10f2646c
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqvWHO941+iPTWqqYDQRn9uEUN79PEtoVPjbZwEAUCGcOnVhAsr8Mzt80+v80ZuAfL2SEJLQUesc4+25+n6P8CQ4=
+SHA256 (Pkgfile) = 844c02b88c13baf7080a7396a731e4833539f66632de2290e7a188de582838d9
 SHA256 (.footprint) = 1e9ce9c3216233c16e9b66f01814baa1f3ae95f41faf581726674fd56d2239c9
-SHA256 (lumina-desktop-1.2.1.tar.gz) = 7a2a814741856907c98a99368e28c02cafc752b92edf6c7a1d98aee23ce12cd1
+SHA256 (lumina-desktop-1.2.1.tar.gz?raw=true) = 7a2a814741856907c98a99368e28c02cafc752b92edf6c7a1d98aee23ce12cd1

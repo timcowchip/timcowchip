@@ -7,7 +7,7 @@ name=qterminal
 version=0.7.1
 release=1
 
-source=("https://bitbucket.org/timcowchip/linux-parts/raw/561a08f44d9a73af48598c9f34d62700c243b3fe/$name-$version.tar.gz")
+source=("https://github.com/timcowchip/DISTFILES/blob/master/$name-$version.tar.gz?raw=true")
 
 
 

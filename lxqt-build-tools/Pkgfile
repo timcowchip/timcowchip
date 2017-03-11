@@ -7,7 +7,7 @@ name=lxqt-build-tools
 version=0.3.2
 release=1
 
-source=("https://bitbucket.org/timcowchip/linux-parts/raw/561a08f44d9a73af48598c9f34d62700c243b3fe/$name-$version.tar.xz")
+source=("https://github.com/timcowchip/DISTFILES/blob/master/$name-$version.tar.xz?raw=true")
 
 build() {
 	mkdir -p build

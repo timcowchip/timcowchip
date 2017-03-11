@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqtXREvxHHU35E8A9bJGA+ZZEnmtoqEPots6FmTgCGG0C30gCOKlHbWjI0uSzmOOjMdXLz8UckDVUCwd0kYmMAQA=
-SHA256 (Pkgfile) = 8aaa826e52817b05f91e99bb9c5e527ea684bcc9e736258767d64a94e376368d
+RWQl8gtaJ/lzqmlpB1wVpLDTWfixLNP/mS7Sx/+Nwj8pNOxEvup6nEhta1y5O/uWnk7hucANNkTQMkfQ1XNfp04MCPVcaPIwnwo=
+SHA256 (Pkgfile) = dcc656338210f5a1eb479d03c21eb29049a95e53cddb6d735c928184822cf138
 SHA256 (.footprint) = 91540213b569d03cd34cbbd0015dd483d36e189163e6a387c4de30f3e17a07be
-SHA256 (qterminal-0.7.1.tar.gz) = 2bad96078133dd20e6f93837edb602585f3e4915dab742fdbb41f3758a2addb4
+SHA256 (qterminal-0.7.1.tar.gz?raw=true) = 2bad96078133dd20e6f93837edb602585f3e4915dab742fdbb41f3758a2addb4
