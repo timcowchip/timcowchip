@@ -7,7 +7,7 @@ name=QupZilla
 version=2.1.1
 release=4
 
-source=("https://github.com/timcowchip/DISTFILES/blob/master/$name-$version.tar.gz?raw=true")
+source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.gz")
 
 build() {
     cd $name-$version/

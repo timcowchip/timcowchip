@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqls0SsPRsfNKOLF9O5AZlXtmk4Ku6wpf/XbngH/YK+moS7XjZvz65dg+3mXfyFb72ndfUpuAwx6De1EvnPZwJQY=
-SHA256 (Pkgfile) = 2d17de35f7ab577c946fa156811cbb5f0b125d2380d1343c7122d1999b62ff6c
+RWQl8gtaJ/lzqmPDEumoAi0JKW1IhUPv5Ysgm00xiihG3ovfJ/7hB6ZvnSzS7WTFYiq8ExWS9gznHJbpwB7gQW88Cfefg56KbAU=
+SHA256 (Pkgfile) = 6d1e0b951d0963e5b1b6a2059433ed28488b4e6a6efe84b3d37d16f289335d54
 SHA256 (.footprint) = 14165d034bb7b1ea510fcc247a53285f381072b5c63b411b69b5842b3a216440
-SHA256 (QupZilla-2.1.1.tar.gz?raw=true) = b53ae50793915aeb9860229b493555051dca360d1cb700be203fd048ca65c4bb
+SHA256 (QupZilla-2.1.1.tar.gz) = b53ae50793915aeb9860229b493555051dca360d1cb700be203fd048ca65c4bb

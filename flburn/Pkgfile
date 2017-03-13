@@ -6,8 +6,7 @@
 name=flburn
 version=0.0.3
 release=2
-source=(https://github.com/timcowchip/DISTFILES/blob/master/$name-$version.tar.bz2?raw=true)
-
+source=(https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.bz2)
 build() {
 	cd $name-code
 	make

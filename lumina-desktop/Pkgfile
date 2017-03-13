@@ -6,7 +6,7 @@ name=lumina-desktop
 version=1.2.1
 release=1
 
-source=(https://github.com/timcowchip/DISTFILES/blob/master/$name-$version.tar.gz?raw=true)
+source=(https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.gz)
 
 build(){
 		

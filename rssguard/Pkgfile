@@ -4,12 +4,12 @@
 # Depends on: qt5 
 
 name=rssguard
-version=3.3.7
-release=2
-source=(https://bitbucket.org/timcowchip/linux-parts/raw/8a4ad3da8fd8c09d69b9dc4b532715e4000a5a65/$name-$version.tar.gz)
+version=3.4.0
+release=3
+source=(https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.gz)
 
 build() {
-  cd $name-$version
+  cd $name-master
   qmake-qt5 -r CONFIG+=release PREFIX=/usr INSTALL_ROOT=. QMAKE_CFLAGS_RELEASE="$CPPFLAGS $CFLAGS" QMAKE_CXXFLAGS_RELEASE="$CPPFLAGS $CXXFLAGS" QMAKE_LFLAGS_RELEASE="$LDFLAGS"
   make
 
