@@ -1,7 +1,7 @@
 # Description: "A fast open source browser based on QtWebengine, written in Qt Framework
 # URL: http://www.qupzilla.com/
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: qtwebengine mesa desktop-file-utils hicolor-icon-theme gdb
+# Depends on: qtwebengine mesa3d desktop-file-utils hicolor-icon-theme gdb
 
 name=QupZilla
 version=2.1.1
