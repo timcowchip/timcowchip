@@ -1,7 +1,7 @@
 # Description: A Lightweight QT5 Desktop for FreeBSD
 # URL: https://github.com/pcbsd/lumina
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: git qt5 fluxbox kwindowsystem oxygen-icons5 libxcb xcb-proto xcb-util-image xscreensaver desktop-file-utils
+# Depends on: git qt5 fluxbox kwindowsystem oxygen-icons5 xorg-libxcb xorg-xcb-proto xorg-xcb-util-image xscreensaver desktop-file-utils
 name=lumina-desktop
 version=1.2.1
 release=1
