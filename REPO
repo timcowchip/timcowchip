@@ -4,6 +4,7 @@ d:libisoburn
 d:makemkv
 d:lumina-desktop
 d:libburn
+d:bsc
 d:trojita
 d:qmmp
 d:lxqt-build-tools
@@ -44,6 +45,11 @@ f:b139d40558061cc662b23e3fe9e10d0c:libburn/.footprint
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:3a2ae9af23e7961d97afcd48a3b0a44c:libburn/.signature
+f:3df9328c1388f15bd70db11edc31c002:bsc/.footprint
+f:ad183c6925e9b4bb61a9e20be96498bc:bsc/.md5sum
+f:23f7da15ab62b575eadaba1e855c71c3:bsc/Pkgfile
+f:ea7b731f596295f8fbe435de84243e91:bsc/.signature
+f:40c35b54bfa9d24997efd1670ee890c4:bsc/bsc_4.1.0_src.tar.bz2
 f:547f80d6313960416b4532f0b45869ac:trojita/.footprint
 f:f48808a106c39fc82153568ef5d7a33a:trojita/.md5sum
 f:8b8ffcbed047757ea88ce0eec9999914:trojita/Pkgfile
@@ -90,9 +96,9 @@ f:f4b2c7b69c51713b847224415277d497:handbrake/Pkgfile
 f:0abed840628c47b60f98e0834bc8c807:handbrake/.signature
 f:15feacb5eb97fa46e7ec2c79713f9f90:audacity/.footprint
 f:af8557a51482e364473f0e12049ec475:audacity/.md5sum
-f:a5abcfa824f091cc7c4a9bb9453a1ad1:audacity/Pkgfile
+f:3b0553f274062950e3f163ffd521551a:audacity/Pkgfile
 f:62bd98bd4f27e8152556d3b274c8a8c7:audacity/ffmpeg.patch
-f:fac6b7be066a38a66368778de112e9a4:audacity/.signature
+f:15b0efebd7be514e4763225c59055c3a:audacity/.signature
 f:63373feff13b4b9ef358ab2cfcc692f7:audacity/fix-build-errors.patch
 f:3e22ca46a2d7bb8d980e5f738afd9f7e:qterminal/.footprint
 f:7eccb0fed7419ef8553770661ffd90a4:qterminal/.md5sum
