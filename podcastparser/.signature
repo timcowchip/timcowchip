@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/timcow.pub
-RWQl8gtaJ/lzqv8HKb8xPa2ZYu7VG/QNV5hC9mALafqlFX1IsbJFpkFkcpG+MWOjVD4g/s3cOawrL3FDWXN44vsm1L8w7IL/eQs=
-SHA256 (Pkgfile) = 5d1b8691ea8dbb58abe699cfad1e342c215322e6c62800dc568034dd3481714a
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqmimenKxOFFk/BZGath7detvBZccifAze4cIiG8l3ARDld4oqwqGIBebt+cykHJOx7tXMHuKxNRuxDFtPuUCJQQ=
+SHA256 (Pkgfile) = 9e5d28876b635d0f17a115f99cec834b9fcb162abb9fee0f4ca118e1a14c9865
 SHA256 (.footprint) = 0739e8afe0f7bc88b7d38315aa7999dd3d361e7bf150707d82cfd69325286b0f
 SHA256 (podcastparser-0.6.1.tar.gz) = ddc07890e57864300dc3334bcf9b18d66797aed233baa176b6fad9e5e57f5624

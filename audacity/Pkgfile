@@ -2,7 +2,7 @@
 # URL: http://web.audacityteam.org/
 # Packager: Chris Farrell, timcowchip at gmail dot com
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: git libvorbis libmad libid3tag wxgtk lame hicolor-icon-theme ffmpeg shared-mime-info desktop-file-utils redland jack soundtouch cmake zip python2 
+# Depends on: git libvorbis libmad libid3tag wxgtk lame hicolor-icon-theme ffmpeg shared-mime-info desktop-file-utils redland jack-audio-connection-kit soundtouch cmake zip python 
 
 name=audacity
 version=2.1.2
