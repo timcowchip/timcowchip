@@ -2,7 +2,6 @@ d:libisofs
 d:gpodder
 d:libisoburn
 d:makemkv
-d:lumina-desktop
 d:libburn
 d:bsc
 d:trojita
@@ -16,7 +15,6 @@ d:QupZilla
 d:podcastparser
 d:rssguard
 d:handbrake
-d:audacity
 d:qterminal
 f:282593137b642c6bc2ef4613c53262a5:libisofs/.footprint
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
@@ -37,10 +35,6 @@ f:e0da4cfa9bf5ea6b4ee0334b654eb7e2:makemkv/.md5sum
 f:bdf26150a37261f156ffd2daaa37b7d8:makemkv/Pkgfile
 f:44e52965c108d2c2d0c6462b23cde78e:makemkv/.signature
 f:9476154228bf1b1f983178ba8565ac44:makemkv/mmdtsdec.1
-f:95b2a602d2c20e342dbaf900c9021854:lumina-desktop/.footprint
-f:17212215dca65fd46bb5d5b51af46cf8:lumina-desktop/.md5sum
-f:523ae0d8109553547af8e4264db6546a:lumina-desktop/Pkgfile
-f:8d5f123a10b54dea7853b200d19acd8e:lumina-desktop/.signature
 f:b139d40558061cc662b23e3fe9e10d0c:libburn/.footprint
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
@@ -64,7 +58,7 @@ f:78806d5d6dd5ba2846904bf193ee572d:lxqt-build-tools/Pkgfile
 f:8d9aece54c625a3a4f5c1e1389bfebd4:lxqt-build-tools/.signature
 f:b711bf3c00613d95ff98206d16ea5bd4:isomaster/.footprint
 f:151c0053a66b5b08779c7666a920fad6:isomaster/.md5sum
-f:43503343cc54e120000481adbd765ffe:isomaster/Pkgfile
+f:d7dce8d6fe30d892210a03e51584bcfb:isomaster/Pkgfile
 f:9d91668af58532520554d3cb07e7da11:isomaster/.signature
 f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
@@ -81,7 +75,7 @@ f:53bedfe7dcf39a22cca8a59be5b88251:qtermwidget/.signature
 f:119b015388ddeec49df92fa3c28f7b07:QupZilla/.footprint
 f:9c28aea0efdbae4631c516ce7784eb96:QupZilla/.md5sum
 f:be74f3303deaa67610f6709b488627fb:QupZilla/Pkgfile
-f:9fdc960baafc383ef822c88f7b0815b5:QupZilla/.signature
+f:173fc5de7fbebbb1e30cd37e5d8869f3:QupZilla/.signature
 f:f50a108c1bf60d1f97b012e0cb2b44ca:podcastparser/.footprint
 f:52bdb1fbc1456e1d20945fe1e6e8a1a2:podcastparser/.md5sum
 f:a022f83c062a993746ca9ad7d5308eee:podcastparser/Pkgfile
@@ -94,12 +88,6 @@ f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
 f:ebaac20747fcc614224a65cdeb512c22:handbrake/Pkgfile
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
-f:15feacb5eb97fa46e7ec2c79713f9f90:audacity/.footprint
-f:af8557a51482e364473f0e12049ec475:audacity/.md5sum
-f:74c307b992497a5e5869d92f9ed762b3:audacity/Pkgfile
-f:62bd98bd4f27e8152556d3b274c8a8c7:audacity/ffmpeg.patch
-f:5debe4637f87508beb31a33acb8d4c53:audacity/.signature
-f:63373feff13b4b9ef358ab2cfcc692f7:audacity/fix-build-errors.patch
 f:3e22ca46a2d7bb8d980e5f738afd9f7e:qterminal/.footprint
 f:7eccb0fed7419ef8553770661ffd90a4:qterminal/.md5sum
 f:a772a1ce5519cff51fff76cd30b40828:qterminal/Pkgfile
