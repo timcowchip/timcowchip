@@ -19,7 +19,6 @@ d:mygpoclient
 d:.git
 d:libisofs
 d:flburn
-d:makemkv
 f:eaca239c88273e50bf4c6817a65b87d8:gpodder/.signature
 f:dc5f117a439ca1f60a094cdfcf53fd38:gpodder/Pkgfile
 f:82aa6b6b26d36287f08af41b6d937496:gpodder/.footprint
@@ -97,7 +96,7 @@ f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
 f:4cf2d64e44205fe628ddd534e1151b58:.git/HEAD
 f:8e5b2aafa321c8118cbf9623e8b09bb2:.git/COMMIT_EDITMSG
-f:a2d863cc04dc6cfe204c291d58e681ab:.git/index
+f:4d2c1270d1e0f22b083ef135ca78dfe6:.git/index
 f:5ad1e8a2931e96c12ade71543ce47a50:.git/config
 f:d18cefb7a32d1d8dd1747793cf70c897:.git/packed-refs
 f:a0a7c3fff21f2aea3cfa1d0316dd816c:.git/description
@@ -109,10 +108,3 @@ f:753d2495df375e5f7a37f6811658dbe0:flburn/.signature
 f:d94e867b3610f9b3af0dd8cd0a6b3b3e:flburn/Pkgfile
 f:da9d81bd7b09e75f67463c6955f217b2:flburn/.footprint
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
-f:1f9b3a91427a2015434e501542443f4c:makemkv/makemkv.1
-f:44e52965c108d2c2d0c6462b23cde78e:makemkv/.signature
-f:9476154228bf1b1f983178ba8565ac44:makemkv/mmdtsdec.1
-f:bdf26150a37261f156ffd2daaa37b7d8:makemkv/Pkgfile
-f:c168b27fdbddd65048efef51e7312d15:makemkv/.footprint
-f:e0da4cfa9bf5ea6b4ee0334b654eb7e2:makemkv/.md5sum
-f:7f4b112c5178860cc2eb25059ae1af2a:makemkv/makemkvcon.1
