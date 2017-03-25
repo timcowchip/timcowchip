@@ -1,6 +1,6 @@
 # Description: A program that lets you manipulate digital audio waveforms.
 # URL:         https://github.com/audacity/audacity
-# Maintainer: Chris Farrell timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
 # Depends on:  ffmpeg cmake python lame libmad libid3tag wxgtk 
 
 name=audacity
@@ -26,4 +26,5 @@ build() {
 
   make DESTDIR="${PKG}" install
   rm -rf ${PKG}/usr/share/locale/
+  rm -rf ${PKG}/usr/share/doc/
 }
