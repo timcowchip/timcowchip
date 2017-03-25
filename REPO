@@ -16,7 +16,6 @@ d:qtermwidget
 d:qmmp
 d:pcmanfm-qt
 d:mygpoclient
-d:.git
 d:libisofs
 d:flburn
 f:eaca239c88273e50bf4c6817a65b87d8:gpodder/.signature
@@ -43,9 +42,9 @@ f:1df22281d2a41023994f5880f8cb348e:qterminal/.signature
 f:a772a1ce5519cff51fff76cd30b40828:qterminal/Pkgfile
 f:3e22ca46a2d7bb8d980e5f738afd9f7e:qterminal/.footprint
 f:7eccb0fed7419ef8553770661ffd90a4:qterminal/.md5sum
-f:f97ae8246515f1a52638bedc4837ce8f:audacity/.signature
-f:43abaf9d450efc0a363f1216fcf15c32:audacity/Pkgfile
-f:15feacb5eb97fa46e7ec2c79713f9f90:audacity/.footprint
+f:536fa05bd7faca2931248bcb1e630ad7:audacity/.signature
+f:6f35a9644a3618bb5ec64d126386b8b5:audacity/Pkgfile
+f:49521bfb567149e83db7411636d5a40b:audacity/.footprint
 f:683bec96646af17805de3b8352d064f9:audacity/.md5sum
 f:21ca8300556a7e63a7b66dd9875af37b:audacity/fix-return_null.patch
 f:021a080c82bd22cff6cbb42c6005c0e5:audacity/fix-vamp-build.patch
@@ -94,12 +93,6 @@ f:a7f20ae10fe1e8f8fd4c34973d779df7:mygpoclient/.signature
 f:21ca33f9a553781a6f35b534d038a601:mygpoclient/Pkgfile
 f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
-f:4cf2d64e44205fe628ddd534e1151b58:.git/HEAD
-f:8e5b2aafa321c8118cbf9623e8b09bb2:.git/COMMIT_EDITMSG
-f:4d2c1270d1e0f22b083ef135ca78dfe6:.git/index
-f:5ad1e8a2931e96c12ade71543ce47a50:.git/config
-f:d18cefb7a32d1d8dd1747793cf70c897:.git/packed-refs
-f:a0a7c3fff21f2aea3cfa1d0316dd816c:.git/description
 f:3a1af087ce30bc609eff12be2ba9f456:libisofs/.signature
 f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:282593137b642c6bc2ef4613c53262a5:libisofs/.footprint
