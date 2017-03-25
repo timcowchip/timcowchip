@@ -4,10 +4,10 @@
 # Depends on: qtwebengine mesa3d desktop-file-utils hicolor-icon-theme gdb
 
 name=QupZilla
-version=2.1.1
+version=2.1.2
 release=4
 
-source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.gz")
+source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.xz")
 
 build() {
     cd $name-$version/
