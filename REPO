@@ -1,5 +1,6 @@
 d:gpodder
 d:lxmenu-data
+d:vice
 d:lxqt-build-tools
 d:handbrake
 d:libfm-qt
@@ -26,6 +27,13 @@ f:a54eec989a7f374df476a5415ad58ef2:lxmenu-data/.signature
 f:31c1cfb586d35ec6ddc5df6606cece5c:lxmenu-data/Pkgfile
 f:e5de2bbdc8591228b991274c67ebe1a8:lxmenu-data/.footprint
 f:6d3991baa62373ef839bc5d76e38b2cc:lxmenu-data/.md5sum
+f:008a9527dc15808029952caed55f5a8c:vice/vice
+f:cd1adfa9f8c6691338014f668d229a50:vice/.signature
+f:8fbc958cd03e4036262e0e60ceded169:vice/Pkgfile
+f:03ee6710f3eda5b7a07f8b31b12dca74:vice/.footprint
+f:5644bcd1ad05ca10ac27872a76e42ef1:vice/vice.desktop
+f:e9d34a69138a718bf6883703a0cf2ef0:vice/.md5sum
+f:768377ae66a4bb3f15f93c18c592b689:vice/icons.tar.gz
 f:8d9aece54c625a3a4f5c1e1389bfebd4:lxqt-build-tools/.signature
 f:78806d5d6dd5ba2846904bf193ee572d:lxqt-build-tools/Pkgfile
 f:2e2d15721c5d7883326beeab0a2dfd90:lxqt-build-tools/.footprint
