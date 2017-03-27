@@ -1,0 +1,38 @@
+# Description: VICE Commodore emulator with ethernet and sdlsound
+# URL: http://www.viceteam.org/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Packager: Neville Phillips, nogagplz at gmail dot com
+# Depends on: gtk xorg-libxdamage vte icu xorg-bdftopcf xorg-mkfontdir xorg-mkfontscale libpcap libnet libsdl dialog  
+
+name=vice
+version=3.0
+release=1
+source=(http://downloads.sourceforge.net/project/vice-emu/releases/vice-$version.tar.gz)
+
+build() {
+	cd vice-$version
+	
+	./configure \
+		--prefix=/usr \
+		--enable-ethernet \
+		--enable-gnomeui \
+		--enable-fullscreen  \
+		--with-sdlsound
+
+	make
+
+	mkdir -p $PKG/usr/bin
+	cp $SRC/vice $PKG/usr/bin
+	chmod a+x $PKG/usr/bin/vice
+  	mkdir -p $PKG/usr/share/applications
+	cp $SRC/vice.desktop $PKG/usr/share/applications/
+  	ICONSIZES="48 32 24 22 16"
+	for i in $ICONSIZES; do
+	mkdir -p $PKG/usr/share/icons/hicolor/$i\x$i/apps;
+	cp $SRC/$name-$i.png $PKG/usr/share/icons/hicolor/$i\x$i/apps;
+   	done;
+    	cp $SRC/$name.png $PKG/usr/share/applications/
+  
+
+	make DESTDIR=$PKG install
+	}
