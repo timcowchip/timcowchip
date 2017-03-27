@@ -1,5 +1,8 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqu5up75lNFTrgCxM/C/f6hZSQSPQ5hhVjQshoqPc4qaZEH9tu4maw+qdVZGgFrnpW0UDIoa+CoVHp/4KxttXhAk=
-SHA256 (Pkgfile) = ed80b11e6d91a231dddf76f59145549f47ae018378ba1398d7e4470d9e8dbd7f
-SHA256 (.footprint) = b327b9eb747f37a4db8211c5cd2e3cf3dd1286007728aabeaacc8b989630d293
+RWQl8gtaJ/lzqgNi0F7FefdUIdBWzd1uwS6VTn7pbdf4tX+zQaA/oC3G6QRIW2byOT3ACnDWsYMrgHBB4DIHwvB4u/laIqqEigA=
+SHA256 (Pkgfile) = a5b419a195fbd2db7d3c39fbcff85c5024d095ea81cfea757f4f7a160d47f9a8
+SHA256 (.footprint) = f2a96c0662b470d15eaff20d109d10081827d1bffd713a6a8bdacd3f6395154c
 SHA256 (vice-3.0.tar.gz) = bc56811381920d43ab5f2f85a5e08f21ab5bdf6190dd5dfe9f500a745d14972b
+SHA256 (icons.tar.gz) = fdac35e75a54d1806588a0993547569e4713702d22884d2388b1041f2a58423c
+SHA256 (vice.desktop) = 498da7fa0f5736c0689bb98f2b3a10cf39c9a4e4ef02977c50c34e573c8fa247
+SHA256 (vice) = 106646d2daea1d7bf120e238bbf110dd25cdbffa03ddc5b94c9f2579d3c4fd99

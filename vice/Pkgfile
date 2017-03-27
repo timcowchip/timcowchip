@@ -1,13 +1,12 @@
 # Description: VICE Commodore emulator with ethernet and sdlsound
 # URL: http://www.viceteam.org/
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Packager: Neville Phillips, nogagplz at gmail dot com
-# Depends on: gtk xorg-libxdamage vte icu xorg-bdftopcf xorg-mkfontdir xorg-mkfontscale libpcap libnet libsdl dialog  
+# Depends on: gtk xorg-libxdamage vte icu xorg-bdftopcf xorg-mkfontdir xorg-mkfontscale libpcap libnet libsdl dialog texinfo
 
 name=vice
 version=3.0
 release=1
-source=(http://downloads.sourceforge.net/project/vice-emu/releases/vice-$version.tar.gz)
+source=("http://downloads.sourceforge.net/project/vice-emu/releases/vice-$version.tar.gz" "icons.tar.gz" "vice.desktop" "vice")
 
 build() {
 	cd vice-$version
@@ -21,18 +20,20 @@ build() {
 
 	make
 
-	mkdir -p $PKG/usr/bin
-	cp $SRC/vice $PKG/usr/bin
-	chmod a+x $PKG/usr/bin/vice
-  	mkdir -p $PKG/usr/share/applications
-	cp $SRC/vice.desktop $PKG/usr/share/applications/
+	mkdir -p ${PKG}/usr/bin
+	cp ${SRC}/vice ${PKG}/usr/bin
+	chmod a+x ${PKG}/usr/bin/vice
+  	mkdir -p ${PKG}/usr/share/applications
+	cp ${SRC}/vice.desktop ${PKG}/usr/share/applications/
   	ICONSIZES="48 32 24 22 16"
 	for i in $ICONSIZES; do
-	mkdir -p $PKG/usr/share/icons/hicolor/$i\x$i/apps;
-	cp $SRC/$name-$i.png $PKG/usr/share/icons/hicolor/$i\x$i/apps;
+	mkdir -p ${PKG}/usr/share/icons/hicolor/$i\x$i/apps;
+	cp ${SRC}/$name-$i.png ${PKG}/usr/share/icons/hicolor/$i\x$i/apps;
    	done;
-    	cp $SRC/$name.png $PKG/usr/share/applications/
+    	cp ${SRC}/$name.png ${PKG}/usr/share/applications/
   
-
-	make DESTDIR=$PKG install
+	make DESTDIR=${PKG} install
+	rm -rf ${PKG}/usr/share/locale
+	rm -rf ${PKG}/usr/share/info
+        rm -rf ${PKG}/usr/lib64/vice/doc/
 	}
