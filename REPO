@@ -18,6 +18,7 @@ d:qmmp
 d:pcmanfm-qt
 d:mygpoclient
 d:libisofs
+d:texinfo
 d:flburn
 f:eaca239c88273e50bf4c6817a65b87d8:gpodder/.signature
 f:dc5f117a439ca1f60a094cdfcf53fd38:gpodder/Pkgfile
@@ -105,6 +106,10 @@ f:3a1af087ce30bc609eff12be2ba9f456:libisofs/.signature
 f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:282593137b642c6bc2ef4613c53262a5:libisofs/.footprint
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
+f:ff011b1bd6e5187698e0a7796a60d2de:texinfo/.signature
+f:3e4b44ec550e94615bee45d333ab27e4:texinfo/Pkgfile
+f:38df8c6819843987b7be7fbc41c12940:texinfo/.footprint
+f:3847306fdc378cef303b993f29b1dbda:texinfo/.md5sum
 f:753d2495df375e5f7a37f6811658dbe0:flburn/.signature
 f:d94e867b3610f9b3af0dd8cd0a6b3b3e:flburn/Pkgfile
 f:da9d81bd7b09e75f67463c6955f217b2:flburn/.footprint
