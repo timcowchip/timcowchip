@@ -1,7 +1,6 @@
 d:gpodder
 d:vice
 d:handbrake
-d:libfm-qt
 d:audacity
 d:libisoburn
 d:libburn
@@ -26,10 +25,6 @@ f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
 f:2b4574660dda9ab131b93472081a7139:handbrake/Pkgfile
 f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
-f:9f0a0cfaef3e5020998abdba36dcc1eb:libfm-qt/.signature
-f:033e2faedc35749a65ae59b8e983b975:libfm-qt/Pkgfile
-f:e6eb5fc79585aa772d324c5ced87214b:libfm-qt/.footprint
-f:89aac63479f6315075a72f79890ce4d5:libfm-qt/.md5sum
 f:536fa05bd7faca2931248bcb1e630ad7:audacity/.signature
 f:6f35a9644a3618bb5ec64d126386b8b5:audacity/Pkgfile
 f:49521bfb567149e83db7411636d5a40b:audacity/.footprint
