@@ -5,7 +5,6 @@ d:audacity
 d:libisoburn
 d:libburn
 d:podcastparser
-d:bsc
 d:isomaster
 d:mygpoclient
 d:libisofs
@@ -44,10 +43,6 @@ f:9d9f61ba22c2e7e59a905d357bda8f74:podcastparser/.signature
 f:a022f83c062a993746ca9ad7d5308eee:podcastparser/Pkgfile
 f:f50a108c1bf60d1f97b012e0cb2b44ca:podcastparser/.footprint
 f:52bdb1fbc1456e1d20945fe1e6e8a1a2:podcastparser/.md5sum
-f:ea7b731f596295f8fbe435de84243e91:bsc/.signature
-f:23f7da15ab62b575eadaba1e855c71c3:bsc/Pkgfile
-f:3df9328c1388f15bd70db11edc31c002:bsc/.footprint
-f:ad183c6925e9b4bb61a9e20be96498bc:bsc/.md5sum
 f:9d91668af58532520554d3cb07e7da11:isomaster/.signature
 f:43503343cc54e120000481adbd765ffe:isomaster/Pkgfile
 f:b711bf3c00613d95ff98206d16ea5bd4:isomaster/.footprint
