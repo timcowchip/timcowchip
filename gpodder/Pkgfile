@@ -1,7 +1,7 @@
 # Description: Podcatcher
 # URL: http://gpodder.org/
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: python, dbus-python, pygtk, podcastparser, mygpoclient
+# Depends on: intltool, python, dbus-python, pygtk, podcastparser, mygpoclient
 
 name=gpodder
 version=3.9.3
