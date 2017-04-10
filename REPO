@@ -2,6 +2,7 @@ d:libisoburn
 d:isomaster
 d:podcastparser
 d:gpodder
+d:os-prober
 d:handbrake
 d:audacity
 d:mygpoclient
@@ -25,6 +26,10 @@ f:b413411e7d8a50cf26b46a500753dd6b:gpodder/Pkgfile
 f:eaca239c88273e50bf4c6817a65b87d8:gpodder/.signature
 f:4a34cb52f442ba4dce733552b2ae0dd4:gpodder/.md5sum
 f:82aa6b6b26d36287f08af41b6d937496:gpodder/.footprint
+f:92085b0e734bd685b45e565fb859fdb0:os-prober/Pkgfile
+f:87f11a6114aaa5e0662fd65aed5eb5a4:os-prober/.signature
+f:7823c3b800df2f31184174683bbbead0:os-prober/.md5sum
+f:06b16b9039582909d87fae76a6ae00db:os-prober/.footprint
 f:2b4574660dda9ab131b93472081a7139:handbrake/Pkgfile
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
