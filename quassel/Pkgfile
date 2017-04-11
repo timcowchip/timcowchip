@@ -1,0 +1,25 @@
+# Description: IRC client
+# URL:         http://www.quassel-irc.org/
+# Maintainer:  Chris Farrell, timcowchip at gmail dot com 
+# Depends on:	qt5
+
+name=quassel
+version=0.12.4
+release=1
+source=(http://www.quassel-irc.org/pub/$name-$version.tar.bz2)
+
+build() {
+    cd $SRC/$name-$version
+    mkdir build && cd build
+    cmake \
+    -DCMAKE_INSTALL_PREFIX=/usr/ \
+    -DCMAKE_BUILD_TYPE="Release" \
+    -DHAVE_SSL=ON \
+    -DUSE_QT5=ON  \
+	../
+
+    make
+    make DESTDIR=$PKG install
+	rm -rf $PKG/usr/doc
+	rm -rf $PKG/usr/share/locale
+}
