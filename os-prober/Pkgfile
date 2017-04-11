@@ -5,8 +5,8 @@
 
 name=os-prober
 version=1.74
-release=1
-source=(http://ftp.de.debian.org/debian/pool/main/o/os-prober/os-prober_1.74.tar.xz)
+release=2
+source=("http://ftp.de.debian.org/debian/pool/main/o/os-prober/os-prober_1.74.tar.xz" "grub")
 
 build() {
 	cd $name
