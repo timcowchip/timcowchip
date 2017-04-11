@@ -1,4 +1,5 @@
 d:libisoburn
+d:quassel
 d:isomaster
 d:podcastparser
 d:gpodder
@@ -14,6 +15,11 @@ f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
 f:48b37468d225b07131c88c73916ef5cb:libisoburn/.signature
 f:08a34f2fdd6a0a11b1a7c2bf610a756b:libisoburn/.md5sum
 f:89a30933de19fddd08a617cd60154787:libisoburn/.footprint
+f:4af5c1f2753ea900ac4511e18774a59a:quassel/post-install
+f:23e0ddc2ef468ebd96cbfe3f5a0a6e08:quassel/Pkgfile
+f:b2291beb674b41f05c0ded2d7ecd03a5:quassel/.signature
+f:2ac9df56209c5c67516991f418eddba7:quassel/.md5sum
+f:e38dcd54f1270f7441bc1e60c2768234:quassel/.footprint
 f:43503343cc54e120000481adbd765ffe:isomaster/Pkgfile
 f:9d91668af58532520554d3cb07e7da11:isomaster/.signature
 f:151c0053a66b5b08779c7666a920fad6:isomaster/.md5sum
