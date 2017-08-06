@@ -6,7 +6,7 @@
 name=mygpoclient
 version=1.7
 release=2
-source=(http://gpodder.org/mygpoclient/mygpoclient-1.7.tar.gz)
+source=(https://github.com/gpodder/mygpoclient/archive/master.zip)
 
 build() {
   cd $name-$version
