@@ -1,0 +1,21 @@
+# Description: RSS 0.92/1.0/2.0 & ATOM 1.0 feed reader
+# URL: http://code.google.com/p/rss-guard/
+# Packager: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: cmake
+
+name=rssguard
+version=3.4.0
+release=1
+source=(https://github.com/martinrotter/rssguard/archive/3.4.0.tar.gz)
+
+build() {
+  cd $name-$version
+  mkdir ../rssguard-build
+  cd ../rssguard-build
+  qmake-qt5 ../$name-$version/rssguard.pro -r CONFIG+=release \
+  PREFIX=/usr INSTALL_ROOT=. \
+  LRELEASE_EXECUTABLE=/usr/lib/qt5/bin/lrelease
+  make
+  make INSTALL_ROOT="$PKG/" install
+}

@@ -1,0 +1,24 @@
+# Description: A Qt-based text editor for Linux and *BSD
+# URL:         http://semiletov.org/tea/
+# Maintainer:  Chris Farrell, timcowchip at gmail dot com 
+# Depends on:	qt5 aspell hunspell
+
+name=tea
+version=43.1.0
+release=1
+
+source=(http://semiletov.org/tea/dloads/tea-$version.tar.bz2
+        tea.desktop)
+
+build() {
+  cd "${SRC}/${name}-${version}"
+  sed -i 's|/usr/local|/usr|g' src.pro
+  export LANG="en_US.UTF-8"
+  export LC_ALL="en_US.UTF-8"
+  qmake-qt5
+  make
+
+  make INSTALL_ROOT="${PKG}" install
+  install -Dm644 "${SRC}/tea.desktop" "${PKG}/usr/share/applications/tea.desktop"
+  install -Dm644 icons/tea_icon_v2.png "${PKG}/usr/share/pixmaps/tea.png"
+}

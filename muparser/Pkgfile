@@ -1,0 +1,18 @@
+# Description: A fast math parser library.
+# URL: http://muparser.sourceforge.net/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on
+
+name=muparser
+version=2.2.5
+release=1
+
+source=("https://github.com/beltoforion/muparser/archive/v$version.tar.gz")
+
+build() {
+  cd $SRC/${name}-${version}
+  sh ./configure --prefix=/usr
+  make
+
+  make DESTDIR=$PKG install
+}
