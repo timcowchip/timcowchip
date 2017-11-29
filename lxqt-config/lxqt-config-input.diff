@@ -1,0 +1,21 @@
+--- /lxqt-config-input/lxqt-config-input.cpp
++++ /lxqt-config-input/lxqt-config-input.cpp
+@@ -21,7 +21,6 @@
+ #include <LXQt/Settings>
+ #include "mouseconfig.h"
+ #include "keyboardconfig.h"
+-#include "../liblxqt-config-cursor/selectwnd.h"
+ #include "keyboardlayoutconfig.h"
+ 
+ int main(int argc, char** argv) {
+@@ -39,10 +38,6 @@
+     dlg.addPage(mouseConfig, QObject::tr("Mouse"), "input-mouse");
+     QObject::connect(&dlg, SIGNAL(reset()), mouseConfig, SLOT(reset()));
+ 
+-    SelectWnd* cursorConfig = new SelectWnd(&settings, &dlg);
+-    cursorConfig->setCurrent();
+-    dlg.addPage(cursorConfig, QObject::tr("Cursor"), "preferences-desktop-theme");
+-
+     KeyboardConfig* keyboardConfig = new KeyboardConfig(&settings, &qtSettings, &dlg);
+     dlg.addPage(keyboardConfig, QObject::tr("Keyboard"), "input-keyboard");
+     QObject::connect(&dlg, SIGNAL(reset()), keyboardConfig, SLOT(reset()));
