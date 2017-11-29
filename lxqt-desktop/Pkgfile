@@ -6,7 +6,8 @@
 
 name=lxqt-desktop
 version=0.12.0
-release=1source=()
+release=1
+source=()
 
 build() {
 	mkdir $PKG/usr
