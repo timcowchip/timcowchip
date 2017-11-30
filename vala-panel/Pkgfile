@@ -7,11 +7,17 @@ name=vala-panel
 version=0.3.8
 release=1
 
-source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.gz")
+source=()
 
 build() {
 
+  git clone https://github.com/rilian-la-te/vala-panel.git
+  
   cd "${SRC}/${name}"
+  
+  git submodule init && git submodule update
+
+  
   cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_WNCK=ON
   make
 
