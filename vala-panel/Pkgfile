@@ -7,7 +7,7 @@ name=vala-panel
 version=0.3.8
 release=1
 
-source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.xz")
+source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.gz")
 
 build() {
 
