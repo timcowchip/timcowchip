@@ -1,0 +1,31 @@
+# Description: Gtk3 panel for compositing window managers
+# URL: https://github.com/rilian-la-te/vala-panel
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: gtk3 vala libwnck3 libpeas gobject-introspection
+
+name=vala-panel
+_cmakename=cmake-vala
+_dbusmenuname=vala-dbusmenu
+version=0.3.8
+release=1
+
+source=("git://github.com/rilian-la-te/${name}.git"
+        "git://github.com/rilian-la-te/${_cmakename}.git"
+        "git://github.com/rilian-la-te/${_dbusmenuname}.git")
+
+build() {
+
+  cd "${srcdir}/${_cmakename}"
+  cp -r . "${srcdir}/${_pkgname}/cmake"
+  cd "${srcdir}/${_dbusmenuname}"
+  cp -r . "${srcdir}/${_pkgname}/lib/dbusmenu"
+
+  cd "${srcdir}/${_pkgname}"
+  cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_WNCK=ON
+  make
+
+  cd "${srcdir}/${_pkgname}"
+  make DESTDIR="${pkgdir}" install
+}
+
+
