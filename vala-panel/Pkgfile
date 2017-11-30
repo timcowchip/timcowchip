@@ -4,21 +4,12 @@
 # Depends on: gtk3 vala libwnck3 libpeas gobject-introspection
 
 name=vala-panel
-cmake-vala=cmake-vala
-_dbusmenuname=vala-dbusmenu
 version=0.3.8
 release=1
 
-source=("https://github.com/rilian-la-te/vala-panel/archive/master.zip"
-        "https://github.com/rilian-la-te/cmake-vala/archive/master.zip"
-        "https://github.com/rilian-la-te/vala-dbusmenu/archive/master.zip")
+source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.xz")
 
 build() {
-
-  cd "${SRC}/${cmake-vala}"
-  cp -r . "${SRC}/${name}/cmake"
-  cd "${SRC}/$vala-dbusmenu}"
-  cp -r . "${SRC}/${name}/lib/dbusmenu"
 
   cd "${SRC}/${name}"
   cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_WNCK=ON

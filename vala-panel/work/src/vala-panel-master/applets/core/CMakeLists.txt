@@ -1,0 +1,6 @@
+add_subdirectory(kbled)
+add_subdirectory(separator)
+add_subdirectory(menumodel)
+add_subdirectory(clock)
+add_subdirectory(dirmenu)
+add_subdirectory(launchbar)

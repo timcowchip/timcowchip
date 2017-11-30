@@ -1,0 +1,48 @@
+.-panel-transparent
+{
+	background-color: transparent;
+	background-image: none;
+}
+.-panel-launch-button
+{
+	padding: 1px;
+	margin: 0px;
+}
+.-panel-launch-button:hover,
+.-panel-launch-button.highlight,
+.-panel-launch-button:active:hover,
+.-panel-launch-button:selected,
+.-panel-launch-button-selected
+{
+	-gtk-icon-effect: highlight;
+}
+.-panel-icon-button
+{
+	padding: 0px;
+	margin: 0px;
+}
+.-panel-icon-button:hover,
+.-panel-icon-button.highlight,
+.-panel-icon-button:active:hover
+{
+	-gtk-icon-effect: highlight;
+}
+.-panel-button
+{
+	color: inherit;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.-panel-button-blink
+{
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes blinker { 
+    0% { opacity: 1.0; } 
+    50% { opacity: 0.3; } 
+    100% { opacity: 1.0; } 
+}

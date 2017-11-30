@@ -1,0 +1,50 @@
+<schemalist>
+  <schema id="org.valapanel.thermal">
+    <key name="auto-temperature-levels" type="b">
+      <default>true</default>
+    </key>
+    <key name="use-auto-location" type="b">
+      <default>true</default>
+    </key>
+    <key name="sensor-location" type="s">
+      <default>''</default>
+    </key>
+    <key name="warning-color-1" type="s">
+      <default>'yellow'</default>
+    </key>
+    <key name="warning-color-2" type="s">
+      <default>'red'</default>
+    </key>
+    <key name="warning-temperature-1" type="i">
+      <default>60</default>
+    </key>
+    <key name="warning-temperature-2" type="i">
+      <default>65</default>
+    </key>
+    <key name="normal-color" type="s">
+      <default>'green'</default>
+    </key>
+  </schema>
+  <schema id="org.valapanel.indicator">
+    <key name="enabled-indicators" type="as">
+      <default>['applications']</default>
+    </key>
+  </schema>
+  <schema id="org.valapanel.toplevel.monitors">
+    <key name="display-cpu-monitor" type="b">
+      <default>true</default>
+    </key>
+    <key name="display-ram-monitor" type="b">
+      <default>true</default>
+    </key>
+    <key name="click-action" type="ms">
+      <default>'lxtask'</default>
+    </key>
+    <key name="cpu-color" type="s">
+      <default>'red'</default>
+    </key>
+    <key name="ram-color" type="s">
+      <default>'green'</default>
+    </key>
+  </schema>
+</schemalist>

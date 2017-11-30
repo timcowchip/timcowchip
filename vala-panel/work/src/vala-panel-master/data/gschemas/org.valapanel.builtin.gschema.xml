@@ -1,0 +1,69 @@
+<schemalist>
+  <schema id="org.valapanel.clock">
+    <key name="clock-format" type="s">
+      <default>'%R'</default>
+    </key>
+    <key name="tooltip-format" type="s">
+      <default>'%A %x'</default>
+    </key>
+    <key name="bold-font" type="b">
+      <default>true</default>
+    </key>
+  </schema>
+  <schema id="org.valapanel.dirmenu">
+    <key name="caption" type="s">
+      <default>''</default>
+    </key>
+    <key name="dir-path" type="s">
+      <default>'~'</default>
+    </key>
+    <key name="icon-name" type="s">
+      <default>'system-file-manager'</default>
+    </key>
+  </schema>
+  <schema id="org.valapanel.separator">
+    <key name="size" type="i">
+      <range min="0" max="100000"/>
+      <default>2</default>
+    </key>
+    <key name="show-separator" type="b">
+      <default>true</default>
+    </key>
+  </schema>
+  <schema id="org.valapanel.menumodel">
+    <key name="menu-caption" type="s">
+      <default>''</default>
+    </key>
+    <key name="icon-name" type="s">
+      <default>'start-here-symbolic'</default>
+    </key>
+    <key name="is-system-menu" type="b">
+      <default>true</default>
+    </key>
+    <key name="is-internal-menu" type="b">
+      <default>true</default>
+    </key>
+    <key name="is-menu-bar" type="b">
+      <default>true</default>
+    </key>
+    <key name="model-file" type="s">
+      <default>''</default>
+    </key>
+  </schema>
+  <schema id="org.valapanel.launchbar">
+    <key name="launch-buttons" type="as">
+      <default>[]</default>
+    </key>
+  </schema>
+  <schema id="org.valapanel.kbled">
+    <key name="numlock-on" type="b">
+      <default>true</default>
+    </key>
+    <key name="capslock-on" type="b">
+      <default>true</default>
+    </key>
+    <key name="scrllock-on" type="b">
+      <default>true</default>
+    </key>
+  </schema>
+</schemalist>
