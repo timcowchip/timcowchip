@@ -1,0 +1,23 @@
+# Description: A GObject-based plugins engine.
+# URL: http://www.gnome.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Packager: Danny Rawlins, crux at romster dot me
+# Depends on: glade pygobject python3-gobject
+
+name=libpeas
+version=1.22.0
+release=1
+source=(https://ftp.gnome.org/pub/gnome/sources/$name/${version:0:4}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r \
+		$PKG/usr/share/locale \
+		$PKG/usr/share/gtk-doc
+}

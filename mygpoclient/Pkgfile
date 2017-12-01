@@ -5,8 +5,8 @@
 
 name=mygpoclient
 version=1.7
-release=2
-source=(https://github.com/gpodder/mygpoclient/archive/master.zip)
+release=3
+source=(https://pypi.python.org/packages/source/m/mygpoclient/mygpoclient-1.7.tar.gz)
 
 build() {
   cd $name-$version
