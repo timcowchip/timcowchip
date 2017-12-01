@@ -1,7 +1,7 @@
 # Description: Gtk3 panel for compositing window managers
 # URL: https://github.com/rilian-la-te/vala-panel
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: gtk3 vala libwnck3 libpeas gobject-introspection gsettings-desktop-shemas
+# Depends on: gtk3 vala libwnck libpeas gobject-introspection gsettings-desktop-shemas
 
 name=vala-panel
 version=0.3.8
