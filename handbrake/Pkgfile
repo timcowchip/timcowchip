@@ -1,7 +1,7 @@
 # Description: open source video transcoder
 # URL: http://handbrake.fr/
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: cmake qt5 intltool jansson jasper x264 x265 dbus-glib ffmpeg faad2 freetype fribidi gtk3 gdk-pixbuf gobject-introspection gstreamer harfbuzz lame libnotify libgudev libass libbluray libogg libpng libsamplerate libtheora libtiff libvorbis libvpx xorg-libxcb libxml2 libxslt opus p5-xml-parser libpcre python yasm  
+# Depends on: cmake qt5 intltool jansson jasper x264 x265 dbus-glib ffmpeg faad2 freetype gtk3 gdk-pixbuf gobject-introspection gstreamer harfbuzz lame libnotify libgudev libass libbluray libogg libpng libsamplerate libtheora libtiff libvorbis libvpx xorg-libxcb libxml2 libxslt opus p5-xml-parser libpcre python yasm  
 
 name=handbrake
 version=1.0.4
