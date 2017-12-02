@@ -1,0 +1,22 @@
+# Description: A complete solution for creation and editing PDF files.
+# URL: https://code-industry.net/free-pdf-editor/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: qt5 sane 
+
+name=masterpdfeditor
+version=4.3.61
+release=1
+
+source_x86_64=("http://get.code-industry.net/public/master-pdf-editor-${version}_qt5.amd64.tar.gz")
+
+
+build() {
+
+  install -d "$PKG"{/opt/,/usr/bin/}
+  cp -a --no-preserve=ownership master-pdf-editor-${version%%.*} "$PKG/opt/"
+
+  cd "$PKG/opt/master-pdf-editor-${version%%.*}"
+  ln -sr masterpdfeditor${version%%.*} -t "$PKG/usr/bin/"
+  install -Dm644 masterpdfeditor${version%%.*}.desktop -t "$PKG/usr/share/applications/"
+  install -Dm644 license.txt -t "$PKG/usr/share/licenses/$name/"
+}
