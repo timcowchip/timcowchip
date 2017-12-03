@@ -48,7 +48,7 @@ d:qtermwidget
 d:libwnck
 f:8525726b904b7c510ae752dd670ca4bb:lxqt-panel/Pkgfile
 f:fc6ea5c6b17e2699ab4c31106b57c276:lxqt-panel/fix-build.patch
-f:8f6a013f703503095424b9309f7466b4:QupZilla/Pkgfile
+f:5ccddd7acf96518b586ed1d3acde15f5:QupZilla/Pkgfile
 f:ac92f865447d7f0f9ddfd31e3d2db67c:vala-panel/.footprint
 f:607af56638d9ecbcb9905fb7d74a57e3:vala-panel/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
