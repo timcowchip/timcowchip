@@ -6,7 +6,7 @@
 name=qt5-connectivity
 _qtver=5.9.3
 version=${_qtver/-/}
-pkgrel=1
+release=1
 
 _pkgfqn="${name/5-/}-opensource-src-${_qtver}"
 source=("http://download.qt.io/official_releases/qt/${version%.*}/${_qtver}/submodules/${_pkgfqn}.tar.xz")
