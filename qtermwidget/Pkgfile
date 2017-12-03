@@ -12,7 +12,7 @@ source=("https://raw.githubusercontent.com/timcowchip/DISTFILES/master/$name-$ve
 build() {
 	mkdir -p build
 	cd build
-	cmake "$SRC/$name-master" \
+	cmake "$SRC/$name-$version" \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DCMAKE_BUILD_TYPE=Release \
