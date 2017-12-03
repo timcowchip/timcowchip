@@ -12,7 +12,7 @@ source=("https://raw.githubusercontent.com/timcowchip/DISTFILES/master/$name-$ve
 build() {
 	mkdir -p build
 	cd build
-	cmake "$SRC/$name-master" \
+	cmake "$SRC/$name-$version/home/timcowchip/Downloads/qterminal-0.8.0.tar.gz" \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DUSE_SYSTEM_QXT=OFF \
