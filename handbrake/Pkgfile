@@ -6,7 +6,7 @@
 name=handbrake
 version=1.0.7
 release=2
-source=(https://handbrake.fr/rotation.php?file=HandBrake-1.0.4.tar.bz2)
+source=(https://handbrake.fr/rotation.php?file=HandBrake-1.0.7.tar.bz2)
 
 build() {
 	cd HandBrake-$version
