@@ -4,8 +4,8 @@
 # Depends on: qt5 cmake alsa-lib curl desktop-file-utils hicolor-icon-theme libmad libvorbis libogg taglib xdg-utils  
 
 name=qmmp
-version=1.1.7
-release=1
+version=1.2.0
+release=2
 
 source=(http://qmmp.ylsoftware.com/files/$name-$version.tar.bz2)
 
