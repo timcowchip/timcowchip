@@ -36,6 +36,7 @@ d:rssguard
 d:lxqt-build-tools
 d:libburn
 d:qmmp
+d:libqtxdg
 d:lximage-qt
 d:lxqt-globalkeys
 d:gpodder
@@ -135,6 +136,7 @@ f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:3a2ae9af23e7961d97afcd48a3b0a44c:libburn/.signature
 f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
+f:14fd9fd0e6f8d586e6e9af74993d85b2:libqtxdg/Pkgfile
 f:c2998ce19a44d49ddf296f26b329818d:lximage-qt/Pkgfile
 f:98df5189624eb94f4de3064dea8a419d:lxqt-globalkeys/Pkgfile
 f:82aa6b6b26d36287f08af41b6d937496:gpodder/.footprint
