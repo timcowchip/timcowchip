@@ -8,12 +8,13 @@ _qtver=5.9.3
 version=${_qtver/-/}
 release=1
 
-_pkgfqn="${name/5-/}-opensource-src-${_qtver}"
 source=("http://download.qt.io/official_releases/qt/${version%.*}/${_qtver}/submodules/${_pkgfqn}.tar.xz")
 
 build() {
-
-  qmake-qt5../${_pkgfqn}
+ 
+ cd ${name/5-/}-opensource-src-${_qtver}
+ 
+  qmake-qt5 
   make
 
   make INSTALL_ROOT="$PKG" install
