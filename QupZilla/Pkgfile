@@ -3,14 +3,14 @@
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
 # Depends on: qtwebengine mesa3d desktop-file-utils hicolor-icon-theme gdb
 
-name=QupZilla
+name=qupzilla
 version=2.2.1
 release=6
 
 source=("https://raw.githubusercontent.com/timcowchip/DISTFILES/master/$name-$version.tar.gz")
 
 build() {
-    cd $name-$version/
+    cd $name-$version
 
     export USE_WEBGL="true"
     #export NO_X11="true"
