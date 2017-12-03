@@ -4,8 +4,8 @@
 # Depends on: qt5 qtermwidget
 
 name=qterminal
-version=0.7.1
-release=1
+version=0.8.0
+release=2
 
 source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.gz")
 
