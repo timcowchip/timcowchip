@@ -152,5 +152,5 @@ f:536fa05bd7faca2931248bcb1e630ad7:audacity/.signature
 f:021a080c82bd22cff6cbb42c6005c0e5:audacity/fix-vamp-build.patch
 f:9fe2201794d21f864d78dd075fb31362:audacity/ffmpeg.patch
 f:21ca8300556a7e63a7b66dd9875af37b:audacity/fix-return_null.patch
-f:c07bf7609a8900be68409d513de8cf9b:qtermwidget/Pkgfile
+f:4b9b90237d6c3f10265638cd603a49c7:qtermwidget/Pkgfile
 f:68b9511f1cf47cabbbc48e5268b79cc7:libwnck/Pkgfile

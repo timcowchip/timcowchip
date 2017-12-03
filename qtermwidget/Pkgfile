@@ -7,7 +7,7 @@ name=qtermwidget
 version=0.8.0
 release=2
 
-source=("https://githubusercontent.com/timcowchip/DISTFILES/master/$name-$version.tar.gz")
+source=("https://raw.githubusercontent.com/timcowchip/DISTFILES/master/$name-$version.tar.gz")
 
 build() {
 	mkdir -p build
