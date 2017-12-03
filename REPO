@@ -29,7 +29,6 @@ d:podcastparser
 d:lxqt-openssh-askpass
 d:blueman
 d:tea
-d:qt5-connectivity
 d:muparser
 d:lxqt-powermanagement
 d:mygpoclient
@@ -97,7 +96,7 @@ f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:fc1a104bbd91c53a95adad2cdfd42d24:handbrake/Pkgfile
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
-f:c162a96fcc0b2b778f352eff91eacc40:qterminal/Pkgfile
+f:36a00b71fc86097c8c4723640ddd3393:qterminal/Pkgfile
 f:31c1cfb586d35ec6ddc5df6606cece5c:lxmenu-data/Pkgfile
 f:3a80b39c66be341455eb7e8994b1cff7:libpeas/Pkgfile
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
@@ -117,7 +116,6 @@ f:ce1706f677337c14ad47b709cd7a134d:blueman/Pkgfile
 f:2da0593213712c2bcb925a476f3c00c9:blueman/.md5sum
 f:c742fd3d44d942b4f217805b799b7332:tea/Pkgfile
 f:377ace3363124f4c086de0babb820761:tea/tea.desktop
-f:70e45731694a2cb66adc2c656ff7b8c4:qt5-connectivity/Pkgfile
 f:9fb707cda1d6259b985c182b4c90c69f:muparser/Pkgfile
 f:7e42a49f98ac3e5563368dbc004e8252:lxqt-powermanagement/Pkgfile
 f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
@@ -137,7 +135,7 @@ f:b139d40558061cc662b23e3fe9e10d0c:libburn/.footprint
 f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:3a2ae9af23e7961d97afcd48a3b0a44c:libburn/.signature
-f:04d1782de55712de2a96140d31051828:qmmp/Pkgfile
+f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
 f:c2998ce19a44d49ddf296f26b329818d:lximage-qt/Pkgfile
 f:98df5189624eb94f4de3064dea8a419d:lxqt-globalkeys/Pkgfile
 f:82aa6b6b26d36287f08af41b6d937496:gpodder/.footprint
@@ -154,5 +152,5 @@ f:536fa05bd7faca2931248bcb1e630ad7:audacity/.signature
 f:021a080c82bd22cff6cbb42c6005c0e5:audacity/fix-vamp-build.patch
 f:9fe2201794d21f864d78dd075fb31362:audacity/ffmpeg.patch
 f:21ca8300556a7e63a7b66dd9875af37b:audacity/fix-return_null.patch
-f:34c3326b8b314255c13ab4a75c8e860b:qtermwidget/Pkgfile
+f:299198f92df3fb6a718c6113940424c0:qtermwidget/Pkgfile
 f:68b9511f1cf47cabbbc48e5268b79cc7:libwnck/Pkgfile
