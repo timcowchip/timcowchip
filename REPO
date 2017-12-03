@@ -1,5 +1,4 @@
 d:lxqt-panel
-d:QupZilla
 d:vala-panel
 d:flburn
 d:liblxqt
@@ -43,12 +42,12 @@ d:gpodder
 d:lxqt-admin
 d:lxqt-common
 d:lxqt-notificationd
+d:qupzilla
 d:audacity
 d:qtermwidget
 d:libwnck
 f:8525726b904b7c510ae752dd670ca4bb:lxqt-panel/Pkgfile
 f:fc6ea5c6b17e2699ab4c31106b57c276:lxqt-panel/fix-build.patch
-f:cffff9519ae3ca906c8b57024df957d8:QupZilla/Pkgfile
 f:ac92f865447d7f0f9ddfd31e3d2db67c:vala-panel/.footprint
 f:607af56638d9ecbcb9905fb7d74a57e3:vala-panel/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
@@ -145,6 +144,7 @@ f:eaca239c88273e50bf4c6817a65b87d8:gpodder/.signature
 f:dd26fd427beebf8a95eccde37eca3014:lxqt-admin/Pkgfile
 f:5bfab3fefd8982294a4ae4324745a9db:lxqt-common/Pkgfile
 f:d168bcde7a8ee2aeac08f271f12b2263:lxqt-notificationd/Pkgfile
+f:cffff9519ae3ca906c8b57024df957d8:qupzilla/Pkgfile
 f:49521bfb567149e83db7411636d5a40b:audacity/.footprint
 f:6f35a9644a3618bb5ec64d126386b8b5:audacity/Pkgfile
 f:683bec96646af17805de3b8352d064f9:audacity/.md5sum
