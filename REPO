@@ -48,7 +48,7 @@ d:qtermwidget
 d:libwnck
 f:8525726b904b7c510ae752dd670ca4bb:lxqt-panel/Pkgfile
 f:fc6ea5c6b17e2699ab4c31106b57c276:lxqt-panel/fix-build.patch
-f:b603b2bb05dcc5f854175c4828ef5df1:QupZilla/Pkgfile
+f:6b5bbdef54e0abc6eab0995a661ac8c8:QupZilla/Pkgfile
 f:ac92f865447d7f0f9ddfd31e3d2db67c:vala-panel/.footprint
 f:607af56638d9ecbcb9905fb7d74a57e3:vala-panel/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
@@ -96,7 +96,7 @@ f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:fc1a104bbd91c53a95adad2cdfd42d24:handbrake/Pkgfile
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
-f:359e4d8222346314f215a637fef3e2cd:qterminal/Pkgfile
+f:62623367888e3a49725797c605296815:qterminal/Pkgfile
 f:31c1cfb586d35ec6ddc5df6606cece5c:lxmenu-data/Pkgfile
 f:3a80b39c66be341455eb7e8994b1cff7:libpeas/Pkgfile
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
