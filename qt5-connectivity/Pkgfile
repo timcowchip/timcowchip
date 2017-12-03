@@ -1,0 +1,31 @@
+# Description: Provides access to Bluetooth hardware
+# URL: http://qt-project.org/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: qt5 bluez
+
+name=qt5-connectivity
+_qtver=5.9.3
+version=${_qtver/-/}
+pkgrel=1
+
+_pkgfqn="${name/5-/}-opensource-src-${_qtver}"
+source=("http://download.qt.io/official_releases/qt/${version%.*}/${_qtver}/submodules/${_pkgfqn}.tar.xz")
+
+build() {
+
+  mkdir -p build	
+
+  cd build
+
+  qmake ../${_pkgfqn}
+  make
+
+  make INSTALL_ROOT="$PKG" install
+
+  # Drop QMAKE_PRL_BUILD_DIR because reference the build dir
+  find "$PKG/usr/lib" -type f -name '*.prl' \
+    -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+
+  install -d "$PKG"/usr/share/licenses
+  ln -s /usr/share/licenses/qt5-base "$PKG"/usr/share/licenses/${name}
+}
