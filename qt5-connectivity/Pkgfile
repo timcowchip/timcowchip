@@ -17,7 +17,7 @@ build() {
 
   cd build
 
-  qmake ../${_pkgfqn}
+  qmake-qt5../${_pkgfqn}
   make
 
   make INSTALL_ROOT="$PKG" install
