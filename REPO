@@ -96,7 +96,7 @@ f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:fc1a104bbd91c53a95adad2cdfd42d24:handbrake/Pkgfile
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
-f:4062c013c403d44a40d95e0e99c0b4a4:qterminal/Pkgfile
+f:44c56c26c46cc56e01d351fc1155e846:qterminal/Pkgfile
 f:31c1cfb586d35ec6ddc5df6606cece5c:lxmenu-data/Pkgfile
 f:3a80b39c66be341455eb7e8994b1cff7:libpeas/Pkgfile
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
@@ -152,5 +152,5 @@ f:536fa05bd7faca2931248bcb1e630ad7:audacity/.signature
 f:021a080c82bd22cff6cbb42c6005c0e5:audacity/fix-vamp-build.patch
 f:9fe2201794d21f864d78dd075fb31362:audacity/ffmpeg.patch
 f:21ca8300556a7e63a7b66dd9875af37b:audacity/fix-return_null.patch
-f:a7957165c75842a8be1d6fcb7caabcc2:qtermwidget/Pkgfile
+f:c07bf7609a8900be68409d513de8cf9b:qtermwidget/Pkgfile
 f:68b9511f1cf47cabbbc48e5268b79cc7:libwnck/Pkgfile
