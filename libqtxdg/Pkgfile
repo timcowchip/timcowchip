@@ -1,0 +1,20 @@
+# Description: Library providing freedesktop.org XDG specs implementations for Qt
+# URL: http://lxqt.org/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: cmake xorg-libsm xorg-libxkb
+
+name=libqtxdg
+version=2.0.0
+release=1
+
+source=("https://github.com/lxde/$name/releases/download/$version/$name-$version.tar.xz")
+
+build() {
+	mkdir -p build
+	cd build
+	cmake "$SRC/$name-$version" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_INSTALL_LIBDIR=lib
+
+	make DESTDIR="$PKG" install
+}
