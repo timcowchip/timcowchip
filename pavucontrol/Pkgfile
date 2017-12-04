@@ -1,0 +1,25 @@
+# Description: PulseAudio Volume Control
+# URL: http://freedesktop.org/software/pulseaudio/pavucontrol/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: intltool lynx git gtkmm3 libsigc++ libcanberra
+
+name=pavucontrol
+version=3.0
+release=1
+
+source=()
+
+
+build() {
+  
+  git clone https://anongit.freedesktop.org/pulseaudio/pavucontrol#commit=$_commit
+
+  cd $name
+  NOCONFIGURE=1 ./bootstrap.sh
+  CXXFLAGS+=' -std=c++11'
+  ./configure --prefix=/usr --enable-gtk3
+  make
+
+  cd $name
+  make DESTDIR="$pkgdir" install
+}
