@@ -19,7 +19,5 @@ build() {
   CXXFLAGS+=' -std=c++11'
   ./configure --prefix=/usr --enable-gtk3
   make
-
-  cd $name
   make DESTDIR="$pkgdir" install
 }
