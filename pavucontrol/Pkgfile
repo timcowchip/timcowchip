@@ -12,7 +12,7 @@ source=()
 
 build() {
   
-  git clone https://anongit.freedesktop.org/pulseaudio/pavucontrol#commit=$_commit
+  git clone https://github.com/pulseaudio/pavucontrol.git
 
   cd $name
   NOCONFIGURE=1 ./bootstrap.sh
