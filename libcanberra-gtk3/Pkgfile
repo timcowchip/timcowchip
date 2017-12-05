@@ -1,6 +1,7 @@
 # Description: An implementation of the XDG sound theme and name specifications
 # URL: http://0pointer.de/lennart/projects/libcanberra/
-# Maintainer: Matt Housh, jaeger at crux dot ninja
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Packager: Matt Housh, jaeger at morpheus dot net
 # Depends on: gtk3 libvorbis alsa-lib gtk
 
 name=libcanberra-gtk3
