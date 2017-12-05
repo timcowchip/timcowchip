@@ -20,7 +20,6 @@ d:spacefm
 d:podcastparser
 d:blueman
 d:tea
-d:muparser
 d:mygpoclient
 d:vice
 d:rssguard
@@ -88,7 +87,6 @@ f:ce1706f677337c14ad47b709cd7a134d:blueman/Pkgfile
 f:2da0593213712c2bcb925a476f3c00c9:blueman/.md5sum
 f:c742fd3d44d942b4f217805b799b7332:tea/Pkgfile
 f:377ace3363124f4c086de0babb820761:tea/tea.desktop
-f:9fb707cda1d6259b985c182b4c90c69f:muparser/Pkgfile
 f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:b538dafc23650b051ccb36609f34b3af:mygpoclient/Pkgfile
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
