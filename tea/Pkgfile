@@ -4,8 +4,8 @@
 # Depends on:	qt5 aspell hunspell
 
 name=tea
-version=43.1.0
-release=1
+version=44.1.1
+release=2
 
 source=(http://semiletov.org/tea/dloads/tea-$version.tar.bz2
         tea.desktop)
