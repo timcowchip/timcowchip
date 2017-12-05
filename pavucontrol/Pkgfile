@@ -1,7 +1,7 @@
 # Description: PulseAudio Volume Control
 # URL: http://freedesktop.org/software/pulseaudio/pavucontrol/
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: intltool lynx git gtkmm3 libsigc++ libcanberra
+# Depends on: intltool lynx git gtkmm3 libsigc++ libcanberra-gtk3
 
 name=pavucontrol
 version=3.0
