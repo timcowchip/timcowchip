@@ -1,5 +1,6 @@
 d:vala-panel
 d:flburn
+d:libcanberra-gtk3
 d:gsettings-desktop-schemas
 d:masterpdf
 d:trojita
@@ -37,6 +38,7 @@ f:da9d81bd7b09e75f67463c6955f217b2:flburn/.footprint
 f:d94e867b3610f9b3af0dd8cd0a6b3b3e:flburn/Pkgfile
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
 f:753d2495df375e5f7a37f6811658dbe0:flburn/.signature
+f:e7a24d08ef4037e09a7fff1215b36a33:libcanberra-gtk3/Pkgfile
 f:e1b7fb9d1c558380a75e27a54a77a230:gsettings-desktop-schemas/Pkgfile
 f:9684312e2762d1832f5a615532016e13:masterpdf/.footprint
 f:6e70c6e118bf38a9f438ebafe551963a:masterpdf/Pkgfile
