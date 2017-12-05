@@ -5,7 +5,7 @@
 # Depends on: cmake
 
 name=rssguard
-version=3.4.0
+version=3.5.0
 release=1
 source=(https://github.com/martinrotter/rssguard/archive/3.4.0.tar.gz)
 
