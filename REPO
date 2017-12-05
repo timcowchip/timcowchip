@@ -37,8 +37,8 @@ f:da9d81bd7b09e75f67463c6955f217b2:flburn/.footprint
 f:d94e867b3610f9b3af0dd8cd0a6b3b3e:flburn/Pkgfile
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
 f:753d2495df375e5f7a37f6811658dbe0:flburn/.signature
-f:63d00c270656a1e399dcf5e27b1ce57e:libcanberra-gtk3/Pkgfile
-f:e1b7fb9d1c558380a75e27a54a77a230:gsettings-desktop-schemas/Pkgfile
+f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
+f:bb79759b1e1ff5979928abd432727d70:gsettings-desktop-schemas/Pkgfile
 f:9684312e2762d1832f5a615532016e13:masterpdf/.footprint
 f:6e70c6e118bf38a9f438ebafe551963a:masterpdf/Pkgfile
 f:bb1bbd6ea8e91abff21fdf48118493ba:masterpdf/.md5sum
@@ -63,14 +63,14 @@ f:282593137b642c6bc2ef4613c53262a5:libisofs/.footprint
 f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
 f:3a1af087ce30bc609eff12be2ba9f456:libisofs/.signature
-f:633e9cea9f8c82a2861d1582a7a24a48:gtkmm3/Pkgfile
+f:e4ee84cb0037b5b5faa3571c3552cd17:gtkmm3/Pkgfile
 f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:133549072b7a342dc38c96e5f74989a9:handbrake/Pkgfile
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
 f:911d4cbe330bfeec6cfe2bcbebe2650c:pavucontrol/Pkgfile
 f:62623367888e3a49725797c605296815:qterminal/Pkgfile
-f:3a80b39c66be341455eb7e8994b1cff7:libpeas/Pkgfile
+f:113cd21d27d4dbc1a3989f8f5eb3a387:libpeas/Pkgfile
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:c610b33f52f7554171c5c90411835260:udevil/.md5sum
@@ -83,7 +83,7 @@ f:a022f83c062a993746ca9ad7d5308eee:podcastparser/Pkgfile
 f:52bdb1fbc1456e1d20945fe1e6e8a1a2:podcastparser/.md5sum
 f:9d9f61ba22c2e7e59a905d357bda8f74:podcastparser/.signature
 f:a300baa0ae8a39a0517982cfa5e2ca33:blueman/.footprint
-f:ce1706f677337c14ad47b709cd7a134d:blueman/Pkgfile
+f:0e86644d784646e8e2eb74bb52fa1401:blueman/Pkgfile
 f:2da0593213712c2bcb925a476f3c00c9:blueman/.md5sum
 f:c742fd3d44d942b4f217805b799b7332:tea/Pkgfile
 f:377ace3363124f4c086de0babb820761:tea/tea.desktop
@@ -117,4 +117,4 @@ f:021a080c82bd22cff6cbb42c6005c0e5:audacity/fix-vamp-build.patch
 f:9fe2201794d21f864d78dd075fb31362:audacity/ffmpeg.patch
 f:21ca8300556a7e63a7b66dd9875af37b:audacity/fix-return_null.patch
 f:92576c1f5ee2a94b1dac57e2ccfb226d:qtermwidget/Pkgfile
-f:68b9511f1cf47cabbbc48e5268b79cc7:libwnck/Pkgfile
+f:da52b7bb9fd5e90225150e012446b603:libwnck/Pkgfile
