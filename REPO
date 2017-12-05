@@ -9,7 +9,9 @@ d:libisoburn
 d:pcmanfm-qt
 d:isomaster
 d:libisofs
+d:gtkmm3
 d:handbrake
+d:pavucontrol
 d:qterminal
 d:libpeas
 d:udevil
@@ -60,10 +62,12 @@ f:282593137b642c6bc2ef4613c53262a5:libisofs/.footprint
 f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
 f:3a1af087ce30bc609eff12be2ba9f456:libisofs/.signature
+f:633e9cea9f8c82a2861d1582a7a24a48:gtkmm3/Pkgfile
 f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:133549072b7a342dc38c96e5f74989a9:handbrake/Pkgfile
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
+f:cbdd692fbc607bf7df322731b2182687:pavucontrol/Pkgfile
 f:62623367888e3a49725797c605296815:qterminal/Pkgfile
 f:3a80b39c66be341455eb7e8994b1cff7:libpeas/Pkgfile
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
