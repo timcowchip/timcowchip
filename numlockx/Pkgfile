@@ -11,6 +11,8 @@ source=(http://pkgs.fedoraproject.org/repo/pkgs/numlockx/numlockx-1.2.tar.gz/be9
 
 build() {
 
+    git clone https://github.com/rg3/numlockx.git 
+
     cd $name-$version
 
     ./configure --prefix=/usr \
