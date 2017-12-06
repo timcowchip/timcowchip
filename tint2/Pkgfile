@@ -1,0 +1,30 @@
+# Description: Lightweight panel/taskbar w/launchers
+# URL: https://gitlab.com/o9000/tint2
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: cmake imlib2 pango librsvg startup-notification
+
+name=tint2
+version=0.12.12
+release=2
+
+source=()
+
+build() {
+
+  git clone https://gitlab.com/o9000/tint2.git	
+
+  cd $name
+  
+  git checkout 0.12.12
+  
+  mkdir -p build && cd build
+  cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_TINT2CONF=1 
+
+  make
+  
+  make DESTDIR=$PKG install
+  rm -rf ${PKG}/usr/share/doc/
+  rm -rf ${PKG}/usr/share/locale/
+}
+	
+	
