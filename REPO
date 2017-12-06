@@ -1,3 +1,4 @@
+d:tint2
 d:vala-panel
 d:flburn
 d:libcanberra-gtk3
@@ -33,6 +34,9 @@ d:qupzilla
 d:audacity
 d:qtermwidget
 d:libwnck
+f:87ac3b623c4baa27691ba65445df82f5:tint2/.footprint
+f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
 f:ac92f865447d7f0f9ddfd31e3d2db67c:vala-panel/.footprint
 f:607af56638d9ecbcb9905fb7d74a57e3:vala-panel/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
