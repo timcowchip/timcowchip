@@ -13,7 +13,7 @@ build() {
 
     git clone https://github.com/rg3/numlockx.git 
 
-    cd $name-$version
+    cd $name
 
     ./configure --prefix=/usr \
      x_includes=/usr/include/X11 \
