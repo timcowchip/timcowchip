@@ -8,6 +8,7 @@ d:qbittorrent
 d:os-prober
 d:libisoburn
 d:pcmanfm-qt
+d:lumina
 d:isomaster
 d:libisofs
 d:gtkmm3
@@ -15,6 +16,7 @@ d:handbrake
 d:sbc
 d:pavucontrol
 d:qterminal
+d:numlockx
 d:libpeas
 d:udevil
 d:spacefm
@@ -56,6 +58,9 @@ f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
 f:08a34f2fdd6a0a11b1a7c2bf610a756b:libisoburn/.md5sum
 f:48b37468d225b07131c88c73916ef5cb:libisoburn/.signature
 f:db96b51dcca1c5de6a86f0a5aed3fcd7:pcmanfm-qt/Pkgfile
+f:dd34c5a692e40b22abc8c4c37ac7af56:lumina/.footprint
+f:879b48f73d5e445b50b8932600603b70:lumina/Pkgfile
+f:f33d252d4a0fa5512e2ed0d5fa92ffea:lumina/.md5sum
 f:b711bf3c00613d95ff98206d16ea5bd4:isomaster/.footprint
 f:43503343cc54e120000481adbd765ffe:isomaster/Pkgfile
 f:151c0053a66b5b08779c7666a920fad6:isomaster/.md5sum
@@ -72,6 +77,9 @@ f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
 f:d033da4039fbf98857bd9869e42e79cb:sbc/Pkgfile
 f:911d4cbe330bfeec6cfe2bcbebe2650c:pavucontrol/Pkgfile
 f:62623367888e3a49725797c605296815:qterminal/Pkgfile
+f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
+f:d0b50cf1b6431caa669573ff9c025996:numlockx/Pkgfile
+f:ede3ec11dcdf9dd3305633c573aa7c39:numlockx/.md5sum
 f:113cd21d27d4dbc1a3989f8f5eb3a387:libpeas/Pkgfile
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
