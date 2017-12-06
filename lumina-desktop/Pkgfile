@@ -4,7 +4,7 @@
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
 # Depends on: git qt5 fluxbox kwindowsystem oxygen-icons5 libxcb xcb-proto xcb-util-image xscreensaver desktop-file-utils
 name=lumina-desktop
-version=1.3.0
+version=1.2.0
 release=1
 
 source=()
