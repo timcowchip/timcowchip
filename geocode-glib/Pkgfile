@@ -1,0 +1,20 @@
+# Description: Helper library for geocoding services
+# URL: https://git.gnome.org/browse/geocode-glib/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: glib json-glib libsoup meson intltool gobject-introspection git
+
+name=geocode-glib
+version=3.25.4.1
+release=1
+
+source=("git+https://git.gnome.org/browse/geocode-glib#commit=a811227fce460f3ac319f689ff927ab37427b84b  # tags/3.25.4.1^0")
+
+
+build() {
+  cd build
+  meson setup --prefix=/usr --buildtype=release -Denable-installed-tests=false ../$name
+  ninja
+
+  DESTDIR="$PKG" ninja install
+}
+
