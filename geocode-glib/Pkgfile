@@ -7,7 +7,7 @@ name=geocode-glib
 version=3.25.4.1
 release=1
 
-source=("git+https://git.gnome.org/browse/geocode-glib#commit=a811227fce460f3ac319f689ff927ab37427b84b  # tags/3.25.4.1^0")
+source=("https://git.gnome.org/browse/geocode-glib#commit=a811227fce460f3ac319f689ff927ab37427b84b  # tags/3.25.4.1^0")
 
 
 build() {
