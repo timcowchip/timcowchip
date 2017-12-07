@@ -1,5 +1,4 @@
 d:tint2
-d:vala-panel-extras
 d:vala-panel
 d:flburn
 d:libcanberra-gtk3
@@ -15,11 +14,9 @@ d:lumina
 d:isomaster
 d:libisofs
 d:gtkmm3
-d:geocode-glib
 d:handbrake
 d:sbc
 d:pavucontrol
-d:vala-panel-sntray
 d:qterminal
 d:numlockx
 d:libpeas
@@ -41,7 +38,6 @@ d:libwnck
 f:87ac3b623c4baa27691ba65445df82f5:tint2/.footprint
 f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
-f:458ccbd96617113e28f016651c95404f:vala-panel-extras/Pkgfile
 f:ac92f865447d7f0f9ddfd31e3d2db67c:vala-panel/.footprint
 f:607af56638d9ecbcb9905fb7d74a57e3:vala-panel/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
@@ -86,14 +82,12 @@ f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
 f:3a1af087ce30bc609eff12be2ba9f456:libisofs/.signature
 f:e4ee84cb0037b5b5faa3571c3552cd17:gtkmm3/Pkgfile
-f:5bc4788b9f830e76b63b6c5ee5dbb0bb:geocode-glib/Pkgfile
 f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:133549072b7a342dc38c96e5f74989a9:handbrake/Pkgfile
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
 f:d033da4039fbf98857bd9869e42e79cb:sbc/Pkgfile
 f:911d4cbe330bfeec6cfe2bcbebe2650c:pavucontrol/Pkgfile
-f:05ed2e710d1fa31acf6922e6afc90082:vala-panel-sntray/Pkgfile
 f:62623367888e3a49725797c605296815:qterminal/Pkgfile
 f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
 f:d0b50cf1b6431caa669573ff9c025996:numlockx/Pkgfile
