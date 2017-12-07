@@ -4,7 +4,7 @@
 # Depends on: glib json-glib libsoup meson intltool gobject-introspection git
 
 name=geocode-glib
-version=3.25.4.1
+version=3.24.0
 release=1
 
 source=("https://git.gnome.org/browse/geocode-glib/snapshot/geocode-glib-3.24.0.tar.xz")
