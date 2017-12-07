@@ -11,7 +11,7 @@ source=("https://git.gnome.org/browse/geocode-glib/snapshot/geocode-glib-3.24.0.
 
 
 build() {
-  cd build
+  cd $name-$version
   meson setup --prefix=/usr --buildtype=release -Denable-installed-tests=false ../$name
   ninja
 
