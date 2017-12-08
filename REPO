@@ -1,6 +1,7 @@
 d:tint2
 d:vala-panel
 d:flburn
+d:wego
 d:libcanberra-gtk3
 d:makemkv
 d:gsettings-desktop-schemas
@@ -18,6 +19,7 @@ d:handbrake
 d:sbc
 d:pavucontrol
 d:qterminal
+d:tilda
 d:numlockx
 d:libpeas
 d:udevil
@@ -30,7 +32,6 @@ d:vice
 d:rssguard
 d:libburn
 d:qmmp
-d:gis-weather
 d:gpodder
 d:qupzilla
 d:audacity
@@ -46,6 +47,7 @@ f:da9d81bd7b09e75f67463c6955f217b2:flburn/.footprint
 f:d94e867b3610f9b3af0dd8cd0a6b3b3e:flburn/Pkgfile
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
 f:753d2495df375e5f7a37f6811658dbe0:flburn/.signature
+f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:ffdde6d153e668dbdc6689f6374b2637:makemkv/.footprint
 f:9df87f94cb90099948fc05e851b3d63d:makemkv/Pkgfile
@@ -90,6 +92,10 @@ f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
 f:d033da4039fbf98857bd9869e42e79cb:sbc/Pkgfile
 f:911d4cbe330bfeec6cfe2bcbebe2650c:pavucontrol/Pkgfile
 f:62623367888e3a49725797c605296815:qterminal/Pkgfile
+f:e883ea6163e32ab29299571d176e13b5:tilda/.footprint
+f:306754a4532296293ceeecb7d9366bb4:tilda/Pkgfile
+f:6a0ce353babcf644be79866e1809a809:tilda/.md5sum
+f:1830ae320f7da82b01727150d5153205:tilda/post-install
 f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
 f:d0b50cf1b6431caa669573ff9c025996:numlockx/Pkgfile
 f:ede3ec11dcdf9dd3305633c573aa7c39:numlockx/.md5sum
@@ -127,7 +133,6 @@ f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:3a2ae9af23e7961d97afcd48a3b0a44c:libburn/.signature
 f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
-f:00f5c3b9456b8d59e5404d9224044223:gis-weather/Pkgfile
 f:82aa6b6b26d36287f08af41b6d937496:gpodder/.footprint
 f:b413411e7d8a50cf26b46a500753dd6b:gpodder/Pkgfile
 f:4a34cb52f442ba4dce733552b2ae0dd4:gpodder/.md5sum
