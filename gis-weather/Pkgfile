@@ -14,7 +14,7 @@ build()
   mkdir -p ${PKG}/usr/bin
   mkdir -p ${PKG}/usr/share/gis-weather
   mkdir -p ${PKG}/usr/share/applications
-  cp -R $srcdir/$name/. $PKG/usr/share/gis-weather
+  cp -R $SRC/$name/. $PKG/usr/share/gis-weather
   rm -fr $PKG/usr/share/gis-weather/.git
   chmod -R 777 $PKG/usr/share/gis-weather 
   echo "exec python3 /usr/share/gis-weather/gis-weather.py $*" > ${PKG}/usr/bin/gis-weather
