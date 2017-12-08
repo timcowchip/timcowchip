@@ -10,9 +10,9 @@ release=1
 source=()
 
 
-build() {https://github.com/schachmat/wego.git
+build() {
 
-    git clone 
+    git clone https://github.com/schachmat/wego.git
   
     cd "$SRC/$name"
     export GOPATH="$SRC/$name"
