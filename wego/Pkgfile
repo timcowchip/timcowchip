@@ -1,0 +1,27 @@
+# Description: Weather app for your terminal.
+# URL: Weather app for your terminal.
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: go git
+
+name=wego-git
+version=0
+release=1
+
+source=()
+
+
+build() {https://github.com/schachmat/wego.git
+
+    git clone 
+  
+    cd "$SRC/$name"
+    export GOPATH="$SRC/$name"
+    go get github.com/mattn/go-colorable
+    go get github.com/mattn/go-runewidth
+    go get github.com/schachmat/wego/backends
+    go get github.com/schachmat/ingo
+    go build -o wego main.go
+
+    mkdir -p "$PKG/usr/bin"
+    install -p -m755 $SRC/$name/wego "$PKG/usr/bin"
+  }
