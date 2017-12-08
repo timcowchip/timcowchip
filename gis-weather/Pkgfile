@@ -17,7 +17,7 @@ build()
   cp -R $SRC/$name-$version/. $PKG/usr/share/gis-weather
   rm -fr $PKG/usr/share/gis-weather/.git
   chmod -R 777 $PKG/usr/share/gis-weather 
-  echo "exec python /usr/share/gis-weather/gis-weather.py $*" > ${PKG}/usr/bin/gis-weather
+  echo "exec python3 /usr/share/gis-weather/gis-weather.py $*" > ${PKG}/usr/bin/gis-weather
   chmod 755 ${PKG}/usr/bin/gis-weather
   echo "[Desktop Entry]
 Name=Gis Weather
