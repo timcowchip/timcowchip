@@ -3,7 +3,7 @@
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
 # Depends on: gtk3 python python-gobject python-cairo
 
-name=gis-weather-
+name=gis-weather
 version=0.8.2.5
 release=1
 
