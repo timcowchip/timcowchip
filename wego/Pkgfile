@@ -3,7 +3,7 @@
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
 # Depends on: go git
 
-name=wego-git
+name=wego
 version=0
 release=1
 
