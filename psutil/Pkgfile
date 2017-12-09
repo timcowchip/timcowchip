@@ -9,9 +9,12 @@
 name=psutil
 version=5.4.2
 release=1
-source=(https://pypi.python.org/packages/source/p/$name/$name-$version.tar.gz)
+source=()
 
 build() {
+
+  git clone https://github.com/giampaolo/psutil.git
+
   cd $name-$version
   python setup.py install -O1 --prefix='/usr' --root=$PKG --optimize=1
 }
