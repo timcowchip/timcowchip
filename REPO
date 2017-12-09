@@ -1,5 +1,6 @@
 d:tint2
 d:vala-panel
+d:glances
 d:flburn
 d:wego
 d:PySensors
@@ -29,7 +30,6 @@ d:spacefm
 d:podcastparser
 d:blueman
 d:tea
-d:Glances
 d:mygpoclient
 d:vice
 d:rssguard
@@ -46,6 +46,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
 f:ac92f865447d7f0f9ddfd31e3d2db67c:vala-panel/.footprint
 f:607af56638d9ecbcb9905fb7d74a57e3:vala-panel/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
+f:e3d5d74a6ebdd13140274f0ab5752801:glances/.footprint
+f:8101c86d5b97c7f2c6a717b6312b067a:glances/Pkgfile
+f:ef4aaba5374d324ad0adf6d79955a46f:glances/.md5sum
 f:da9d81bd7b09e75f67463c6955f217b2:flburn/.footprint
 f:d94e867b3610f9b3af0dd8cd0a6b3b3e:flburn/Pkgfile
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
@@ -79,7 +82,7 @@ f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
 f:08a34f2fdd6a0a11b1a7c2bf610a756b:libisoburn/.md5sum
 f:48b37468d225b07131c88c73916ef5cb:libisoburn/.signature
 f:8f3b9d3cd803f1ff3b83c4aa40108a61:psutil/.footprint
-f:3dac1e3d0175824e8f297d124e1c5bad:psutil/Pkgfile
+f:f1bb5c2b7bfa5c09d78a8883f79afc14:psutil/Pkgfile
 f:b415f0092b63ec6239f8a07333ac8b53:psutil/.md5sum
 f:db96b51dcca1c5de6a86f0a5aed3fcd7:pcmanfm-qt/Pkgfile
 f:dd34c5a692e40b22abc8c4c37ac7af56:lumina/.footprint
@@ -125,9 +128,6 @@ f:0e86644d784646e8e2eb74bb52fa1401:blueman/Pkgfile
 f:2da0593213712c2bcb925a476f3c00c9:blueman/.md5sum
 f:7c097d2ea6c84322d97a76b62350df9d:tea/Pkgfile
 f:377ace3363124f4c086de0babb820761:tea/tea.desktop
-f:e3d5d74a6ebdd13140274f0ab5752801:Glances/.footprint
-f:a13cc58b9a4e16fd6a194caa0e45c5bf:Glances/Pkgfile
-f:ef4aaba5374d324ad0adf6d79955a46f:Glances/.md5sum
 f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:b538dafc23650b051ccb36609f34b3af:mygpoclient/Pkgfile
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
