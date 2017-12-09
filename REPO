@@ -2,6 +2,7 @@ d:tint2
 d:vala-panel
 d:flburn
 d:wego
+d:PySensors
 d:libcanberra-gtk3
 d:makemkv
 d:gsettings-desktop-schemas
@@ -10,6 +11,7 @@ d:trojita
 d:qbittorrent
 d:os-prober
 d:libisoburn
+d:psutil
 d:pcmanfm-qt
 d:lumina
 d:isomaster
@@ -27,6 +29,7 @@ d:spacefm
 d:podcastparser
 d:blueman
 d:tea
+d:Glances
 d:mygpoclient
 d:vice
 d:rssguard
@@ -48,6 +51,9 @@ f:d94e867b3610f9b3af0dd8cd0a6b3b3e:flburn/Pkgfile
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
 f:753d2495df375e5f7a37f6811658dbe0:flburn/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
+f:c515d0f9a99669a51ee23ca4ece62488:PySensors/.footprint
+f:d5d8c4b3a037516f4f4c0534fd39e1e0:PySensors/Pkgfile
+f:e3d938b7fca16f5f37dd46c5f3868397:PySensors/.md5sum
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:ffdde6d153e668dbdc6689f6374b2637:makemkv/.footprint
 f:9df87f94cb90099948fc05e851b3d63d:makemkv/Pkgfile
@@ -72,6 +78,9 @@ f:89a30933de19fddd08a617cd60154787:libisoburn/.footprint
 f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
 f:08a34f2fdd6a0a11b1a7c2bf610a756b:libisoburn/.md5sum
 f:48b37468d225b07131c88c73916ef5cb:libisoburn/.signature
+f:8f3b9d3cd803f1ff3b83c4aa40108a61:psutil/.footprint
+f:3dac1e3d0175824e8f297d124e1c5bad:psutil/Pkgfile
+f:b415f0092b63ec6239f8a07333ac8b53:psutil/.md5sum
 f:db96b51dcca1c5de6a86f0a5aed3fcd7:pcmanfm-qt/Pkgfile
 f:dd34c5a692e40b22abc8c4c37ac7af56:lumina/.footprint
 f:879b48f73d5e445b50b8932600603b70:lumina/Pkgfile
@@ -116,12 +125,15 @@ f:0e86644d784646e8e2eb74bb52fa1401:blueman/Pkgfile
 f:2da0593213712c2bcb925a476f3c00c9:blueman/.md5sum
 f:7c097d2ea6c84322d97a76b62350df9d:tea/Pkgfile
 f:377ace3363124f4c086de0babb820761:tea/tea.desktop
+f:e3d5d74a6ebdd13140274f0ab5752801:Glances/.footprint
+f:a13cc58b9a4e16fd6a194caa0e45c5bf:Glances/Pkgfile
+f:ef4aaba5374d324ad0adf6d79955a46f:Glances/.md5sum
 f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:b538dafc23650b051ccb36609f34b3af:mygpoclient/Pkgfile
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
 f:a7f20ae10fe1e8f8fd4c34973d779df7:mygpoclient/.signature
 f:03ee6710f3eda5b7a07f8b31b12dca74:vice/.footprint
-f:8fbc958cd03e4036262e0e60ceded169:vice/Pkgfile
+f:27159f1e1caa2cedc3ce075e13556c4b:vice/Pkgfile
 f:e9d34a69138a718bf6883703a0cf2ef0:vice/.md5sum
 f:cd1adfa9f8c6691338014f668d229a50:vice/.signature
 f:768377ae66a4bb3f15f93c18c592b689:vice/icons.tar.gz
