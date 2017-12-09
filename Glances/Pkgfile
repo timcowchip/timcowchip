@@ -7,7 +7,7 @@
 
 
 name=Glances
-version=2.4.2
+version=2.11.1
 release=1
 source=(https://pypi.python.org/packages/source/G/$name/$name-$version.tar.gz)
 
