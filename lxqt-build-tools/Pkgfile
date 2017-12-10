@@ -1,0 +1,20 @@
+# Description: Various packaging tools and scripts for LXQt applications
+# URL: http://lxqt.org
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: cmake qt5 git
+
+name=lxqt-build-tools
+version=0.4.0
+release=2
+
+source=("https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.xz")
+
+build() {
+	mkdir -p build
+	cd build
+	cmake "$SRC/$name-$version" \
+		-DCMAKE_INSTALL_PREFIX=/usr
+	make
+
+	make DESTDIR="$PKG" install
+}
