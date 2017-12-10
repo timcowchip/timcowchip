@@ -17,9 +17,6 @@ build() {
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib
 	make
-}
 
-package() {
-	cd build
 	make DESTDIR="$PKG" install
 }

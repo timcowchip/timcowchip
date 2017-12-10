@@ -1,4 +1,5 @@
 d:tint2
+d:pasystray
 d:vala-panel
 d:glances
 d:flburn
@@ -20,6 +21,7 @@ d:libisofs
 d:gtkmm3
 d:handbrake
 d:sbc
+d:pavucontrol-qt
 d:pavucontrol
 d:qterminal
 d:tilda
@@ -33,6 +35,7 @@ d:tea
 d:mygpoclient
 d:vice
 d:rssguard
+d:lxqt-build-tools
 d:libburn
 d:qmmp
 d:gpodder
@@ -43,6 +46,7 @@ d:libwnck
 f:87ac3b623c4baa27691ba65445df82f5:tint2/.footprint
 f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
+f:f00bf4f0a7095e826bbcde61d3d16ab9:pasystray/Pkgfile
 f:ac92f865447d7f0f9ddfd31e3d2db67c:vala-panel/.footprint
 f:607af56638d9ecbcb9905fb7d74a57e3:vala-panel/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
@@ -102,6 +106,7 @@ f:133549072b7a342dc38c96e5f74989a9:handbrake/Pkgfile
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
 f:8159c2016550a3b18bbb28e3cde68f2d:handbrake/.signature
 f:d033da4039fbf98857bd9869e42e79cb:sbc/Pkgfile
+f:442aa1db278fbb3450565cbef8e59ab5:pavucontrol-qt/Pkgfile
 f:911d4cbe330bfeec6cfe2bcbebe2650c:pavucontrol/Pkgfile
 f:62623367888e3a49725797c605296815:qterminal/Pkgfile
 f:e883ea6163e32ab29299571d176e13b5:tilda/.footprint
@@ -140,6 +145,7 @@ f:768377ae66a4bb3f15f93c18c592b689:vice/icons.tar.gz
 f:008a9527dc15808029952caed55f5a8c:vice/vice
 f:5644bcd1ad05ca10ac27872a76e42ef1:vice/vice.desktop
 f:87243aa39cfb6fc79c7e9bd8a9940e4a:rssguard/Pkgfile
+f:583e2068616553318255849c4c1911f0:lxqt-build-tools/Pkgfile
 f:b139d40558061cc662b23e3fe9e10d0c:libburn/.footprint
 f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
