@@ -1,0 +1,29 @@
+--- fbdesk-1.2.1/configure	2004-09-20 19:41:33.000000000 +0200
++++ fbdesk-1.2.1/configure-new	2004-12-03 22:45:33.961276544 +0100
+@@ -22026,7 +22026,7 @@
+   echo $ECHO_N "(cached) $ECHO_C" >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lXrender  $LIBS"
++LIBS="-lXrender -liconv $LIBS"
+ cat >conftest.$ac_ext <<_ACEOF
+ /* confdefs.h.  */
+ _ACEOF
+@@ -22106,7 +22106,7 @@
+   echo $ECHO_N "(cached) $ECHO_C" >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lXrender  $LIBS"
++LIBS="-lXrender -liconv  $LIBS"
+ cat >conftest.$ac_ext <<_ACEOF
+ /* confdefs.h.  */
+ _ACEOF
+@@ -22170,7 +22170,7 @@
+ #define HAVE_XRENDER 1
+ _ACEOF
+ 
+-	LIBS="$LIBS -lXrender"
++	LIBS="$LIBS -liconv -lXrender"
+ fi
+ 
+ 
