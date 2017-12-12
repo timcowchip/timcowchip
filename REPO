@@ -32,6 +32,7 @@ d:spacefm
 d:podcastparser
 d:blueman
 d:tea
+d:google-chrome
 d:mygpoclient
 d:vice
 d:rssguard
@@ -74,7 +75,7 @@ f:9684312e2762d1832f5a615532016e13:masterpdf/.footprint
 f:6e70c6e118bf38a9f438ebafe551963a:masterpdf/Pkgfile
 f:bb1bbd6ea8e91abff21fdf48118493ba:masterpdf/.md5sum
 f:8b8ffcbed047757ea88ce0eec9999914:trojita/Pkgfile
-f:f611351e5ca845fe4f1735a475546a32:qbittorrent/Pkgfile
+f:b45e5839711d89e8f12e09c50a3be505:qbittorrent/Pkgfile
 f:06b16b9039582909d87fae76a6ae00db:os-prober/.footprint
 f:2b1bbc074995f82c35741c981aa60918:os-prober/Pkgfile
 f:f6a48612e0d664bf9e3acc14fc733e38:os-prober/.md5sum
@@ -133,6 +134,9 @@ f:0e86644d784646e8e2eb74bb52fa1401:blueman/Pkgfile
 f:2da0593213712c2bcb925a476f3c00c9:blueman/.md5sum
 f:7c097d2ea6c84322d97a76b62350df9d:tea/Pkgfile
 f:377ace3363124f4c086de0babb820761:tea/tea.desktop
+f:e579b56f43244e51644f4d33ec199c1d:google-chrome/.footprint
+f:8cf95c8408105b94b4ed16a07e7762f3:google-chrome/Pkgfile
+f:1938f84623e277515238222eaf06ce8e:google-chrome/.md5sum
 f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:b538dafc23650b051ccb36609f34b3af:mygpoclient/Pkgfile
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
