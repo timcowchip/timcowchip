@@ -22,5 +22,4 @@ build () {
     --disable-png
     make
     make DESTDIR=$PKG install
-    chown -R root:root $PKG
 }
