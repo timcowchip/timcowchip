@@ -8,12 +8,13 @@
 name=fbdesk
 version=1.4.1
 release=1
-source=(http://fluxbox.sourceforge.net/download/$name-$version.tar.gz \ $name-$version-gcc.patch \ $name-$version-false.patch)
+source=(http://fluxbox.sourceforge.net/download/$name-$version.tar.gz \ $name-$version-gcc.patch \ $name-$version-false.patch \ $name-$version-options.patch)
 
 build () {
     cd $name-$version
     patch -p1<../$name-$version-gcc.patch
     patch -p1<../$name-$version-false.patch
+     patch -p1<../$name-$version-options.patch
     ./configure --prefix=/usr \
     --disable-nls \
     --disable-png
