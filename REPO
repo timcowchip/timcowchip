@@ -158,10 +158,12 @@ f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:3a2ae9af23e7961d97afcd48a3b0a44c:libburn/.signature
 f:312bffe75dbddba39989e998c34a0261:libiconv/Pkgfile
 f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
-f:d6f017ad3359004f2f6cc5c01a05493e:fbdesk/Pkgfile
+f:3177d6a3ebf3fd3ab61a8a02fe54323d:fbdesk/fbdesk-1.4.1-libpng15.patch
+f:0d723b3decb6418c7120d3ddf8692c3e:fbdesk/fbdesk-1.4.1-libpng14.patch
+f:d83cae6ac92ee7b4b67ba10d53bbec50:fbdesk/Pkgfile
 f:6c0730137cb50185d4c6d88f69553d2d:fbdesk/fbdesk-1.4.1-gcc.patch
 f:7082d317a9573ab338302243082d10d1:fbdesk/ORBit2-2.14.19.tar.bz2
-f:9f93f6d1df494947d1707bced13e0b63:fbdesk/fbdesk-1.4.1.patch
+f:7cc0f132b43dd7fcdf9daac798eb7275:fbdesk/fbdesk-1.4.1-options.patch
 f:2f1cd4c3dab7a48dd0e90c86068c690b:fbdesk/fbdesk-1.4.1-false.patch
 f:82aa6b6b26d36287f08af41b6d937496:gpodder/.footprint
 f:b413411e7d8a50cf26b46a500753dd6b:gpodder/Pkgfile
