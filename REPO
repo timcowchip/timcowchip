@@ -34,6 +34,7 @@ d:spacefm
 d:podcastparser
 d:blueman
 d:tea
+d:xdialog
 d:google-chrome
 d:mygpoclient
 d:vice
@@ -140,6 +141,7 @@ f:0e86644d784646e8e2eb74bb52fa1401:blueman/Pkgfile
 f:2da0593213712c2bcb925a476f3c00c9:blueman/.md5sum
 f:7c097d2ea6c84322d97a76b62350df9d:tea/Pkgfile
 f:377ace3363124f4c086de0babb820761:tea/tea.desktop
+f:e9688425401726b2715b1e84d06cc730:xdialog/Pkgfile
 f:e579b56f43244e51644f4d33ec199c1d:google-chrome/.footprint
 f:8cf95c8408105b94b4ed16a07e7762f3:google-chrome/Pkgfile
 f:1938f84623e277515238222eaf06ce8e:google-chrome/.md5sum
