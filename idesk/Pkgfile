@@ -12,7 +12,7 @@ source=("http://downloads.sourceforge.net/sourceforge/idesk/$name-$version.tar.b
 
 
 build() {
-  cd "$srcdir"/$name-$version
+  cd "$SRC"/$name-$version
   sed -i \
     -e '1,1i#include <unistd.h>' \
     -e '1,1i#include <sys/stat.h>' \
@@ -25,5 +25,5 @@ build() {
   ./configure --prefix=/usr
   make
 
-  make DESTDIR="$pkgdir" install
+  make DESTDIR="$PKG" install
 }
