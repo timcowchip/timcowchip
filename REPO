@@ -2,6 +2,7 @@ d:tint2
 d:pasystray
 d:vala-panel
 d:glances
+d:idesk-extras
 d:flburn
 d:wego
 d:PySensors
@@ -57,6 +58,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
 f:e3d5d74a6ebdd13140274f0ab5752801:glances/.footprint
 f:8101c86d5b97c7f2c6a717b6312b067a:glances/Pkgfile
 f:ef4aaba5374d324ad0adf6d79955a46f:glances/.md5sum
+f:bd6b63fcb1473934e9490cef02416895:idesk-extras/Pkgfile
 f:da9d81bd7b09e75f67463c6955f217b2:flburn/.footprint
 f:d94e867b3610f9b3af0dd8cd0a6b3b3e:flburn/Pkgfile
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
