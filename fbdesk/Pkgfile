@@ -1,4 +1,3 @@
-# $Id: $
 # Description: icons tool for fluxbox
 # URL: http://fluxbox.sourceforge.net/fbdesk/
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
@@ -9,12 +8,10 @@
 name=fbdesk
 version=1.4.1
 release=1
-source=(http://fluxbox.sourceforge.net/download/$name-$version.tar.gz \
-    $name-$version.patch \ $name-$version-gcc.patch \ $name-$version-false.patch)
+source=(http://fluxbox.sourceforge.net/download/$name-$version.tar.gz \ $name-$version-gcc.patch \ $name-$version-false.patch)
 
 build () {
     cd $name-$version
-    patch -p1<../$name-$version.patch
     patch -p1<../$name-$version-gcc.patch
     patch -p1<../$name-$version-false.patch
     ./configure --prefix=/usr \
@@ -22,4 +19,5 @@ build () {
     --disable-png
     make
     make DESTDIR=$PKG install
+    chown -R root:root $PKG
 }
