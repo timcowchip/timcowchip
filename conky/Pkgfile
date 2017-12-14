@@ -7,15 +7,14 @@ name=conky
 version=1.10.6
 release=1
 
-source=("https://github.com/brndnmtthws/conky/archive/v${version}.tar.gz" \ "lua53.patch" \ "gcc7.patch")
+source=("https://github.com/brndnmtthws/conky/archive/v${version}.tar.gz" \ "lua53.patch")
 
 options=('!strip' 'debug')
 
 build() {
 	cd "${SRC}/${name}-${version}"
 	patch -p1 -i ../lua53.patch
-	patch -p1 -i ../gcc7.patch
-
+	
 	cmake \
 		-D CMAKE_BUILD_TYPE=Release \
 		-D MAINTAINER_MODE=ON \
