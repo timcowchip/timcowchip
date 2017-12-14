@@ -18,8 +18,8 @@ build () {
     patch -p1<../$name-$version-libpng14.patch
     patch -p1<../$name-$version-libpng15.patch    
     ./configure --prefix=/usr \
-    --disable-nls \
-    --disable-png
+    --disable-nls 
+
     make
     make DESTDIR=$PKG install
     chown -R root:root $PKG
