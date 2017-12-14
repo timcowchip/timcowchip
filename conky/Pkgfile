@@ -7,26 +7,24 @@ name=conky
 version=1.10.6
 release=1
 
-source=("https://github.com/brndnmtthws/conky/archive/v${version}.tar.gz" \ "lua53.patch")
+source=("https://github.com/brndnmtthws/conky/archive/v${version}.tar.gz"
+        'lua53.patch')
 
 options=('!strip' 'debug')
 
 build() {
 	cd "${SRC}/${name}-${version}"
 	patch -p1 -i ../lua53.patch
-	
+
 	cmake \
 		-D CMAKE_BUILD_TYPE=Release \
 		-D MAINTAINER_MODE=ON \
-		-D BUILD_WLAN=ON \
 		-D BUILD_XDBE=ON \
 		-D BUILD_IMLIB2=ON \
 		-D BUILD_CURL=ON \
 		-D BUILD_RSS=ON \
 		-D BUILD_WEATHER_METAR=ON \
 		-D BUILD_WEATHER_XOAP=ON \
-		-D BUILD_PULSEAUDIO=ON \
-		-D BUILD_JOURNAL=ON \
 		-D CMAKE_INSTALL_PREFIX=/usr \
 		.
 
