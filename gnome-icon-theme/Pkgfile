@@ -1,0 +1,20 @@
+# Description: GNOME icon theme.
+# URL: http://www.gnome.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Packager: Danny Rawlins, crux at romster dot me
+# Depends on: gnome-icon-theme-symbolic
+
+name=gnome-icon-theme
+version=3.12.0
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/${version:0:4}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	GTK_UPDATE_ICON_CACHE=/bin/true ./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/locale
+}
