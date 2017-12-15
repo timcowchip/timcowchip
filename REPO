@@ -6,7 +6,9 @@ d:idesk-extras
 d:flburn
 d:wego
 d:PySensors
+d:gnome-icon-theme
 d:libcanberra-gtk3
+d:avahi
 d:makemkv
 d:gsettings-desktop-schemas
 d:masterpdf
@@ -20,6 +22,7 @@ d:lumina
 d:isomaster
 d:libisofs
 d:gtkmm3
+d:icon-naming-utils
 d:handbrake
 d:sbc
 d:pavucontrol-qt
@@ -30,6 +33,7 @@ d:tilda
 d:numlockx
 d:libpeas
 d:udevil
+d:libdaemon
 d:spacefm
 d:podcastparser
 d:blueman
@@ -38,10 +42,12 @@ d:xdialog
 d:wmfs2
 d:google-chrome
 d:mygpoclient
+d:p5-xml-simple
 d:vice
 d:rssguard
 d:lxqt-build-tools
 d:libburn
+d:gnome-icon-theme-symbolic
 d:libiconv
 d:qmmp
 d:fbdesk
@@ -53,7 +59,7 @@ d:libwnck
 f:87ac3b623c4baa27691ba65445df82f5:tint2/.footprint
 f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
-f:f00bf4f0a7095e826bbcde61d3d16ab9:pasystray/Pkgfile
+f:d2a15273a675383561ea7f926b9b5824:pasystray/Pkgfile
 f:ac92f865447d7f0f9ddfd31e3d2db67c:vala-panel/.footprint
 f:607af56638d9ecbcb9905fb7d74a57e3:vala-panel/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
@@ -69,7 +75,10 @@ f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:c515d0f9a99669a51ee23ca4ece62488:PySensors/.footprint
 f:d5d8c4b3a037516f4f4c0534fd39e1e0:PySensors/Pkgfile
 f:e3d938b7fca16f5f37dd46c5f3868397:PySensors/.md5sum
+f:46b8cff86bb8c1ec2fa99639743a0cbb:gnome-icon-theme/Pkgfile
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
+f:2ef592b7e4688f1bfb744e779043cc5d:avahi/Pkgfile
+f:9379c518fad18582698babf08bc14f84:avahi/avahi-daemon.rc
 f:ffdde6d153e668dbdc6689f6374b2637:makemkv/.footprint
 f:9df87f94cb90099948fc05e851b3d63d:makemkv/Pkgfile
 f:7f4b112c5178860cc2eb25059ae1af2a:makemkv/makemkvcon.1
@@ -109,6 +118,7 @@ f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
 f:3a1af087ce30bc609eff12be2ba9f456:libisofs/.signature
 f:e4ee84cb0037b5b5faa3571c3552cd17:gtkmm3/Pkgfile
+f:a3b7f49fcdc0dbecf6032d39868e36cd:icon-naming-utils/Pkgfile
 f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:133549072b7a342dc38c96e5f74989a9:handbrake/Pkgfile
 f:01fcf907cd4838a9fac5a640b3a5b7c8:handbrake/.md5sum
@@ -130,6 +140,7 @@ f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:c610b33f52f7554171c5c90411835260:udevil/.md5sum
 f:043d9e660da45c5555563310c4cbeced:udevil/README
+f:e6f418a5fc9fa4ac927a04d482487a9b:libdaemon/Pkgfile
 f:0565b6acb382fd73abbeed6b259ec552:spacefm/.footprint
 f:65a8c832a034a221e8d147e239fad2b1:spacefm/Pkgfile
 f:72239c0f9277227c7b06f419e4a5b50f:spacefm/.md5sum
@@ -153,6 +164,7 @@ f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:b538dafc23650b051ccb36609f34b3af:mygpoclient/Pkgfile
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
 f:a7f20ae10fe1e8f8fd4c34973d779df7:mygpoclient/.signature
+f:33ceaa7cd93627c63428147ae6b6d497:p5-xml-simple/Pkgfile
 f:03ee6710f3eda5b7a07f8b31b12dca74:vice/.footprint
 f:27159f1e1caa2cedc3ce075e13556c4b:vice/Pkgfile
 f:e9d34a69138a718bf6883703a0cf2ef0:vice/.md5sum
@@ -166,6 +178,7 @@ f:b139d40558061cc662b23e3fe9e10d0c:libburn/.footprint
 f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:3a2ae9af23e7961d97afcd48a3b0a44c:libburn/.signature
+f:6bc472bf719e2a8ddfa856f470bd89bf:gnome-icon-theme-symbolic/Pkgfile
 f:312bffe75dbddba39989e998c34a0261:libiconv/Pkgfile
 f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
 f:10ba62ba6565a29efd7b2acbf75bf00a:fbdesk/Pkgfile
