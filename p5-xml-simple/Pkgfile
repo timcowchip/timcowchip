@@ -1,0 +1,18 @@
+# Description: Perl module to easily read/write XML.
+# URL: http://search.cpan.org/~grantm/XML-Simple-2.20/
+# Maintainer: Erich Eckner, crux at eckner dot net
+# Packager: Alan Mizrahi, alan at mizrahi dot com dot ve
+
+name=p5-xml-simple
+version=2.24
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/XML-Simple-$version.tar.gz)
+
+build() {
+	cd XML-Simple-$version
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS"
+	make DESTDIR="$PKG" install
+	find "$PKG" \( -name perllocal.pod -o -name .packlist \) -delete
+	find "$PKG" -depth -type d -empty -delete
+}
