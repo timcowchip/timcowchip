@@ -7,9 +7,12 @@ name=pasystray
 version=0.6.0
 release=1
 
-source=(git+https://github.com/christophgysin/${name}.git)
+source=()
 
 build () {
+
+	git clone https://github.com/christophgysin/${name}.git
+
 	cd "$SRC/${name}"
 	autoreconf -is
 	sed -i -e '/<requires /d' -e '/license_type/d' src/pasystray.gtk3.glade
