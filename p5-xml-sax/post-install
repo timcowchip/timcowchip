@@ -1,0 +1,12 @@
+#!/bin/sh
+
+eval $(perl -V:sitelibexp)
+
+if [ -z "$sitelibexp" ]; then
+	echo "failed to determine perl sitelib directory"
+	exit 1
+fi
+
+if [ ! -r $sitelibexp/XML/SAX/ParserDetails.ini ]; then 
+	perl -MXML::SAX -e "XML::SAX->add_parser(q(XML::SAX::PurePerl))->save_parsers()"
+fi
