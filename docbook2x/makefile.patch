@@ -1,0 +1,21 @@
+--- espeak-1.44.05-source/src/Makefile.orig	2011-01-12 14:46:00.000000000 +0900
++++ espeak-1.44.05-source/src/Makefile	2011-01-12 14:46:46.000000000 +0900
+@@ -4,7 +4,7 @@
+ BINDIR=$(PREFIX)/bin
+ INCDIR=$(PREFIX)/include/espeak
+ LIBDIR=$(PREFIX)/lib
+-DATADIR=$(PREFIX)/share/espeak-data
++DATADIR=$(PREFIX)/share/espeak-data
+ 
+ RELEASE = 1.44
+ BIN_NAME = speak
+@@ -24,7 +24,8 @@
+ LN_SF = /bin/ln -sf
+ MKDIR = mkdir -p
+ 
+-AUDIO = portaudio
++AUDIO=pulseaudio
++#AUDIO = portaudio
+ #AUDIO = pulseaudio
+ #AUDIO = sada
+ 

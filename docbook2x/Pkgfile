@@ -1,0 +1,22 @@
+# Description:	Program to convert docbook documents to man pages
+# URL:	
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	docbook p5-xml-sax
+
+name=docbook2x
+version=0.8.8
+release=1
+source=(http://prdownloads.sf.net/$name/docbook2X-$version.tar.gz docbook2x.patch)
+
+build() {
+	cd docbook2X-$version
+
+	patch -p1 -i $SRC/docbook2x.patch
+
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/man
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{doc,info}
+}
