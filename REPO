@@ -31,6 +31,7 @@ d:qterminal
 d:idesk
 d:tilda
 d:numlockx
+d:jq
 d:libpeas
 d:udevil
 d:libdaemon
@@ -40,6 +41,7 @@ d:blueman
 d:tea
 d:xdialog
 d:wmfs2
+d:ansiweather
 d:google-chrome
 d:mygpoclient
 d:p5-xml-simple
@@ -135,6 +137,7 @@ f:1830ae320f7da82b01727150d5153205:tilda/post-install
 f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
 f:d0b50cf1b6431caa669573ff9c025996:numlockx/Pkgfile
 f:ede3ec11dcdf9dd3305633c573aa7c39:numlockx/.md5sum
+f:8c3ed56f34b51d5ab05edb0be0c0962a:jq/Pkgfile
 f:113cd21d27d4dbc1a3989f8f5eb3a387:libpeas/Pkgfile
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
@@ -157,6 +160,7 @@ f:e9688425401726b2715b1e84d06cc730:xdialog/Pkgfile
 f:00277e424fe7d4cddc3e5fef0421af3a:wmfs2/.footprint
 f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wmfs2/.md5sum
+f:9b3c76a27fef6fdea2b9c2d627b00422:ansiweather/Pkgfile
 f:e579b56f43244e51644f4d33ec199c1d:google-chrome/.footprint
 f:8cf95c8408105b94b4ed16a07e7762f3:google-chrome/Pkgfile
 f:1938f84623e277515238222eaf06ce8e:google-chrome/.md5sum
