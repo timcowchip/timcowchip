@@ -1,0 +1,20 @@
+#
+# /etc/rc.d/avahi: start/stop avahi daemon
+#
+
+case $1 in
+	start)
+		/usr/sbin/avahi-daemon -D -s
+		;;
+	stop)
+		killall -q /usr/sbin/avahi-daemon
+		;;
+	restart)
+		$0 stop
+		sleep 2
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 [start|stop|restart]"
+		;;
+esac
