@@ -9,7 +9,8 @@ release=1
 
 source=("https://github.com/fcambus/${name}/archive/${version}.tar.gz")
 
-BUILD(){
+build()
+{
     cd "${SRC}/${name}-${version}"
     install -dm755 "${PKG}/usr/bin"
     install -m755 ${name} "${PKG}/usr/bin/"
