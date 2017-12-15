@@ -1,0 +1,21 @@
+# Description:	Perl XML Modules
+# URL:		http://search.cpan.org/perldoc?XML::NamespaceSupport
+# Maintainer:	John Vogel, jvogel4 at stny dot rr dot com
+
+name=p5-xml-namespacesupport
+version=1.12
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-$version.tar.gz)
+
+build () {
+	cd XML-NamespaceSupport-$version
+
+	perl Makefile.PL
+
+	make OPTIMIZE="$CFLAGS"
+	make DESTDIR="$PKG" install
+
+	find "$PKG" \( -name perllocal.pod -o -name .packlist \) -exec rm {} \;
+	find "$PKG" -depth -type d -empty -exec rm -rf {} \;
+	find "$PKG" -depth -type f -exec chmod 644 {} \;
+}
