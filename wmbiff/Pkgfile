@@ -1,7 +1,7 @@
 # Description: Mail checker dock app
 # URL: http://wmbiff.sourceforge.net/
-# Packager: Chris Farrell, timcowchip at gmail dot com
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Packager: Chris Farrell, timcowchip at gorge dot net
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Depends on: 
 
 name=wmbiff
