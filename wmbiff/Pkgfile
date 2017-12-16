@@ -1,0 +1,21 @@
+# Description: Mail checker dock app
+# URL: http://wmbiff.sourceforge.net/
+# Packager: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: 
+
+name=wmbiff
+version=0.4.27
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/man
+
+	make
+	make DESTDIR=$PKG install
+}
