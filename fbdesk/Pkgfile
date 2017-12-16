@@ -1,6 +1,6 @@
 # Description: icons tool for fluxbox
 # URL: http://fluxbox.sourceforge.net/fbdesk/
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Packager: acrux <acrux@crux-it.org>
 # Depends on: fluxbox libiconv 
 
@@ -24,5 +24,4 @@ build () {
 
     make
     make DESTDIR=$PKG install
-    chown -R root:root $PKG
 }
