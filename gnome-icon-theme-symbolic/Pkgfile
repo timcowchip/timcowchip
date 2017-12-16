@@ -1,6 +1,6 @@
 # Description: GNOME icon theme, symbolic icons.
 # URL: http://www.gnome.org/
-# Maintainer: Erich Eckner, crux at eckner dot net
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net 
 # Packager: Danny Rawlins, crux at romster dot me
 # Depends on: intltool icon-naming-utils hicolor-icon-theme librsvg
 

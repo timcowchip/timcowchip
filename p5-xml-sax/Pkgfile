@@ -1,6 +1,7 @@
 # Description: Perl XML Modules
 # URL:         http://search.cpan.org/dist/XML-SAX/
-# Maintainer:  John Vogel, jvogel4 at stny dot rr dot com
+# Packager:  John Vogel, jvogel4 at stny dot rr dot com
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net 
 # Depends on:  p5-xml-sax-base p5-xml-namespacesupport
 
 name=p5-xml-sax

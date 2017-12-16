@@ -3,7 +3,7 @@
 # Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Depends on: curl wget jq bc
 
-name='ansiweather'
+name=ansiweather
 version=1.11
 release=1
 
@@ -18,6 +18,6 @@ build()
     install -dm755 "${PKG}/usr/share/man/man1"
     install -m644 ${name}.1 "${PKG}/usr/share/man/man1"
 
-	install -dm755 "${PKG}/usr/share/licenses/${name}"
-	install -m644 LICENSE "${PKG}/usr/share/licenses/${name}/LICENSE"
+    install -dm755 "${PKG}/usr/share/licenses/${name}"
+    install -m644 LICENSE "${PKG}/usr/share/licenses/${name}/LICENSE"
 }

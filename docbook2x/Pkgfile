@@ -1,6 +1,7 @@
 # Description:	Program to convert docbook documents to man pages
 # URL:		http://docbook2x.sourceforge.net
-# Maintainer:	John Vogel, jvogel4 at stny dot rr dot com
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net 
+# Packager:	John Vogel, jvogel4 at stny dot rr dot com
 # Depends on:	docbook-xml docbook-xsl p5-xml-sax
 
 name=docbook2x
