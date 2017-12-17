@@ -1,6 +1,6 @@
 # Description: CD/DVD burning application
 # URL: http://sourceforge.net/projects/gnomebaker/
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Depends on: fltk, libburn, libisoburn
 
 name=flburn
