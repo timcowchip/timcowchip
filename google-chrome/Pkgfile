@@ -1,6 +1,6 @@
 # Description: Google Chrome Browser, developer preview channel for Linux
 # URL: http://googlechromereleases.blogspot.fr/search/label/Stable%20updates
-# Maintainer:  Chris Farrell, timcowchip at gmail dot com 
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net 
 # Depends on: pango xorg-libxcomposite cups atk gtk nss gconf libjpeg-turbo freetype cairo libxslt libpng alsa-lib hicolor-icon-theme xdg-utils xorg-libxscrnsaver
 
 name=google-chrome
