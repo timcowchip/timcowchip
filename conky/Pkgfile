@@ -1,6 +1,6 @@
 # Description: Light-weight system monitor with lua enabled
 # URL:         https://github.com/brndnmtthws/conky
-# Maintainer:  Chris Farrell, timcowchip at gmail dot com 
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net 
 # Depends on:  lua51, cairo, curl, glib, imlib2, xorg-libxdamage, xorg-libxext, xorg-libxft, xorg-libxml2, xorg-libxinerama, docbook2x, docbook-xml
 
 name=conky
