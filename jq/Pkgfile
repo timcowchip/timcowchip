@@ -1,6 +1,6 @@
 # Description: Command-line JSON query parser
 # URL: https://stedolan.github.io/jq/
-# Maintainer: Adrian Siekierka, kontakt at asie dot pl
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Packager: Adrian Siekierka, kontakt at asie dot pl
 # Depends on: bison flex
 
