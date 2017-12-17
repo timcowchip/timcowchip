@@ -1,6 +1,6 @@
 # Description: open source video transcoder
 # URL: http://handbrake.fr/
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Depends on: faad2 fontconfig freetype libass libdvdcss libogg libsamplerate libtheora libvorbis libxml2 opus python yasm x264
 
 name=handbrake
