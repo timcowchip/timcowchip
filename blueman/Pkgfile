@@ -1,6 +1,6 @@
 # Description: GTK+ Bluetooth Manager
 # URL: https://github.com/blueman-project/blueman
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Depends on: cython intltool gtk3 bluez libnotify pycairo dbus-python pygobject-gtk3
 
 name=blueman

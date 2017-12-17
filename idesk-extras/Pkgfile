@@ -1,7 +1,7 @@
 # Description: graphical configuration for idesktop plus icons
 # URL: http://www.jmurray.id.au/idesk-extras.html
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Packager: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Packager: Chris Farrell, timcowchip at gorge dot net
 # Depends on: idesk xdialog
 
 name=idesk-extras

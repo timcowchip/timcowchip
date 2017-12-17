@@ -1,7 +1,7 @@
 # Description: Python bindings to libsensors (via ctypes)
 # URL: https://bitbucket.org/blackjack/pysensors/
-# Packager: Chris Farrell, timcowchip at gmail dot com
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Packager: Chris Farrell, timcowchip at gorge dot net
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Depends on: python python-setuptools
 # Nice to have: lm_sensors hddtemp
 
