@@ -1,6 +1,6 @@
 # Description: Shared GSettings schemas for the desktop
 # URL: http://live.gnome.org/
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Packager: Danny Rawlins, crux at romster dot me
 # Depends on: intltool gobject-introspection
 
