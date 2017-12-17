@@ -1,7 +1,7 @@
 # Description: icons tool for fluxbox, blackbox, openbox, windowmaker...
 # URL: https://sourceforge.net/projects/idesk/
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Packager: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Packager: Chris Farrell, timcowchip at gorge dot net
 # Depends on: pkgconfig imlib2 libpng libxpm libxft
 
 name=idesk
