@@ -7,19 +7,15 @@
 name=obexftp
 version=0.24
 release=2
-source=(https://iweb.dl.sourceforge.net/project/openobex/obexftp/0.24.2/obexftp-0.24.2-Source.tar.gz)
+source=(https://iweb.dl.sourceforge.net/project/openobex/$name/$version/#name-$version-Source.tar.gz)
 
 build () {
 	mkdir build
 	cd build
 
-	cmake ../$name-$version.$release-Source \
+	cmake ../$name-$version-Source \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DENABLE_PERL=NO \
-		-DENABLE_PYTHON=NO \
-		-DENABLE_RUBY=NO \
-		-DENABLE_TCL=NO
 
 	make
 	make DESTDIR=$PKG install
