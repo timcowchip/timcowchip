@@ -1,26 +1,25 @@
 # Description:	CLI tool to transfer files via OBEX 
 # URL:		http://dev.zuckschwerdt.org/openobex/wiki/ObexFtp
-# Packager:	Alan Mizrahi, alan at mizrahi dot com dot ve
-# Maintainer:    Chris Farrell, timcowchip at gorge dot net
-# Depends on:	openobex bluez cmake libiconv asciidoc xmlto fuse swig ruby tk
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	openobex bluez
 
 name=obexftp
 version=0.24
 release=2
-source=(https://iweb.dl.sourceforge.net/project/openobex/obexftp/0.24.2/obexftp-0.24.2-Source.tar.gz)
+source=(http://downloads.sourceforge.net/openobex/$name-$version-Source.tar.gz obexftp.1 obexftpd.1)
 
 build () {
 	mkdir build
 	cd build
 
-	cmake ../$name-$version.$release-Source \
+	cmake ../$name-$version-Source \
 		-DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_SKIP_RPATH=ON \
-		-DENABLE_PERL=YES \
-		-DENABLE_PYTHON=YES \
-		-DENABLE_RUBY=YES \
-		-DENABLE_TCL=YES
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+		# -DENABLE_PERL=YES
+		# -DENABLE_PYTHON=YES
+		# -DENABLE_RUBY=YES
+		# -DENABLE_TCL=YES
 
 	make
 	make DESTDIR=$PKG install
