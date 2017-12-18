@@ -1,0 +1,29 @@
+# Description:	Open source implementation of the OBEX protocol
+# URL:		http://dev.zuckschwerdt.org/openobex/
+# Packager:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Maintainer:    Chris Farrell, timcowchip at gorge dot net
+
+name=openobex
+version=1.7.1
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version-Source.tar.gz)
+
+build() {
+	mkdir build
+	cd build
+	cmake ../$name-$version-Source \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_MANDIR=man
+		
+		#  -DCMAKE_SKIP_RPATH=ON \
+		
+
+	# Replace external XSL with local one
+	if [ -f /usr/share/xml/docbook/xsl-stylesheets/manpages/docbook.xsl ]; then
+		sed -i -e 's|http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl|/usr/share/xml/docbook/xsl-stylesheets/manpages/docbook.xsl|g' doc/CMakeFiles/*/build.make
+	fi
+
+	make all openobex-apps
+	make DESTDIR=$PKG install
+}
