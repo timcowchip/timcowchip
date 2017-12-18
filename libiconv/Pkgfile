@@ -12,9 +12,10 @@ source=(http://ftp.gnu.org/pub/gnu/libiconv/$name-$version.tar.gz)
 
 build () {
 	cd $name-$version
+	sed '/LD_RUN_PATH/d' -i Makefile.in
 	./configure --prefix=/usr \
 		         --disable-nls 
-
+	cp -f /usr/include/stdio.h srclib/stdio.in.h
         make CFLAGS="$CFLAGS"
 	make prefix=$PKG/usr install
 	rm -rf $PKG/usr/share/doc
