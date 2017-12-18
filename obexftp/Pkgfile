@@ -7,7 +7,7 @@
 name=obexftp
 version=0.24
 release=2
-source=(http://downloads.sourceforge.net/openobex/$name-$version-Source.tar.gz obexftp.1 obexftpd.1)
+source=(https://iweb.dl.sourceforge.net/project/openobex/obexftp/0.24.2/obexftp-0.24.2-Source.tar.gz)
 
 build () {
 	mkdir build
