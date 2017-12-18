@@ -1,0 +1,232 @@
+'\" t
+.\"     Title: obexftp
+.\"    Author: [see the "AUTHOR" section]
+.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
+.\"      Date: 11/05/2014
+.\"    Manual: \ \&
+.\"    Source: \ \&
+.\"  Language: English
+.\"
+.TH "OBEXFTP" "1" "11/05/2014" "\ \&" "\ \&"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+obexftp \- Mobile Equipment file transfer tool
+.SH "SYNOPSIS"
+.sp
+\fBobexftp\fR [\fIOPTION\fR] [\fICOMMANDS\fR]
+.SH "DESCRIPTION"
+.sp
+\fBobexftp\fR is used to access files on mobile equipment, i\&.e\&. cell phones\&. With \fBobexftpd\fR you can transfer files between any computers using \fBIrDA\fR, \fBBluetooth\fR and \fBTCP/IP\fR\&.
+.sp
+This tool lets you access the \fBObexFTP\fR library by the means of a command line interface\&. You might consider using the other means available\&. E\&.g\&. the \fBObexFS\fR filesystem for Linux\&.
+.SH "OPTIONS"
+.sp
+The ordering of options is important\&. Every command will use the most recent device set\&. Every file without command switch will apply to the command given most recent\&. See \fBEXAMPLES\fR
+.SS "Transport Options"
+.PP
+\fB\-i\fR, \fB\-\-irda\fR
+.RS 4
+Connect using the IrDA protocol\&. This is the default\&.
+.RE
+.PP
+\fB\-b\fR \fIdevice\fR, \fB\-\-bluetooth\fR \fIdevice\fR
+.RS 4
+Connect to this bluetooth device\&. If the device is not given the first device found will be used\&.
+.RE
+.PP
+\fB\-B\fR \fInumber\fR, \fB\-\-channel\fR \fInumber\fR
+.RS 4
+Use this bluetooth channel when connecting\&. The channel will be discoverd automatically if this option is not used\&.
+.RE
+.PP
+\fB\-d\fR \fIno/address\fR, \fB\-\-hci\fR \fIno/address\fR
+.RS 4
+Use the bluetooth device referenced by number or address as source device for the connection\&.
+.RE
+.PP
+\fB\-u\fR \fIintf no\fR, \fB\-\-usb\fR \fIintf no\fR
+.RS 4
+Connect to this usb interface or list all available usb interfaces\&.
+.RE
+.PP
+\fB\-t\fR \fIdevice\fR, \fB\-\-tty\fR \fIdevice\fR
+.RS 4
+Connect to this tty device\&.
+.RE
+.PP
+\fB\-n\fR \fIhost\fR, \fB\-\-network\fR \fIhost\fR
+.RS 4
+Connect to this network host\&.
+.RE
+.SS "Compatibility Options"
+.PP
+\fB\-U\fR \fIuuid\fR, \fB\-\-uuid\fR \fIuuid\fR
+.RS 4
+Select the UUID to connect with\&. Recognized values are currently "none" needed by some Nokia mobile devices, "FBS" (default) for the normal file browsing service, "IRMC" for IRMC synchronisation and "S45" when connecting to a Siemens Mobile phone via cable or "SHARP" for PCSOFTWARE UUID with Sharp devices\&.
+.RE
+.PP
+\fB\-H\fR, \fB\-\-noconn\fR
+.RS 4
+Suppress connection IDs (i\&.e\&. send no connection header to the mobile)\&.
+.RE
+.PP
+\fB\-S\fR, \fB\-\-nopath\fR
+.RS 4
+Don\(cqt use "setpath" commands (i\&.e\&. send the whole path as filename to the mobile)\&. Can be used together with
+\fB\-\-noconn\fR
+and
+\fB\-\-uuid none\fR
+to send an OBEX\-PUSH\&.
+.RE
+.SS "Setting The File Path"
+.PP
+\fB\-c\fR \fIfolder\fR, \fB\-\-chdir\fR \fIfolder\fR
+.RS 4
+Set the mobiles current working directory\&.
+.RE
+.PP
+\fB\-C\fR \fIfolder\fR, \fB\-\-mkdir\fR \fIfolder\fR
+.RS 4
+Set the mobiles current working directory\&. The folder will be created if it doesn\(cqt exist\&.
+.RE
+.PP
+\fB\-l\fR \fIfolder\fR, \fB\-\-list\fR \fIfolder\fR
+.RS 4
+List a folder\&.
+.RE
+.SS "Sending And Retrieving Files"
+.PP
+\fB\-o\fR \fIpath\fR, \fB\-\-output\fR \fIpath\fR
+.RS 4
+Specify the target file name, overriding the implicit local name from
+\fB\-\-get\fR
+or the implicit remote name from
+\fB\-\-put\fR
+.RE
+.PP
+\fB\-g\fR \fIsource\fR, \fB\-\-get\fR \fIsource\fR
+.RS 4
+Retrieve files from mobile\&.
+.RE
+.PP
+\fB\-G\fR \fIsource\fR, \fB\-\-getdelete\fR \fIsource\fR
+.RS 4
+Retrieve files from mobile and delete them on the mobile
+.RE
+.PP
+\fB\-p\fR \fIsource\fR, \fB\-\-put\fR \fIsource\fR
+.RS 4
+Send files to the mobile\&.
+.RE
+.PP
+\fB\-k\fR \fIsource\fR, \fB\-\-delete\fR \fIsource\fR
+.RS 4
+Delete files from the mobile\&.
+.RE
+.SS "Experimental Extras"
+.PP
+\fB\-X\fR, \fB\-\-capability\fR
+.RS 4
+Retrieve the capability object from the mobile (if available)\&.
+.RE
+.PP
+\fB\-Y\fR, \fB\-\-probe\fR
+.RS 4
+Probe and report device characteristics
+.RE
+.PP
+\fB\-x\fR, \fB\-\-info\fR
+.RS 4
+Retrieve misc infos from mobile\&. I\&.e\&. memory size and free memory\&. Siemens specific for now\&.
+.RE
+.PP
+\fB\-m\fR \fIsrc\fR \fIdest\fR, \fB\-\-move\fR \fIsrc\fR \fIdest\fR
+.RS 4
+Move (rename) files on the mobile\&. Siemens specific for now\&.
+.RE
+.SS "Version Information And Help"
+.PP
+\fB\-v\fR, \fB\-\-verbose\fR
+.RS 4
+Be verbose and give some additional infos\&.
+.RE
+.PP
+\fB\-V\fR, \fB\-\-version\fR
+.RS 4
+Print version string and exit\&.
+.RE
+.PP
+\fB\-h\fR, \fB\-\-help\fR, \fB\-\-usage\fR
+.RS 4
+Print short usage instructions\&.
+.RE
+.SH "EXAMPLES"
+.PP
+To get the directory listing from the first irda device
+.RS 4
+\fBobexftp \-i \-l\fR
+or just
+\fBobexftp \-l\fR
+as IrDA is the default\&.
+.RE
+.PP
+To get the file bar from directory foo from the first bluetooth device
+.RS 4
+\fBobexftp \-b \-c foo \-g bar\fR
+.RE
+.PP
+To send the file bar to directory foo with device on first serial port
+.RS 4
+\fBobexftp \-t /dev/ttyS0 \-c foo \-p bar\fR
+.RE
+.PP
+It is possible to use RfComm (serial port over bluetooth)
+.RS 4
+\fBobexftp \-t /dev/rfcomm0 \-c foo \-p bar\fR
+.RE
+.PP
+And also IrComm (serial port over IrDA)
+.RS 4
+\fBobexftp \-t /dev/ircomm0 \-c foo \-p bar\fR
+.RE
+.PP
+To send the file bar using plain OBEX PUSH
+.RS 4
+\fBobexftp \-\-bluetooth \-\-nopath \-\-noconn \-\-uuid none \-\-put bar\fR
+.RE
+.SH "SEE ALSO"
+.sp
+obexftpd(1), openobex(3), obexftp(3), multicobex(3), libbfb(3)\&.
+.SH "BUGS"
+.sp
+Bugs ? Features !
+.SH "NOTES"
+.sp
+The software has been tested and reported working on at least Siemens, Ericsson, and Nokia phones\&.
+.SH "AUTHOR"
+.sp
+Christian W\&. Zuckschwerdt <\m[blue]\fBzany@triq\&.net\fR\m[]\&\s-2\u[1]\d\s+2>
+.SH "NOTES"
+.IP " 1." 4
+zany@triq.net
+.RS 4
+\%mailto:zany@triq.net
+.RE

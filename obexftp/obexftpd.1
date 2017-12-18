@@ -1,0 +1,112 @@
+'\" t
+.\"     Title: obexftpd
+.\"    Author: [see the "AUTHOR" section]
+.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
+.\"      Date: 11/05/2014
+.\"    Manual: \ \&
+.\"    Source: \ \&
+.\"  Language: English
+.\"
+.TH "OBEXFTPD" "1" "11/05/2014" "\ \&" "\ \&"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+obexftpd \- Mobile Equipment file transfer server
+.SH "SYNOPSIS"
+.sp
+\fBobexftpd\fR [\fIOPTIONS\fR] [\fITRANSPORT\fR]
+.SH "DESCRIPTION"
+.sp
+With \fBobexftpd\fR you can set up an obex server on any computers using \fBIrDA\fR, \fBBluetooth\fR or \fBTCP/IP\fR\&. Use e\&.g\&. \fBobexftp\fR or the \fBObexFS\fR to access the files on this server\&.
+.SH "OPTIONS"
+.sp
+The ordering of options is important\&. The first transport option will start the server\&. Use basedir and verbose options prior to any transport\&. See \fBEXAMPLES\fR
+.SS "Transport Options"
+.PP
+\fB\-i\fR, \fB\-\-irda\fR
+.RS 4
+Acceopt connections using the IrDA protocol\&.
+.RE
+.PP
+\fB\-b\fR, \fB\-\-bluetooth\fR
+.RS 4
+Accept connections via bluetooth\&.
+.RE
+.PP
+\fB\-t\fR \fIdevice\fR, \fB\-\-tty\fR \fIdevice\fR
+.RS 4
+Accept connections from this tty device\&. NOT WORKING!
+.RE
+.PP
+\fB\-n\fR \fIhost\fR, \fB\-\-network\fR \fIhost\fR
+.RS 4
+Accept connections from the network to this port\&.
+.RE
+.SS "Setting The File Path"
+.PP
+\fB\-c\fR \fIfolder\fR, \fB\-\-chdir\fR \fIfolder\fR
+.RS 4
+Set the base directory for the server\&.
+.RE
+.SS "Version Information And Help"
+.PP
+\fB\-v\fR, \fB\-\-verbose\fR
+.RS 4
+Be verbose and give some additional infos\&.
+.RE
+.PP
+\fB\-V\fR, \fB\-\-version\fR
+.RS 4
+Print version string and exit\&.
+.RE
+.PP
+\fB\-h\fR, \fB\-\-help\fR, \fB\-\-usage\fR
+.RS 4
+Print short usage instructions\&.
+.RE
+.SH "EXAMPLES"
+.PP
+Start listening for bluetooth connections and use a safe basedir
+.RS 4
+\fBobexftpd \-c /tmp/inbox \-b\fR
+.RE
+.SH "SEE ALSO"
+.sp
+obexftp(1), openobex(3), obexftp(3), multicobex(3), libbfb(3)\&.
+.SH "BUGS"
+.sp
+Bugs ? Features !
+.SH "NOTES"
+.sp
+The software has been tested and reported working on at least Siemens, Ericsson, and Nokia phones\&.
+.SH "AUTHOR"
+.sp
+Christian W\&. Zuckschwerdt <\m[blue]\fBzany@triq\&.net\fR\m[]\&\s-2\u[1]\d\s+2> Alan Zhang <\m[blue]\fBvibra@tom\&.com\fR\m[]\&\s-2\u[2]\d\s+2>
+.SH "NOTES"
+.IP " 1." 4
+zany@triq.net
+.RS 4
+\%mailto:zany@triq.net
+.RE
+.IP " 2." 4
+vibra@tom.com
+.RS 4
+\%mailto:vibra@tom.com
+.RE
