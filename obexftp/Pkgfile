@@ -15,13 +15,8 @@ build () {
 
 	cmake ../$name-$version-Source \
 		-DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_PREFIX=/usr
-
-		# -DCMAKE_SKIP_RPATH=ON \
-		# -DENABLE_PERL=YES \
-		# -DENABLE_PYTHON=YES \
-		# -DENABLE_RUBY=YES \
-		# -DENABLE_TCL=YES
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_SKIP_RPATH=ON 
 
 	make
 	make DESTDIR=$PKG install
