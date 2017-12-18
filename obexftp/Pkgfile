@@ -2,7 +2,7 @@
 # URL:		http://dev.zuckschwerdt.org/openobex/wiki/ObexFtp
 # Packager:	Alan Mizrahi, alan at mizrahi dot com dot ve
 # Maintainer:    Chris Farrell, timcowchip at gorge dot net
-# Depends on:	openobex bluez cmake asciidoc xmlto fuse swig ruby tk
+# Depends on:	openobex bluez cmake libiconv asciidoc xmlto fuse swig ruby tk
 
 name=obexftp
 version=0.24
@@ -16,7 +16,11 @@ build () {
 	cmake ../$name-$version-Source \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_SKIP_RPATH=ON 
+		-DCMAKE_SKIP_RPATH=ON \
+		-DENABLE_PERL=YES \
+		-DENABLE_PYTHON=YES \
+		-DENABLE_RUBY=YES \
+		-DENABLE_TCL=YES
 
 	make
 	make DESTDIR=$PKG install
