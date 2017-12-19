@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# /etc/rc.d/bluetoothd: start/stop/restart bluetooth daemon
+#
+
+case $1 in
+start)
+	/usr/lib/bluez/bluetooth/bluetoothd &
+	;;
+stop)
+	pkill bluetoothd
+	;;
+restart)
+	$0 stop && sleep 2 && $0 start
+	;;
+*)
+	echo "usage: $0 [start|stop|restart]"
+	;;
+esac
+
+# End of file
