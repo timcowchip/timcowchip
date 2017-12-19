@@ -24,6 +24,7 @@ d:os-prober
 d:libisoburn
 d:psutil
 d:pcmanfm-qt
+d:bluez
 d:lumina
 d:isomaster
 d:libisofs
@@ -128,6 +129,7 @@ f:8f3b9d3cd803f1ff3b83c4aa40108a61:psutil/.footprint
 f:f1bb5c2b7bfa5c09d78a8883f79afc14:psutil/Pkgfile
 f:b415f0092b63ec6239f8a07333ac8b53:psutil/.md5sum
 f:db96b51dcca1c5de6a86f0a5aed3fcd7:pcmanfm-qt/Pkgfile
+f:f8ab9fc3a538ef54d2ab128014b12ecf:bluez/Pkgfile
 f:dd34c5a692e40b22abc8c4c37ac7af56:lumina/.footprint
 f:879b48f73d5e445b50b8932600603b70:lumina/Pkgfile
 f:f33d252d4a0fa5512e2ed0d5fa92ffea:lumina/.md5sum
@@ -162,7 +164,7 @@ f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
 f:f59214bbf0fe64345d1248794aabdceb:numlockx/Pkgfile
 f:ede3ec11dcdf9dd3305633c573aa7c39:numlockx/.md5sum
 f:7524eaffd52e28ccc1797d24f8ddd765:jq/Pkgfile
-f:8ee5376c263d460754c3511d268e7b22:obexftp/Pkgfile
+f:31eb01281f2994acbd9fdfd3e5105417:obexftp/Pkgfile
 f:21805c00d0c2c2456fc11f79969f6ed9:obexftp/obexftpd.1
 f:277c8dc3e418454bf1e0ed6897a8ea6f:obexftp/obexftp.1
 f:113cd21d27d4dbc1a3989f8f5eb3a387:libpeas/Pkgfile
@@ -217,7 +219,7 @@ f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:3a2ae9af23e7961d97afcd48a3b0a44c:libburn/.signature
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
-f:1daa51a396d65857385ae285b00b51b3:libiconv/Pkgfile
+f:fa85f7989c3518c74a15a0b72b4e699c:libiconv/Pkgfile
 f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
 f:2e78219a708d97ff067d545932a97541:fbdesk/Pkgfile
 f:6c0730137cb50185d4c6d88f69553d2d:fbdesk/fbdesk-1.4.1-gcc.patch
