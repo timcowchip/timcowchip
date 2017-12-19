@@ -57,16 +57,16 @@ build() {
 	# install -D -m 755 $SRC/bluetoothd $PKG/etc/rc.d/bluetoothd
 
 	# install config files
-	for i in audio input network serial; do
-		install -D -m 644 $i/$i.conf $PKG/etc/bluetooth/$i.conf
-	done
+	# for i in audio input network serial; do
+	#	install -D -m 644 $i/$i.conf $PKG/etc/bluetooth/$i.conf
+	# done
 
 	# this is because of the /usr/etc CRUX oddity
 	mkdir $PKG/usr/etc
 	mv $PKG/etc/dbus-1 $PKG/usr/etc
 
 	# fix some python scripts
-	sed -ie 's|from gi.repository import GObject|import gobject as GObject|g' \
-		$PKG/usr/bin/bluez-{simple-agent,test-device,test-discovery,test-manager}
-	sed -ie 's|hstest|bluez-hstest|g' $PKG/usr/bin/bluez-hsplay
+	# sed -ie 's|from gi.repository import GObject|import gobject as GObject|g' \
+	#	$PKG/usr/bin/bluez-{simple-agent,test-device,test-discovery,test-manager}
+	# sed -ie 's|hstest|bluez-hstest|g' $PKG/usr/bin/bluez-hsplay
 }
