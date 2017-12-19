@@ -62,7 +62,7 @@ build() {
 	done
 
 	# install config files
-	for i in audio input network; do
+	for i in $SRC/$name-$version/src/audio $SRC/$name-$version/src/input $SRC/$name-$version/src/ network; do
 	install -D -m 644 $i/$i.conf $PKG/etc/bluetooth/$i.conf
 	done
 
