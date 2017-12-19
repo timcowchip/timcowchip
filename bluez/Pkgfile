@@ -62,8 +62,8 @@ build() {
 	# done
 
 	# this is because of the /usr/etc CRUX oddity
-	mkdir $PKG/usr/etc
-	mv $PKG/etc/dbus-1 $PKG/usr/etc
+	# mkdir $PKG/usr/etc
+	# mv $PKG/etc/dbus-1 $PKG/usr/etc
 
 	# fix some python scripts
 	# sed -ie 's|from gi.repository import GObject|import gobject as GObject|g' \
