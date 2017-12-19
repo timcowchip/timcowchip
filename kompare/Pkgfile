@@ -1,0 +1,24 @@
+# Description: Graphical file differences tool
+# URL: https://www.kde.org/applications/development/kompare/
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: kio extra-cmake-modules libkomparediff2 ktexteditor hicolor-icon-theme kdoctools
+
+name=kompare
+version=17.12.0
+release=1
+
+source=("https://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz"{,.sig})
+
+build() {
+  mkdir -p build
+  cd build
+  cmake ../$name-$version \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_TESTING=OFF \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib
+  make
+
+  cd build
+  make DESTDIR="$PKG" install
+}

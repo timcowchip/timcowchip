@@ -1,6 +1,6 @@
 # Description: A gobject-based plugin engine
 # URL: https://wiki.gnome.org/Projects/Libpeas
-# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Packager: Matt Housh, jaeger at morpheus dot net
 # Depends on: intltool gtk3 gtk
 
