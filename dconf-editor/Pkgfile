@@ -1,0 +1,24 @@
+# Description: dconf Editor
+# URL: https://wiki.gnome.org/Projects/dconf
+# Packager: Chris Farrell, timcowchip at gorge dot net
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: dconf
+
+name=dconf-editor
+version=3.27.3
+release=1
+
+source=("https://git.gnome.org/browse/dconf-editor/snapshot/$name-$version.tar.xz")
+
+
+build() {
+  cd $name
+  NOCONFIGURE=1 ./autogen.sh
+
+  ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
+  make
+
+  make DESTDIR="$PKG" install
+}
+
+# vim:set ts=2 sw=2 et:
