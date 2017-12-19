@@ -19,6 +19,5 @@ build() {
     -DCMAKE_INSTALL_LIBDIR=lib
   make
 
-  cd build
   make DESTDIR="$PKG" install
 }
