@@ -6,9 +6,9 @@
 # Optional:	pygobject dbus-python sox gst-plugins-base-compat
 
 name=bluez
-version=5.36
+version=5.47
 release=1
-source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz)
+source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz \ bluetoothd)
 
 build() {
 	cd $name-$version
