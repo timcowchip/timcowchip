@@ -5,7 +5,7 @@
 # Depends on: dconf
 
 name=dconf-editor
-version=3.27.3
+version=3.26.2
 release=1
 
 source=("https://git.gnome.org/browse/dconf-editor/snapshot/$name-$version.tar.xz")
