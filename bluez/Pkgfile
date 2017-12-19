@@ -36,7 +36,13 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
-
+	
+	ln -svf ../libexec/bluetooth/bluetoothd /usr/sbin
+	
+	install -v -dm755 /etc/bluetooth
+	
+	install -v -m644 src/main.conf /etc/bluetooth/main.conf
+	
 	# install all available tools and test programs with man pages
 	shopt -s nullglob
 	for i in test/* tools/*; do
