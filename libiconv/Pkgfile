@@ -20,12 +20,4 @@ build () {
 	make prefix=$PKG/usr install
 	rm -rf $PKG/usr/share/doc
         make DESTDIR="$PKG" LIBDIR="/usr/lib" install
-	mv "$PKG"/usr/include/{iconv.h,libiconv.h}
-	mv "$PKG"/usr/bin/{iconv,libiconv}
-	mv "$PKG"/usr/share/man/man1/{,lib}iconv.1
-	mv "$PKG"/usr/share/man/man3/{,libiconv_}iconv.3
-	mv "$PKG"/usr/share/man/man3/{,libiconv_}iconvctl.3
-	mv "$PKG"/usr/share/man/man3/{,libiconv_}iconv_open.3
-	mv "$PKG"/usr/share/man/man3/{,libiconv_}iconv_close.3
-	mv "$PKG"/usr/share/man/man3/{,libiconv_}iconv_open_into.3
 }
