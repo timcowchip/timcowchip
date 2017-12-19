@@ -13,11 +13,10 @@ source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 
-	./configure \
-		./configure --prefix=/usr         \
-		--sysconfdir=/etc     \
-		--localstatedir=/var  \
-		--enable-library      \
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--enable-library \
 		--disable-systemd \
 		--localstatedir=/var \
 		--libexecdir=/lib \
