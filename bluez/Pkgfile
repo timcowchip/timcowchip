@@ -39,9 +39,11 @@ build() {
 	
 	ln -svf ../libexec/bluetooth/bluetoothd /usr/sbin
 	
+	install -D -m 755 $SRC/$name-$version/src/bluetoothd $PKG/etc/rc.d/bluetoothd
+	
 	install -v -dm755 /etc/bluetooth
 	
-	install -v -m644 src/main.conf /etc/bluetooth/main.conf
+	install -v -m644 $SRC/main.conf /etc/bluetooth/main.conf
 	
 	# install all available tools and test programs with man pages
 	shopt -s nullglob
