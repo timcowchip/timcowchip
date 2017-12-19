@@ -1,6 +1,6 @@
 # Description:	Bluetooth libraries and utilities
 # URL:		http://www.bluez.org/
-# Packager:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Packager:	Matt Housh, jaeger at morpheus dot net
 # Maintainer:    Chris Farrell, timcowchip at gmail dot com
 # Depends on:	dbus alsa-lib libusb-compat glib
 # Optional:	pygobject dbus-python sox gst-plugins-base-compat
@@ -21,5 +21,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	install -D -m 0755 $SRC/bluetoothd $PKG/etc/rc.d/bluetoothd
+	install -D -m 0755 $SRC/$name-$version/src/bluetoothd $PKG/etc/rc.d/bluetoothd
 }
