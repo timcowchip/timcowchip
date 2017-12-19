@@ -54,7 +54,7 @@ build() {
 	done
 
 	# install init script
-	install -D -m 755 $SRC/bluetoothd $PKG/etc/rc.d/bluetoothd
+	# install -D -m 755 $SRC/bluetoothd $PKG/etc/rc.d/bluetoothd
 
 	# install config files
 	for i in audio input network serial; do
