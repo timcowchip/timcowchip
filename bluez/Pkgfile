@@ -13,9 +13,6 @@ source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 
-	# Fix bluetooth.h to compile in strict C
-	patch -p1 -i $SRC/'bluetooth.h?id=cf52a40302d0d20ccca22a7a1f53e46ef8abfca8'
-
 	./configure \
 		./configure --prefix=/usr         \
 		--sysconfdir=/etc     \
