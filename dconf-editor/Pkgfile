@@ -16,7 +16,7 @@ build() {
   
   NOCONFIGURE=1 ./autogen.sh
   
-  patch -p0 -i "${SRC}/Makefile.patch"
+  patch -p1 -i "${SRC}/Makefile.patch"
   
   ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
   make
