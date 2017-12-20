@@ -35,13 +35,16 @@ d:conky
 d:sbc
 d:pavucontrol-qt
 d:pavucontrol
+d:dconf-editor
 d:qterminal
+d:kompare
 d:idesk
 d:tilda
 d:numlockx
 d:jq
 d:obexftp
 d:libpeas
+d:libkomparediff2
 d:udevil
 d:libdaemon
 d:spacefm
@@ -49,6 +52,7 @@ d:podcastparser
 d:blueman
 d:tea
 d:xdialog
+d:dconf
 d:wmfs2
 d:docbook2x
 d:ansiweather
@@ -129,7 +133,8 @@ f:8f3b9d3cd803f1ff3b83c4aa40108a61:psutil/.footprint
 f:f1bb5c2b7bfa5c09d78a8883f79afc14:psutil/Pkgfile
 f:b415f0092b63ec6239f8a07333ac8b53:psutil/.md5sum
 f:db96b51dcca1c5de6a86f0a5aed3fcd7:pcmanfm-qt/Pkgfile
-f:f8ab9fc3a538ef54d2ab128014b12ecf:bluez/Pkgfile
+f:8fc7e63b7ee38c6820b72de5e90b2118:bluez/Pkgfile
+f:f9d2cc3d34c74f6ea60685735a852508:bluez/bluetoothd
 f:dd34c5a692e40b22abc8c4c37ac7af56:lumina/.footprint
 f:879b48f73d5e445b50b8932600603b70:lumina/Pkgfile
 f:f33d252d4a0fa5512e2ed0d5fa92ffea:lumina/.md5sum
@@ -154,7 +159,10 @@ f:5759f7a9b23f34cf776c426102ed66b8:conky/.md5sum
 f:d033da4039fbf98857bd9869e42e79cb:sbc/Pkgfile
 f:442aa1db278fbb3450565cbef8e59ab5:pavucontrol-qt/Pkgfile
 f:911d4cbe330bfeec6cfe2bcbebe2650c:pavucontrol/Pkgfile
+f:41cc8669be47a4d3c59e4044ee2056ee:dconf-editor/Pkgfile
+f:7ac9a0fd47aa8f85a658cc2bbcf137ea:dconf-editor/Makefile.patch
 f:62623367888e3a49725797c605296815:qterminal/Pkgfile
+f:640e07dfce8307d1e382cc8cf0f9c7bc:kompare/Pkgfile
 f:f542310d0bed26dbe1589689514714dd:idesk/Pkgfile
 f:e883ea6163e32ab29299571d176e13b5:tilda/.footprint
 f:306754a4532296293ceeecb7d9366bb4:tilda/Pkgfile
@@ -164,10 +172,11 @@ f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
 f:f59214bbf0fe64345d1248794aabdceb:numlockx/Pkgfile
 f:ede3ec11dcdf9dd3305633c573aa7c39:numlockx/.md5sum
 f:7524eaffd52e28ccc1797d24f8ddd765:jq/Pkgfile
-f:31eb01281f2994acbd9fdfd3e5105417:obexftp/Pkgfile
+f:c10ee4bfb9dc77b004d5e3ddbc9c016e:obexftp/Pkgfile
 f:21805c00d0c2c2456fc11f79969f6ed9:obexftp/obexftpd.1
 f:277c8dc3e418454bf1e0ed6897a8ea6f:obexftp/obexftp.1
-f:113cd21d27d4dbc1a3989f8f5eb3a387:libpeas/Pkgfile
+f:791c22dbca2d420713150c4e00f11a49:libpeas/Pkgfile
+f:038d79c9f9673b45bee9bcd809955de8:libkomparediff2/Pkgfile
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:c610b33f52f7554171c5c90411835260:udevil/.md5sum
@@ -186,6 +195,7 @@ f:2da0593213712c2bcb925a476f3c00c9:blueman/.md5sum
 f:7c097d2ea6c84322d97a76b62350df9d:tea/Pkgfile
 f:377ace3363124f4c086de0babb820761:tea/tea.desktop
 f:e9688425401726b2715b1e84d06cc730:xdialog/Pkgfile
+f:20a3e2cef93ab61cf709527fd0a57c01:dconf/Pkgfile
 f:00277e424fe7d4cddc3e5fef0421af3a:wmfs2/.footprint
 f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wmfs2/.md5sum
