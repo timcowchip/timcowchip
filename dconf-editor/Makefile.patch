@@ -1,5 +1,5 @@
---- src/dconf-editor-3.26.2/editor/Makefile	2017-12-19 14:51:15.996599600 -0800
-+++ src/dconf-editor-3.26.2/editor/Makefile	2017-12-19 14:38:30.696615392 -0800
+--- src/dconf-editor-3.26.2/editor/Makefile.in	2017-12-19 14:51:15.996599600 -0800
++++ src/dconf-editor-3.26.2/editor/Makefile.in	2017-12-19 14:38:30.696615392 -0800
 @@ -1102,7 +1102,7 @@
  	            echo 'Exec=${bindir}/dconf-editor --gapplication-service') > $@.tmp && \
  	           mv $@.tmp $@
