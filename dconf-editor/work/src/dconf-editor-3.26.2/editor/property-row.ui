@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <template class="PropertyRow" parent="GtkListBoxRow">
+    <property name="visible">True</property>
+    <child>
+      <object class="GtkGrid" id="grid">
+        <property name="visible">True</property>
+        <property name="halign">center</property>
+        <property name="width-request">700</property>
+        <property name="orientation">horizontal</property>
+        <child>
+          <object class="GtkLabel" id="name_label">
+            <property name="visible">True</property>
+            <property name="valign">start</property>
+            <property name="vexpand">true</property>
+            <property name="xalign">1</property>
+            <property name="yalign">0</property>
+            <style>
+              <class name="greyed-label"/>
+            </style>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

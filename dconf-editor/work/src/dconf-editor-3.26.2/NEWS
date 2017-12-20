@@ -1,0 +1,433 @@
+dconf-editor 3.26.2
+=====================
+
+This stable release mainly contains a small correction of C generated code, that
+has been also backported in other branches. Also, some translations are updated.
+
+Translations updated:
+  Catalan (Valencian): Xavi Ivars
+  French: Charles Monzat
+  Friulian: Fabio Tomat
+  Indonesian: Kukuh Syafaat
+  Italian: Milo Casagrande
+  Lithuanian: Aurimas Černius
+  Nepali: Pawan Chitrakar
+  Brazilian Portuguese: Fábio Nogueira
+  Slovenian: Matej Urbančič
+
+dconf-editor 3.26.1
+=====================
+
+Long time since last release, with some little but interesting changes, and many
+translations updates. First, there is now a toggle on boolean rows for switching
+faster the key value. In the same spirit, integer keys that only accepts a small
+range of values now can be directly changed, from the right-click popover. There
+is also a shortcut for reseting a key to its default value.
+
+Translations updated:
+  Basque: Inaki Larranaga Murgoitio
+  Catalan: Jordi Mas
+  Chinese (China): Mandy Wang
+  Chinese (Taiwan): Chao-Hsiung Liao
+  Czech: Marek Černocký
+  Danish: Ask Hjorth Larsen
+  Dutch: hanniedu
+  Esperanto: Kristjan Schmidt
+  Finnish: Jiri Grönroos
+  French: Claude Paroz
+  Friulian: Fabio Tomat
+  Galician: Fran Dieguez
+  German: Mario Blättermann
+  Hungarian: Balázs Meskó and Gábor Kelemen
+  Indonesian: Andika Triwidada
+  Italian: Milo Casagrande
+  Kazakh: Baurzhan Muftakhidinov
+  Korean: Changwoo Ryu
+  Latvian: Rūdolfs Mazurs
+  Lithuanian: Aurimas Černius
+  Malayalam: Anish Sheela and Nidarsh Raj
+  Nepali: Pawan Chitrakar (new)
+  Norwegian bokmål: Kjartan Maraas
+  Occitan: Cédric Valmary
+  Polish: Piotr Drąg
+  Brazilian Portuguese: Rafael Fontenelle
+  Portuguese: Robert Roth
+  Serbian: Мирослав Николић
+  Slovak: Dušan Kazik
+  Slovenian: Matej Urbančič
+  Spanish: Daniel Mustieles
+  Swedish: Anders Jonsson
+  Turkish: Osman Karagöz
+
+dconf-editor 3.23.4
+=====================
+
+The bigger change is the switch to modern Gettext for translations of XML files,
+in place of the deprecated Intltool. That came with a cleaning of Autotools code
+–let’s hope I didn't break things here or there. Also, Unicode is now used where
+needed in every translatable english string. There're some small changes in keys
+description presentation, but more to come on the topic in this cycle.
+
+Translations (which content has been) updated:
+  Czech: Marek Černocký
+  Friulian: Fabio Tomat
+  Hungarian: Gábor Kelemen
+  Kazakh: Baurzhan Muftakhidinov
+  Norwegian bokmål: Kjartan Maraas
+  Polish: Piotr Drąg
+  Brazilian Portuguese: Rafael Fontenelle
+  Spanish: Daniel Mustieles
+
+dconf-editor 3.22.3
+=====================
+
+Little code changes, that's probably the last release of the gnome-3-22 branch.
+
+Translations updated:
+  Italian: Gianvito Cavasoli
+  Norwegian bokmål: Kjartan Maraas
+  Slovak: Peter Mráz
+  Tajik: Victor Ibragimov
+
+dconf-editor 3.22.1
+=====================
+
+Appdata installation has been fixed, and the theming support has been improved.
+
+Translations updated:
+  Slovak: Dušan Kazik
+
+dconf-editor 3.22.0
+=====================
+
+The appdata file validation has been changed to work without hacks (but... isn't
+that a hack?). Hopefully, all should be good now for a new great stable release!
+
+Translations updated:
+  Basque: Inaki Larranaga Murgoitio
+  Danish: Kenneth Nielsen
+  Polish: Piotr Drąg
+  Swedish: Anders Jonsson
+
+dconf-editor 3.21.92
+=====================
+
+The keyboard navigation has been improved, and various a11y and i18n bugs have
+been fixed. Also, dconf-editor should now be able to compile with the valac flag
+--enable-experimental-non-null, reducing the number of potential code errors.
+
+Translations updated:
+  Catalan: Jordi Mas
+  Czech: Marek Černocký
+  British English: David King
+  Finnish: Jiri Grönroos
+  French: Charles Monzat
+  Friulian: Fabio Tomat
+  Galician: Fran Dieguez
+  German: Mario Blättermann
+  Hebrew: Yosef Or Boczko
+  Hungarian: Balázs Úr
+  Indonesian: Andika Triwidada
+  Kazakh: Baurzhan Muftakhidinov
+  Korean: Changwoo Ryu
+  Latvian: Rūdolfs Mazurs
+  Lithuanian: Aurimas Černius
+  Polish: Piotr Drąg
+  Brazilian Portuguese: Gabriel Speckhahn
+  Serbian: Мирослав Николић
+  Spanish: Daniel Mustieles
+
+dconf-editor 3.21.90
+=====================
+
+Mainly polished the new UI, including improving keyboard navigation and updating
+some metadatas. Looks quite good for an exciting new stable release, but please,
+test! :)
+
+Translations updated:
+  British English: David King
+  Czech: Marek Černocký
+  Friulian: Fabio Tomat
+  Hebrew: Yosef Or Boczko
+  Lithuanian: Aurimas Černius
+  Portuguese: Tiago Santos
+  Slovak: Dušan Kazik
+  Spanish: Daniel Mustieles
+
+dconf-editor 3.21.4
+=====================
+
+The UI has completely evolved, into an all-in-one-window. That permits notably a
+"delay mode" in which multiple changes are applied at the same time (only schema
+by schema when there're some, and other keys via a DConfChangeset). Keys without
+schema can also be deleted now.
+
+Translations updated:
+  Indonesian: Andika Triwidada
+  Occitan: Cédric Valmary
+  Portuguese: Sérgio Cardeira and Tiago Santos
+  Spanish: Daniel Mustieles
+  Turkish: Muhammet Kara
+
+dconf-editor 3.21.1
+=====================
+
+Some nullable variables are more correctly checked.
+
+dconf-editor 3.20.2
+=====================
+
+The english wording of the welcome dialog has (again) been improved, and a bug
+appearing when closing the application with the app-menu has been corrected.
+
+Translations updated:
+  Polish: Piotr Drąg
+  Swedish: Anders Jonsson
+
+dconf-editor 3.20.1
+=====================
+
+An english typo has been corrected in the welcome dialog, and translations files
+have been updated accordingly.
+
+Translations updated:
+  Esperanto: Kristjan Schmidt
+  Finnish: Jiri Grönroos
+  Greek: Tom Tryfonidis
+
+dconf-editor 3.20.0
+=====================
+
+All is looking good in this new 3.20 stable release with so many great changes!
+Let’s hope everybody will like this new UI, clearer and more accessible.
+
+Translations updated:
+  Danish: Ask Hjorth Larsen
+  Greek: Tom Tryfonidis
+  Italian: Milo Casagrande
+  Swedish: Sebastian Rasmussen
+  Turkish: Muhammet Kara
+
+dconf-editor 3.19.92
+=====================
+
+Some problems have appeared related to the sizing of the key-editor dialogs, and
+will need more testing with a clean Gtk+ release, even if all looks corrected.
+An infinite loop has also be spotted when trying to reset all keys of a folder
+containing keys without schema. Also, a CSS resource with one rule only has been
+added to look better when using the “Big Text” accessibility feature.
+
+Translations updated:
+  Catalan: Jordi Mas
+  Czech: Marek Černocký
+  Finnish: Jiri Grönroos
+  French: Claude Paroz
+  Hebrew: Yosef Or Boczko
+  Kazakh: Baurzhan Muftakhidinov
+  Korean: Changwoo Ryu
+  Latvian: Rūdolfs Mazurs
+  Lithuanian: Aurimas Černius
+  Slovak: Dušan Kazik
+
+dconf-editor 3.19.91
+=====================
+
+Only one code change for this second beta release: the presentation of a key’s
+“default value” now takes care of distributor and admin overrides, instead of
+showing the default value proposed in the gschema. Ideally, we should show the
+two informations, but this one is more logical to present with the current UI.
+
+Translations updated:
+ Brazilian Portuguese: Rafael Fontenelle
+ Catalan: Jordi Mas
+ Chinese (Taiwan): Chao-Hsiung Liao
+ Galician: Fran Dieguez
+ German: Mario Blättermann
+ Hungarian: Gábor Kelemen
+ Occitan: Cédric Valmary
+ Polish: Piotr Drąg
+ Serbian: Мирослав Николић
+ Spanish: Daniel Mustieles
+
+dconf-editor 3.19.90
+=====================
+
+This release has seen some improvements to the keyboard usability, with some new
+shortcuts added, and an help overlay to document them (requiring a GTK+ 3.19 at
+least). Other changes include some more metadata in the AppData file (used by
+software centers to know about the application), and minor corrections caused by
+recent GTK+ changes.
+
+Translations updated:
+ Brazilian Portuguese (Fábio Nogueira and Rafael Fontenelle)
+ Chinese (Taiwan) (Chao-Hsiung Liao)
+ Czech (Marek Černocký)
+ German (Mario Blättermann)
+ Hungarian (Balázs Meskó)
+ Latvian (Rūdolfs Mazurs)
+ Lithuanian (Aurimas Černius)
+ Norwegian bokmål (Kjartan Maraas)
+ Polish (Piotr Drąg)
+ Serbian (Мирослав Николић)
+ Slovak (Dušan Kazik)
+
+dconf-editor 3.19.3
+=====================
+
+Added a notification for the multiple “copy” actions, and a new menu for actions
+on the view (notably a “reset visible keys” action – no recursion for now).
+
+Translations updated:
+ Portuguese (Pedro Albuquerque)
+ Spanish (Daniel Mustieles)
+ Slovak (Dušan Kazik)
+ Kazakh (Baurzhan Muftakhidinov)
+
+dconf-editor 3.19.2
+=====================
+
+Removed an unnecessary big hack, and improved some other little things here and
+there. A new Occitan translation, and some translations updates –many thanks to
+all people who helped– as the new UI has more strings.
+
+Translations updated:
+ Spanish (Daniel Mustieles)
+ Norwegian bokmål (Kjartan Maraas)
+ Romanian (Kalev Lember)
+ Occitan (Cédric Valmary; new translation)
+ Hungarian (Balázs Meskó)
+ Portuguese (Pedro Albuquerque)
+
+dconf-editor 3.19.1
+=====================
+
+Many big changes. First, dconf-editor is now distributed under GPL 3. Secondly,
+it now uses GSettingsSchema to access schemas informations, and GSettings to
+edit settings when that’s possible. Thirdly, the UI of the keys list has been
+updated to use a GtkListBox, more accessible, more usable, cleaner. And many
+other things already done (and more to come).
+
+Translations updated:
+ Finnish (Jiri Grönroos)
+ Czech (Marek Černocký)
+ Romanian (Daniel Șerbănescu)
+ Galician (Fran Dieguez)
+
+dconf-editor 3.18.0
+=====================
+
+Neither change nor new critical bug since the last beta, so here comes 3.18.0.
+This cycle has seen some UI and code cleaning, requiring Gtk+ 3.14 notably, but
+without real technical evolution (planed for next stable release).
+
+Thanks to all people who helped coding and translating this project.
+
+dconf-editor 3.17.92
+=====================
+
+Translation updated:
+ Persian
+
+dconf-editor 3.17.91
+=====================
+
+The output of --version is now printed on stdout, as suggested by GNU. That's the only technical change, all looks good.
+
+Translations updated:
+ Polish
+ Chinese (Taiwan)
+
+dconf-editor 3.17.90
+=====================
+
+No big technical change for the beta, just some preparations for the next cycle.
+
+Translations updated:
+ Swedish
+ Portuguese
+
+dconf-editor 3.17.1
+=====================
+
+Beginning of cleaning, both of the code (UI template, GResource…) and of the UI
+(unnecessary shadows removed, widgets' margins, minimum width of the panel…).
+Gtk+ 3.14 is now required, with also a recent Valac.
+
+dconf-editor 3.16.1
+=====================
+
+Little update that adds a symbolic icon, displayed in GNOME Shell's top-bar and
+when using the high contrast theme.
+
+Translations updated:
+ Latvian
+ Icelandic
+ Norwegian (bokmål)
+
+dconf-editor 3.16.0
+=====================
+
+First stable release of dconf-editor as a standalone module! Since the Release
+Candidate, there has only been translations updates.
+
+Translations updated:
+ Chinese (Taiwan)
+ Indonesian
+ Aragonese
+ Thai
+ Danish
+ Basque
+ Turkish
+ Japanese
+
+dconf-editor 3.15.92
+=====================
+
+The main correction since 3.15.91 is the add back of the manpage, forgotten
+during the split. Because of that, dconf 0.23.2 is now explicitely required.
+The AppData file also validates again.
+
+Translations updated:
+ Serbian
+ German
+ Italian
+ Korean
+ Ukrainian
+ Swedish
+ Bulgarian
+ Bosnian (new!)
+ Vietnamese
+
+dconf-editor 3.15.91
+=====================
+
+This is the first release of standalone dconf-editor.
+
+Since the release of dconf 0.22.0 (which contained dconf-editor) there have
+been only minor changes to the editor.
+
+Translations updated:
+ Brazilian Portuguese
+ Czech
+ French
+ Galicians
+ Greek
+ Hebrew
+ Hindi
+ Hungarian
+ Icelandic
+ Italian
+ Kazakh
+ Kazakh
+ Lithuanian
+ Polish
+ Punjabi
+ Russian
+ Simplified Chinese
+ Slovak
+ Slovak
+ Slovenian
+ Spanish
+ Thai
+ Turkish
+ Vietnamese

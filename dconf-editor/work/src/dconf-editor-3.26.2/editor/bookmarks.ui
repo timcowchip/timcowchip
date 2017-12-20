@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkPopover" id="bookmarks_popover">
+    <property name="width-request">350</property>
+    <property name="height-request">300</property>
+    <style>
+      <class name="bookmarks"/>
+    </style>
+    <child>
+      <object class="GtkGrid">
+        <property name="visible">True</property>
+        <property name="column-spacing">12</property>
+        <property name="row-spacing">6</property>
+        <property name="margin">4</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">Bookmark this Location</property>
+            <property name="margin-start">6</property>
+            <property name="halign">start</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkSwitch" id="bookmarked_switch">
+            <property name="visible">True</property>
+            <property name="halign">end</property>
+            <child internal-child="accessible">
+              <object class="AtkObject">
+                <property name="AtkObject::accessible-name" translatable="yes">Location bookmarked</property>
+                <property name="AtkObject::accessible-description" translatable="yes">Toggle to bookmark this location</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow">
+            <property name="visible">True</property>
+            <property name="expand">True</property>
+            <property name="window-placement">top-right</property>
+            <property name="hscrollbar-policy">never</property>
+            <property name="shadow-type">etched-in</property>
+            <property name="max-content-height">300</property>
+            <property name="propagate-natural-width">True</property>
+            <property name="propagate-natural-height">True</property>
+            <child>
+              <object class="GtkListBox" id="bookmarks_list_box">
+                <property name="visible">True</property>
+                <property name="activate-on-single-click">True</property>
+                <signal name="row-activated" handler="bookmark_activated_cb"/>
+                <child type="placeholder">
+                  <object class="GtkGrid">
+                    <property name="visible">True</property>
+                    <property name="row-spacing">12</property>
+                    <property name="expand">True</property>
+                    <property name="halign">center</property>
+                    <property name="valign">center</property>
+                    <property name="orientation">vertical</property>
+                    <style>
+                      <class name="dim-label"/>
+                    </style>
+                    <child>
+                      <object class="GtkImage">
+                        <property name="visible">True</property>
+                        <property name="icon-name">starred-symbolic</property> <!-- or starred-symbolic? or dconf-editor-symbolic? -->
+                        <property name="pixel-size">36</property>
+                        <style>
+                          <class name="dim-label"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="visible">True</property>
+                        <property name="justify">center</property>
+                        <property name="label" translatable="yes">Bookmarks will
+be added here</property> <!-- line wrap wanted -->
+                        <attributes>
+                          <attribute name="weight" value="bold"/>
+                        </attributes>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">1</property>
+            <property name="width">2</property>
+            <property name="height">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <template class="Bookmarks" parent="GtkMenuButton">
+    <property name="popover">bookmarks_popover</property>
+<!--    <style>
+      <class name="image-button"/>  TODO bug https://bugzilla.gnome.org/show_bug.cgi?id=756731
+    </style> -->
+    <child internal-child="accessible">
+      <object class="AtkObject">
+        <property name="AtkObject::accessible-name" translatable="yes">Bookmarks</property>
+        <property name="AtkObject::accessible-description" translatable="yes">Manage your bookmarks</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkImage" id="bookmarks_icon">
+        <property name="visible">True</property>
+        <property name="icon-name">non-starred-symbolic</property>
+        <property name="icon-size">1</property>
+      </object>
+    </child>
+  </template>
+</interface>

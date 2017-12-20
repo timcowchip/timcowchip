@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <template class="DConfWindow" parent="GtkApplicationWindow">
+    <property name="visible">False</property>
+    <property name="title" translatable="yes">dconf Editor</property>
+    <property name="height-request">550</property>
+    <property name="width-request">770</property>
+    <signal name="show" handler="on_show"/>
+    <signal name="key-press-event" handler="on_key_press_event"/>
+    <signal name="window-state-event" handler="on_window_state_event"/>
+    <signal name="size-allocate" handler="on_size_allocate"/>
+    <signal name="destroy" handler="on_destroy"/>
+    <style>
+      <class name="dconf-editor"/>
+    </style>
+    <child type="titlebar">
+      <object class="GtkHeaderBar">
+        <property name="visible">True</property>
+        <property name="show-close-button">True</property>
+        <property name="has-subtitle">False</property>
+        <child>
+          <object class="PathBar" id="pathbar">
+            <property name="visible">True</property>
+            <property name="valign">center</property>
+            <signal name="request_path" handler="request_path"/>
+          </object>
+          <packing>
+            <property name="pack-type">start</property>
+          </packing>
+        </child>
+        <child type="title">
+          <object class="GtkBox">
+            <property name="visible">False</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkMenuButton" id="info_button">
+            <property name="visible">True</property>
+            <property name="valign">center</property>
+            <property name="focus-on-click">False</property>
+            <accelerator key="F10" signal="clicked"/>
+            <signal name="clicked" handler="on_menu_button_clicked"/>
+            <style>
+              <class name="image-button"/>
+            </style>
+            <child internal-child="accessible">
+              <object class="AtkObject">
+                <property name="AtkObject::accessible-name" translatable="yes">Actions</property> <!-- TODO 1/3 Informations -->
+                <property name="AtkObject::accessible-description" translatable="yes">Current view actions</property> <!-- TODO 2/3 About the current view -->
+              </object>
+            </child>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="icon-name">open-menu-symbolic</property> <!-- TODO 3/3 dialog-information-symbolic -->
+                <property name="icon-size">1</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="pack-type">end</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkToggleButton">
+            <property name="visible">True</property>
+            <property name="valign">center</property>
+            <!-- TODO <property name="focus-on-click">False</property> does not work here because of explicit focus grab -->
+            <property name="active" bind-source="registry_view" bind-property="show-search-bar" bind-flags="bidirectional|sync-create"/>
+            <!-- <accelerator key="F" signal="toggled" modifiers="GDK_CONTROL_MASK"/> TODO -->
+            <style>
+              <class name="image-button"/>
+            </style>
+            <child internal-child="accessible">
+              <object class="AtkObject">
+                <property name="AtkObject::accessible-name" translatable="yes">Search</property>
+                <property name="AtkObject::accessible-description" translatable="yes">Search keys</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="icon-name">edit-find-symbolic</property>
+                <property name="icon-size">1</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="pack-type">end</property>
+          </packing>
+        </child>
+        <child>
+          <object class="Bookmarks" id="bookmarks_button">
+            <property name="visible">True</property>
+            <property name="valign">center</property>
+            <property name="focus-on-click">False</property>
+            <property name="schema-id">ca.desrt.dconf-editor.Settings</property>
+            <signal name="clicked" handler="on_menu_button_clicked"/>
+            <signal name="request_path" handler="request_path"/>
+            <!-- <accelerator key="B" signal="activate" modifiers="GDK_CONTROL_MASK"/> TODO -->
+            <style>
+              <class name="image-button"/> <!-- TODO https://bugzilla.gnome.org/show_bug.cgi?id=756731 -->
+            </style>
+          </object>
+          <packing>
+            <property name="pack-type">end</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkOverlay">
+        <property name="visible">True</property>
+        <child>
+          <object class="RegistryView" id="registry_view">
+            <property name="visible">True</property>
+            <signal name="request_path" handler="request_path"/>
+          </object>
+        </child>
+        <child type="overlay">
+          <object class="GtkRevealer" id="notification_revealer">
+            <property name="visible">True</property>
+            <property name="halign">center</property>
+            <property name="valign">start</property>
+            <child>
+              <object class="GtkFrame">
+                <property name="visible">True</property>
+                <style>
+                  <class name="app-notification"/>
+                </style>
+                <child>
+                  <object class="GtkGrid">
+                    <property name="visible">True</property>
+                    <property name="column-spacing">20</property>
+                    <child>
+                      <object class="GtkLabel" id="notification_label">
+                        <property name="visible">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton">
+                        <property name="visible">True</property>
+                        <property name="focus-on-click">False</property>
+                        <property name="relief">none</property>
+                        <style>
+                          <class name="image-button"/>
+                        </style>
+                        <signal name="clicked" handler="hide_notification"/>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="visible">True</property>
+                            <property name="icon-name">window-close-symbolic</property>
+                            <property name="icon-size">1</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

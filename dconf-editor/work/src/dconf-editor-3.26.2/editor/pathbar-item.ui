@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <template class="PathBarItem" parent="GtkButton">
+    <property name="focus-on-click">False</property>
+    <property name="action-name">win.open-path</property>
+    <child>
+      <object class="GtkLabel" id="text_label">
+        <property name="visible">True</property>
+        <property name="ellipsize">middle</property>
+        <style>
+          <class name="item"/>
+        </style>
+      </object>
+    </child>
+  </template>
+</interface>

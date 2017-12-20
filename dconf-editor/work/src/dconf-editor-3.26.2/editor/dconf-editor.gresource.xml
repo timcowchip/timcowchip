@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/ca/desrt/dconf-editor/ui">
+    <file preprocess="xml-stripblanks">bookmark.ui</file>
+    <file preprocess="xml-stripblanks">bookmarks.ui</file>
+    <file>dconf-editor.css</file>
+    <file preprocess="xml-stripblanks">dconf-editor.ui</file>
+    <file preprocess="xml-stripblanks">folder-list-box-row.ui</file>
+    <file preprocess="xml-stripblanks">key-list-box-row.ui</file>
+    <file preprocess="xml-stripblanks">modifications-revealer.ui</file>
+    <file preprocess="xml-stripblanks">pathbar.ui</file>
+    <file preprocess="xml-stripblanks">pathbar-item.ui</file>
+    <file preprocess="xml-stripblanks">property-row.ui</file>
+    <file preprocess="xml-stripblanks">registry-info.ui</file>
+    <file preprocess="xml-stripblanks">registry-view.ui</file>
+  </gresource>
+  <gresource prefix="/ca/desrt/dconf-editor/gtk">
+    <file preprocess="xml-stripblanks" alias="menus.ui">dconf-editor-menu.ui</file>
+    <file preprocess="xml-stripblanks">help-overlay.ui</file>
+  </gresource>
+</gresources>

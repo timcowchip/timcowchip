@@ -1,0 +1,33 @@
+.\" This file is part of Dconf Editor
+.\"
+.\" Dconf Editor is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" Dconf Editor is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with Dconf Editor.  If not, see <http://www.gnu.org/licenses/>.
+.TH "DCONF\-EDITOR" "1"
+.SH "NAME"
+dconf-editor \- Graphical editor for dconf
+.SH "SYNOPSIS"
+.B dconf\-editor
+.SH "DESCRIPTION"
+.PP
+The
+.B dconf\-editor
+program provides a graphical interface for editing settings that are stored in the dconf database. The
+.BR gsettings (1)
+utility provides similar functionality on the commandline.
+.PP
+dconf\-editor reads gsettings schemas from
+$XDG_DATA_DIRS/glib\-2.0/schemas
+to obtain descriptions, default values and allowed values for keys.
+.SH "SEE ALSO"
+.BR dconf (7)
+.BR gsettings (1)

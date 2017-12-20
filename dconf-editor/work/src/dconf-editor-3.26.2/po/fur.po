@@ -1,0 +1,1125 @@
+# Friulian translation for dconf.
+# Copyright (C) 2012 dconf's COPYRIGHT HOLDER
+# This file is distributed under the same license as the dconf package.
+# TmTFx <f.t.public@gmail.com>, 2012.
+# Fabio Tomat <f.t.public@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dconf dconf-0.14\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=dconf-"
+"editor&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-10-09 18:50+0000\n"
+"PO-Revision-Date: 2017-10-11 08:31+0200\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <f.t.public@gmail.com>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.3\n"
+
+#: editor/bookmarks.ui:19
+msgid "Bookmark this Location"
+msgstr "Zonte posizion tai segnelibris"
+
+#: editor/bookmarks.ui:34
+msgid "Location bookmarked"
+msgstr "Posizion salvade tai segnelibris"
+
+#: editor/bookmarks.ui:35
+msgid "Toggle to bookmark this location"
+msgstr "Salve/gjave segnelibri di cheste posizion"
+
+#: editor/bookmarks.ui:84
+msgid ""
+"Bookmarks will\n"
+"be added here"
+msgstr ""
+"I segnelibris a vegnin\n"
+"zontâts chi"
+
+#: editor/bookmarks.ui:113
+msgid "Bookmarks"
+msgstr "Segnelibris"
+
+#: editor/bookmarks.ui:114
+msgid "Manage your bookmarks"
+msgstr "Ministre i tiei segnelibris"
+
+#: editor/bookmark.ui:30
+msgid "Remove"
+msgstr "Gjave"
+
+#: editor/bookmark.ui:31
+msgid "Remove this bookmark"
+msgstr "Gjave chest segnelibri"
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:9
+msgid "Dconf Editor"
+msgstr "Editôr di dconf"
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:10
+msgid "A graphical tool for editing the dconf database"
+msgstr "Un imprest grafic par modificâ la base di dâts dconf"
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:13
+msgid ""
+"Dconf Editor is a tool to allow direct editing of the dconf configuration "
+"database. This is useful when developing applications that use these "
+"settings."
+msgstr ""
+"L'editôr dconf al è un imprest che al permet di modificâ in maniere direte "
+"la base di dâts des configurazions dconf. Chest al è util tal svilupâ "
+"aplicazions che a doprin chestis impostazions."
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:17
+msgid ""
+"Editing your configuration directly is an advanced feature and may cause "
+"applications to not work correctly."
+msgstr ""
+"Modificâ in maniere direte la configurazion e je une funzionalitât avanzade "
+"e e pues causâ il malfunzionament des aplicazions."
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:25
+msgid "Browse the keys used by installed applications"
+msgstr "Esplore lis clâfs dopradis par aplicazions instaladis"
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:29
+msgid "Read keys descriptions and edit their values"
+msgstr "Lei lis descrizions des clâfs e modifiche i lôr valôrs"
+
+#. a translatable version of project_group
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:45
+msgid "The GNOME Project"
+msgstr "Il progjet GNOME"
+
+#: editor/ca.desrt.dconf-editor.desktop.in:3 editor/dconf-editor.ui:6
+#: editor/dconf-editor.vala:73 editor/dconf-editor.vala:147
+msgid "dconf Editor"
+msgstr "Editôr di dconf"
+
+#: editor/ca.desrt.dconf-editor.desktop.in:4
+msgid "Configuration editor for dconf"
+msgstr "Editôr di configurazion par dconf"
+
+#: editor/ca.desrt.dconf-editor.desktop.in:5 editor/dconf-editor.vala:149
+msgid "Directly edit your entire configuration database"
+msgstr "Modifiche diretementri l'intîr database de configurazion"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: editor/ca.desrt.dconf-editor.desktop.in:7
+msgid "settings;configuration;"
+msgstr "impostazions; configurazion;"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: editor/ca.desrt.dconf-editor.desktop.in:15
+msgid "dconf-editor"
+msgstr "dconf-editor"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:18
+msgid "The width of the window"
+msgstr "La largjece dal barcon"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:19
+msgid "The width of the main window in pixels."
+msgstr "La largjece dal barcon principâl in pixel."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:23
+msgid "The height of the window"
+msgstr "L'altece dal barcon"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:24
+msgid "The height of the main window in pixels."
+msgstr "L'altece dal barcon principâl in pixel."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:28
+#: editor/ca.desrt.dconf-editor.gschema.xml:29
+msgid "A flag to enable maximized mode"
+msgstr "Un flag par abilitâ la modalitât massimizade"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:33
+msgid "A list of bookmarked paths"
+msgstr "Une liste di percors salvâts tai segnelibris"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:34
+msgid "Contains all paths bookmarked by the user as an array of strings."
+msgstr "Al ten ducj i percors salvâts dal utent come un array di stringhis."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:38
+msgid "A flag to restore the last view"
+msgstr "Une opzion par tornâ a meti l'ultime viodude"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:39
+msgid ""
+"If “true”, Dconf Editor tries at launch to navigate to the path described in "
+"the “saved-view” key."
+msgstr ""
+"Se VÊR, l'Editôr Dconf al cîr, cuant che al partìs, di navigâ viers il "
+"percors descrit te clâf “saved-view”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:43
+msgid "A path to restore the last view"
+msgstr "Un percors di tornâ a meti l'ultime viodude"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:44
+msgid ""
+"If the “restore-view” key is set to “true”, Dconf Editor tries at launch to "
+"navigate to this path."
+msgstr ""
+"Se la clâf “restore-view” e je metude a VÊR, l'Editôr Dconf al cîr, cuant "
+"che al partìs, di navigâ viers chest percors."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:48
+msgid "Show initial warning"
+msgstr "Mostre l'avîs iniziâl"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:49
+msgid ""
+"If “true”, Dconf Editor opens a popup when launched reminding the user to be "
+"careful."
+msgstr ""
+"Se VÊR, l'Editôr Dconf al vierç un popup, cuant che al ven inviât, par visâ "
+"l'utent di jessi prudent."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:53
+msgid "A flag to enable small rows for keys list"
+msgstr "Une opzion par abilitâ lis riis piçulis pe liste des clâfs"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:54
+msgid "If “true”, the keys list use smaller rows."
+msgstr "Se VÊR, la liste des clâfs e doprarà riis plui piçulis."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:58
+msgid "A flag to enable small rows for bookmarks list"
+msgstr "Une opzion par ativâ riis piçulis pe liste dai segnelibris"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:59
+msgid "If “true”, the bookmarks list use smaller rows."
+msgstr "Se VÊR, la liste dai segnelibris e doprarà riis plui piçulis."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:68
+msgid "Change the behaviour of a key value change request"
+msgstr ""
+"Cambie il compuartament de richieste di cambiament dal valôr di une clâf"
+
+# hard to translate
+#: editor/ca.desrt.dconf-editor.gschema.xml:69
+msgid ""
+"The “unsafe” value is discouraged: for keys that have a non-special-cased "
+"type, it updates the key value each time something changes in the entry, so "
+"including intermediate states. The “safe” value asks for confirmation in "
+"these cases, but allows instant changes for booleans and nullable booleans, "
+"enums and flags. The “always-confirm-implicit” and “always-confirm-explicit” "
+"values always asks for confirmation, but the first applies the change if you "
+"change path whereas the second dismiss it. The “always-delay” value adds "
+"each change in delay mode, allowing to apply multiple keys at once."
+msgstr ""
+"Il valôr “unsafe” al è disconseât: pes clâfs che a àn un gjenar non-special-"
+"cased, al inzorne il valôr de clâf ogni volte che e cambie la jentrade, "
+"duncje includint i stâts intermedis. Il valôr “safe” al domande conferme in "
+"chescj câs, ma al permet cambiaments istantanis pai booleans e i booleans "
+"anulabii, i elencâts e lis opzions. I valôrs “always-confirm-implicit” e "
+"“always-confirm-explicit” a domandin simpri conferme, ma il prin al apliche "
+"il cambiament se tu cambiis il percors invezit il secont lu scarte. Il valôr "
+"“always-delay” al zonte ogni cambiament in modalitât ritart, permetint di "
+"aplicâ plui clâfs ae volte."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:73
+msgid "A flag to sort keys list case-sensitively"
+msgstr ""
+"Une opzion par ordenâ la liste des clâfs in base a maiusculis/minusculis"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:74
+msgid ""
+"GSettings doesn’t allow keys to use upper-case in their names, but "
+"installation paths of schemas can. If “true”, the keys list is sorted case-"
+"sensitively, with in usual order upper-case folders first."
+msgstr ""
+"GSettings nol permet di doprâ tes clâfs nons cun letaris maiusculis, ma i "
+"percors di instalazion dai schemis a puedin. Se “vêr”, la liste des clâfs e "
+"je ordenade in base aes maiusculis/minusculis, cul solit ordin dulà che lis "
+"cartelis cun lis maiusculis a vegnin prime."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:98
+msgid "A boolean, type ‘b’"
+msgstr "Un valôr boolean, scrîf “b”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:99
+msgid "Booleans can only take two values, “true” or “false”."
+msgstr "I booleans a puedin vê dome doi valôrs, “true” o “false”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:103
+msgid "A nullable boolean, type ‘mb’"
+msgstr "Un valôr boolean anulabil, scrîf “mb”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:104
+msgid ""
+"GSettings allows nullable types, that are similar to other types but could "
+"take a “nothing” value. A nullable boolean can only take three values, "
+"“true”, “false” and “nothing”."
+msgstr ""
+"GSettings al permet gjenars che si puedin anulâ, chei a son simii ai altris "
+"gjenars ma a puedin vê un valôr “nuie”. Un boolean anulabil al pues dome vê "
+"trê valôrs, “true”, “false” e “nothing”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:108
+msgid "A byte (unsigned), type ‘y’"
+msgstr "Un byte (cence segn), gjenar “y”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:109
+msgid ""
+"A byte value is an integer between 0 and 255. It may be used to pass around "
+"characters."
+msgstr ""
+"Un valôr byte al è un intîr comprindût tra 0 e 255; al pues jessi doprât par "
+"passâ caratars."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:113
+msgid "A bytestring, type ‘ay’"
+msgstr "Une stringhe di byte, gjenar “ay”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:114
+msgid ""
+"The bytestring type is commonly used to pass around strings that may not be "
+"valid utf8. In that case, the convention is that the nul terminator "
+"character should be included as the last character in the array."
+msgstr ""
+"Il gjenar stringhe di byte al è di solit doprât par passâ stringhis che a "
+"puedin jessi utf8 no valit. In chel câs, par convenzion, il caratar terminâl "
+"nul al varès di jessi includût come ultin caratar dal array."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:118
+msgid "A bytestring array, type ‘aay’"
+msgstr "Un array di stringhis di byte, gjenar “aay”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:119
+msgid ""
+"This is the type of an array of bytestrings. The bytestring type is commonly "
+"used to pass around strings that may not be valid utf8."
+msgstr ""
+"Chest al è il gjenar par un array componût di stringhis di byte. Il gjenar "
+"stringhis di byte al è di solit doprât par passâ stringhis che a podaressin "
+"jessi utf8 no valit."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:123
+msgid "A D-Bus handle type, type ‘h’"
+msgstr "Un gjenar handle D-Bus, scrîf “h”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:124
+msgid ""
+"The handle type is a 32bit signed integer value that is, by convention, used "
+"as an index into an array of file descriptors that are sent alongside a D-"
+"Bus message. If you are not interacting with D-Bus, then there is no reason "
+"to make use of this type."
+msgstr ""
+"Il gjenar handle al è un valôr intîr a 32 bit cun segn che, par convenzion, "
+"al ven doprât come indiç di un array di descritôrs di file inviâts adun "
+"cuntun messaç D-Bus. Gjavant il câs che no si stedi interagjint cun D-Bus, "
+"no'nd è altris motîfs par doprâ chest gjenar."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:130
+msgid "A D-Bus object path, type ‘o’"
+msgstr "Un percors di ogjet D-Bus, scrîf “o”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:131
+msgid ""
+"An object path is used to identify D-Bus objects at a given destination on "
+"the bus. If you are not interacting with D-Bus, then there is no reason to "
+"make use of this type."
+msgstr ""
+"Un percors di ogjet al ven doprât par identificâ ogjets D-Bus a une "
+"destinazion sul bus. Gjavant il câs che no si stedi interagjint cun D-Bus, "
+"no'nd è altris motîfs par doprâ chest gjenar."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:137
+msgid "A D-Bus object path array, type ‘ao’"
+msgstr "Un array di percors di ogjets D-Bus, scrîf “ao”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:138
+msgid ""
+"An object path array could contain any number of object paths (including "
+"none: “[]”). If you are not interacting with D-Bus, then there is no reason "
+"to make use of this type."
+msgstr ""
+"Un array di percors di ogjets al pues contignî un cualsisei numar di percors "
+"(ancje nissun: \"[]\"). Gjavant il câs che si stedi interagjint cun D-Bus, "
+"no'nd è altis motîfs par doprâ chest gjenar."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:144
+msgid "A D-Bus signature, type ‘g’"
+msgstr "Une firme D-Bus, scrîf “g”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:145
+msgid ""
+"A D-Bus signature is a string used as type signature for a D-Bus method or "
+"message. If you are not interacting with D-Bus, then there is no reason to "
+"make use of this type."
+msgstr ""
+"Une firme D-Bus e je une stringhe doprade come gjenar firme par un metodi o "
+"messaç di D-Bus. Gjavant il câs che no si stedi interagjint cun D-Bus, no'nd "
+"è altris motîfs par doprâ chest gjenar."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:151
+msgid "A double, type ‘d’"
+msgstr "Un dopli, scrîf “d”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:152
+msgid "A double value could represent any real number."
+msgstr "Un valôr dopli al pues rapresentâ cualsisei numar reâl."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:156
+msgid "A 5-choices enumeration"
+msgstr "Une enumerazion a 5 sieltis"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:157
+msgid ""
+"Enumerations could be done either with the “enum” attribute, or with a "
+"“choices” tag."
+msgstr ""
+"Lis enumerazions a puedin jessi fatis a mieç dal atribût “enum” o cun la "
+"etichete “choices”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:161
+msgid "A short integer, type ‘n’"
+msgstr "Un intîr curt, scrîf “n”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:162
+msgid "A 16bit signed integer. See also the “integer-16-unsigned” key."
+msgstr "Un intîr cun segn di 16 bit; viôt ancje la clâf “integer-16-unsigned”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:166
+msgid "Flags: choose-colors-you-love"
+msgstr "Opzions: sielç-colôrs-che-ti-plasin"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:167
+msgid "Flags could be set by the “enum” attribute."
+msgstr "Lis opzions si puedin stabilî cul atribût “enum”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:171
+msgid "An unsigned short integer, type ‘q’"
+msgstr "Un intîr curt cence segn, scrîf “q”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:172
+msgid "A 16bit unsigned integer. See also the “integer-16-signed” key."
+msgstr "Un intîr cence segn a 16 bit; viôt ancje la clâf “integer-16-signed”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:176
+msgid "An usual integer, type ‘i’"
+msgstr "Un intîr normâl, scrîf “i”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:177
+msgid "A 32bit signed integer. See also the “integer-32-unsigned” key."
+msgstr "Un intîr cun segn a 32 bit; viôt ancje la clâf “integer-32-unsigned”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:181
+msgid "An unsigned usual integer, type ‘u’"
+msgstr "Un intîr normâl cence segn, scrîf “u”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:182
+msgid "A 32bit unsigned integer. See also the “integer-32-signed” key."
+msgstr "Un intîr cence segn a 32 bit; viôt ancje la clâf “integer-32-signed”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:186
+msgid "A long integer, type ‘x’"
+msgstr "Un intîr lunc, scrîf “x”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:187
+msgid "A 64bit signed integer. See also the “integer-64-unsigned” key."
+msgstr "Un intîr cun segn a 64 bit; viôt ancje la clâf “integer-64-unsigned”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:191
+msgid "An unsigned long integer, type ‘t’"
+msgstr "Un intîr lunc cence segn, scrîf “t”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:192
+msgid "A 64bit unsigned integer. See also the “integer-64-signed” key."
+msgstr "Un intîr cence segn a 64 bit; viôt ancje la clâf “integer-64-signed”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:198
+msgid "A number with range"
+msgstr "Un numar intun interval"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:199
+msgid ""
+"Every numeral setting (integers and unsigned integers of every type, plus "
+"doubles) could be limited to a custom range of values. For example, this "
+"integer could only take a value between -2 and 10."
+msgstr ""
+"Dutis lis impostazions numerichis (intîrs, intîrs cence segn di ducj i "
+"gjenars e i doplis) a puedin jessi limitâts intun interval di valôrs "
+"personalizât. Par esempli, chest intîr al pues nome vê un valôr tra -2 e 10."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:203
+msgid "A custom type, here ‘(ii)’"
+msgstr "Un gjenar personalizât, in chest câs “(ii)”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:204
+msgid ""
+"Dconf Editor lets you edit any settings type supported by GSettings, falling "
+"back on a string entry when it doesn’t have a better way to do. Here is a "
+"tuple of two 32bit signed integers."
+msgstr ""
+"L'Editôr Dconf ti permet di modificâ ducj i gjenars di impostazions "
+"supuartâts di GSettings, doprant stringhis tal câs che nol sedi bon di "
+"gjestî il dât. Chê chi daurman e je une tuple di doi intîrs di 32 bit cun "
+"segn."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:208
+msgid "A string, type ‘s’"
+msgstr "Une stringhe, scrîf “s”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:209
+msgid ""
+"The string type could accept any utf8 string. Note that an empty string “''” "
+"is not the same as NULL (nothing); see also the “string-nullable” key."
+msgstr ""
+"Un gjenar stringhe al pues acetâ cualsisei stringhe in utf8. Ten di ment che "
+"une stringhe vueide “''” no je la stesse robe di NULL (nuie); viôt ancje la "
+"clâf “string-nullable”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:213
+msgid "A string array, type ‘as’"
+msgstr "Un array di stringhis, scrîf “as”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:214
+msgid ""
+"A string array contains any number of strings of whatever length. It may be "
+"an empty array, “[]”."
+msgstr ""
+"Un array di stringhis al ten un cualsisei numar di stringhis di cualsisei "
+"lungjece. Al pues jessi un array vueit, “[]”."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:218
+msgid "A nullable string, type ‘ms’"
+msgstr "Une stringhe anulabile, scrîf “ms”"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:219
+msgid ""
+"GSettings allows nullable types, that are similar to other types but could "
+"take a “nothing” value. A nullable string can take any string as value, "
+"including the empty string “''”, or can be NULL (nothing)."
+msgstr ""
+"GSettings al permet gjenars anulabii, chei a son come chei altris gjenars ma "
+"a puedin vê un valôr “nuie”. Une stringhe anulabile e pues vê cualsisei "
+"stringhe come valôr, ancje une stringhe vueide “''” o e pues jessi NULL "
+"(nuie)."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:223
+msgid "A 1-choice enumeration"
+msgstr "Une enumerazion a 1 sielte"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:224
+msgid ""
+"An enumeration could contain only one item, but that’s probably an error. "
+"Dconf Editor warns you in that case."
+msgstr ""
+"Une enumerazion e pues contignî nome un element, ma al è facil che chel al "
+"sedi un erôr. L'Editôr Dconf, in chel câs, ti vise."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:229
+msgid "A 1-choice integer value"
+msgstr "Un valôr intîr a 1 sielte"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:230
+msgid ""
+"A range could limit an integer key to only allow one value, but that’s "
+"probably an error. Dconf Editor warns you in that case."
+msgstr ""
+"Un interval al pues limitâ une clâf interie a permeti dome un valôr, ma al è "
+"facil che chel al sedi un erôr. L'Editôr Dconf, in chel câs, ti vise."
+
+#: editor/dconf-editor-menu.ui:6
+msgid "Keyboard Shortcuts"
+msgstr "Scurtis di tastiere"
+
+#: editor/dconf-editor-menu.ui:10
+msgid "_About"
+msgstr "_Par chest cont"
+
+#: editor/dconf-editor-menu.ui:14
+msgid "_Quit"
+msgstr "_Jessi"
+
+#: editor/dconf-editor.ui:49
+msgid "Actions"
+msgstr "Azions"
+
+#. TODO 1/3 Informations
+#: editor/dconf-editor.ui:50
+msgid "Current view actions"
+msgstr "Azions de viodude atuâl"
+
+#: editor/dconf-editor.ui:77
+msgid "Search"
+msgstr "Cîr"
+
+#: editor/dconf-editor.ui:78
+msgid "Search keys"
+msgstr "Tascj di ricercje"
+
+#: editor/dconf-editor.vala:22
+msgid "Print release version and exit"
+msgstr "Mostre la version dal program e jes"
+
+#. #. * * Copy action
+#. #: editor/dconf-editor.vala:96
+msgid "Copied to clipboard"
+msgstr "Copiât tes notis"
+
+#: editor/dconf-editor.vala:150
+msgid ""
+"Copyright © 2010-2014 – Canonical Ltd\n"
+"Copyright © 2015-2016 – Arnaud Bonatti"
+msgstr ""
+"Copyright © 2010-2014 – Canonical Ltd\n"
+"Copyright © 2015-2016 – Arnaud Bonatti"
+
+#: editor/dconf-editor.vala:154
+msgid "translator-credits"
+msgstr "Fabio Tomat, <f.t.public@gmail.com>"
+
+#: editor/dconf-model.vala:220
+msgid "Boolean"
+msgstr "Bulean"
+
+#: editor/dconf-model.vala:222
+msgid "String"
+msgstr "Stringhe"
+
+#: editor/dconf-model.vala:224
+msgid "String array"
+msgstr "Array di stringhis"
+
+#: editor/dconf-model.vala:226
+msgid "Enumeration"
+msgstr "Enumerazion"
+
+#: editor/dconf-model.vala:228
+msgid "Flags"
+msgstr "Opzions"
+
+#: editor/dconf-model.vala:230
+msgid "Double"
+msgstr "Dopli"
+
+#. Translators: this handle type is an index; you may maintain the word "handle"
+#: editor/dconf-model.vala:233
+msgid "D-Bus handle type"
+msgstr "Gjenar handle D-Bus"
+
+#: editor/dconf-model.vala:235
+msgid "D-Bus object path"
+msgstr "Percors ogjet D-Bus"
+
+#: editor/dconf-model.vala:237
+msgid "D-Bus object path array"
+msgstr "Array di percors ogjet D-Bus"
+
+#: editor/dconf-model.vala:239
+msgid "D-Bus signature"
+msgstr "Firme D-Bus"
+
+#: editor/dconf-model.vala:247
+msgid "Integer"
+msgstr "Intîr"
+
+#: editor/dconf-model.vala:362
+msgid "True"
+msgstr "Vêr"
+
+#: editor/dconf-model.vala:364
+msgid "False"
+msgstr "Fals"
+
+#: editor/dconf-model.vala:365
+msgid "Nothing"
+msgstr "Nuie"
+
+#: editor/dconf-model.vala:370
+msgid "true"
+msgstr "vêr"
+
+#: editor/dconf-model.vala:372
+msgid "false"
+msgstr "fals"
+
+#. Translators: "nothing" here is a keyword that should appear for consistence; please translate as "yourtranslation (nothing)"
+#: editor/dconf-model.vala:374
+msgid "nothing"
+msgstr "nuie"
+
+#: editor/dconf-view.vala:438
+msgid "This value is invalid for the key type."
+msgstr "Chest valôr nol è valit pal gjenar di clâf."
+
+#: editor/dconf-window.vala:132
+msgid "Thanks for using Dconf Editor for editing your settings!"
+msgstr "Gracie di doprâ l'Editôr Dconf par modificâ la proprie configurazion!"
+
+#: editor/dconf-window.vala:133
+msgid "Don’t forget that some options may break applications, so be careful."
+msgstr ""
+"No sta dismenteâ che cualchi opzion e pues comprometi lis aplicazions, "
+"duncje sta atent."
+
+#: editor/dconf-window.vala:134
+msgid "I’ll be careful."
+msgstr "O starai atent."
+
+#. TODO don't show box if the user explicitely said she wanted to see the dialog next time?
+#: editor/dconf-window.vala:138
+msgid "Show this dialog next time."
+msgstr "Mostre chest dialic la prossime volte."
+
+#: editor/dconf-window.vala:248
+msgid "Copy current path"
+msgstr "Copie il percors atuâl"
+
+#: editor/dconf-window.vala:253
+msgid "Reset visible keys"
+msgstr "Ristabilìs lis clâfs visibilis"
+
+#. Translators: "reset recursively" action in the right-click menu on a folder
+#: editor/dconf-window.vala:254 editor/key-list-box-row.vala:485
+msgid "Reset recursively"
+msgstr "Ristabilìs in maniere ricorsive"
+
+#: editor/dconf-window.vala:262
+msgid "Enter delay mode"
+msgstr "Introdûs mût di ritart"
+
+#: editor/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "Actions"
+msgstr "Azions"
+
+#: editor/help-overlay.ui:15
+msgctxt "shortcut window"
+msgid "Bookmarks menu"
+msgstr "Menù segnelibris"
+
+#: editor/help-overlay.ui:22
+msgctxt "shortcut window"
+msgid "Bookmark this path"
+msgstr "Salve chest percors tai segnelibris"
+
+#: editor/help-overlay.ui:29
+msgctxt "shortcut window"
+msgid "Unbookmark this path"
+msgstr "Gjave chest percors dai segnelibris"
+
+#: editor/help-overlay.ui:36
+msgctxt "shortcut window"
+msgid "Search bar"
+msgstr "Sbare di ricercje"
+
+#: editor/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Actions menu"
+msgstr "Menù azions"
+
+#: editor/help-overlay.ui:52
+msgctxt "shortcut window"
+msgid "Path bar navigation"
+msgstr "Navigazion cun la sbare di percors"
+
+#: editor/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Open root folder"
+msgstr "Vierç cartele lidrîs"
+
+#: editor/help-overlay.ui:63
+msgctxt "shortcut window"
+msgid "Open parent folder"
+msgstr "Vierç cartele superiôr"
+
+#: editor/help-overlay.ui:70
+msgctxt "shortcut window"
+msgid "Open active direct child"
+msgstr "Vierç il fi diret atîf"
+
+#: editor/help-overlay.ui:77
+msgctxt "shortcut window"
+msgid "Open active last child"
+msgstr "Vierç il fi ultin atîf"
+
+#: editor/help-overlay.ui:86
+msgctxt "shortcut window"
+msgid "Keys list actions"
+msgstr "Liste azions clâfs"
+
+#: editor/help-overlay.ui:90
+msgctxt "shortcut window"
+msgid "Contextual menu"
+msgstr "Menù contestuâl"
+
+#: editor/help-overlay.ui:97
+msgctxt "shortcut window"
+msgid "Set to default"
+msgstr "Met ai valôrs predefinîts"
+
+#: editor/help-overlay.ui:104
+msgctxt "shortcut window"
+msgid "Toggle boolean value"
+msgstr "Comute valôr boolean"
+
+#: editor/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Clipboard"
+msgstr "Notis"
+
+#: editor/help-overlay.ui:117
+msgctxt "shortcut window"
+msgid "Copy descriptor"
+msgstr "Copie il descritôr"
+
+#: editor/help-overlay.ui:124
+msgctxt "shortcut window"
+msgid "Copy path"
+msgstr "Copie percors"
+
+#: editor/help-overlay.ui:133
+msgctxt "shortcut window"
+msgid "Generic"
+msgstr "Gjeneric"
+
+#: editor/help-overlay.ui:137
+msgctxt "shortcut window"
+msgid "Show this help"
+msgstr "Mostre chest jutori"
+
+#: editor/help-overlay.ui:144
+msgctxt "shortcut window"
+msgid "About"
+msgstr "Informazions"
+
+#: editor/help-overlay.ui:151
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Jes"
+
+#: editor/key-list-box-row.vala:188
+msgid "No Schema Found"
+msgstr "Nissun scheme cjatât"
+
+#: editor/key-list-box-row.vala:202
+msgid "Key erased."
+msgstr "Clâf scancelade."
+
+#: editor/key-list-box-row.vala:224
+#, c-format
+msgid "%s (key erased)"
+msgstr "%s (clâf scancelade)"
+
+#: editor/key-list-box-row.vala:310
+msgid "No summary provided"
+msgstr "Nissun somari furnît"
+
+#. Translators: "open key-editor dialog" action in the right-click menu on the list of keys
+#: editor/key-list-box-row.vala:465
+msgid "Customize…"
+msgstr "Personalize..."
+
+#. Translators: "reset key value" action in the right-click menu on the list of keys
+#: editor/key-list-box-row.vala:468
+msgid "Set to default"
+msgstr "Met i valôrs predefinîts"
+
+#. Translators: "dismiss change" action in the right-click menu on a key with pending changes
+#: editor/key-list-box-row.vala:473
+msgid "Dismiss change"
+msgstr "Scarte la modifiche"
+
+#. Translators: "open folder" action in the right-click menu on a folder
+#: editor/key-list-box-row.vala:476
+msgid "Open"
+msgstr "Vierç"
+
+#. Translators: "erase key" action in the right-click menu on a key without schema
+#. Translators: "erase key" option in the right-click menu on a key without schema when on delayed mode
+#: editor/key-list-box-row.vala:479 editor/key-list-box-row.vala:610
+#: editor/registry-info.ui:28
+msgid "Erase key"
+msgstr "Scancele clâf"
+
+#. Translators: "dismiss change" action in the right-click menu on a key without schema planned to be erased
+#: editor/key-list-box-row.vala:482
+msgid "Do not erase"
+msgstr "No sta scancelâ"
+
+#. Translators: "copy to clipboard" action in the right-click menu on the list of keys
+#: editor/key-list-box-row.vala:494
+msgid "Copy"
+msgstr "Copie"
+
+#. Translators: "no change" option in the right-click menu on a key when on delayed mode
+#: editor/key-list-box-row.vala:604
+msgid "No change"
+msgstr "Nissun cambiament"
+
+#. Translators: "reset key value" option of a multi-choice list (checks or radios) in the right-click menu on the list of keys
+#: editor/key-list-box-row.vala:674 editor/registry-info.vala:261
+msgid "Default value"
+msgstr "Valôr predefinît"
+
+#: editor/modifications-revealer.ui:49
+msgid "Apply"
+msgstr "Apliche"
+
+#: editor/modifications-revealer.vala:141
+msgid "Nothing to reset."
+msgstr "Nuie di ristabilî."
+
+#: editor/modifications-revealer.vala:241
+msgid "The value is invalid."
+msgstr "Il valôr nol è valit."
+
+#: editor/modifications-revealer.vala:245
+msgid "The change will be dismissed if you quit this view without applying."
+msgstr ""
+"La modifiche e vegnarà scartade se tu jessis di cheste viodude cence aplicâ."
+
+#: editor/modifications-revealer.vala:247
+msgid "The change will be applied on such request or if you quit this view."
+msgstr ""
+"La modifiche e vegnarà aplicade ae richieste o se tu jessarâs di cheste "
+"viodude."
+
+#: editor/modifications-revealer.vala:264
+msgid "Changes will be delayed until you request it."
+msgstr "I cambiaments a vegnaran rimandâts fintremai che tu lu domandarâs."
+
+#. Translators: "gsettings" is a technical term, notably a shell command, so you probably should not translate it.
+#: editor/modifications-revealer.vala:266
+#, c-format
+msgid "One gsettings operation delayed."
+msgid_plural "%u gsettings operations delayed."
+msgstr[0] "Une operazion gsettings rimandade."
+msgstr[1] "%u operazions gsettings rimandadis."
+
+#. Translators: "dconf" is a technical term, notably a shell command, so you probably should not translate it.
+#: editor/modifications-revealer.vala:270
+#, c-format
+msgid "One dconf operation delayed."
+msgid_plural "%u dconf operations delayed."
+msgstr[0] "Une operazion dconf ritardade."
+msgstr[1] "%u operazions dconf ritardadis."
+
+#. Translators: Beginning of a sentence like "One gsettings operation and 2 dconf operations delayed.", you could duplicate "delayed" if needed, as it refers to both the gsettings and dconf operations (at least one of each).
+#. Also, "gsettings" is a technical term, notably a shell command, so you probably should not translate it.
+#: editor/modifications-revealer.vala:273
+#, c-format
+msgid "%s%s"
+msgstr "%s%s"
+
+#: editor/modifications-revealer.vala:273
+#, c-format
+msgid "One gsettings operation"
+msgid_plural "%u gsettings operations"
+msgstr[0] "Une operazion gsettings"
+msgstr[1] "%u operazions gsettings"
+
+#. Translators: Second part (and end) of a sentence like "One gsettings operation and 2 dconf operations delayed.", so:
+#. * the space before the "and" is probably wanted, and
+#. * the "delayed" refers to both the gsettings and dconf operations (at least one of each).
+#. Also, "dconf" is a technical term, notably a shell command, so you probably should not translate it.
+#: editor/modifications-revealer.vala:278
+#, c-format
+msgid " and one dconf operation delayed."
+msgid_plural " and %u dconf operations delayed."
+msgstr[0] " e une operazion dconf rimandade."
+msgstr[1] " e %u operazions dconf rimandadis."
+
+#: editor/registry-info.ui:22
+msgid ""
+"No schema available. Dconf Editor can’t find a schema associated with this "
+"key. The application that installed this key may have been removed, may have "
+"stop the use of this key, or may use a relocatable schema for defining its "
+"keys."
+msgstr ""
+"Nissun scheme disponibil. L'Editôr Dconf nol rive a cjatâ un scheme associât "
+"cun cheste clâf. La aplicazion che e à instalât cheste clâf e podarès jessi "
+"stade gjavade, e podarès vê finît di doprâ cheste clâf o e podarès doprâ un "
+"scheme che al pues cambiâ posizion par definî lis sôs clâfs."
+
+#: editor/registry-info.ui:56
+msgid ""
+"This enumeration offers only one choice. That’s probably an error of the "
+"application that installed this schema. If possible, please open a bug about "
+"it."
+msgstr ""
+"Cheste enumerazion e ufrìs nome une sielte. Al è probabil che al sedi un "
+"erôr de aplicazion che e à instalât chest scheme. Se pussibil, vierç une "
+"segnalazion di erôr a rivuart."
+
+#: editor/registry-info.ui:65
+msgid ""
+"This integer key can only take one value. That’s probably an error of the "
+"application that installed this schema. If possible, please open a bug about "
+"it."
+msgstr ""
+"Cheste clâf interie e pues vê dome un valôr. Al è probabil che al sedi un "
+"erôr de aplicazion che e à instalât chest scheme. Se pussibil, vierç une "
+"segnalazion di erôr a rivuart."
+
+#: editor/registry-info.vala:82
+msgid "Schema"
+msgstr "Scheme"
+
+#: editor/registry-info.vala:83
+msgid "Summary"
+msgstr "Somari"
+
+#: editor/registry-info.vala:84
+msgid "Description"
+msgstr "Descrizion"
+
+#. Translators: as in datatype (integer, boolean, string, etc.)
+#: editor/registry-info.vala:86
+msgid "Type"
+msgstr "Gjenar"
+
+#: editor/registry-info.vala:88
+msgid "Minimum"
+msgstr "Minim"
+
+#: editor/registry-info.vala:89
+msgid "Maximum"
+msgstr "Massim"
+
+#: editor/registry-info.vala:90
+msgid "Default"
+msgstr "Predefinît"
+
+#: editor/registry-info.vala:110
+msgid "Current value"
+msgstr "Valôr atuâl"
+
+#: editor/registry-info.vala:143
+msgid "Use default value"
+msgstr "Dopre valôr predefinît"
+
+#: editor/registry-info.vala:201
+msgid "Custom value"
+msgstr "Valôr personalizât"
+
+#. Translators: neither the "nothing" keyword nor the "m" type should be translated; a "maybe type" is a type of variant that is nullable.
+#: editor/registry-info.vala:324
+msgid ""
+"Use the keyword “nothing” to set a maybe type (beginning with “m”) to its "
+"empty value. Strings, signatures and object paths should be surrounded by "
+"quotation marks."
+msgstr ""
+"Dopre la peraule clâf \"nothing\" par meti un gjenar di pussibilitât (che al "
+"tache cun \"m\") al so valôr vueit. Stringhis, firmis e percors di ogjet a "
+"varessin di jessi sierâts tra virgulutis."
+
+#: editor/registry-info.vala:326
+msgid ""
+"Strings, signatures and object paths should be surrounded by quotation marks."
+msgstr ""
+"Stringhis, firmis e percors di ogjet e varessin di jessi sierâts tra "
+"virgulutis."
+
+#. Translators: neither the "nothing" keyword nor the "m" type should be translated; a "maybe type" is a type of variant that is nullable.
+#: editor/registry-info.vala:330
+msgid ""
+"Use the keyword “nothing” to set a maybe type (beginning with “m”) to its "
+"empty value."
+msgstr ""
+"Dopre la peraule clâf \"nothing\" par meti un gjenar di pussibilitât (che al "
+"tache cun \"m\") al so valôr vueit."
+
+#: editor/registry-view.ui:32
+msgid "Sort preferences have changed. Do you want to reload the view?"
+msgstr ""
+"Lis preferencis di ordenament a son cambiadis. Tornâ a cjariâ la viodude?"
+
+#: editor/registry-view.ui:38
+msgid "Reload"
+msgstr "Torne cjarie"
+
+#: editor/registry-view.ui:136
+msgid "No keys in this path"
+msgstr "Nissune clâf in chest percors"
+
+#: editor/registry-view.vala:182
+#, c-format
+msgid "Cannot find folder “%s”."
+msgstr "Impussibil cjatâ la cartele “%s”."
+
+#: editor/registry-view.vala:200
+#, c-format
+msgid "Cannot find key “%s” here."
+msgstr "Impussibil cjatâ chi la clâf “%s”."
+
+#: editor/registry-view.vala:206
+#, c-format
+msgid "Key “%s” has been removed."
+msgstr "La clâf “%s” e je stade gjavade."
+
+#~ msgctxt "shortcut window"
+#~ msgid "Current row menu"
+#~ msgstr "Menù rie atuâl"
+
+#~ msgid "The theme of the navigation list"
+#~ msgstr "Il teme de liste di navigazion"
+
+#~ msgid ""
+#~ "The themes are defined by the application, you cannot add one. The theme "
+#~ "'three-twenty-two' will remain as close as possible to the default theme "
+#~ "of the 3.22 release."
+#~ msgstr ""
+#~ "I temis a son definîts de aplicazion, l'utent nol pues zontâju. Il teme "
+#~ "'three-twenty-two' al restarà il plui pussibil simil al teme predefinît "
+#~ "de version 3.22."
+
+#~ msgid "Not found"
+#~ msgstr "No cjatât"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program; if not, write to the Free Software Foundation, Inc., "
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgstr ""
+#~ "Chest program al è software libar; tu puedis redistribuilu e/o modificalu "
+#~ "secont i termins de GNU General Public License come ch'a jè publicade dae "
+#~ "Free Software Foundation; o le version 2 de licenze o (a lôr scielte) une "
+#~ "version seguitive.\n"
+#~ "\n"
+#~ "Chest program al è distribuît te sperance di sedi util, ma CENCE NISSUNE "
+#~ "GARANZÌE; cence neacje la garanzìe implicite di NEGOZIABILITÂT o di "
+#~ "APLICABILITÂT PAR UN PARTICOLÂR FIN. Consultâ la GNU General Public "
+#~ "License par vê plui informazions.\n"
+#~ "\n"
+#~ "Chest program al a di sedi distribuît insiemit a une còpie de GNU General "
+#~ "Public License; in câs contrari, a si puès vê une scrivint ae Free "
+#~ "Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+#~ "02110-1301, USA"
+
+#~ msgid "Error setting value: %s"
+#~ msgstr "Erôr tal impostâ il valôr: %s"
+
+#~ msgid "Name"
+#~ msgstr "Non"
+
+#~ msgid "Value"
+#~ msgstr "Valôr"
+
+#~ msgid "Next"
+#~ msgstr "Prossim"
+
+#~ msgid "_Find"
+#~ msgstr "_Cjate"

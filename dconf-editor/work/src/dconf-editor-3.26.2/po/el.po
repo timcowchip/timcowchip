@@ -1,0 +1,1084 @@
+# Greek translation for dconf.
+# Copyright (C) 2012 dconf's COPYRIGHT HOLDER
+# This file is distributed under the same license as the dconf package.
+# Tom Tryfonidis <tomtryf@gmail.com>, 2012.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dconf master\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=dconf-"
+"editor\n"
+"POT-Creation-Date: 2016-12-31 09:12+0100\n"
+"PO-Revision-Date: 2016-04-09 17:07+0300\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Project-Style: gnome\n"
+
+#: editor/bookmarks.ui:19
+msgid "Bookmark this Location"
+msgstr "Προσθήκη σελιδοδείκτη σε αυτή την τοποθεσία"
+
+#: editor/bookmarks.ui:34
+msgid "Location bookmarked"
+msgstr "Η τοποθεσία προστέθηκε στους σελιδοδείκτες"
+
+#: editor/bookmarks.ui:35
+msgid "Toggle to bookmark this location"
+msgstr "Εναλλαγή σε προσθήκη σελιδοδείκτη σε αυτή την τοποθεσία"
+
+#: editor/bookmarks.ui:84
+msgid ""
+"Bookmarks will\n"
+"be added here"
+msgstr ""
+"Οι σελιδοδείκτες\n"
+"θα προστεθούν εδώ"
+
+#: editor/bookmarks.ui:113
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: editor/bookmarks.ui:114
+msgid "Manage your bookmarks"
+msgstr "Διαχείριση σελιδοδεικτών"
+
+#: editor/bookmark.ui:30
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: editor/bookmark.ui:31
+msgid "Remove this bookmark"
+msgstr "Αφαίρεση σελιδοδείκτη"
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:9
+msgid "Dconf Editor"
+msgstr "Επεξεργαστής Dconf"
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:10
+msgid "A graphical tool for editing the dconf database"
+msgstr "Ένα εργαλείο για επεξεργασία της βάσης δεδομένων του Dconf"
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:13
+msgid ""
+"Dconf Editor is a tool to allow direct editing of the dconf configuration "
+"database. This is useful when developing applications that use these "
+"settings."
+msgstr ""
+"Ο επεξεργαστής Dconf είναι ένα εργαλείο που σας επιτρέπει να επεξεργαστείτε "
+"τις ρυθμίσεις της βάσης δεδομένων του. Αυτό είναι ιδιαίτερα χρήσιμο όταν "
+"αναπτύσσετε μια εφαρμογή που χρησιμοποιεί αυτές τις ρυθμίσεις."
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:17
+msgid ""
+"Editing your configuration directly is an advanced feature and may cause "
+"applications to not work correctly."
+msgstr ""
+"Επεξεργάζοντας απευθείας τις ρυθμίσεις είναι ένα χαρακτηριστικό για "
+"προχωρημένους και μπορεί να προκαλέσει προβλήματα λειτουργίας στις εφαρμογές."
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:25
+msgid "Browse the keys used by installed applications"
+msgstr ""
+
+#: editor/ca.desrt.dconf-editor.appdata.xml.in:29
+msgid "Read keys descriptions and edit their values"
+msgstr ""
+
+#: editor/ca.desrt.dconf-editor.desktop.in:3 editor/dconf-editor.ui:6
+#: editor/dconf-editor.vala:73 editor/dconf-editor.vala:147
+msgid "dconf Editor"
+msgstr "Επεξεργαστής Dconf"
+
+#: editor/ca.desrt.dconf-editor.desktop.in:4
+#, fuzzy
+msgid "Configuration editor for dconf"
+msgstr "Επεξεργαστής ρυμθίσεων για το Dconf"
+
+#: editor/ca.desrt.dconf-editor.desktop.in:5 editor/dconf-editor.vala:149
+msgid "Directly edit your entire configuration database"
+msgstr "Άμεση επεξεργασία όλης της βάσης με τα δεδομένα των ρυθμίσεων"
+
+#: editor/ca.desrt.dconf-editor.desktop.in:7
+msgid "settings;configuration;"
+msgstr "ρυθμίσεις;διαμόρφωση;settings;configuration;"
+
+#: editor/ca.desrt.dconf-editor.desktop.in:12
+#, fuzzy
+msgid "dconf-editor"
+msgstr "Επεξεργαστής Dconf"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:18
+msgid "The width of the window"
+msgstr "Το πλάτος του παραθύρου"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:19
+msgid "The width of the main window in pixels."
+msgstr "Το πλάτος του κυρίως παραθύρου σε εικονοστοιχεία."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:23
+msgid "The height of the window"
+msgstr "Το ύψος του παραθύρου"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:24
+msgid "The height of the main window in pixels."
+msgstr "Το ύψος του κυρίως παραθύρου σε εικονοστοιχεία."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:28
+#: editor/ca.desrt.dconf-editor.gschema.xml:29
+msgid "A flag to enable maximized mode"
+msgstr "Σημαία για την ενεργοποίηση της λειτουργίας μεγιστοποίησης"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:33
+msgid "A list of bookmarked paths"
+msgstr "Μια λίστα με τις διαδρομές σελιδοδεικτών"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:34
+msgid "Contains all paths bookmarked by the user as an array of strings."
+msgstr ""
+"Περιέχει όλες τις διαδρομές του χρήστη που έχει προσθέσει στους "
+"σελιδοδείκτες σε ένα πίνακα συμβολοσειρών."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:38
+msgid "A flag to restore the last view"
+msgstr "Μια σημαία που θα επαναφέρετε στην τελευταία προβολή"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:39
+msgid ""
+"If 'true', Dconf Editor tries at launch to navigate to the path described in "
+"the 'saved-view' key."
+msgstr ""
+"Αν είναι αληθές, ο επεξεργαστής Dconf θα προσπαθήσει να περιηγηθεί στην "
+"διαδρομή του κλειδιού «saved-view»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:43
+msgid "A path to restore the last view"
+msgstr "Μια διαδρομή που θα επαναφέρεται στην τελευταία προβολή"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:44
+msgid ""
+"If the 'restore-view' key is set to 'true', Dconf Editor tries at launch to "
+"navigate to this path."
+msgstr ""
+"Αν είναι αληθές το κλειδί «restore-view», ο επεξεργαστής Dconf θα "
+"προσπαθήσει να περιηγηθεί στην διαδρομή."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:48
+msgid "Show initial warning"
+msgstr "Εμφάνιση αρχικής προειδοποίησης"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:49
+msgid ""
+"If 'true', Dconf Editor opens a popup when launched reminding the user to be "
+"careful."
+msgstr ""
+"Αν είναι αληθές, όταν εκκινηθεί ο επεξεργαστής Dconf θα ανοίξει ένα "
+"αναδυόμενο που θα προειδοποιεί τον χρήστη να είναι προσεκτικός."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:53
+#, fuzzy
+msgid "A flag to enable small rows for keys list"
+msgstr "Μια σημαία για την ενεργοποίηση της λειτουργίας πλήρους οθόνης"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:54
+msgid "If 'true', the keys list use smaller rows."
+msgstr ""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:58
+msgid "A flag to enable small rows for bookmarks list"
+msgstr ""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:59
+msgid "If 'true', the bookmarks list use smaller rows."
+msgstr ""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:68
+msgid "Change the behaviour of a key value change request"
+msgstr ""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:69
+msgid ""
+"The 'unsafe' value is discouraged: for keys that have a non-special-cased "
+"type, it updates the key value each time something changes in the entry, so "
+"including intermediate states. The 'safe' value asks for confirmation in "
+"these cases, but allows instant changes for booleans and nullable booleans, "
+"enums and flags. The 'always-confirm-implicit' and 'always-confirm-explicit' "
+"values always asks for confirmation, but the first applies the change if you "
+"change path whereas the second dismiss it. The 'always-delay' value adds "
+"each change in delay mode, allowing to apply multiple keys at once."
+msgstr ""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:92
+msgid "A boolean, type \"b\""
+msgstr "Μια λογική μεταβλητή, πληκτρολογήστε \"b\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:93
+msgid "Booleans can only take two values, \"true\" or \"false\"."
+msgstr "Μια λογική μεταβλητή μπορεί να πάρει δύο τιμές, «true» ή «false»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:97
+msgid "A nullable boolean, type \"mb\""
+msgstr "Μια λογική μεταβλητή nullable, πληκτρολογήστε \"mb\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:98
+msgid ""
+"GSettings allows nullable types, that are similar to other types but could "
+"take a \"nothing\" value. A nullable boolean can only take three values, "
+"\"true\", \"false\" and \"nothing\"."
+msgstr ""
+"Το GSettings επιτρέπει τύπους nullable, που είναι όμοιοι με άλλους τύπους "
+"αλλά μπορούν να πάρουν την τιμή «nothing». Μια λογική τιμή nullable μπορεί "
+"να πάρει τρεις τιμές, «true», «false» και «nothing»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:102
+msgid "A byte (unsigned), type \"y\""
+msgstr "Ένα byte (χωρίς πρόσημο), πληκτρολογήστε \"y\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:103
+msgid ""
+"A byte value is an integer between 0 and 255. It may be used to pass around "
+"characters."
+msgstr ""
+"Μια τιμή byte είναι ένας ακέραιος μεταξύ 0 και 255. Μπορεί να χρησιμοποιηθεί "
+"για να μεταβιβάσει χαρακτήρες."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:107
+msgid "A bytestring, type \"ay\""
+msgstr "Ένα bytestring, πληκτρολογήστε \"ay\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:108
+msgid ""
+"The bytestring type is commonly used to pass around strings that may not be "
+"valid utf8. In that case, the convention is that the nul terminator "
+"character should be included as the last character in the array."
+msgstr ""
+"Ο τύπος bytestring χρησιμοποιείται για να μεταβιβάσει συμβολοσειρές που "
+"μπορεί να μην είναι έγκυρα utf8. Σε αυτή την περίπτωση, η σύμβαση είναι πως "
+"ο χαρακτήρας τερματισμού nul πρέπει να συμπεριληφθεί ως ο τελευταίος "
+"χαρακτήρας του πίνακα."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:112
+msgid "A bytestring array, type \"aay\""
+msgstr "Ένας πίνακας bytestring, πληκτρολογήστε \"aay\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:113
+msgid ""
+"This is the type of an array of bytestrings. The bytestring type is commonly "
+"used to pass around strings that may not be valid utf8."
+msgstr ""
+"Αυτός είναι ο τύπος ενός πίνακα bytestring. Ο τύπος bytestring "
+"χρησιμοποιείται για να μεταβιβάσει συμβολοσειρές που μπορεί να μην είναι "
+"έγκυρα utf8."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:117
+msgid "A D-Bus handle type, type \"h\""
+msgstr "Ένας τύπος χειριστή D-Bus, πληκτρολογήστε \"h\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:118
+#, fuzzy
+msgid ""
+"The handle type is a 32bit signed integer value that is, by convention, used "
+"as an index into an array of file descriptors that are sent alongside a D-"
+"Bus message. If you are not interacting with D-Bus, then there is no reason "
+"to make use of this type."
+msgstr ""
+"Ο τύπος χειριστή είναι ένας ακέραιος 32bit με πρόσημο, που κατά σύμβαση "
+"χρησιμοποιείται ως δείκτης σε πίνακα με περιγραφείς αρχείου, που "
+"αποστέλλονται μαζί με το μήνυμα D-Bus.\n"
+"\n"
+"Αν δεν αλληλεπιδράτε με το D-Bus, τότε δεν υπάρχει λόγος να χρησιμοποιήσετε "
+"τον τύπο."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:124
+msgid "A D-Bus object path, type \"o\""
+msgstr "Μια διαδρομή αντικειμένου D-Bus, πληκτρολογήστε \"o\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:125
+#, fuzzy
+msgid ""
+"An object path is used to identify D-Bus objects at a given destination on "
+"the bus. If you are not interacting with D-Bus, then there is no reason to "
+"make use of this type."
+msgstr ""
+"Μια διαδρομή αντικειμένου χρησιμοποιείται για να αναγνωρίσει αντικείμενα D-"
+"Bus σε έναν ορισμένο προορισμό του διαύλου.\n"
+"\n"
+"Αν δεν αλληλεπιδράτε με το D-Bus, τότε δεν υπάρχει λόγος να χρησιμοποιήσετε "
+"τον τύπο."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:131
+msgid "A D-Bus object path array, type \"ao\""
+msgstr "Ένας πίνακας διαδρομής αντικειμένου D-Bus, πληκτρολογήστε \"ao\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:132
+#, fuzzy
+msgid ""
+"An object path array could contain any number of object paths (including "
+"none: \"[]\"). If you are not interacting with D-Bus, then there is no "
+"reason to make use of this type."
+msgstr ""
+"Ένας πίνακας διαδρομής αντικεμένου μπορεί να περιέχει οποιονδήποτε αριθμό "
+"διαδρομών αντικειμένων (και του κενού: \"[]\").\n"
+"\n"
+"Αν δεν αλληλεπιδράτε με το D-Bus, τότε δεν υπάρχει λόγος να χρησιμοποιήσετε "
+"τον τύπο."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:138
+msgid "A D-Bus signature, type \"g\""
+msgstr "Μια υπογραφή D-Bus, πληκτρολογήστε \"g\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:139
+#, fuzzy
+msgid ""
+"A D-Bus signature is a string used as type signature for a D-Bus method or "
+"message. If you are not interacting with D-Bus, then there is no reason to "
+"make use of this type."
+msgstr ""
+"Μια υπογραφή D-Bus είναι μια συμβολοσειρά που χρησιμοποιείται ως τύπος για "
+"μια μέθοδο ή μήνυμα D-Bus.\n"
+"\n"
+"Αν δεν αλληλεπιδράτε με το D-Bus, τότε δεν υπάρχει λόγος να χρησιμοποιήσετε "
+"τον τύπο."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:145
+msgid "A double, type \"d\""
+msgstr "Μια μεταβλητή διπλής ακρίβειας, πληκτρολογήστε \"d\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:146
+msgid "A double value could represent any real number."
+msgstr ""
+"Μια μεταβλητή διπλής ακρίβειας μπορεί να αναπαρασταθεί από έναν πραγματικό "
+"αριθμό."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:150
+msgid "A 5-choices enumeration"
+msgstr "Μια αρίθμηση 5 επιλογών"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:151
+msgid ""
+"Enumerations could be done either with the \"enum\" attribute, or with a "
+"\"choices\" tag."
+msgstr ""
+"Η αρίθμηση μπορεί να γίνει είτε με ένα όρισμα \"enum\", ή με μια σημαία "
+"\"choices\"."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:155
+msgid "A short integer, type \"n\""
+msgstr "Ένας ακέραιος short, πληκτρολογήστε \"n\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:156
+msgid "A 16bit signed integer. See also the \"integer-16-unsigned\" key."
+msgstr ""
+"Ένας ακέραιος 16bit με πρόσημο. Δείτε επίσης το κλειδί «integer-16-unsigned»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:160
+msgid "Flags: choose-colors-you-love"
+msgstr "Σημαίες: choose-colors-you-love"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:161
+msgid "Flags could be set by the \"enum\" attribute."
+msgstr "Σημαίες που μπορούν να οριστούν από το γνώρισμα «enum»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:165
+msgid "An unsigned short integer, type \"q\""
+msgstr "Ένας ακέραιος short χωρίς πρόσημο, πληκτρολογήστε \"q\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:166
+msgid "A 16bit unsigned integer. See also the \"integer-16-signed\" key."
+msgstr ""
+"Ένας ακέραιος 16bit χωρίς πρόσημο. Δείτε επίσης το κλειδί «integer-16-"
+"signed»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:170
+msgid "An usual integer, type \"i\""
+msgstr "Ένας ακέραιος, πληκτρολογήστε \"i\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:171
+msgid "A 32bit signed integer. See also the \"integer-32-unsigned\" key."
+msgstr ""
+"Ένας ακέραιος 32bit με πρόσημο. Δείτε επίσης το κλειδί «integer-32-unsigned»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:175
+msgid "An unsigned usual integer, type \"u\""
+msgstr "Ένας ακέραιος χωρίς πρόσημο, πληκτρολογήστε \"u\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:176
+msgid "A 32bit unsigned integer. See also the \"integer-32-signed\" key."
+msgstr ""
+"Ένας ακέραιος 32bit χωρίς πρόσημο. Δείτε επίσης το κλειδί «integer-32-"
+"signed»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:180
+msgid "A long integer, type \"x\""
+msgstr "Ένας ακέραιος long, πληκτρολογήστε «x»"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:181
+msgid "A 64bit signed integer. See also the \"integer-64-unsigned\" key."
+msgstr ""
+"Ένας ακέραιος 64bit με πρόσημο. Δείτε επίσης το κλειδί «integer-64-unsigned»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:185
+msgid "An unsigned long integer, type \"t\""
+msgstr "Ένας ακέραιος long χωρίς πρόσημο, πληκτρολογήστε \"t\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:186
+msgid "A 64bit unsigned integer. See also the \"integer-64-signed\" key."
+msgstr ""
+"Ένας ακέραιος 64bit χωρίς πρόσημο. Δείτε επίσης το κλειδί «integer-64-"
+"signed»."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:192
+msgid "A number with range"
+msgstr "Ένας αριθμός με εύρος"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:193
+msgid ""
+"Every numeral setting (integers and unsigned integers of every type, plus "
+"doubles) could be limited to a custom range of values. For example, this "
+"integer could only take a value between -2 and 10."
+msgstr ""
+"Κάθε αριθμητική επιλογή (ακέραιοι και ακέραιοι χωρίς πρόσημο κάθε τύπου, και "
+"double) μπορεί να περιοριστεί σε ένα προσαρμοσμένο εύρος τιμών. Για "
+"παράδειγμα, αυτός ο ακέραιος μπορεί να πάρει μια τιμή μεταξύ -2 και 10."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:197
+msgid "A custom type, here \"(ii)\""
+msgstr "Ένας προσαρμοσμένος τύπος, εδώ \"(ii)\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:198
+msgid ""
+"Dconf Editor lets you edit any settings type supported by GSettings, falling "
+"back on a string entry when it doesn't have a better way to do. Here is a "
+"tuple of two 32bit signed integers."
+msgstr ""
+"Ο επεξεργαστής Dconf σας επιτρέπει να επεξεργαστείτε κάθε τύπο ρύθμισης του "
+"GSettings, χρησιμοποιώντας μια συμβολοσειρά όταν δεν υπάρχει ο κατάλληλος "
+"τύπος. Εδώ είναι μια λίστα δύο ακεραίων 32bit με πρόσημο."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:202
+msgid "A string, type \"s\""
+msgstr "Μια συμβολοσειρά, πληκτρολογήστε \"s\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:203
+msgid ""
+"The string type could accept any utf8 string. Note that an empty string "
+"\"''\" is not the same as NULL (nothing); see also the \"string-nullable\" "
+"key."
+msgstr ""
+"Μια συμβολοσειρά μπορεί να δεχτεί οποιαδήποτε συμβολοσειρά σε utf8. Προσέχτε "
+"ότι μια κενή συμβολοσειρά \"''\" δεν είναι το ίδιο με το NULL (τίποτα). "
+"Δείτε επίσης το κλειδί \"string-nullable\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:207
+msgid "A string array, type \"as\""
+msgstr "Ένας πίνακας συμβολοσειρών, πληκτρολογήστε \"as\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:208
+msgid ""
+"A string array contains any number of strings of whatever length. It may be "
+"an empty array, \"[]\"."
+msgstr ""
+"Ένας πίνακας συμβολοσειρών μπορεί να περιέχει αριθμούς και συμβολοσειρές "
+"οποιουδήποτε μεγέθους. Μπορεί να περιέχει και τον κενό πίνακα, \"[]\"."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:212
+msgid "A nullable string, type \"ms\""
+msgstr "Μια συμβολοσειρά nullable, πληκτρολογήστε \"ms\""
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:213
+msgid ""
+"GSettings allows nullable types, that are similar to other types but could "
+"take a \"nothing\" value. A nullable string can take any string as value, "
+"including the empty string \"''\", or can be NULL (nothing)."
+msgstr ""
+"Το GSettings επιτρέπει τύπους nullable, που είναι όμοιοι με άλλους τύπους "
+"αλλά μπορούν να πάρουν την τιμή \"nothing\". Μια συμβολοσειρά nullable "
+"μπορεί να πάρει οποιαδήποτε συμβολοσειρά ως τιμή, συμπεριλαμβανομένης της "
+"κενής \"''\", ή μπορεί να είναι NULL (τίποτα)."
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:217
+#, fuzzy
+msgid "A 1-choice enumeration"
+msgstr "Μια αρίθμηση 5 επιλογών"
+
+#: editor/ca.desrt.dconf-editor.gschema.xml:218
+msgid ""
+"An enumeration could contain only one item, but that's probably an error. "
+"Dconf Editor warns you in that case."
+msgstr ""
+
+#: editor/dconf-editor-menu.ui:6
+msgid "Keyboard Shortcuts"
+msgstr "Συντομεύσεις πληκτρολογίου"
+
+#: editor/dconf-editor-menu.ui:10
+msgid "_About"
+msgstr "_Περί"
+
+#: editor/dconf-editor-menu.ui:14
+msgid "_Quit"
+msgstr "Έ_ξοδος"
+
+#: editor/dconf-editor.ui:49
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#. TODO 1/3 Informations
+#: editor/dconf-editor.ui:50
+msgid "Current view actions"
+msgstr "Τρέχουσες ενέργειες προβολής"
+
+#: editor/dconf-editor.ui:77
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: editor/dconf-editor.ui:78
+msgid "Search keys"
+msgstr "Κλειδιά αναζήτησης"
+
+#: editor/dconf-editor.vala:22
+msgid "Print release version and exit"
+msgstr "Προβολή της έκδοσης και έξοδος"
+
+#: editor/dconf-editor.vala:96
+msgid "Copied to clipboard"
+msgstr "Αντιγράφτηκε στο πρόχειρο"
+
+#: editor/dconf-editor.vala:150
+msgid ""
+"Copyright © 2010-2014 – Canonical Ltd\n"
+"Copyright © 2015-2016 – Arnaud Bonatti"
+msgstr ""
+"Πνευματικά δικαιώματα © 2010-2014 – Canonical Ltd\n"
+"Πνευματικά δικαιώματα © 2015-2016 – Arnaud Bonatti"
+
+#: editor/dconf-editor.vala:154
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME\n"
+" Δημήτρης Σπίγγος <dmtrs32@gmail.com>\n"
+" Θάνος Τρυφωνίδης <tomtryf@gnome.org>\n"
+" Ευστάθιος Ιωσηφίδης <iosifidis@opensuse.org>\n"
+" Μαρία Θουκυδίδου <marablack3@gmail.com>\n"
+" Μαρία Μαυρίδου <mavridou@gmail.com>\n"
+"\n"
+"Για περισσότερες πληροφορίες, επισκεφθείτε την σελίδα\n"
+"http://gnome.gr/"
+
+#: editor/dconf-model.vala:195
+msgid "Boolean"
+msgstr "Λογική τιμή"
+
+#: editor/dconf-model.vala:197
+msgid "String"
+msgstr "Συμβολοσειρά"
+
+#: editor/dconf-model.vala:199
+msgid "String array"
+msgstr "Πίνακας συμβολοσειρών"
+
+#: editor/dconf-model.vala:201
+msgid "Enumeration"
+msgstr "Αρίθμηση"
+
+#: editor/dconf-model.vala:203
+msgid "Flags"
+msgstr "Σημαίες"
+
+#: editor/dconf-model.vala:205
+msgid "Double"
+msgstr ""
+
+#: editor/dconf-model.vala:208
+msgid "D-Bus handle type"
+msgstr "Τύπος χειριστή D-Bus"
+
+#: editor/dconf-model.vala:210
+msgid "D-Bus object path"
+msgstr "Διαδρομή αντικειμένου D-Bus"
+
+#: editor/dconf-model.vala:212
+msgid "D-Bus object path array"
+msgstr "Πίνακας διαδρομής αντικειμένου D-Bus"
+
+#: editor/dconf-model.vala:214
+msgid "D-Bus signature"
+msgstr "Υπογραφή D-Bus"
+
+#: editor/dconf-model.vala:222
+#, fuzzy
+msgid "Integer"
+msgstr "Ακέραιος [%s..%s]"
+
+#: editor/dconf-model.vala:337
+msgid "True"
+msgstr "Αληθές"
+
+#: editor/dconf-model.vala:339
+msgid "False"
+msgstr "Ψευδές"
+
+#: editor/dconf-model.vala:340
+msgid "Nothing"
+msgstr "Τίποτα"
+
+#: editor/dconf-model.vala:345
+msgid "true"
+msgstr "αληθές"
+
+#: editor/dconf-model.vala:347
+msgid "false"
+msgstr "ψευδές"
+
+#: editor/dconf-model.vala:349
+msgid "nothing"
+msgstr "τίποτα (nothing)"
+
+#: editor/dconf-view.vala:438
+msgid "This value is invalid for the key type."
+msgstr ""
+
+#: editor/dconf-window.vala:132
+msgid "Thanks for using Dconf Editor for editing your settings!"
+msgstr ""
+"Σας ευχαριστούμε που χρησιμοποιείτε τον επεξεργαστή Dconf για την αλλαγή των "
+"ρυθμίσεων σας!"
+
+#: editor/dconf-window.vala:133
+msgid "Don’t forget that some options may break applications, so be careful."
+msgstr ""
+"Μην ξεχνάτε πως ορισμένες επιλογές μπορεί να κάνουν τις εφαρμογές να μη "
+"λειτουργούν σωστά, γι αυτό να είστε προσεκτικοί"
+
+#: editor/dconf-window.vala:134
+msgid "I’ll be careful."
+msgstr "Θα είμαι προσεκτικός."
+
+#: editor/dconf-window.vala:138
+msgid "Show this dialog next time."
+msgstr "Εμφάνιση αυτού του διαλόγου την επόμενη φορά."
+
+#: editor/dconf-window.vala:248
+msgid "Copy current path"
+msgstr "Αντιγραφή τρέχουσας διαδρομής"
+
+#: editor/dconf-window.vala:253
+msgid "Reset visible keys"
+msgstr "Επαναφορά ορατών κλειδιών"
+
+#: editor/dconf-window.vala:254
+msgid "Reset recursively"
+msgstr ""
+
+#: editor/dconf-window.vala:262
+msgid "Enter delay mode"
+msgstr ""
+
+#: editor/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: editor/help-overlay.ui:15
+msgctxt "shortcut window"
+msgid "Bookmarks menu"
+msgstr "Μενού σελιδοδεικτών"
+
+#: editor/help-overlay.ui:22
+msgctxt "shortcut window"
+msgid "Bookmark this path"
+msgstr "Προσθήκη σελιδοδείκτη της διαδρομής"
+
+#: editor/help-overlay.ui:29
+msgctxt "shortcut window"
+msgid "Unbookmark this path"
+msgstr "Αφαίρεση σελιδοδείκτη της διαδρομής"
+
+#: editor/help-overlay.ui:36
+msgctxt "shortcut window"
+msgid "Search bar"
+msgstr "Γραμμή αναζήτησης"
+
+#: editor/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Actions menu"
+msgstr "Μενού ενεργειών"
+
+#: editor/help-overlay.ui:59
+msgctxt "shortcut window"
+msgid "Clipboard"
+msgstr "Πρόχειρο"
+
+#: editor/help-overlay.ui:63
+msgctxt "shortcut window"
+msgid "Copy descriptor"
+msgstr "Αντιγραφή περιγραφέα"
+
+#: editor/help-overlay.ui:70
+msgctxt "shortcut window"
+msgid "Copy path"
+msgstr "Αντιγραφή διαδρομής"
+
+#: editor/help-overlay.ui:79
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Path bar navigation"
+msgstr "Περιήγηση δένδρου"
+
+#: editor/help-overlay.ui:83
+msgctxt "shortcut window"
+msgid "Open root folder"
+msgstr ""
+
+#: editor/help-overlay.ui:90
+msgctxt "shortcut window"
+msgid "Open parent folder"
+msgstr ""
+
+#: editor/help-overlay.ui:97
+msgctxt "shortcut window"
+msgid "Open active direct child"
+msgstr ""
+
+#: editor/help-overlay.ui:104
+msgctxt "shortcut window"
+msgid "Open active last child"
+msgstr ""
+
+#: editor/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Generic"
+msgstr "Γενικά"
+
+#: editor/help-overlay.ui:117
+msgctxt "shortcut window"
+msgid "Show this help"
+msgstr "Εμφάνιση αυτής της βοήθειας"
+
+#: editor/help-overlay.ui:124
+msgctxt "shortcut window"
+msgid "About"
+msgstr "Περί"
+
+#: editor/help-overlay.ui:131
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: editor/key-list-box-row.vala:162
+msgid "No Schema Found"
+msgstr "Δεν βρέθηκε διάταξη"
+
+#: editor/key-list-box-row.vala:171
+msgid "Key erased."
+msgstr ""
+
+#: editor/key-list-box-row.vala:187
+#, c-format
+msgid "%s (key erased)"
+msgstr ""
+
+#: editor/key-list-box-row.vala:389
+msgid "Customize…"
+msgstr "Προσαρμογή…"
+
+#: editor/key-list-box-row.vala:392
+msgid "Set to default"
+msgstr "Ορισμός προεπιλεγμένης τιμής"
+
+#: editor/key-list-box-row.vala:397
+msgid "Dismiss change"
+msgstr ""
+
+#: editor/key-list-box-row.vala:400
+msgid "Open"
+msgstr ""
+
+#: editor/key-list-box-row.vala:403 editor/key-list-box-row.vala:531
+#: editor/registry-info.ui:28
+msgid "Erase key"
+msgstr ""
+
+#: editor/key-list-box-row.vala:406
+msgid "Do not erase"
+msgstr ""
+
+#: editor/key-list-box-row.vala:415
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: editor/key-list-box-row.vala:525
+msgid "No change"
+msgstr ""
+
+#: editor/key-list-box-row.vala:575 editor/registry-info.vala:235
+msgid "Default value"
+msgstr "Προεπιλεγμένη τιμή"
+
+#: editor/modifications-revealer.ui:49
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: editor/modifications-revealer.vala:141
+msgid "Nothing to reset."
+msgstr ""
+
+#: editor/modifications-revealer.vala:241
+msgid "The value is invalid."
+msgstr ""
+
+#: editor/modifications-revealer.vala:245
+msgid "The change will be dismissed if you quit this view without applying."
+msgstr ""
+
+#: editor/modifications-revealer.vala:247
+msgid "The change will be applied on such request or if you quit this view."
+msgstr ""
+
+#: editor/modifications-revealer.vala:264
+msgid "Changes will be delayed until you request it."
+msgstr ""
+
+#: editor/modifications-revealer.vala:266
+#, c-format
+msgid "One gsettings operation delayed."
+msgid_plural "%u gsettings operations delayed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: editor/modifications-revealer.vala:270
+#, c-format
+msgid "One dconf operation delayed."
+msgid_plural "%u dconf operations delayed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: editor/modifications-revealer.vala:273
+#, c-format
+msgid "%s%s"
+msgstr ""
+
+#: editor/modifications-revealer.vala:273
+#, fuzzy, c-format
+msgid "One gsettings operation"
+msgid_plural "%u gsettings operations"
+msgstr[0] "ρυθμίσεις;διαμόρφωση;settings;configuration;"
+msgstr[1] "ρυθμίσεις;διαμόρφωση;settings;configuration;"
+
+#: editor/modifications-revealer.vala:278
+#, c-format
+msgid " and one dconf operation delayed."
+msgid_plural " and %u dconf operations delayed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: editor/registry-info.ui:22
+msgid ""
+"No schema available. Dconf Editor can’t find a schema associated with this "
+"key. The application that installed this key may have been removed, may have "
+"stop the use of this key, or may use a relocatable schema for defining its "
+"keys."
+msgstr ""
+"Δεν υπάρχει διαθέσιμη διάταξη. Ο επεξεργαστής Dconf δεν μπορεί να βρει μια "
+"διάταξη συσχετισμένη με αυτό το κλειδί. Η εφαρμογή που εγκατέστησε αυτό το "
+"κλειδί μπορεί να έχει αφαιρεθεί, ή έχει σταματήσει να το χρησιμοποιεί ή "
+"μπορεί να χρησιμοποιεί μια άλλη διάταξη που ορίζει τα κλειδιά της."
+
+#: editor/registry-info.ui:56
+msgid ""
+"This enumeration offers only one choice. That’s probably an error of the "
+"application that installed this schema. If possible, please open a bug about "
+"it."
+msgstr ""
+
+#: editor/registry-info.vala:80
+msgid "Schema"
+msgstr "Διάταξη"
+
+#: editor/registry-info.vala:81
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: editor/registry-info.vala:82
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: editor/registry-info.vala:84
+msgid "Type"
+msgstr "Τύπος"
+
+#: editor/registry-info.vala:86
+msgid "Minimum"
+msgstr ""
+
+#: editor/registry-info.vala:87
+msgid "Maximum"
+msgstr ""
+
+#: editor/registry-info.vala:88
+msgid "Default"
+msgstr "Προεπιλεγμένο"
+
+#: editor/registry-info.vala:108
+#, fuzzy
+msgid "Current value"
+msgstr "Προσαρμοσμένη τιμή"
+
+#: editor/registry-info.vala:134
+msgid "Use default value"
+msgstr "Χρήση προεπιλεγμένης τιμής"
+
+#: editor/registry-info.vala:192
+msgid "Custom value"
+msgstr "Προσαρμοσμένη τιμή"
+
+#: editor/registry-info.vala:296
+msgid ""
+"Use the keyword “nothing” to set a maybe type (beginning with “m”) to its "
+"empty value. Strings, signatures and object paths should be surrounded by "
+"quotation marks."
+msgstr ""
+"Χρησιμοποιήστε τη λέξη κλειδί \"nothing\" για να ορίσετε τον τύπο maybe "
+"(ξεκινά με \"m\") στην κενή τιμή του. Συμβολοσειρές, υπογραφές και διαδρομές "
+"αντικειμένων πρέπει να έχουν εισαγωγικά."
+
+#: editor/registry-info.vala:298
+msgid ""
+"Strings, signatures and object paths should be surrounded by quotation marks."
+msgstr ""
+"Οι συμβολοσειρές, υπογραφές και διαδρομές αντικειμένων πρέπει να έχουν "
+"εισαγωγικά."
+
+#: editor/registry-info.vala:302
+msgid ""
+"Use the keyword “nothing” to set a maybe type (beginning with “m”) to its "
+"empty value."
+msgstr ""
+"Χρησιμοποιήστε τη λέξη κλειδί \"nothing\" για να ορίσετε τον τύπο maybe "
+"(ξεκινά με \"m\") στην κενή τιμή του."
+
+#: editor/registry-view.ui:95
+msgid "No keys in this path"
+msgstr "Δεν υπάρχουν κλειδιά σε αυτή τη διαδρομή"
+
+#: editor/registry-view.vala:170
+#, c-format
+msgid "Cannot find folder \"%s\"."
+msgstr ""
+
+#: editor/registry-view.vala:188
+#, c-format
+msgid "Cannot find key \"%s\" here."
+msgstr ""
+
+#: editor/registry-view.vala:194
+#, c-format
+msgid "Key \"%s\" has been removed."
+msgstr ""
+
+#~ msgid "Double [%s..%s]"
+#~ msgstr "Πραγματικός διπλής ακρίβειας [%s..%s]"
+
+#~ msgid "Oops! Cannot find something at this path."
+#~ msgstr "Ωχ! Δεν βρέθηκε κάτι σε αυτή την διαδρομή."
+
+#~ msgctxt "shortcut window"
+#~ msgid "Expand"
+#~ msgstr "Ανάπτυξη"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Expand all subtrees"
+#~ msgstr "Ανάπτυξη όλων των υποδένδρων"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Collapse"
+#~ msgstr "Σύμπτυξη"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Collapse all subtrees"
+#~ msgstr "Σύμπτυξη όλων των υποδένδρων"
+
+#~ msgid "Key Editor"
+#~ msgstr "Επεξεργαστής κλειδιών"
+
+#~ msgid "Cancel"
+#~ msgstr "Aκύρωση"
+
+#, fuzzy
+#~| msgid ""
+#~| "This program is free software; you can redistribute it and/or modify it "
+#~| "under the terms of the GNU General Public License as published by the "
+#~| "Free Software Foundation; either version 2 of the License, or (at your "
+#~| "option) any later version.\n"
+#~| "\n"
+#~| "This program is distributed in the hope that it will be useful, but "
+#~| "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~| "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+#~| "General Public License for more details.\n"
+#~| "\n"
+#~| "You should have received a copy of the GNU General Public License along "
+#~| "with this program; if not, write to the Free Software Foundation, Inc., "
+#~| "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgid ""
+#~ "Dconf Editor is free software: you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation, either version 3 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "Dconf Editor is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program. If not, see <http://www.gnu.org/licenses/>."
+#~ msgstr ""
+#~ "Αυτή η εφαρμογή είναι ελεύθερο λογισμικό: Μπορείτε να το διανείμετε εκ "
+#~ "νέου και/ή να το τροποποιήσετε κάτω από τους όρους της GNU Γενικής "
+#~ "Δημόσιας Άδειας Χρήσης (GPL) όπως είναι δημοσιευμένη από το Free Software "
+#~ "Foundation· είτε με την έκδοση 2 της Άδειας, είτε (κατά την επιλογή σας) "
+#~ "με οποιαδήποτε μεταγενέστερη έκδοση.\n"
+#~ "\n"
+#~ "Η εφαρμογή διανέμεται με την ελπίδα οτι θα είναι χρήσιμη, αλλά ΧΩΡΙΣ "
+#~ "ΚΑΜΜΙΑ ΑΠΟΛΥΤΩΣ ΕΓΓΥΗΣΗ, χωρίς ακόμη και την έμμεση εγγύηση "
+#~ "ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ. Δείτε την "
+#~ "Γενική Άδεια Δημόσιας Χρήσης GNU (GNU General Public License) για "
+#~ "περισσότερες λεπτομέρειες.\n"
+#~ "\n"
+#~ "Θα πρέπει να έχετε λάβει ένα αντίγραφο της Γενικής Άδειας Δημόσιας Χρήσης "
+#~ "GNU  (GNU General Public License) μαζί με αυτό το πρόγραμμα. Αν όχι, "
+#~ "επικοινωνήστε γραπτώς με το Ίδρυμα Ελεύθερου λογισμικού (Free Software "
+#~ "Foundation, Inc.), 51 Franklin Street, Fifth Floor, Boston, MA "
+#~ "02110-1301, USA."
+
+#~ msgid "Copyright © Canonical Ltd"
+#~ msgstr "Πνευματικά δικαιώματα © Canonical Ltd"
+
+#, fuzzy
+#~ msgid "I'd be careful."
+#~ msgstr "Προσέξτε να μην χάσετε το κωδικό πρόσβασής σας."
+
+#~ msgid "_Find…"
+#~ msgstr "Εύ_ρεση…"
+
+#~ msgid "Next"
+#~ msgstr "Επόμενο"
+
+#~ msgid "Not found"
+#~ msgstr "Δε βρέθηκε"
+
+#~ msgid "Error setting value: %s"
+#~ msgstr "Σφάλμα κατά την ανάθεση τιμής: %s"
+
+#~ msgid "Name"
+#~ msgstr "Όνομα"
+
+#~ msgid "Value"
+#~ msgstr "Τιμή"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <template class="FolderListBoxRow" parent="ClickableListBoxRow">
+    <style>
+      <class name="folder"/>
+    </style>
+    <child>
+      <object class="GtkGrid">
+        <property name="visible">True</property>
+        <property name="orientation">horizontal</property>
+        <child>
+          <object class="GtkLabel" id="folder_name_label">
+            <property name="visible">True</property>
+            <property name="vexpand">True</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="key-name"/>
+            </style>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
