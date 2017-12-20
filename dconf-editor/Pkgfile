@@ -14,9 +14,9 @@ source=("https://git.gnome.org/browse/dconf-editor/snapshot/$name-$version.tar.x
 build() {
   cd $name-$version
   
-  patch -p1 -i $SRC/Makefile.patch
-  
   NOCONFIGURE=1 ./autogen.sh
+  
+  patch -p1 -i $SRC/Makefile.patch
   
   ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
   make
