@@ -7,7 +7,7 @@
 name=obexftp
 version=0.24.2
 release=2
-source=(https://iweb.dl.sourceforge.net/project/openobex/$name/$version/$name-$version-Source.tar.gz obexftp.1 obexftpd.1)
+source=(https://iweb.dl.sourceforge.net/project/openobex/$name/$version/$name-$version-Source.tar.gz obexftp.1 obexftpd.1 cmake_install.cmake.patch)
 
 build () {
 	mkdir build
@@ -16,7 +16,7 @@ build () {
 	cmake ../$name-$version-Source \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr 
-
+	patch -p1 -i "${SRC}/cmake_install.cmake.patch"
 	make
 	make DESTDIR=$PKG install
 
