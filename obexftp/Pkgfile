@@ -5,9 +5,9 @@
 # Depends on:	openobex bluez cmake libiconv asciidoc xmlto fuse swig ruby tk
 
 name=obexftp
-version=0.24
+version=0.24.2
 release=2
-source=(https://iweb.dl.sourceforge.net/project/openobex/$name/$version/$name-$version-Source.tar.gz)
+source=(https://iweb.dl.sourceforge.net/project/openobex/$name/$version/$name-$version-Source.tar.gz obexftp.1 obexftpd.1)
 
 build () {
 	mkdir build
@@ -15,7 +15,7 @@ build () {
 
 	cmake ../$name-$version-Source \
 		-DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_PREFIX=/usr 
 
 	make
 	make DESTDIR=$PKG install
