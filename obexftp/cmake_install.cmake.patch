@@ -1,11 +1,11 @@
---- src/build/obexftp/cmake_install.cmake	2017-12-20 00:44:56.402630525 -0800
-+++ src/build/obexftp/cmake_install.cmake	2017-12-20 00:34:49.539313311 -0800
+--- obexftp/cmake_install.cmake	2017-12-20 00:58:49.489275063 -0800
++++ obexftp/cmake_install.cmake	2017-12-20 00:44:56.402630525 -0800
 @@ -34,7 +34,7 @@
  
  if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "library" OR NOT CMAKE_INSTALL_COMPONENT)
    foreach(file
--      
-+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/libobexftp.so.0.3.0"
+-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/libobexftp.so.0.3.0"
++      
        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/libobexftp.so.0"
        "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/libobexftp.so"
        )
