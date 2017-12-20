@@ -1,0 +1,11 @@
+--- dconf-editor-3.26.2/editorMakefile	2017-12-19 14:51:15.996599600 -0800
++++ dconf-editor-3.26.2/editor/Makefile	2017-12-19 14:38:30.696615392 -0800
+@@ -1102,7 +1102,7 @@
+ 	            echo 'Exec=${bindir}/dconf-editor --gapplication-service') > $@.tmp && \
+ 	           mv $@.tmp $@
+ 
+-@APPSTREAM_XML_RULES@
++
+ 
+ ca.desrt.dconf-editor.appdata.xml: ca.desrt.dconf-editor.appdata.xml.in
+ 	$(AM_V_GEN)$(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@

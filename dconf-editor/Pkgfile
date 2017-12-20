@@ -8,11 +8,13 @@ name=dconf-editor
 version=3.26.2
 release=1
 
-source=("https://git.gnome.org/browse/dconf-editor/snapshot/$name-$version.tar.xz")
+source=("https://git.gnome.org/browse/dconf-editor/snapshot/$name-$version.tar.xz" / Makefile.patch)
 
 
 build() {
   cd $name-$version
+  
+  patch -p1 -i $SRC/Makefile.patch
   
   NOCONFIGURE=1 ./autogen.sh
   
