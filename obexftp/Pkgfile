@@ -27,4 +27,6 @@ build () {
 	done
 
 	rm -rf $PKG/usr/share
+	rm -rf $PKG/usr/bin/obexfs
+	rm -rf $PKG/usr/bin/obexautofs
 }

@@ -1,6 +1,7 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqs7XMKUmJ5yMH4it/9MCtTccwPEFCWkyVqdflA5VuxSuZ2rWEU8ql1SIAzBjsQmF9iKpFRLeiMMEg5byS2K1PwM=
-SHA256 (Pkgfile) = 74ce8a11574398843c34a5bd04c34e6bd0c05015fc595041ecc4218e8b18682d
+RWQl8gtaJ/lzqmV9LgokPNBdH4ePz1PeyYQvqbjKsASSN+Rp7a2owf5x4xlHV+kPT8PqZtex2lSKOoMxHILF1kkGd5opFFXrIwk=
+SHA256 (Pkgfile) = 5e41bed30dd99c526d5588e2e6d408caf66267fb0f475f051f790f57dd194e6c
+SHA256 (.footprint) = e3ad2583bc5261850434df48e5fe4f4e31f24a94a679599d30dcdffabc29440e
 SHA256 (obexftp-0.24.2-Source.tar.gz) = d40fb48e0a0eea997b3e582774b29f793919a625d54b87182e31a3f3d1c989a3
 SHA256 (obexftp.1) = 375aa9c7ed9154ea08a5485cb0bc1cec3c270982e55d962289c465dbb2521c31
 SHA256 (obexftpd.1) = f5b4c6ca41f472f05a74b83c2f9544c207878d826ee7babe64d4f0daa805aa5f
