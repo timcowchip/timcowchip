@@ -1,0 +1,22 @@
+# Description: basic iCAL protocols
+# URL: http://freeassociation.sourceforge.net
+# Maintainer: Daryl Fonseca-Holt, wyatt at prairieturtle dot ca
+# Depends on:
+
+name=libical
+version=3.0.1
+release=1
+source=(https://github.com/${name}/${name}/archive/v${version}.tar.gz)
+
+build() {
+  mkdir build
+  cd build
+
+  cmake ../"${name}-${version}" \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DSHARED_ONLY=true \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=/usr/lib
+  make
+  make install DESTDIR=$PKG
+}
