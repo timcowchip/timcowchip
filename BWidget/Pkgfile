@@ -1,14 +1,16 @@
-# Description:	megawidget
-# URL:	http://tcllib.sourceforge.net
+# Description:	A suite of megawidgets for Tk
+# URL:		hA suite of megawidgets for Tk
 # Maintainer:    Chris Farrell, timcowchip at gorge dot net
-# Depends on:	tcl tcllib
+# Depends: bash tcl
 
 name=bwidget
-version=1.9.5
+version=1.9.10
 release=1
-source=(http://downloads.sourceforge.net/project/tcllib/BWidget/$version/$name-$version.tar.gz)
 
-build () {
-    mkdir -p $PKG/usr/lib/tcl8.5
-    mv $name-$version $PKG/usr/lib/tcl8.5/
+source=("http://downloads.sourceforge.net/project/tcllib/BWidget/$version/bwidget-$version.tar.gz")
+
+build() {
+  cd "${SRC}"
+  install -d "${PKG}"/usr/lib/tcl8.6
+  cp -r bwidget-$version "${PKG}"/usr/lib/tcl8.6/
 }
