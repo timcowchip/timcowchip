@@ -1,9 +1,0 @@
-/usr/share/doc/conky-1.10.6_pre/convert.lua
-/usr/share/doc/conky-1.10.6_pre/conky_no_x11.conf
-/usr/share/doc/conky-1.10.6_pre/conky.conf
-/usr/share/doc/conky-1.10.6_pre/html/config_settings.html
-/usr/share/doc/conky-1.10.6_pre/html/docs.html
-/usr/share/doc/conky-1.10.6_pre/html/lua.html
-/usr/share/doc/conky-1.10.6_pre/html/variables.html
-/usr/share/man/man1/conky.1
-/usr/bin/conky
