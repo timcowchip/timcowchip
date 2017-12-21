@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language id="conkyrc" _name="Conky" version="2.0" _section="Others">
+ <metadata>
+    <!-- This syntax highlighting will apply for any file with the sequence "conky"
+         in the file name (or extension), I recommend to use you_config_name.conky
+         for config files or alternatively conky_your_config_name
+         Unfortunately this will also trigger the syntax highlighting for this document,
+         you can always manually set this one back to XML.
+         If you have a favourite custom format you can change the globs property to your
+         personal preference. -->
+    <property name="globs">*conky*</property>
+    <property name="block-comment-start">--[[</property>
+    <property name="block-comment-end">]]</property>
+  </metadata>
+
+  <styles>
+    <style id="config-keyword" _name="Config keywords"     map-to="def:keyword"/>
+    <style id="text-keyword"   _name="Text keywords"       map-to="def:type"/>
+    <style id="comment" _name="Comment"         map-to="def:comment"/>
+    <style id="escaped-char" _name="Escaped Character" map-to="def:special-char"/>
+    <style id="path"    _name="Paths and URLs"      map-to="def:string"/>
+    <style id="boolean" _name="Boolean"         map-to="def:boolean"/>
+    <style id="argument"    _name="Arguments"       map-to="def:preprocessor"/>
+    <style id="brackets"    _name="Text Variable Brackets ${ ... }"   map-to="def:identifier"/>
+    <style id="decimal" _name="Decimal"         map-to="def:decimal"/>
+  </styles>
+
+  <definitions>
+
+<!-- ======================================================================================= -->
+<!-- Keep in mind gedit does not like < and >, use &lt; and &gt; instead! -->
+<!-- Use `ref="id:*"` to include all children of `id` instead of `id` itself -->
+
+
+<!-- ========================== Container contexts and structure =========================== -->
+   <!-- "root structure" this is where it all begins -->
+   <context id="conkyrc" class="no-spell-check">
+      <include>
+        <!-- Generic global stuff -->
+        <!-- Comments -->
+        <context ref="config-block-comment"/>
+        <context ref="config-line-comment"/>
+        <!-- end: Comments -->
+        
+        <!-- The settings block -->
+        <context>
+          <start>(?:(conky)\.(config)(?:\s|\n)*(=)(?:\s|\n)*(\{))</start>
+          <end>\}</end>
+          <include>
+            <!-- Keyword mark highlighter -->
+            <context sub-pattern="1" where="start" style-ref="config-keyword"/>
+            <context sub-pattern="2" where="start" style-ref="text-keyword"/>
+            <!-- end: Keyword mark highlighter -->
+            <!-- Equals highlighter -->
+            <context sub-pattern="3" where="start" style-ref="brackets"/>
+            <!-- end: Equals highlighter -->
+            <!-- Brackets highlighter -->
+            <context sub-pattern="4" where="start" style-ref="brackets"/>
+            <context sub-pattern="0" where="end" style-ref="brackets"/>
+            <!-- end: Brackets highlighter -->
+            
+            <!-- Comments -->
+            <context ref="config-block-comment"/>
+            <context ref="config-line-comment"/>
+            <!-- end: Comments -->
+            
+            <!-- key=val pair -->
+            <context ref="config-option"/>
+            <!-- end: key=val -->
+          </include>
+        </context>
+        <!-- end: settings block -->
+
+        <!-- The text block -->
+        <context id="conky-text">
+          <start>(?:(conky)\.(text)(?:\s|\n)*(=)(?:\s|\n)*)</start>
+          <end>(?=.|$)</end><!-- End at anything as we only have one child -->
+          <include>
+              <!-- Keyword mark highlighter -->
+              <context sub-pattern="1" where="start" style-ref="config-keyword"/>
+              <context sub-pattern="2" where="start" style-ref="text-keyword"/>
+              <!-- end: Keyword mark highlighter -->
+              <!-- Equals highlighter -->
+              <context sub-pattern="3" where="start" style-ref="brackets"/>
+              <!-- end: Equals highlighter -->
+            
+            <!-- Literal Sub-String -->
+            
+            <!-- This is just a literal string, really -->
+            <context ref="lua-lit-string"/>
+          </include>
+        </context>
+        <!-- end: Text block -->
+      </include>
+    </context>
+    <!-- end: root context -->
+
+
+    <!-- ================================== Import groups ================================== -->
+    <!-- Container for generic includes -->
+    <!--<context id="generic-container">
+      <include>
+      </include>
+    </context>-->
+    <!-- end: Generic container -->
+
+
+    <!-- ======================== Component contexts and structure ========================= -->
+    <!-- Block comment, lua syntax -->
+    <!-- Note: this will only highlight block comments outside the conky.text section -->
+    <context id="config-block-comment" style-ref="comment" class="comment" class-disabled="no-spell-check">
+      <start>--\[(=*)\[</start><end>]\%{1@start}]</end>
+      <include>
+    <context ref="def:in-comment"/>
+      </include>
+    </context>
+    <!-- end: Block comment, lua syntax -->
+
+    <!-- Line comment, lua syntax -->
+    <!-- Note: this will only highlight line comments outside the conky.text section -->
+    <context id="config-line-comment" style-ref="comment" class-disabled="no-spell-check">
+      <start>\-\-</start><end>$</end>
+    </context>
+    <!-- end: Line comment, lua syntax -->
+    
+    <!-- Line comment, conky text syntax -->
+    <!-- Note: this will only highlight line comments **inside** the conky.text section -->
+    <context id="text-comment" style-ref="comment" class-disabled="no-spell-check">
+      <start>#</start><end>$</end>
+    </context>
+    <!-- end: Line comment, conky syntax-->
+
+    <!-- String -->
+    <context id="lua-string"  style-ref="argument" style-inside="true"
+             end-at-line-end="true" class="string">
+      <start>('|")</start><end>\%{0@start}</end>
+      <include>
+        <!-- Quote mark highlighter -->
+        <context sub-pattern="0" where="start" style-ref="brackets"/>
+        <context sub-pattern="0" where="end" style-ref="brackets"/>
+        <!-- end: Quote mark highlighter -->
+        
+        <!-- Known patterns -->
+        <!-- Escaped Char (also prevents the context ending prematurely) -->
+        <context ref="lua-escape"/>
+        <context ref="path"/>
+        <context ref="hex-colors"/>
+        <context ref="predefined-colors"/>
+        <!-- end: Known patterns -->
+        
+      </include>
+    </context>
+    <!-- end: String value -->
+    
+    <!-- Literal string -->
+    <context id="lua-lit-string" once-only="true">
+      <start>\[\[</start><end>\]\]</end>
+      <include>
+        <!-- Quote mark highlighter -->
+        <context sub-pattern="0" where="start" style-ref="brackets"/>
+        <context sub-pattern="0" where="end" style-ref="brackets"/>
+        <!-- end: Quote mark highlighter -->
+        
+        <!-- Literal Sub-String -->
+        <!-- We use this to stop premature end of parent -->
+        <context>
+          <start>\[\[</start><end>\]\]</end>
+          <!-- Reccursive -->
+          <include><context ref="lua-lit-string:*"/></include>
+        </context>
+        <!-- end: Literal Sub-String -->
+        
+        <!-- Stuff specific to literal strings (e.g. templates and conky.text) -->
+        <!-- TODO: Find a clean way to separate template and text lit-strings -->
+        <context ref="text-escape"/>
+        <context ref="template-escape"/>
+        <context ref="text-comment"/>
+        <context ref="bracket-var"/>
+        <context ref="text-var"/>
+      </include>
+    </context>
+    <!-- end: Literal string -->
+    
+    <!-- Escaped char -->
+    
+    <!-- conky.text escapes -->
+    <context id="text-escape" style-ref="escaped-char">
+        <!-- NOTE: Conky doesn't currently escape double backslash -->
+        <match>\\(?:#|$)</match>
+    </context>
+    
+    <!-- template definition escapes -->
+    <context id="template-escape" style-ref="escaped-char">
+        <match>\\[n\\ 0-9]</match>
+    </context>
+    
+    <!-- lua string escapes -->
+    <context id="lua-escape" style-ref="escaped-char">
+        <match>\\[abfnrtv\\"'\[\]]</match>
+    </context>
+    <!-- end: Escaped char -->
+    
+    <!-- File paths and URLs, starting with https://, http://, ~/ or / -->
+    <context id="path" style-ref="path" class="string">
+      <match>(?&lt;=\'|\ )(?:\~\/|\/|htt(?:p|ps)\:\/\/){1}[^\s\}\']*</match>
+    </context>
+    <!-- end: File paths and URLs -->
+    
+    <!-- Custom colors (hex) -->
+    <context id="hex-colors" style-ref="decimal">
+      <match>(?:[\da-fA-F]{6})</match>
+    </context>
+    <!-- end: Custom colors -->
+
+    <!-- Predefined colors -->
+    <!-- Colors parsed by `XParsecolor()` (see /usr/share/X11/rgb.txt (or possibly /usr/lib)) -->
+    <context id="predefined-colors" style-ref="decimal">
+       <keyword>red</keyword>
+       <keyword>green</keyword>
+       <keyword>yellow</keyword>
+       <keyword>blue</keyword>
+       <keyword>magenta</keyword>
+       <keyword>cyan</keyword>
+       <keyword>black</keyword>
+       <keyword>white</keyword>
+    </context>
+    <!-- end: Predefined colors -->
+
+    <!-- Numbers -->
+    <context id="number" style-ref="decimal">
+      <match>(?&lt;=[\ \=]|\dx)([\+\-]{0,1}\d+)([\.\,]{1}\d+)?</match>
+    </context>
+    <!-- end: Numbers -->
+    
+    <!-- Boolean values -->
+    <context id="boolean" style-ref="boolean">
+       <keyword>false</keyword>
+       <keyword>true</keyword>
+       <keyword>yes</keyword>
+       <keyword>no</keyword>
+    </context>
+    <!-- end: Boolean values -->
+        
+    <!-- ======================================================================================= -->
+
+    <!-- key=val pair -->
+    <context id="config-option">
+      <start>[A-Za-z0-9_]+</start>
+      <!-- ended by value -->
+      <include>
+        <!-- Keyword highlight -->
+        <context sub-pattern="0" where="start" style-ref="config-keyword"/>
+        <!-- end: Keyword highlight -->
+        
+        <!-- value -->
+        <context end-parent="true">
+          <start>=</start><end>(?:,|(?=\}))</end>
+          <include>
+            <!-- Equals highlight -->
+            <context sub-pattern="0" where="start" style-ref="brackets"/>
+            <!-- end: Equals highlight -->
+            
+            <!-- Value types -->
+            <context ref="lua-string"/>
+            <context ref="lua-lit-string"/>
+            <context ref="number"/>
+            <context ref="boolean"/>
+            <!-- end: Value types -->
+            
+            <!-- Comments -->
+            <context ref="config-block-comment"/>
+            <context ref="config-line-comment"/>
+            <!-- end: Comments -->
+          </include>
+        </context>
+        <!-- end: value -->
+        
+        <!-- Comments -->
+        <context ref="config-block-comment"/>
+        <context ref="config-line-comment"/>
+        <!-- end: Comments -->
+      </include>
+    </context>
+    <!-- end: key=val -->
+
+    <!-- TextVariables -->
+    <!-- Bracket style -->
+    <context id="bracket-var" style-ref="argument" style-inside="true">
+      <start>(?:(\$\{)(?:\s|\n|$)*([a-z][a-z0-9_]*))</start>
+      <end>\}</end>
+      <include>
+          <!-- Brackets highlighter -->
+          <context sub-pattern="1" where="start" style-ref="brackets"/>
+          <context sub-pattern="0" where="end" style-ref="brackets"/>
+          <!-- end: Brackets highlighter -->
+          
+          <!-- Variable/keyword highlighter -->
+          <context sub-pattern="2" where="start" style-ref="text-keyword"/>
+          
+          <!-- Special patterns -->
+          <context ref="number"/>
+          <context ref="boolean"/>
+          <context ref="path"/>
+          <context ref="hex-colors"/>
+          <context ref="predefined-colors"/>
+          <!-- end: Special patterns -->
+          
+          <!-- Inherit from lit-String -->
+          <context ref="lua-lit-string:*"/>
+      </include>
+    </context>
+
+    <!-- non-bracket style -->
+    <context id="text-var" style-ref="text-keyword" style-inside="true">
+      <start>(?:(\$)(?!\{))</start>
+      <end>(?:(?=[^A-Za-z0-9_])|$)</end>
+      <include>
+          <!-- Dollar highlighter -->
+          <context sub-pattern="1" where="start" style-ref="brackets"/>
+          <!-- end: Dollar highlighter -->
+      </include>
+    </context>
+    <!-- end: TextVariables -->
+
+    </definitions>
+</language>

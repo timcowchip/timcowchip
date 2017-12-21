@@ -4,10 +4,6 @@ drwxr-xr-x	timcowchip/users	usr/bin/
 drwxr-xr-x	timcowchip/users	usr/share/
 drwxr-xr-x	timcowchip/users	usr/share/applications/
 -rw-r--r--	timcowchip/users	usr/share/applications/pavucontrol.desktop
-drwxr-xr-x	timcowchip/users	usr/share/doc/
-drwxr-xr-x	timcowchip/users	usr/share/doc/pavucontrol/
--rw-r--r--	timcowchip/users	usr/share/doc/pavucontrol/README.html
--rw-r--r--	timcowchip/users	usr/share/doc/pavucontrol/style.css
 drwxr-xr-x	timcowchip/users	usr/share/locale/
 drwxr-xr-x	timcowchip/users	usr/share/locale/as/
 drwxr-xr-x	timcowchip/users	usr/share/locale/as/LC_MESSAGES/

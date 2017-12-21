@@ -92,9 +92,6 @@ drwxr-xr-x	timcowchip/users	usr/share/appdata/
 -rw-r--r--	timcowchip/users	usr/share/appdata/google-chrome.appdata.xml
 drwxr-xr-x	timcowchip/users	usr/share/applications/
 -rw-r--r--	timcowchip/users	usr/share/applications/google-chrome.desktop
-drwxr-xr-x	timcowchip/users	usr/share/doc/
-drwxr-xr-x	timcowchip/users	usr/share/doc/google-chrome-stable/
--rw-r--r--	timcowchip/users	usr/share/doc/google-chrome-stable/changelog.gz
 drwxr-xr-x	timcowchip/users	usr/share/gnome-control-center/
 drwxr-xr-x	timcowchip/users	usr/share/gnome-control-center/default-apps/
 -rw-r--r--	timcowchip/users	usr/share/gnome-control-center/default-apps/google-chrome.xml

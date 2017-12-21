@@ -427,12 +427,6 @@ drwxr-xr-x	timcowchip/users	usr/share/dbus-1/services/
 -rw-r--r--	timcowchip/users	usr/share/dbus-1/services/blueman-applet.service
 drwxr-xr-x	timcowchip/users	usr/share/dbus-1/system-services/
 -rw-r--r--	timcowchip/users	usr/share/dbus-1/system-services/org.blueman.Mechanism.service
-drwxr-xr-x	timcowchip/users	usr/share/doc/
-drwxr-xr-x	timcowchip/users	usr/share/doc/blueman/
--rw-r--r--	timcowchip/users	usr/share/doc/blueman/CHANGELOG.md
--rw-r--r--	timcowchip/users	usr/share/doc/blueman/COPYING
--rw-r--r--	timcowchip/users	usr/share/doc/blueman/FAQ
--rw-r--r--	timcowchip/users	usr/share/doc/blueman/README.md
 drwxr-xr-x	timcowchip/users	usr/share/glib-2.0/
 drwxr-xr-x	timcowchip/users	usr/share/glib-2.0/schemas/
 -rw-r--r--	timcowchip/users	usr/share/glib-2.0/schemas/org.blueman.gschema.xml

@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqjx1anWPIIpa1RvpGwuCdglUsEIxt9mJRiwWwK0tqEyqYJq5Ys/F+yclpdKIk2u1S3CJ7ovoBfQBfGnKzw2tzQM=
-SHA256 (Pkgfile) = 123af165054e1c7fc274a1bd5b63ee843eab1c4ebf174353dc81e0161b403e25
-SHA256 (.footprint) = d38a30b39c6948eadf9e35f4d555536928a39c0253ab4f870eee313f22ab361e
+RWQl8gtaJ/lzqkEiijYlZ700mxH2gKBWE/N+pk4UV6nHKLTSDCXfXd0JO9rCMKRepO9xhGuslrsBDolnv7wcJnqp1hoSG60adgY=
+SHA256 (Pkgfile) = d55635d4e0c70b3561b72fb3b55f986cb15c0d5738d7fc30e258963ca4b482d8
+SHA256 (.footprint) = 194ac3106d4fdf41452eae2cfc76272b43455bccfe23c04d11f5711797f53696
 SHA256 (google-chrome-stable_current_amd64.deb) = c9e71c9fa76878d25c86538f732d50a7af3544c2b1cd19953a07c3f8d4ec1ca1
 SHA256 (eula_text.html) = e93c01576427cad9099f2cf0df0be70d0a2cc0a3a66c743318b2138aa7c4ed93

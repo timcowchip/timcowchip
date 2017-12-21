@@ -1,0 +1,29 @@
+language: cpp
+compiler:
+  - gcc
+addons:
+  apt:
+    packages:
+    - cmake
+    - libxdamage-dev
+    - libx11-dev
+    - libxft-dev
+    - libxdamage-dev
+    - libxext-dev
+    - libglib2.0-dev
+    - libxml2-dev
+    - libcurl4-gnutls-dev
+    - liblua5.1-0-dev
+    - libtolua++5.1-dev
+    - libcairo2-dev
+    - gawk
+before_script:
+  - mkdir build && cd build && cmake .. && cd ..
+  - mkdir build-no-x11 && cd build-no-x11 && cmake -DBUILD_X11=OFF .. && cd ..
+script:
+  - cd build && make -j4 && cd ..
+  - cd build-no-x11 && make -j4 && cd ..
+branches:
+  only:
+    - master
+sudo: false

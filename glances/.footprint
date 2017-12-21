@@ -459,14 +459,6 @@ drwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/glances/plugins/
 -rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/glances/webserver.pyc
 -rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/glances/webserver.pyo
 drwxr-xr-x	timcowchip/users	usr/share/
-drwxr-xr-x	timcowchip/users	usr/share/doc/
-drwxr-xr-x	timcowchip/users	usr/share/doc/glances/
--rw-r--r--	timcowchip/users	usr/share/doc/glances/AUTHORS
--rw-r--r--	timcowchip/users	usr/share/doc/glances/CONTRIBUTING.md
--rw-r--r--	timcowchip/users	usr/share/doc/glances/COPYING
--rw-r--r--	timcowchip/users	usr/share/doc/glances/NEWS
--rw-r--r--	timcowchip/users	usr/share/doc/glances/README.rst
--rw-r--r--	timcowchip/users	usr/share/doc/glances/glances.conf
 drwxr-xr-x	timcowchip/users	usr/share/man/
 drwxr-xr-x	timcowchip/users	usr/share/man/man1/
 -rw-r--r--	timcowchip/users	usr/share/man/man1/glances.1.gz
