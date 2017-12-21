@@ -7,11 +7,9 @@ name=tablelist
 version=5.16
 release=1
 
-source=(http://www.nemethi.de/tablelist/$name$version.tar.gz \
-        http://www.nemethi.de/tablelist/COPYRIGHT.txt )
+source=(http://www.nemethi.de/tablelist/$name$version.tar.gz)
 
 build() {
   mkdir -p "$PKG"/usr/lib/tcl8.6
   cp -a "$SRC"/$name$version "$PKG"/usr/lib/tcl8.6/
-  install -D COPYRIGHT.txt "$PKG"/usr/share/licenses/$name/COPYING
 }
