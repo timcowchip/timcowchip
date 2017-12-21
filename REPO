@@ -5,6 +5,7 @@ d:p5-xml-sax
 d:vala-panel
 d:wmnotify
 d:glances
+d:bwidget
 d:idesk-extras
 d:p5-xml-sax-base
 d:flburn
@@ -29,6 +30,7 @@ d:lumina
 d:isomaster
 d:libisofs
 d:gtkmm3
+d:libical
 d:icon-naming-utils
 d:handbrake
 d:conky
@@ -46,6 +48,7 @@ d:obexftp
 d:libpeas
 d:libkomparediff2
 d:udevil
+d:obextool
 d:libdaemon
 d:spacefm
 d:podcastparser
@@ -58,6 +61,7 @@ d:docbook2x
 d:ansiweather
 d:obexd
 d:google-chrome
+d:tablelist
 d:mygpoclient
 d:p5-xml-simple
 d:vice
@@ -88,6 +92,7 @@ f:9e9e85cec289bcd0d80d093c9838715e:wmnotify/Pkgfile
 f:e3d5d74a6ebdd13140274f0ab5752801:glances/.footprint
 f:df8185a773af25226d7074d8f2174360:glances/Pkgfile
 f:ef4aaba5374d324ad0adf6d79955a46f:glances/.md5sum
+f:013fbedac45ddef8fcd906b5f5a3d24c:bwidget/Pkgfile
 f:a69b916a3a62b91cc5bef67c344786a3:idesk-extras/Pkgfile
 f:6eb9eb0b92005050866701eec6db40e4:Pkgfile
 f:32ccc52954fa2c011cc1da61507bcaf5:p5-xml-sax-base/Pkgfile
@@ -146,6 +151,7 @@ f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
 f:3a1af087ce30bc609eff12be2ba9f456:libisofs/.signature
 f:fa771a91d16163484b729b1b8c396e1e:gtkmm3/Pkgfile
+f:7efbb1892a0c758b3afe3fb83529f368:libical/Pkgfile
 f:b2bd378a25ced3bfa7164d0e7fb895aa:icon-naming-utils/Pkgfile
 f:2834c647d31343e0ce862d2bdb012d54:handbrake/.footprint
 f:e8cc20a185c0aa418dbeab84e0c1d22f:handbrake/Pkgfile
@@ -180,6 +186,7 @@ f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:c610b33f52f7554171c5c90411835260:udevil/.md5sum
 f:043d9e660da45c5555563310c4cbeced:udevil/README
+f:9c9f2a41664d4de0b65b9e7ab8b9fd95:obextool/Pkgfile
 f:e6f418a5fc9fa4ac927a04d482487a9b:libdaemon/Pkgfile
 f:0565b6acb382fd73abbeed6b259ec552:spacefm/.footprint
 f:65a8c832a034a221e8d147e239fad2b1:spacefm/Pkgfile
@@ -210,6 +217,7 @@ f:2e9b51bb4773e3ee80bfec07f7db7d5f:obexd/Pkgfile
 f:e579b56f43244e51644f4d33ec199c1d:google-chrome/.footprint
 f:20fcca4e01b509fda686d9b86941b99e:google-chrome/Pkgfile
 f:1938f84623e277515238222eaf06ce8e:google-chrome/.md5sum
+f:e3fcd6d9bdefabe32084148464aedd7e:tablelist/Pkgfile
 f:ed7253836cae2aa617926ae433640b4e:mygpoclient/.footprint
 f:b538dafc23650b051ccb36609f34b3af:mygpoclient/Pkgfile
 f:f869a63cd0e9ee453282049c91f7fa9c:mygpoclient/.md5sum
