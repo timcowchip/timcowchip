@@ -9,8 +9,6 @@ release=1
 source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz)
 
 build() {
-		sed -i 's/#include <string.h>/&\n#include <stdio.h>/' plugins/mas.c
-		
 		./configure --prefix=/usr --libexecdir=/usr/lib/obex 
 		
 		make
