@@ -20,4 +20,7 @@ build() {
   ./configure --prefix=/usr --enable-gtk3
   make
   make DESTDIR="$PKG" install
+  
+  rm -rf $PKG/usr/share/doc
+  
 }

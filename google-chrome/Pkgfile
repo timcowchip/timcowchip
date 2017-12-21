@@ -28,4 +28,7 @@ build() {
     install -Dm644 "$SRC"/eula_text.html "$PKG"/usr/share/licenses/google-chrome/eula_text.html
     
     rm -r "$PKG"/etc/cron.daily/ "$PKG"/opt/google/chrome/cron/
+    
+     rm -rf $PKG/usr/share/doc
+    
 }
