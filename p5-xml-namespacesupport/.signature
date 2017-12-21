@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqnvYZO4h4V5zNG8AG9i6AuUq0cySiyvEmz80ujMgXIzcRjkhxwHbbuWRPeKeqQ39GF9JLkbAioHEENCu+VXrGgI=
+SHA256 (Pkgfile) = 52e823817c393874cfee100caf5f1aa8eba683e9e78446f78571eebfcd597be3
+SHA256 (.footprint) = cdf8dd4dcedcb2e8d86b8e21dbb1b4747127065e656c82562d2135497b32ec97
+SHA256 (XML-NamespaceSupport-1.12.tar.gz) = 47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef

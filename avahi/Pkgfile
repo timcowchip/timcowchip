@@ -1,6 +1,7 @@
 # Description: A system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite
 # URL: http://www.avahi.org/
-# Maintainer: Brian Madonna, Bmadonnaster at gmail dot com
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net 
+# Packager: Brian Madonna, Bmadonnaster at gmail dot com
 # Depends on: libdaemon dbus gobject-introspection intltool
 
 name=avahi

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqi5WXky7JQO3g6uHZcIYeT5uKK9l5rlGV613jXkopJsk+a1D5iUzcbj6Fs4rLhQkHs7lVSV+cDk70YR1SODLLAU=
+SHA256 (Pkgfile) = ecbec46474f50c26ea456daffd1d2269a518b2d3e018d42018fe7595b82ddb4f
+SHA256 (.footprint) = df95725cd77ca00f5312f8346ffba38830891cd508c02a9d5c9828cab398a0c0
+SHA256 (PySensors-0.0.3.tar.gz) = b735dada5318ce50f2d141d29b102e7a116a5934509583f86302d4b59399e961

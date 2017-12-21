@@ -1,0 +1,6 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/Xdialog
+drwxr-xr-x	timcowchip/users	usr/man/
+drwxr-xr-x	timcowchip/users	usr/man/man1/
+-rw-r--r--	timcowchip/users	usr/man/man1/Xdialog.1.gz

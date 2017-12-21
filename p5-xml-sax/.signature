@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqn2vYPyjRT0Y0dDAhDiPgbMZVyGXmbz9snXo0KVeOzEjKgXT5uZ+Qgem9CsebZU9Z+UTR6//G/fAk4hjWJoMbwI=
+SHA256 (Pkgfile) = 8328b838405a0c29f8433d65cd6ea7747e59116f298984421cebe38ffcc55e6b
+SHA256 (.footprint) = 071b15f4aff12e055547619820b1d22ae9ebf10acf41a8272a8a7dfaf9b50acb
+SHA256 (XML-SAX-0.99.tar.gz) = 32b04b8e36b6cc4cfc486de2d859d87af5386dd930f2383c49347050d6f5ad84
+SHA256 (perl-xml-sax.patch) = cf5452ccd81b7eb9cd50315a25747099628a6c0442ea3a6c3849edc3e7e4af18

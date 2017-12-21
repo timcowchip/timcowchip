@@ -1,0 +1,14 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/qterminal
+drwxr-xr-x	timcowchip/users	usr/share/
+drwxr-xr-x	timcowchip/users	usr/share/appdata/
+-rw-r--r--	timcowchip/users	usr/share/appdata/qterminal.appdata.xml
+drwxr-xr-x	timcowchip/users	usr/share/applications/
+-rw-r--r--	timcowchip/users	usr/share/applications/qterminal.desktop
+-rw-r--r--	timcowchip/users	usr/share/applications/qterminal_drop.desktop
+drwxr-xr-x	timcowchip/users	usr/share/icons/
+drwxr-xr-x	timcowchip/users	usr/share/icons/hicolor/
+drwxr-xr-x	timcowchip/users	usr/share/icons/hicolor/64x64/
+drwxr-xr-x	timcowchip/users	usr/share/icons/hicolor/64x64/apps/
+-rw-r--r--	timcowchip/users	usr/share/icons/hicolor/64x64/apps/qterminal.png

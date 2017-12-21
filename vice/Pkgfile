@@ -4,7 +4,7 @@
 # Depends on: gtk xorg-libxdamage vte icu xorg-bdftopcf xorg-mkfontdir xorg-mkfontscale libpcap libnet libsdl dialog texinfo
 
 name=vice
-version=3.0
+version=3.1
 release=1
 source=("http://downloads.sourceforge.net/project/vice-emu/releases/vice-$version.tar.gz" "icons.tar.gz" "vice.desktop" "vice")
 

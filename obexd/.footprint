@@ -1,0 +1,10 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/lib/
+drwxr-xr-x	timcowchip/users	usr/lib/obex/
+-rwxr-xr-x	timcowchip/users	usr/lib/obex/obex-client
+-rwxr-xr-x	timcowchip/users	usr/lib/obex/obexd
+drwxr-xr-x	timcowchip/users	usr/share/
+drwxr-xr-x	timcowchip/users	usr/share/dbus-1/
+drwxr-xr-x	timcowchip/users	usr/share/dbus-1/services/
+-rw-r--r--	timcowchip/users	usr/share/dbus-1/services/obex-client.service
+-rw-r--r--	timcowchip/users	usr/share/dbus-1/services/obexd.service

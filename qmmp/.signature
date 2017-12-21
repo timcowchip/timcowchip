@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzquYp0mXnVT5eH9olYQa4n3uU4T/RxwNGamXl08v3Ixi/OtxuNCr1emtJ5kiNhBvXz/UzVwRJjfKJwgzY2tJCmw8=
+SHA256 (Pkgfile) = fe3ae7adbebe85c894aef872e21f992f29c40a8c358ab99c03f763275cfffdb4
+SHA256 (.footprint) = f648b65cc41c3573086e5182a40eec970417623926d72265faa35ebf84bc004f
+SHA256 (qmmp-1.2.0.tar.bz2) = 8020c92e5dd75ed9ab34fd5d1bb524e01f2f361dafd2fe9a3073ae97f5896c9e

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqtr7/SxN98TaKPuqb0DQSijz9Lmt3teWCGRBE80KBmoeAa+Zyg8LOar4ylP5UmJaOU+2oAOr5Xbwt2HX+y986Qk=
+SHA256 (Pkgfile) = f8c5887905c93735fc7c323dbd10d74eca4312c695e47877264a4482eb825465
+SHA256 (.footprint) = 6dc332e538f67c38972cc3b6ba9311116bd4e4d09bdc4b07281e9aec72b3d1bb
+SHA256 (libkomparediff2-17.12.0.tar.xz) = b81eb715ba36f9dbe1d02215c9fb7b7177d5e22f9ae023b273393b2377e1907a

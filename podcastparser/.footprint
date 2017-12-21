@@ -1,7 +1,7 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/python2.7/
-drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/podcastparser-0.6.1-py2.7.egg-info
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/podcastparser.py
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/podcastparser.pyc
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/lib/
+drwxr-xr-x	timcowchip/users	usr/lib/python2.7/
+drwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/
+-rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/podcastparser-0.6.1-py2.7.egg-info
+-rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/podcastparser.py
+-rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/podcastparser.pyc

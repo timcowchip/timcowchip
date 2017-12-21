@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzql40CuHa8LSUT0S7lWsuUqGgoYAcizFu1T2WESgEZg8WOUHdOK0KUNUrj9JeW0ZP4zgkATWghDVkmZJ8iFbxuAo=
+SHA256 (Pkgfile) = 8d3b2946d984d0604cf2579daae6c75a87a327fc0851be07424af73bcd732615
+SHA256 (.footprint) = 4c2924edcea2de651678582b16835044ea39ca6836d106266ec6d6ee3b7ba442
+SHA256 (bluez-5.47.tar.xz) = cf75bf7cd5d564f21cc4a2bd01d5c39ce425397335fd47d9bbe43af0a58342c8
+SHA256 (bluetoothd) = 9f4855177768a13c61a49284d57e95ad9cd6deff90fce4d84e862be21a74b2df

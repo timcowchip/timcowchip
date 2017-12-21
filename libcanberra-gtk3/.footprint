@@ -1,0 +1,63 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/canberra-boot
+-rwxr-xr-x	timcowchip/users	usr/bin/canberra-gtk-play
+drwxr-xr-x	timcowchip/users	usr/include/
+-rw-r--r--	timcowchip/users	usr/include/canberra-gtk.h
+-rw-r--r--	timcowchip/users	usr/include/canberra.h
+drwxr-xr-x	timcowchip/users	usr/lib/
+drwxr-xr-x	timcowchip/users	usr/lib/gnome-settings-daemon-3.0/
+drwxr-xr-x	timcowchip/users	usr/lib/gnome-settings-daemon-3.0/gtk-modules/
+-rw-r--r--	timcowchip/users	usr/lib/gnome-settings-daemon-3.0/gtk-modules/canberra-gtk-module.desktop
+drwxr-xr-x	timcowchip/users	usr/lib/gtk-2.0/
+drwxr-xr-x	timcowchip/users	usr/lib/gtk-2.0/modules/
+-rwxr-xr-x	timcowchip/users	usr/lib/gtk-2.0/modules/libcanberra-gtk-module.la
+-rwxr-xr-x	timcowchip/users	usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so
+drwxr-xr-x	timcowchip/users	usr/lib/gtk-3.0/
+drwxr-xr-x	timcowchip/users	usr/lib/gtk-3.0/modules/
+lrwxrwxrwx	timcowchip/users	usr/lib/gtk-3.0/modules/libcanberra-gtk-module.so -> libcanberra-gtk3-module.so
+-rwxr-xr-x	timcowchip/users	usr/lib/gtk-3.0/modules/libcanberra-gtk3-module.la
+-rwxr-xr-x	timcowchip/users	usr/lib/gtk-3.0/modules/libcanberra-gtk3-module.so
+drwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-alsa.la
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-alsa.so
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-gstreamer.la
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-gstreamer.so
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-multi.la
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-multi.so
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-null.la
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-null.so
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-oss.la
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-oss.so
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-pulse.la
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-0.30/libcanberra-pulse.so
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-gtk.la
+lrwxrwxrwx	timcowchip/users	usr/lib/libcanberra-gtk.so -> libcanberra-gtk.so.0.1.9
+lrwxrwxrwx	timcowchip/users	usr/lib/libcanberra-gtk.so.0 -> libcanberra-gtk.so.0.1.9
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-gtk.so.0.1.9
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-gtk3.la
+lrwxrwxrwx	timcowchip/users	usr/lib/libcanberra-gtk3.so -> libcanberra-gtk3.so.0.1.9
+lrwxrwxrwx	timcowchip/users	usr/lib/libcanberra-gtk3.so.0 -> libcanberra-gtk3.so.0.1.9
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra-gtk3.so.0.1.9
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra.la
+lrwxrwxrwx	timcowchip/users	usr/lib/libcanberra.so -> libcanberra.so.0.2.5
+lrwxrwxrwx	timcowchip/users	usr/lib/libcanberra.so.0 -> libcanberra.so.0.2.5
+-rwxr-xr-x	timcowchip/users	usr/lib/libcanberra.so.0.2.5
+drwxr-xr-x	timcowchip/users	usr/lib/pkgconfig/
+-rw-r--r--	timcowchip/users	usr/lib/pkgconfig/libcanberra-gtk.pc
+-rw-r--r--	timcowchip/users	usr/lib/pkgconfig/libcanberra-gtk3.pc
+-rw-r--r--	timcowchip/users	usr/lib/pkgconfig/libcanberra.pc
+drwxr-xr-x	timcowchip/users	usr/share/
+drwxr-xr-x	timcowchip/users	usr/share/gdm/
+drwxr-xr-x	timcowchip/users	usr/share/gdm/autostart/
+drwxr-xr-x	timcowchip/users	usr/share/gdm/autostart/LoginWindow/
+-rw-r--r--	timcowchip/users	usr/share/gdm/autostart/LoginWindow/libcanberra-ready-sound.desktop
+drwxr-xr-x	timcowchip/users	usr/share/gnome/
+drwxr-xr-x	timcowchip/users	usr/share/gnome/autostart/
+-rw-r--r--	timcowchip/users	usr/share/gnome/autostart/libcanberra-login-sound.desktop
+drwxr-xr-x	timcowchip/users	usr/share/gnome/shutdown/
+-rwxr-xr-x	timcowchip/users	usr/share/gnome/shutdown/libcanberra-logout-sound.sh
+drwxr-xr-x	timcowchip/users	usr/share/vala/
+drwxr-xr-x	timcowchip/users	usr/share/vala/vapi/
+-rw-r--r--	timcowchip/users	usr/share/vala/vapi/libcanberra-gtk.vapi
+-rw-r--r--	timcowchip/users	usr/share/vala/vapi/libcanberra.vapi

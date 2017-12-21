@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/timcow.pub
-RWQl8gtaJ/lzqm4fhdFilwrkdnYXf53j2QzvyM4NwV3OmxhYIus9V0dUsQ6q2DCf0nDlmMKPjSBVtYk91htldb0C1cMOU2ewKQg=
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqqpXz4H3xDyYt2ou34nkHj8b72kpYPijJvVKz2fMt7xyAftO+xYYi9pCWrFq1r9VQGUlzWnacXIU2Y4NmhJRawU=
 SHA256 (Pkgfile) = 6a15d4d1893c155685e7593f757a9558d56452c0e559173ca230da0177c202d8
-SHA256 (.footprint) = f1261ae8a9b98b1237378cfd9e46f2443bccf32f85a5dd8518e7ad3ff7683a86
+SHA256 (.footprint) = 0c75eba650f74e3287771a2587c1c5ecb1c2876700cc22da33edf4c141af17de
 SHA256 (libisoburn-1.4.0.tar.gz) = c1d51ae7e4662f75caae4442071b8e1480efb8e80682a9f82c32a76f30ba6421

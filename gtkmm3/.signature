@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqhwF0qj5iZ4rYkhsPOT/jQl8n1dBc+r/Gby7rnQaQ0fnsBXvvihprBQTx9gchc5d/tyRL4obBHkGm163E7qmFwo=
+SHA256 (Pkgfile) = bde919112c81b47925a2d83f93fc0fdd0db91c05d26b33a709e38bcf08cd8b0d
+SHA256 (.footprint) = 6611a7412e8e40aea914c129c7b681bd1aca23d4b7c2b0ba8163cd969be4c509
+SHA256 (gtkmm-3.18.1.tar.xz) = 747dff6164e5367db6fae6c30f01f0cb6bc14652353b1bdb33de8a69aa7b2520

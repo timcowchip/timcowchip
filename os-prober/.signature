@@ -1,6 +1,6 @@
-untrusted comment: verify with /etc/ports/timcow.pub
-RWQl8gtaJ/lzqoYqlL2bQ8nWZecjCi4V0QcbXmS/gEZCZlMEomq5BTuLFmP0Asy1yuVkpUmQv8EZYDrARty2j4cTUV0hLnAuOAk=
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqj8R/MySTU/el9ZQUCr9sNmJDKZampwCjjXPJLx4hwJdnDcNBy5mxWWPVAgjsv6S4RXSKNFC2rULKZHUuo5VHAg=
 SHA256 (Pkgfile) = 389122c4413498551c014c0804cd4c0e906a3beff56cf44124124760c4f27d61
-SHA256 (.footprint) = 07c3ddad3d4be715f9d4d3a3bcf792f5d7376b53dc55217196cf289169b1e4db
+SHA256 (.footprint) = 37283293921680bc234334f1dcf17fb12e36d9f9291c33d5f42ebc02a06a4bf7
 SHA256 (os-prober_1.76.tar.xz) = d3a580610e0148ee1fea98de993b27b856870fb0a31e9ce1a33be2654e2c64ed
 SHA256 (grub) = 3bf78a30326050c69ff315727d10ab536067ffbe6d8543a068e7990dd6ae3180

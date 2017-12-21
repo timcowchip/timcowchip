@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqqYAxM18uWVnfH/2Ww+VNwy8/SVmv8Srbrih6EgdoCcsqv8PjvJlL2jaH0gDbjxZiFheWnEOC3YCG0iGXFa6uQI=
+SHA256 (Pkgfile) = a4ef4334aabc8e60b091158a4246834e76bae8cc782fb01184bf3dad3f5d0268
+SHA256 (.footprint) = d3e7982fe47a941cced42a640ef097d5a5d6b0a4f9b119a07e263596941f5178
+SHA256 (kompare-17.12.0.tar.xz) = 8c3f009a88b931c8488790eb40870e63261f325e4a397e68d4eec6f342e031aa
+SHA256 (kompare-17.12.0.tar.xz.sig) = a7a7d1df554459ccd69e9cce494a25e816fd17e9fb81e99ba203b639030bbb97

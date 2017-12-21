@@ -1,0 +1,15 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/sbcdec
+-rwxr-xr-x	timcowchip/users	usr/bin/sbcenc
+-rwxr-xr-x	timcowchip/users	usr/bin/sbcinfo
+drwxr-xr-x	timcowchip/users	usr/include/
+drwxr-xr-x	timcowchip/users	usr/include/sbc/
+-rw-r--r--	timcowchip/users	usr/include/sbc/sbc.h
+drwxr-xr-x	timcowchip/users	usr/lib/
+-rwxr-xr-x	timcowchip/users	usr/lib/libsbc.la
+lrwxrwxrwx	timcowchip/users	usr/lib/libsbc.so -> libsbc.so.1.2.1
+lrwxrwxrwx	timcowchip/users	usr/lib/libsbc.so.1 -> libsbc.so.1.2.1
+-rwxr-xr-x	timcowchip/users	usr/lib/libsbc.so.1.2.1
+drwxr-xr-x	timcowchip/users	usr/lib/pkgconfig/
+-rw-r--r--	timcowchip/users	usr/lib/pkgconfig/sbc.pc

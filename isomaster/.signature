@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqqqgofSp5DOISWy5DqwXMfUF8qQvVOS0Zh9XeZfEXCSP8Swc3CxzIqqENyvCDkL+85X6C7KH8vLPnz+7pYZdkA4=
-SHA256 (Pkgfile) = a705d0a1cc5f83ba781b7da08fe54f6e07da6aeadad408e11b9e66ddffb9754a
-SHA256 (.footprint) = eeaa10f87056ead9d50b17f1f272a9bf61e5e473b4a572620001d2215e5d3f79
+RWQl8gtaJ/lzqikR+Y0b4J+4YgSl/wfgIMMt7Wh8CgN7HE4A34Wx/KYN3ycFlVKH1Wzi+M8DQ3Hg5ktYbrHC7e4Nt/bmjg8MvAQ=
+SHA256 (Pkgfile) = ab5980f8dd9d18a1d0ed908d618c14158428f27507f2e68b8660519f2044c783
+SHA256 (.footprint) = a0302f098515483f2b6bfbacd31e4e44bb1d381e4aea685597a303fab56688a4
 SHA256 (isomaster-1.3.13.tar.bz2) = b700d10f1de240fe385e4294205e6cf5e51c0552f72efe26ae4a112a374a9e18

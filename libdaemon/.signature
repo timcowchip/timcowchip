@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqmLNIcuQ0iB1hQD6DgjttGedLDz3rbwRv4Y+gD2VmeyMTEgQkRgdK1GlR7EEN7ajHr+e/AC9QmNZeGjiMEA32wY=
+SHA256 (Pkgfile) = ddcfb9616b9ac64205fa54d25a89cbac285af1ff9da923f50f2373df6030b564
+SHA256 (.footprint) = a96f3210b8362caec86e873a7324de7c369f50676d3c5c459e478de3684a4ff1
+SHA256 (libdaemon-0.14.tar.gz) = fd23eb5f6f986dcc7e708307355ba3289abe03cc381fc47a80bca4a50aa6b834

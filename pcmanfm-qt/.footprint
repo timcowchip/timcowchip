@@ -1,0 +1,17 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/pcmanfm-qt
+drwxr-xr-x	timcowchip/users	usr/etc/
+drwxr-xr-x	timcowchip/users	usr/etc/xdg/
+drwxr-xr-x	timcowchip/users	usr/etc/xdg/autostart/
+-rw-r--r--	timcowchip/users	usr/etc/xdg/autostart/lxqt-desktop.desktop
+drwxr-xr-x	timcowchip/users	usr/etc/xdg/pcmanfm-qt/
+drwxr-xr-x	timcowchip/users	usr/etc/xdg/pcmanfm-qt/lxqt/
+-rw-r--r--	timcowchip/users	usr/etc/xdg/pcmanfm-qt/lxqt/settings.conf
+drwxr-xr-x	timcowchip/users	usr/share/
+drwxr-xr-x	timcowchip/users	usr/share/applications/
+-rw-r--r--	timcowchip/users	usr/share/applications/pcmanfm-qt-desktop-pref.desktop
+-rw-r--r--	timcowchip/users	usr/share/applications/pcmanfm-qt.desktop
+drwxr-xr-x	timcowchip/users	usr/share/man/
+drwxr-xr-x	timcowchip/users	usr/share/man/man1/
+-rw-r--r--	timcowchip/users	usr/share/man/man1/pcmanfm-qt.1.gz

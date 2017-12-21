@@ -1,14 +1,14 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/cdrskin
-drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/libburn/
--rw-r--r--	root/root	usr/include/libburn/libburn.h
-drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/libburn.a
--rwxr-xr-x	root/root	usr/lib/libburn.la
-lrwxrwxrwx	root/root	usr/lib/libburn.so -> libburn.so.4.93.0
-lrwxrwxrwx	root/root	usr/lib/libburn.so.4 -> libburn.so.4.93.0
--rwxr-xr-x	root/root	usr/lib/libburn.so.4.93.0
-drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/libburn-1.pc
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/cdrskin
+drwxr-xr-x	timcowchip/users	usr/include/
+drwxr-xr-x	timcowchip/users	usr/include/libburn/
+-rw-r--r--	timcowchip/users	usr/include/libburn/libburn.h
+drwxr-xr-x	timcowchip/users	usr/lib/
+-rw-r--r--	timcowchip/users	usr/lib/libburn.a
+-rwxr-xr-x	timcowchip/users	usr/lib/libburn.la
+lrwxrwxrwx	timcowchip/users	usr/lib/libburn.so -> libburn.so.4.93.0
+lrwxrwxrwx	timcowchip/users	usr/lib/libburn.so.4 -> libburn.so.4.93.0
+-rwxr-xr-x	timcowchip/users	usr/lib/libburn.so.4.93.0
+drwxr-xr-x	timcowchip/users	usr/lib/pkgconfig/
+-rw-r--r--	timcowchip/users	usr/lib/pkgconfig/libburn-1.pc

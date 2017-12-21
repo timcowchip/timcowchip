@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzquIwpfDozyYTa51Ouqi3+GSfTnpkekMg3naST0nIcFpNSmYNV5RkOeCztEEW/SKusxfgpQ5JjsUiPbgypsjAugY=
+SHA256 (Pkgfile) = 7a692479bb37ad7c7a9920d3b067d31e2d369ea01ca1ab34e96b86b8ae60750e
+SHA256 (.footprint) = e0a667d7a7fece7c226917239d1e477712b4e12758e60b616a556330b4bb80cf
+SHA256 (libpeas-1.20.0.tar.xz) = f392fffe2dc00072a51bb2a1b274224a06bdc5f9c3b3c0ac4816909e9933d354

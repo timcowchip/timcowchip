@@ -1,0 +1,29 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/wnck-urgency-monitor
+-rwxr-xr-x	timcowchip/users	usr/bin/wnckprop
+drwxr-xr-x	timcowchip/users	usr/include/
+drwxr-xr-x	timcowchip/users	usr/include/libwnck-3.0/
+drwxr-xr-x	timcowchip/users	usr/include/libwnck-3.0/libwnck/
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/application.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/class-group.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/libwnck.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/pager.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/screen.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/selector.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/tasklist.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/util.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/version.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/window-action-menu.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/window.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/wnck-enum-types.h
+-rw-r--r--	timcowchip/users	usr/include/libwnck-3.0/libwnck/workspace.h
+drwxr-xr-x	timcowchip/users	usr/lib/
+drwxr-xr-x	timcowchip/users	usr/lib/girepository-1.0/
+-rw-r--r--	timcowchip/users	usr/lib/girepository-1.0/Wnck-3.0.typelib
+-rwxr-xr-x	timcowchip/users	usr/lib/libwnck-3.la
+lrwxrwxrwx	timcowchip/users	usr/lib/libwnck-3.so -> libwnck-3.so.0.3.0
+lrwxrwxrwx	timcowchip/users	usr/lib/libwnck-3.so.0 -> libwnck-3.so.0.3.0
+-rwxr-xr-x	timcowchip/users	usr/lib/libwnck-3.so.0.3.0
+drwxr-xr-x	timcowchip/users	usr/lib/pkgconfig/
+-rw-r--r--	timcowchip/users	usr/lib/pkgconfig/libwnck-3.0.pc

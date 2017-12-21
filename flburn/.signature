@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqrMGsADkrnSTMxznlv9KhPHc/jjUzY4gr7X7tdcgvTtyHRgh3cX63ZLoq3x9eDMwNEKrredUef4w8+YTfjHrFwc=
-SHA256 (Pkgfile) = db0fe82cf45e6205f55348ce43bcfbc796d8561d8bcac8a4ab0947b0830f0049
-SHA256 (.footprint) = 81bc3006d2d5552baad75f2d02d9382209a91860ef4cf030ea65c21a39a7bbdc
+RWQl8gtaJ/lzqvfekMflXMBEk10N5L3yINg7Wg+lvBlc81MgM2vbsdCyC65tkitBc4I/N8kS+dn6u8MBQf9+cKAgJeYXpW2j/gw=
+SHA256 (Pkgfile) = 13c1d3d3f9576ef30d821e8be6286e57c32fa9059a37533250595541d6c4ba43
+SHA256 (.footprint) = 2c7420028ab7c49f24d664be9aa47a6ca384d0e2b35a7d7ff75e5b67b1ccd5a1
 SHA256 (flburn-0.0.3.tar.bz2) = ca6552f5e717eed64b1eecc3891eb5e9b523b9e591ee071dc58718f6f9de2f1d

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqm9gLLzeafdCA6Btma6z8IL/F5geK7nsB8d0UC5c+y6GM9bi2m5F2qEu0pYulJW+cUmbHxWxd4/hTsImVCRuvwc=
+SHA256 (Pkgfile) = 69a6a61a6e67a4f00e0b2fef5eee5f52524560ccc5dd164a0a159fb193ff3cb9
+SHA256 (.footprint) = 04447f8028d2093a8acf4dc23c4a8ad5eba6664daaafa49637163609e801a24e
+SHA256 (pcmanfm-qt-0.12.0.tar.xz) = 1fa187e304217b7c2d06f0600a1eebf1d5c6e825c3132e884f7ab3a605fe76f7

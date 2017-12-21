@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqnpHhnmQm0epY1vP2SM38fPVAgftOTndpM4FYs67Kh3Gd6BUpHReLD5cbCeuXq9QJwm6z99sG9i8AKeHyT/5YA0=
+SHA256 (Pkgfile) = 1d6aa6765c648a0f41005037ef8994d828d07d88212ceac2a0b69651cd4e4774
+SHA256 (.footprint) = f3f5e72d9d78737a7ef010eb3b6ac1e60f771976dfaf65f3b9378efa1a3ce54d
+SHA256 (wmbiff-0.4.27.tar.gz) = c25b7b3d3a5ddbbfa9f85bb39f553f5bc001189fc624e6761d986369068d7da3
