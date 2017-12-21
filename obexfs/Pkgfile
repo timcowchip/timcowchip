@@ -7,7 +7,7 @@ name=obexfs
 version=0.12
 release=1
 
-source=(http://triq.net/obexftp/$name-$version.tar.gz)
+source=(https://superb-sea2.dl.sourceforge.net/project/openobex/obexfs/0.12/$name-$version.tar.gz)
 
 build() {
   cd "$SRC"/$name-$version
