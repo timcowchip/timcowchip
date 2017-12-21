@@ -1,7 +1,7 @@
-# Description: basic iCAL protocols
-# URL: http://freeassociation.sourceforge.net
-# Maintainer: Daryl Fonseca-Holt, wyatt at prairieturtle dot ca
-# Depends on:
+# Description:	An open source reference implementation of the icalendar data type and serialization format
+# URL:		https://github.com/libical/libical
+# Maintainer:    Chris Farrell, timcowchip at gorge dot net
+# Depends:
 
 name=libical
 version=3.0.1

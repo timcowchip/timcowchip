@@ -1,0 +1,17 @@
+# Description:	A library for Tcl/Tk 8.0 or higher
+# URL:		http://www.nemethi.de
+# Maintainer:    Chris Farrell, timcowchip at gorge dot net
+# Depends: bash tcl
+
+name=tablelist
+version=5.16
+release=1
+
+source=(http://www.nemethi.de/tablelist/$name$version.tar.gz \
+        http://www.nemethi.de/tablelist/COPYRIGHT.txt )
+
+build() {
+  mkdir -p "$PKG"/usr/lib/tcl8.6
+  cp -a "$SRC"/$name$version "$PKG"/usr/lib/tcl8.6/
+  install -D COPYRIGHT.txt "$PKG"/usr/share/licenses/$name/COPYING
+}
