@@ -34,6 +34,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -rf $PKG/usr/share/docbook2x
+	rm -rf $PKG/usr/share/doc
 	rm -rf $PKG/usr/share/info
 }
