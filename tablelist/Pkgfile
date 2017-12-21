@@ -4,7 +4,7 @@
 # Depends: bash tcl
 
 name=tablelist
-version=5.16
+version=6.0
 release=1
 
 source=(http://www.nemethi.de/tablelist/$name$version.tar.gz)
