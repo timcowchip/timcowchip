@@ -1,0 +1,19 @@
+# Description:	Open source implementation of the OBEX protocol
+# URL:		http://dev.zuckschwerdt.org/openobex/
+# Maintainer:    Chris Farrell, timcowchip at gorge dot net
+# Depends: bluez libical
+
+name=obexd
+version=0.48
+release=1
+source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz)
+
+build() {
+		sed -i 's/#include <string.h>/&\n#include <stdio.h>/' plugins/mas.c
+		
+		./configure --prefix=/usr --libexecdir=/usr/lib/obex 
+		
+		make
+		
+		make DESTDIR=$PKG install
+}
