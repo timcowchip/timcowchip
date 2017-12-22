@@ -69,7 +69,6 @@ d:vice
 d:rssguard
 d:lxqt-build-tools
 d:libburn
-d:obexfs
 d:gnome-icon-theme-symbolic
 d:qmmp
 d:gpodder
@@ -386,10 +385,6 @@ f:f2c2907e9967a56464caf34fe1e785c1:libburn/.footprint
 f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:c8d96eba751cfa97173492d271bd75d1:libburn/.signature
-f:2675f0f07d825c9f95e5cb769d77d9f8:obexfs/.footprint
-f:969320771a22b001c05a20f9446830be:obexfs/Pkgfile
-f:b71eaf230a1e39e6613ae2f662bd2688:obexfs/.md5sum
-f:605439963c8ee9b03845f19657bff44c:obexfs/.signature
 f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
