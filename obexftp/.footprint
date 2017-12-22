@@ -1,5 +1,7 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/obexautofs
+-rwxr-xr-x	root/root	usr/bin/obexfs
 -rwxr-xr-x	root/root	usr/bin/obexftp
 -rwxr-xr-x	root/root	usr/bin/obexftpd
 drwxr-xr-x	root/root	usr/include/

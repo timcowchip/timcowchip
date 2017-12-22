@@ -277,11 +277,11 @@ f:a5bc6729f3a7709d27b0ae7ef3dc167a:jq/.footprint
 f:56d2fa349b29884f3b6891e51c80f540:jq/Pkgfile
 f:4215db7fc2b91c150fa63c4d619e572f:jq/.md5sum
 f:372e5f571d8ba53a12b5730ed8217991:jq/.signature
-f:b7ed5a68a4cd2b97ea36d581b6139527:obexftp/.footprint
-f:797499c93d9ee890f290984f466591a7:obexftp/Pkgfile
+f:c2372b47de4ca447ed9295e43fe286f7:obexftp/.footprint
+f:d62c3693f9958d686672c5a81eecb38e:obexftp/Pkgfile
 f:21805c00d0c2c2456fc11f79969f6ed9:obexftp/obexftpd.1
 f:8e667e8237976926278090eb3e1e880f:obexftp/.md5sum
-f:bb96a095a9a9e717ec88a1cc498e0380:obexftp/.signature
+f:55e8d68ff7175b4e4a059c99001a79a2:obexftp/.signature
 f:277c8dc3e418454bf1e0ed6897a8ea6f:obexftp/obexftp.1
 f:0a23b16e27b41171f4b5c2735c6b5a45:libpeas/.footprint
 f:791c22dbca2d420713150c4e00f11a49:libpeas/Pkgfile
