@@ -1,0 +1,21 @@
+# Description:	A set of tools to manage Bluetooth devices for Linux
+# URL:		https://github.com/khvzak/bluez-tools
+# Maintainer:    Chris Farrell, timcowchip at gmail dot com
+# Depends on: bluez
+
+name=bluez-tools
+version=0.2.0
+release=1
+
+source=()
+
+build() {
+
+	git clone https://github.com/khvzak/bluez-tools.git
+
+  cd $name
+  ./autogen.sh --prefix=/usr
+  make
+
+  make DESTDIR="$PKG" install
+}

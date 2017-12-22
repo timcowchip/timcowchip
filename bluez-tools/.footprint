@@ -1,0 +1,15 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/bt-adapter
+-rwxr-xr-x	timcowchip/users	usr/bin/bt-agent
+-rwxr-xr-x	timcowchip/users	usr/bin/bt-device
+-rwxr-xr-x	timcowchip/users	usr/bin/bt-network
+-rwxr-xr-x	timcowchip/users	usr/bin/bt-obex
+drwxr-xr-x	timcowchip/users	usr/share/
+drwxr-xr-x	timcowchip/users	usr/share/man/
+drwxr-xr-x	timcowchip/users	usr/share/man/man1/
+-rw-r--r--	timcowchip/users	usr/share/man/man1/bt-adapter.1.gz
+-rw-r--r--	timcowchip/users	usr/share/man/man1/bt-agent.1.gz
+-rw-r--r--	timcowchip/users	usr/share/man/man1/bt-device.1.gz
+-rw-r--r--	timcowchip/users	usr/share/man/man1/bt-network.1.gz
+-rw-r--r--	timcowchip/users	usr/share/man/man1/bt-obex.1.gz
