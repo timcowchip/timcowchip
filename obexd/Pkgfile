@@ -17,5 +17,5 @@ build() {
 		
 		make DESTDIR=$PKG install
 		
-		nstall -D -m 0755 $SRC/obexd $PKG/etc/rc.d/obexd
+		install -D -m 0755 $SRC/obexd $PKG/etc/rc.d/obexd
 }
