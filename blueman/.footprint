@@ -15,6 +15,10 @@ drwxr-xr-x	timcowchip/users	usr/bin/
 -rwxr-xr-x	timcowchip/users	usr/bin/blueman-report
 -rwxr-xr-x	timcowchip/users	usr/bin/blueman-sendto
 -rwxr-xr-x	timcowchip/users	usr/bin/blueman-services
+drwxr-xr-x	timcowchip/users	usr/etc/
+drwxr-xr-x	timcowchip/users	usr/etc/dbus-1/
+drwxr-xr-x	timcowchip/users	usr/etc/dbus-1/system.d/
+-rwxr-xr-x	timcowchip/users	usr/etc/dbus-1/system.d/org.blueman.Mechanism.conf
 drwxr-xr-x	timcowchip/users	usr/lib/
 drwxr-xr-x	timcowchip/users	usr/lib/blueman/
 -rwxr-xr-x	timcowchip/users	usr/lib/blueman/blueman-mechanism

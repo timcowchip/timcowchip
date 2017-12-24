@@ -7,7 +7,7 @@ name=blueman
 version=2.0.5
 release=2
 
-source=(https://github.com/blueman-project/$name/releases/download/$version/$name-$version.tar.xz)
+source=(https://github.com/blueman-project/$name/releases/download/$version/$name-$version.tar.xz \ org.blueman.Mechanism.conf)
 
 build() {
   cd $name-$version
@@ -27,7 +27,7 @@ build() {
   make
 
   make DESTDIR="$PKG" install
-  
+  install -D -m 0755 $SRC/org.blueman.Mechanism.conf $PKG/usr/etc/dbus-1/system.d/org.blueman.Mechanism.conf
   rm -rf $PKG/usr/share/doc
   
 }
