@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqk+WFZmWxhKfmMECWeChSYvY/w+u87rfsjttxYk+U1FkrS5qv/+j5d9kN9oH+JITffrRVDKgbm9A7y3CVREDNwY=
+SHA256 (Pkgfile) = 45b4333cc6f797c94b185c3fa262b424f96562fe4bb918b777adaf2bd6098055
+SHA256 (.footprint) = 19d00e3cc00bac2bfc4023ce2018f70d3b33fce32fdee48f5ee6521f80344d22
+SHA256 (gnome-bluetooth-3.26.1.tar.xz) = 1d2c7b94fc76a833dad0d4d91344e9a5a7b4aad740c5a90944bd25c5be7e784f

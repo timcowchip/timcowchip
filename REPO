@@ -70,6 +70,7 @@ d:rssguard
 d:lxqt-build-tools
 d:libburn
 d:gnome-icon-theme-symbolic
+d:gnome-bluetooth
 d:qmmp
 d:gpodder
 d:qupzilla
@@ -197,7 +198,7 @@ f:db96b51dcca1c5de6a86f0a5aed3fcd7:pcmanfm-qt/Pkgfile
 f:45405b4d236cdcf6d491de282d630768:pcmanfm-qt/.md5sum
 f:c0871a19ffbf54363e3a68f54a579d2a:pcmanfm-qt/.signature
 f:012a50064630dd55ae5d7642e3709020:bluez/.footprint
-f:8fc7e63b7ee38c6820b72de5e90b2118:bluez/Pkgfile
+f:f4e19d98fad28e43f060321ded8708c8:bluez/Pkgfile
 f:4e1105890c6ecd26719281d0df16d66f:bluez/.md5sum
 f:fd5ab3dd7d0156a3be0c3c1ca9858001:bluez/.signature
 f:f9d2cc3d34c74f6ea60685735a852508:bluez/bluetoothd
@@ -389,6 +390,10 @@ f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
 f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
+f:329dae33148650240a7563a997e0c415:gnome-bluetooth/.footprint
+f:615925f98c9f33e3f6c854dd8ef41706:gnome-bluetooth/Pkgfile
+f:c2f556507684e2d87334b34c8d7437e9:gnome-bluetooth/.md5sum
+f:0d85b4f92bee761d29b03418360cb59a:gnome-bluetooth/.signature
 f:9381ea6d93d0e13ee94cc3b464fc5bf3:qmmp/.footprint
 f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
 f:1d3b6a7175d80cc6fa5382b9d2bd4556:qmmp/.md5sum

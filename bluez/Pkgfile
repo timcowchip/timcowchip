@@ -1,7 +1,7 @@
 # Description:	Bluetooth libraries and utilities
 # URL:		http://www.bluez.org/
 # Packager:	Matt Housh, jaeger at morpheus dot net
-# Maintainer:    Chris Farrell, timcowchip at gmail dot com
+# Maintainer:    Chris Farrell, timcowchip at gorge dot net
 # Depends on:	dbus alsa-lib libusb-compat glib
 # Optional:	pygobject dbus-python sox gst-plugins-base-compat
 
