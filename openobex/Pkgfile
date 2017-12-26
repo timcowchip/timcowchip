@@ -16,7 +16,7 @@ build() {
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_SKIP_RPATH=ON \
 		-DCMAKE_INSTALL_MANDIR=man
-		
+	sed -i 's|MODE="660", GROUP="plugdev"|TAG+="uaccess"|' $SRC/$name-$version-Source/udev/openobex.rules.in	
 	make all openobex-apps
 	make DESTDIR=$PKG install
 }
