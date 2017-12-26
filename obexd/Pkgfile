@@ -6,7 +6,7 @@
 name=obexd
 version=0.48
 release=1
-source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz \ obexd)
+source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz)
 
 build() {
 		cd $name-$version
@@ -17,5 +17,4 @@ build() {
 		
 		make DESTDIR=$PKG install
 		
-		install -D -m 0755 $SRC/obexd $PKG/etc/rc.d/obexd
 }
