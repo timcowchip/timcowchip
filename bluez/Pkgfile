@@ -12,10 +12,22 @@ source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz \ bluet
 build() {
 	cd $name-$version
 	./configure --prefix=/usr \
-		--libexecdir=/usr/lib/$name \
-		--enable-library \
-		--enable-sixaxis \
-		--disable-cups \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--libexecdir=/lib \
+		--mandir=/usr/share/man \
+		--enable-audio \
+		--enable-usb \
+		--enable-tools \
+		--enable-test \
+		--enable-hidd \
+		--enable-hid2hci \
+		--enable-pand \
+		--enable-cups \
+		--enable-alsa \
+		--enable-bccmd \
+		--enable-dfutool \
+		--enable-dund \
 		--disable-systemd
 	make
 	make DESTDIR=$PKG install
