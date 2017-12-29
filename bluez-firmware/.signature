@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqt34qy0vlT64sIXIyi/dOjlB+MXi4L3bOk6c8L2sha34EMSy8Dx/LoWpQJg2HkV7SbFag6S0G6V/CSyvpF+klwM=
+SHA256 (Pkgfile) = 5740b1b71eef2075d91296f1c192f0b8f9ac5a28bf1c9cf4d4be2b3e9ed068f2
+SHA256 (.footprint) = 46d6a00977e7ec6375003828775295cdb9b080c1e5614fd367a043cbc813a448
+SHA256 (bluez-firmware-1.2.tar.gz) = b6119e118fabc6bd34584afcbe6fff00a44caeb64152b02ed57c6fba9fd99eec

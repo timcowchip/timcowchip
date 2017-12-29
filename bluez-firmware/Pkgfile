@@ -1,0 +1,21 @@
+# Description:	Firmwares for Broadcom BCM203x and STLC2300 Bluetooth chips
+# URL:		http://www.bluez.org/
+# Maintainer:    Chris Farrell, timcowchip at gorge dot net
+# Depends on:
+
+name=bluez-firmware
+version=1.2
+release=1
+
+source=("http://bluez.sf.net/download/${name}-${version}.tar.gz")
+
+build() {
+  cd "${SRC}/${name}-${version}"
+
+  ./configure --prefix=/usr
+
+  make DESTDIR="$PKG" install
+  
+  install -dm 755 ${PKG}/usr/share/doc/$name
+  mv ${PKG}/usr/lib/firmware/BCM-LEGAL.txt ${PKG}/usr/share/doc/$name/
+}
