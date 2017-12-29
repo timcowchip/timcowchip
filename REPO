@@ -71,6 +71,7 @@ d:lxqt-build-tools
 d:libburn
 d:gnome-icon-theme-symbolic
 d:gnome-bluetooth
+d:bluez-firmware
 d:qmmp
 d:gpodder
 d:qupzilla
@@ -396,6 +397,10 @@ f:329dae33148650240a7563a997e0c415:gnome-bluetooth/.footprint
 f:615925f98c9f33e3f6c854dd8ef41706:gnome-bluetooth/Pkgfile
 f:c2f556507684e2d87334b34c8d7437e9:gnome-bluetooth/.md5sum
 f:0d85b4f92bee761d29b03418360cb59a:gnome-bluetooth/.signature
+f:54a74c87f045d15cdb82db538c2664e0:bluez-firmware/.footprint
+f:a4e75ff13c07861a3c271e4a25244104:bluez-firmware/Pkgfile
+f:dd5ea44eb8fff016bf9db257c24d61e5:bluez-firmware/.md5sum
+f:1e6d3538fc39b8cf4afbaaa005f96ebd:bluez-firmware/.signature
 f:9381ea6d93d0e13ee94cc3b464fc5bf3:qmmp/.footprint
 f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
 f:1d3b6a7175d80cc6fa5382b9d2bd4556:qmmp/.md5sum
