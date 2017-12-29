@@ -5,8 +5,8 @@
 # Depends on: git qt5 fluxbox kwindowsystem oxygen-icons5 libxcb xcb-proto xcb-util-image xscreensaver desktop-file-utils
 
 name=lumina
-version=1.4.0
-release=1
+version=1.4.0-p1
+release=2
 
 source=(https://github.com/trueos/lumina/archive/v${version}.tar.gz)
 
