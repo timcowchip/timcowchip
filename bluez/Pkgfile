@@ -14,7 +14,7 @@ build() {
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
-		--libexecdir=/libexec \
+		--libexecdir=/usr/libexec \
 		--mandir=/usr/share/man \
 		--enable-audio \
 		--enable-usb \
