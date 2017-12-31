@@ -14,7 +14,7 @@ build() {
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
-		--libexecdir=/lib \
+		--libexecdir=/libexec \
 		--mandir=/usr/share/man \
 		--enable-audio \
 		--enable-usb \
@@ -32,6 +32,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	install -D -m 0755 $SRC/bluetoothd $PKG/etc/rc.d/bluetoothd
-	install -D -m 0755 $SRC/obexd $PKG/etc/rc.d/obexd
+	install -D -m 0755 $SRC/bluetoothd $PKG/usr/libexec/bluetooth/bluetoothd
+	install -D -m 0755 $SRC/obexd $PKG/usr/libexec/bluetooth/obexd
 }
