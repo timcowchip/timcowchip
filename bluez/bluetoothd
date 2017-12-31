@@ -5,7 +5,7 @@
 
 case $1 in
 start)
-	/usr/lib/bluez/bluetooth/bluetoothd &
+	/usr/libexec/bluetooth/bluetoothd &
 	;;
 stop)
 	pkill bluetoothd

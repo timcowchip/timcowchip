@@ -32,6 +32,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	install -D -m 0755 $SRC/bluetoothd $PKG/usr/libexec/bluetooth/bluetoothd
-	install -D -m 0755 $SRC/obexd $PKG/usr/libexec/bluetooth/obexd
+	install -D -m 0755 $SRC/bluetoothd $PKG/etc/rc.d/bluetoothd
+	install -D -m 0755 $SRC/obexd $PKG/etc/rc.d/obexd
 }
