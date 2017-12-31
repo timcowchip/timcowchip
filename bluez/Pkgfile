@@ -7,14 +7,14 @@
 name=bluez
 version=5.47
 release=1
-source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz \ bluetoothd \ obexd \ 0001-Allow-using-obexd-without-systemd-in-the-user-session.patch \ 0002-bluetoothd-dbus-service.patch \ 0003-bluetooth-group-can-use-bluez.patch)
+source=("https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz" \ bluetoothd \ obexd \ 0001-Allow-using-obexd-without-systemd-in-the-user-session.patch \ 0002-bluetoothd-dbus-service.patch \ 0003-bluetooth-group-can-use-bluez.patch)
 
 build() {
 	cd $name-$version
 	
-	patch -p0 -i "${SRC}/0001-Allow-using-obexd-without-systemd-in-the-user-session.patch
-	patch -p0 -i "${SRC}/0002-bluetoothd-dbus-service.patch
-	patch -p0 -i "${SRC}/0003-bluetooth-group-can-use-bluez.patch
+	patch -p0 -i "${SRC}/0001-Allow-using-obexd-without-systemd-in-the-user-session.patch"
+	patch -p0 -i "${SRC}/0002-bluetoothd-dbus-service.patch"
+	patch -p0 -i "${SRC}/0003-bluetooth-group-can-use-bluez.patch"
 	
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \
