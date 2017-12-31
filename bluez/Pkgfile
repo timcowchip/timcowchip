@@ -28,6 +28,10 @@ build() {
 		--enable-bccmd \
 		--enable-dfutool \
 		--enable-dund \
+		--enable-sixaxis \
+		--enable-threads \
+		--enable-library \
+		--with-udevdir=/usr/lib/udev \
 		--disable-systemd
 	make
 	make DESTDIR=$PKG install

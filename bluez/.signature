@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqukR2rPVBDD2ch7SSFJosugEo6auimE5bWgj1uXQ7kghJp+tcR5I95PoCHTp1S4l/Xhyp3AiF5d0W1S+AFT8wwE=
-SHA256 (Pkgfile) = 1efb767f0260e3b9baab3efdbfaeb0b86b947a6104f9c79f6f4a125c3d17dcf6
-SHA256 (.footprint) = 81e4de7e9a732501dbbffe0e75377bcf4f49415e4126b089c91591fedd988405
+RWQl8gtaJ/lzqr/9wsPeSLqnNymtZML94gd4wjInORfWeDaaIOzHNpby9nl+dI91v+0QE/bA/Jj5V6IzSZiumSwmDY8VYk3+QAU=
+SHA256 (Pkgfile) = a99132fc360bfe2fa47e5c597114cd9e1154a73cc92ce36836f637c869f6066f
+SHA256 (.footprint) = f2b493ef4c47af6b36b45ac8d3c437c9d46e3424084798e204c478e96b57d108
 SHA256 (bluez-5.47.tar.xz) = cf75bf7cd5d564f21cc4a2bd01d5c39ce425397335fd47d9bbe43af0a58342c8
 SHA256 (bluetoothd) = 618f693eb3a7ef69cca9c92881cef55ba917702d27c50b0e092aeceeb74bd33f
 SHA256 (obexd) = c9845376f5d8832202dbf3cc5d6ec2c575a1db023058c636d18b2fc2c7ee41b4

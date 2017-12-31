@@ -2,11 +2,6 @@ drwxr-xr-x	timcowchip/users	etc/
 drwxr-xr-x	timcowchip/users	etc/rc.d/
 -rwxr-xr-x	timcowchip/users	etc/rc.d/bluetoothd
 -rwxr-xr-x	timcowchip/users	etc/rc.d/obexd
-drwxr-xr-x	timcowchip/users	lib/
-drwxr-xr-x	timcowchip/users	lib/udev/
--rwxr-xr-x	timcowchip/users	lib/udev/hid2hci
-drwxr-xr-x	timcowchip/users	lib/udev/rules.d/
--rw-r--r--	timcowchip/users	lib/udev/rules.d/97-hid2hci.rules
 drwxr-xr-x	timcowchip/users	usr/
 drwxr-xr-x	timcowchip/users	usr/bin/
 -rwxr-xr-x	timcowchip/users	usr/bin/bccmd
@@ -23,7 +18,24 @@ drwxr-xr-x	timcowchip/users	usr/etc/
 drwxr-xr-x	timcowchip/users	usr/etc/dbus-1/
 drwxr-xr-x	timcowchip/users	usr/etc/dbus-1/system.d/
 -rw-r--r--	timcowchip/users	usr/etc/dbus-1/system.d/bluetooth.conf
+drwxr-xr-x	timcowchip/users	usr/include/
+drwxr-xr-x	timcowchip/users	usr/include/bluetooth/
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/bluetooth.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/bnep.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/cmtp.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/hci.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/hci_lib.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/hidp.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/l2cap.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/rfcomm.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/sco.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/sdp.h
+-rw-r--r--	timcowchip/users	usr/include/bluetooth/sdp_lib.h
 drwxr-xr-x	timcowchip/users	usr/lib/
+drwxr-xr-x	timcowchip/users	usr/lib/bluetooth/
+drwxr-xr-x	timcowchip/users	usr/lib/bluetooth/plugins/
+-rwxr-xr-x	timcowchip/users	usr/lib/bluetooth/plugins/sixaxis.la
+-rwxr-xr-x	timcowchip/users	usr/lib/bluetooth/plugins/sixaxis.so
 drwxr-xr-x	timcowchip/users	usr/lib/bluez/
 drwxr-xr-x	timcowchip/users	usr/lib/bluez/test/
 -rwxr-xr-x	timcowchip/users	usr/lib/bluez/test/bluezutils.py
@@ -61,6 +73,16 @@ drwxr-xr-x	timcowchip/users	usr/lib/bluez/test/
 drwxr-xr-x	timcowchip/users	usr/lib/cups/
 drwxr-xr-x	timcowchip/users	usr/lib/cups/backend/
 -rwxr-xr-x	timcowchip/users	usr/lib/cups/backend/bluetooth
+-rwxr-xr-x	timcowchip/users	usr/lib/libbluetooth.la
+lrwxrwxrwx	timcowchip/users	usr/lib/libbluetooth.so -> libbluetooth.so.3.18.16
+lrwxrwxrwx	timcowchip/users	usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.16
+-rwxr-xr-x	timcowchip/users	usr/lib/libbluetooth.so.3.18.16
+drwxr-xr-x	timcowchip/users	usr/lib/pkgconfig/
+-rw-r--r--	timcowchip/users	usr/lib/pkgconfig/bluez.pc
+drwxr-xr-x	timcowchip/users	usr/lib/udev/
+-rwxr-xr-x	timcowchip/users	usr/lib/udev/hid2hci
+drwxr-xr-x	timcowchip/users	usr/lib/udev/rules.d/
+-rw-r--r--	timcowchip/users	usr/lib/udev/rules.d/97-hid2hci.rules
 drwxr-xr-x	timcowchip/users	usr/libexec/
 drwxr-xr-x	timcowchip/users	usr/libexec/bluetooth/
 -rwxr-xr-x	timcowchip/users	usr/libexec/bluetooth/bluetoothd
