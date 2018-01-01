@@ -396,10 +396,11 @@ f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
 f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
-f:329dae33148650240a7563a997e0c415:gnome-bluetooth/.footprint
-f:615925f98c9f33e3f6c854dd8ef41706:gnome-bluetooth/Pkgfile
-f:c2f556507684e2d87334b34c8d7437e9:gnome-bluetooth/.md5sum
-f:0d85b4f92bee761d29b03418360cb59a:gnome-bluetooth/.signature
+f:856efd4cccf26df18a5d6f2ce6a927e5:gnome-bluetooth/.footprint
+f:d1d40878815a5957c4a5f023504a98de:gnome-bluetooth/Pkgfile
+f:dfe5e395a6e24672b1fe5cc1c27d120a:gnome-bluetooth/61-gnome-bluetooth-rfkill.rules
+f:8c289b7e2268cff32e9180399d1d9a81:gnome-bluetooth/.md5sum
+f:b8181a883a70b992eee1b52a61ac6dff:gnome-bluetooth/.signature
 f:54a74c87f045d15cdb82db538c2664e0:bluez-firmware/.footprint
 f:a4e75ff13c07861a3c271e4a25244104:bluez-firmware/Pkgfile
 f:dd5ea44eb8fff016bf9db257c24d61e5:bluez-firmware/.md5sum

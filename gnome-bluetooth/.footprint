@@ -19,6 +19,9 @@ lrwxrwxrwx	timcowchip/users	usr/lib/libgnome-bluetooth.so.13 -> libgnome-bluetoo
 -rwxr-xr-x	timcowchip/users	usr/lib/libgnome-bluetooth.so.13.0.1
 drwxr-xr-x	timcowchip/users	usr/lib/pkgconfig/
 -rw-r--r--	timcowchip/users	usr/lib/pkgconfig/gnome-bluetooth-1.0.pc
+drwxr-xr-x	timcowchip/users	usr/lib/udev/
+drwxr-xr-x	timcowchip/users	usr/lib/udev/rules.d/
+-rw-r--r--	timcowchip/users	usr/lib/udev/rules.d/61-gnome-bluetooth-rfkill.rules
 drwxr-xr-x	timcowchip/users	usr/share/
 drwxr-xr-x	timcowchip/users	usr/share/applications/
 -rw-r--r--	timcowchip/users	usr/share/applications/bluetooth-sendto.desktop
