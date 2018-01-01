@@ -11,7 +11,7 @@ source=(https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz)
 build() {
 		cd $name-$version
 		
-		./configure --prefix=/usr --libexecdir=/usr/lib/obex 
+		./configure --prefix=/usr --libexecdir=/usr/libexec/obex 
 		
 		make
 		
