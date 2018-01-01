@@ -1,5 +1,5 @@
 0b0de3cfdaae66500b96177573fdc7f1  0001-Allow-using-obexd-without-systemd-in-the-user-session.patch
 a726d0e989f1938293b2bf14825c3dfb  0002-bluetoothd-dbus-service.patch
 e4a8d9ce56c9f43a9ff48b83dbe36b00  0003-bluetooth-group-can-use-bluez.patch
-b6089291f20501aa0947cebe5da5e179  bluetoothd
+8830d0902e256752173a0950a2d65095  bluetoothd
 783e15f65e70cdb8f721c659e140dd56  bluez-5.47.tar.xz

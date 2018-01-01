@@ -1,32 +1,21 @@
 #!/bin/sh
 #
-# bluetooth startup script
+# /etc/rc.d/bluetoothd: start/stop/restart bluetooth daemon
 #
-
-SSD=/sbin/start-stop-daemon
-PROG=/usr/sbin/bluetooth/bluetoothd
-# OPTS="-d"
 
 case $1 in
 start)
-	$SSD --start --exec $PROG -- $OPTS
+	/usr/sbin/bluetooth/bluetoothd &
 	;;
 stop)
-	$SSD --stop --retry 10 --exec $PROG
+	pkill bluetoothd
 	;;
 restart)
-	$0 stop
-	$0 start
-	;;
-status)
-	$SSD --status --exec $PROG
-	case $? in
-	0) echo "$PROG is running with pid $(pidof $PROG)" ;;
-	1|3) echo "$PROG is not running" ;;
-	4) echo "Unable to determine the program status" ;;
-	esac
+	$0 stop && sleep 2 && $0 start
 	;;
 *)
-	echo "usage: $0 [start|stop|restart|status]"
+	echo "usage: $0 [start|stop|restart]"
 	;;
 esac
+
+# End of file
