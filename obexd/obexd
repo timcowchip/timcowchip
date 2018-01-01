@@ -5,7 +5,7 @@
 
 case $1 in
 start)
-	/usr/libexec/bluetooth/obexd &
+	/usr/libexec/obex/obexd &
 	;;
 stop)
 	pkill obexd

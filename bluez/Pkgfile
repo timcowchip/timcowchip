@@ -7,7 +7,7 @@
 name=bluez
 version=5.47
 release=1
-source=("https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz" \ bluetoothd \ obexd \ 0001-Allow-using-obexd-without-systemd-in-the-user-session.patch \ 0002-bluetoothd-dbus-service.patch \ 0003-bluetooth-group-can-use-bluez.patch)
+source=("https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz" \ bluetoothd \ 0001-Allow-using-obexd-without-systemd-in-the-user-session.patch \ 0002-bluetoothd-dbus-service.patch \ 0003-bluetooth-group-can-use-bluez.patch)
 
 build() {
 	cd $name-$version
@@ -42,5 +42,4 @@ build() {
 	make DESTDIR=$PKG install
 
 	install -D -m 0755 $SRC/bluetoothd $PKG/etc/rc.d/bluetoothd
-	install -D -m 0755 $SRC/obexd $PKG/etc/rc.d/obexd
-}
+	}
