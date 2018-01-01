@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqk+m6DwKYLaayJLiNbAAuKHKCwk7uKmSyLFK0EsEnP1vv793kgCEPCXJqLoN8mVmzmiVAppNI9AmpUSdw+oHMgM=
-SHA256 (Pkgfile) = 683691d05c8c8dc2e0e628bf80af1b114e2d8b9ecef28c653c9f2cd09f54c180
-SHA256 (.footprint) = 7ec63ab47025e6747f003ee8ae8b66f7560f939df2963fb888923799b48df350
+RWQl8gtaJ/lzqgVrfLQZrX2tqJepval4ha12cSCkmx5xjlbKGVRapJIIoNo9PldnOSumCazt9P9mZeApd0JHQAjJrkOpKoFk+A4=
+SHA256 (Pkgfile) = 9d5b0edeab97b51097d3a27b566023cb1756ecb9cabbd73eb36c40ece4626480
+SHA256 (.footprint) = 006377c548ab4e93843cb9cd5e03cef65e44d95da8a70183b9b5efffef2feab0
 SHA256 (bluez-5.47.tar.xz) = cf75bf7cd5d564f21cc4a2bd01d5c39ce425397335fd47d9bbe43af0a58342c8
 SHA256 (bluetoothd) = ed10aaaf9d4177c0d940931f7301ec429477c917827d126ea3615b1f57129e72
 SHA256 (0001-Allow-using-obexd-without-systemd-in-the-user-session.patch) = 0ba4e75c3da7d38b4b14ca7425c80bcb1738dbd20f1cd9d3cd6e2b60363b15d3
