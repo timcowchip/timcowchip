@@ -20,12 +20,8 @@ drwxr-xr-x	timcowchip/users	usr/etc/dbus-1/
 drwxr-xr-x	timcowchip/users	usr/etc/dbus-1/system.d/
 -rwxr-xr-x	timcowchip/users	usr/etc/dbus-1/system.d/org.blueman.Mechanism.conf
 drwxr-xr-x	timcowchip/users	usr/lib/
-drwxr-xr-x	timcowchip/users	usr/lib/blueman/
--rwxr-xr-x	timcowchip/users	usr/lib/blueman/blueman-mechanism
--rwxr-xr-x	timcowchip/users	usr/lib/blueman/blueman-rfcomm-watcher
 drwxr-xr-x	timcowchip/users	usr/lib/python2.7/
 drwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/
--rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/_blueman.a
 -rwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/_blueman.la
 -rwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/_blueman.so
 drwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/blueman/
@@ -403,6 +399,10 @@ drwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/blueman/services/met
 -rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/blueman/services/meta/__init__.py
 -rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/blueman/services/meta/__init__.pyc
 -rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/blueman/services/meta/__init__.pyo
+drwxr-xr-x	timcowchip/users	usr/libexec/
+drwxr-xr-x	timcowchip/users	usr/libexec/blueman/
+-rwxr-xr-x	timcowchip/users	usr/libexec/blueman/blueman-mechanism
+-rwxr-xr-x	timcowchip/users	usr/libexec/blueman/blueman-rfcomm-watcher
 drwxr-xr-x	timcowchip/users	usr/share/
 drwxr-xr-x	timcowchip/users	usr/share/Thunar/
 drwxr-xr-x	timcowchip/users	usr/share/Thunar/sendto/

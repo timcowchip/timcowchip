@@ -317,10 +317,10 @@ f:b9a1c27d0ae034ae794069801858032e:podcastparser/.footprint
 f:a022f83c062a993746ca9ad7d5308eee:podcastparser/Pkgfile
 f:52bdb1fbc1456e1d20945fe1e6e8a1a2:podcastparser/.md5sum
 f:2036ac83af622930ae475d66cc0d1db6:podcastparser/.signature
-f:9ff6689a3846549846a82acf2261aa33:blueman/.footprint
+f:2389798f8e7386f928a5ad05f7287372:blueman/.footprint
 f:2b33a026fef6366def729009e9d561a7:blueman/Pkgfile
 f:51c5cdfa065f078d56037b5d72e24c99:blueman/.md5sum
-f:998c6442dbe010be92b64167dadf0b32:blueman/.signature
+f:218bd29145f0069554b9f3acddf14372:blueman/.signature
 f:51b54bebb527e4291b0ec4b8ad6c9250:blueman/org.blueman.Mechanism.conf
 f:aa13fe4a8450516406e833814a355820:tea/.footprint
 f:7c097d2ea6c84322d97a76b62350df9d:tea/Pkgfile

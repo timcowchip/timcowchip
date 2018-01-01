@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqis5OjKvLi9Ia/UzjLpyUy464ZmrFckBqEMS/Zhz6KOqtYlqhelzMohywWm+w2L46RGuhEqzFni/zw71SH46fA8=
-SHA256 (Pkgfile) = 9433955ff5f329d4ee9bc129372ccb58d00bc385fe09b5486ea0e9fe5d37f14c
-SHA256 (.footprint) = 6258750ac617b543ffb66319181794aa218c378763ef9c555c71cb65845d20ee
+RWQl8gtaJ/lzqg+G1UUN5U0nvrd/azq4BjXwhGMoUfUPVVupl8TwQbqypBK/7vXwpgWlDeRXCHU3tK3AMkRbC5aDpwjhbRVdbQ0=
+SHA256 (Pkgfile) = 9b3eb2a0cbc5cba60f539cdd3847f1f8e4a30c351412f912f43530016f334e9a
+SHA256 (.footprint) = 29fa6a45c201ef19abca25683262342f71606b517ac7b195e9f92239405ca7a0
 SHA256 (blueman-2.0.5.tar.xz) = 2c2eb9bbdcb6056eebcae1bec758f6a8ec752739b65794f6be3e0066ca1f88ca
 SHA256 (org.blueman.Mechanism.conf) = 6a467b0be8b92cb194b87c486ad59667b59313c1801970775eb6d1d710c63777
