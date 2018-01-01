@@ -124,12 +124,10 @@ f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
-f:233175ffde2a4c8de48e6a84dfd3f1c5:openobex/.footprint
-f:a792a352a02df72022a0e76f3af06cc5:openobex/Pkgfile
+f:55838074b9536f8ae3d7b27ca89cf0db:openobex/.footprint
+f:e67b2788e1838b540593f76b8e7aba2f:openobex/Pkgfile
 f:c54742f1d26c9757d80620a9535633aa:openobex/.md5sum
-f:ccdc2494b85994ba7ff0106890070699:openobex/.signature
-f:181f0207e4acd79298ab771b8915a3b8:openobex/openobex#1.7.2-1.pkg.tar.gz
-f:f6e0b6cb7dcfd731460a7e9a91429a3a:openobex/openobex-1.7.2-Source.tar.gz
+f:8c5328ca41e81e14fc14d73e9fc1b280:openobex/.signature
 f:566099da8c964b2b7a145045fbe5cd42:p5-xml-namespacesupport/.footprint
 f:9873885c927c55ff7cc543d735f8aa50:p5-xml-namespacesupport/Pkgfile
 f:6fb7777adfa52dbefc55fdd0ddf0c6e9:p5-xml-namespacesupport/.md5sum

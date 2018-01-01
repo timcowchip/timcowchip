@@ -2,6 +2,7 @@
 # URL:		http://dev.zuckschwerdt.org/openobex/
 # Packager:	Alan Mizrahi, alan at mizrahi dot com dot ve
 # Maintainer:    Chris Farrell, timcowchip at gorge dot net
+# Depends:      jre doxygen bluez libusb
 
 name=openobex
 version=1.7.2
