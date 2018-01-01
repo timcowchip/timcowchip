@@ -1,9 +1,9 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqqQzfpgzFTtKa8rggV+CTHRJDomWqwA3AdmfqV1K4MVW0T6eIhqxtc7znaCMvKg7Ev9Z/opppuPMHXcsHejFxg0=
+RWQl8gtaJ/lzqsI1BLs8BmUygzqOwJ50MroM+d5TgLw48cnZauAsWQ7NiyL8a/VRUsiAeJNClxJw0kYl7y6PxitYYLaB4R4uLQ4=
 SHA256 (Pkgfile) = 683691d05c8c8dc2e0e628bf80af1b114e2d8b9ecef28c653c9f2cd09f54c180
 SHA256 (.footprint) = 7ec63ab47025e6747f003ee8ae8b66f7560f939df2963fb888923799b48df350
 SHA256 (bluez-5.47.tar.xz) = cf75bf7cd5d564f21cc4a2bd01d5c39ce425397335fd47d9bbe43af0a58342c8
-SHA256 (bluetoothd) = 3cd23999762c0ca3e0559af307a8dbd4b7f8a58fc4bb2701d278dc49ec14a0b9
+SHA256 (bluetoothd) = 882261396e9513ee3613b44b28abf016a626bf4a6fce45717fb027c484da98c9
 SHA256 (0001-Allow-using-obexd-without-systemd-in-the-user-session.patch) = 0ba4e75c3da7d38b4b14ca7425c80bcb1738dbd20f1cd9d3cd6e2b60363b15d3
 SHA256 (0002-bluetoothd-dbus-service.patch) = dd09942cdebe27b4d6fea065937a921eb32e38d01a7cfd854d5e85ecdbbf48c0
 SHA256 (0003-bluetooth-group-can-use-bluez.patch) = c87413102e30102027416214d630567986848a4869073b7ff63dfd6891020a20

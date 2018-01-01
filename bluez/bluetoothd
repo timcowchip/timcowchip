@@ -4,7 +4,7 @@
 #
 
 SSD=/sbin/start-stop-daemon
-PROG=/usr/sbin/bluetoothd
+PROG=/usr/sbin/bluetooth/bluetoothd
 # OPTS="-d"
 
 case $1 in
