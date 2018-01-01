@@ -198,11 +198,11 @@ f:2fbea79137133cc9a092d723f14b53ef:pcmanfm-qt/.footprint
 f:db96b51dcca1c5de6a86f0a5aed3fcd7:pcmanfm-qt/Pkgfile
 f:45405b4d236cdcf6d491de282d630768:pcmanfm-qt/.md5sum
 f:c0871a19ffbf54363e3a68f54a579d2a:pcmanfm-qt/.signature
-f:345a6f81f1b8271affea66c5b26bd406:bluez/.footprint
-f:ab291e2b9dcfdaf000a3b31e63e780ff:bluez/Pkgfile
-f:52cff0f664bbd1cc8330cd79a30b9029:bluez/.md5sum
-f:528f298c00e8b5774b17974cca5b2c86:bluez/.signature
-f:a83c35297372620f3c2976796f054ed6:bluez/bluetoothd
+f:c7f72fa3e9013573fe48a0852b10acc1:bluez/.footprint
+f:2c243e19e3aa9c9c044177dd58851e28:bluez/Pkgfile
+f:69ef20ffe45911fa68e3553e156fb7ab:bluez/.md5sum
+f:ce45b42da3f3fe36ce232d692d8f7704:bluez/.signature
+f:8faf24d9748450e7caecd0673109dddf:bluez/bluetoothd
 f:e4a8d9ce56c9f43a9ff48b83dbe36b00:bluez/0003-bluetooth-group-can-use-bluez.patch
 f:a726d0e989f1938293b2bf14825c3dfb:bluez/0002-bluetoothd-dbus-service.patch
 f:0b0de3cfdaae66500b96177573fdc7f1:bluez/0001-Allow-using-obexd-without-systemd-in-the-user-session.patch

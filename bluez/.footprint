@@ -82,10 +82,10 @@ drwxr-xr-x	timcowchip/users	usr/lib/udev/
 -rwxr-xr-x	timcowchip/users	usr/lib/udev/hid2hci
 drwxr-xr-x	timcowchip/users	usr/lib/udev/rules.d/
 -rw-r--r--	timcowchip/users	usr/lib/udev/rules.d/97-hid2hci.rules
-drwxr-xr-x	timcowchip/users	usr/libexec/
-drwxr-xr-x	timcowchip/users	usr/libexec/bluetooth/
--rwxr-xr-x	timcowchip/users	usr/libexec/bluetooth/bluetoothd
--rwxr-xr-x	timcowchip/users	usr/libexec/bluetooth/obexd
+drwxr-xr-x	timcowchip/users	usr/sbin/
+drwxr-xr-x	timcowchip/users	usr/sbin/bluetooth/
+-rwxr-xr-x	timcowchip/users	usr/sbin/bluetooth/bluetoothd
+-rwxr-xr-x	timcowchip/users	usr/sbin/bluetooth/obexd
 drwxr-xr-x	timcowchip/users	usr/share/
 drwxr-xr-x	timcowchip/users	usr/share/man/
 drwxr-xr-x	timcowchip/users	usr/share/man/man1/
