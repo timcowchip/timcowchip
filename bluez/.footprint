@@ -1,7 +1,6 @@
 drwxr-xr-x	timcowchip/users	etc/
 drwxr-xr-x	timcowchip/users	etc/rc.d/
 -rwxr-xr-x	timcowchip/users	etc/rc.d/bluetoothd
--rwxr-xr-x	timcowchip/users	etc/rc.d/obexd
 drwxr-xr-x	timcowchip/users	usr/
 drwxr-xr-x	timcowchip/users	usr/bin/
 -rwxr-xr-x	timcowchip/users	usr/bin/bccmd
@@ -33,6 +32,8 @@ drwxr-xr-x	timcowchip/users	usr/include/bluetooth/
 -rw-r--r--	timcowchip/users	usr/include/bluetooth/sdp_lib.h
 drwxr-xr-x	timcowchip/users	usr/lib/
 drwxr-xr-x	timcowchip/users	usr/lib/bluetooth/
+-rwxr-xr-x	timcowchip/users	usr/lib/bluetooth/bluetoothd
+-rwxr-xr-x	timcowchip/users	usr/lib/bluetooth/obexd
 drwxr-xr-x	timcowchip/users	usr/lib/bluetooth/plugins/
 -rwxr-xr-x	timcowchip/users	usr/lib/bluetooth/plugins/sixaxis.la
 -rwxr-xr-x	timcowchip/users	usr/lib/bluetooth/plugins/sixaxis.so
@@ -83,10 +84,6 @@ drwxr-xr-x	timcowchip/users	usr/lib/udev/
 -rwxr-xr-x	timcowchip/users	usr/lib/udev/hid2hci
 drwxr-xr-x	timcowchip/users	usr/lib/udev/rules.d/
 -rw-r--r--	timcowchip/users	usr/lib/udev/rules.d/97-hid2hci.rules
-drwxr-xr-x	timcowchip/users	usr/libexec/
-drwxr-xr-x	timcowchip/users	usr/libexec/bluetooth/
--rwxr-xr-x	timcowchip/users	usr/libexec/bluetooth/bluetoothd
--rwxr-xr-x	timcowchip/users	usr/libexec/bluetooth/obexd
 drwxr-xr-x	timcowchip/users	usr/share/
 drwxr-xr-x	timcowchip/users	usr/share/man/
 drwxr-xr-x	timcowchip/users	usr/share/man/man1/
