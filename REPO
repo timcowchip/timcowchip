@@ -200,9 +200,9 @@ f:45405b4d236cdcf6d491de282d630768:pcmanfm-qt/.md5sum
 f:c0871a19ffbf54363e3a68f54a579d2a:pcmanfm-qt/.signature
 f:835fa039d36ddeaf13b314efde6f7d07:bluez/.footprint
 f:77c158294b86467d320eef446001b031:bluez/Pkgfile
-f:a15524c3af4c09b7116691ef26c78b3c:bluez/.md5sum
-f:266af7503daea8e5cd91728a973051a3:bluez/.signature
-f:8830d0902e256752173a0950a2d65095:bluez/bluetoothd
+f:f9f6b9b65ce1511ae75d36fe23851baf:bluez/.md5sum
+f:126d5bf62ba0ebf8718e64c7e1bf7327:bluez/.signature
+f:293cddf939952e6a3d57d338e950d70f:bluez/bluetoothd
 f:e4a8d9ce56c9f43a9ff48b83dbe36b00:bluez/0003-bluetooth-group-can-use-bluez.patch
 f:a726d0e989f1938293b2bf14825c3dfb:bluez/0002-bluetoothd-dbus-service.patch
 f:0b0de3cfdaae66500b96177573fdc7f1:bluez/0001-Allow-using-obexd-without-systemd-in-the-user-session.patch
