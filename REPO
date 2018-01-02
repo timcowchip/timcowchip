@@ -199,9 +199,9 @@ f:db96b51dcca1c5de6a86f0a5aed3fcd7:pcmanfm-qt/Pkgfile
 f:45405b4d236cdcf6d491de282d630768:pcmanfm-qt/.md5sum
 f:c0871a19ffbf54363e3a68f54a579d2a:pcmanfm-qt/.signature
 f:5eea97db4d6901dd5043a6c4cec00785:bluez/.footprint
-f:2946e51230af48dc12f49f43fff55966:bluez/Pkgfile
-f:11a843c5766bfd1cd6c3f87d851f5248:bluez/.md5sum
-f:75671529bd38f1b4df877d89da91151b:bluez/.signature
+f:4c44e20dfdc60b7b5bac8e981457485e:bluez/Pkgfile
+f:580ac8461be840f7c24fc426c28e9052:bluez/.md5sum
+f:e0710f74b66e7cd6f4500fc1fdab8486:bluez/.signature
 f:a83c35297372620f3c2976796f054ed6:bluez/bluetoothd
 f:e4a8d9ce56c9f43a9ff48b83dbe36b00:bluez/0003-bluetooth-group-can-use-bluez.patch
 f:a726d0e989f1938293b2bf14825c3dfb:bluez/0002-bluetoothd-dbus-service.patch

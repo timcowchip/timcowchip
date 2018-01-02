@@ -5,8 +5,8 @@
 # Optional:	pygobject dbus-python sox gst-plugins-base-compat
 
 name=bluez
-version=5.47
-release=1
+version=5.48
+release=2
 source=("https://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz" \ bluetoothd \ obexd \ 0001-Allow-using-obexd-without-systemd-in-the-user-session.patch \ 0002-bluetoothd-dbus-service.patch \ 0003-bluetooth-group-can-use-bluez.patch)
 
 build() {
