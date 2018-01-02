@@ -1,14 +1,14 @@
 #!/bin/sh
 #
-# /etc/rc.d/bluetoothd: start/stop/restart bluetooth daemon
+# /etc/rc.d/obexd: start/stop/restart obex daemon
 #
 
 case $1 in
 start)
-	/usr/libexec/bluetooth/bluetoothd &
+	/usr/libexec/bluetooth/obexd &
 	;;
 stop)
-	pkill bluetoothd
+	pkill obexd
 	;;
 restart)
 	$0 stop && sleep 2 && $0 start
