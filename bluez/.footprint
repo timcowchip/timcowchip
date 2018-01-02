@@ -1,6 +1,7 @@
 drwxr-xr-x	timcowchip/users	etc/
 drwxr-xr-x	timcowchip/users	etc/rc.d/
 -rwxr-xr-x	timcowchip/users	etc/rc.d/bluetoothd
+-rwxr-xr-x	timcowchip/users	etc/rc.d/obexd
 drwxr-xr-x	timcowchip/users	usr/
 drwxr-xr-x	timcowchip/users	usr/bin/
 -rwxr-xr-x	timcowchip/users	usr/bin/bccmd

@@ -3,3 +3,4 @@ a726d0e989f1938293b2bf14825c3dfb  0002-bluetoothd-dbus-service.patch
 e4a8d9ce56c9f43a9ff48b83dbe36b00  0003-bluetooth-group-can-use-bluez.patch
 9b303d436d89dab17cefbedac7cde041  bluetoothd
 c9c853f3c90564cabec75ab35106c355  bluez-5.48.tar.xz
+5604756fd33af1557f24d393d4399fc4  obexd
