@@ -4,9 +4,9 @@
 # Depends on: python
 
 name=mygpoclient
-version=1.7
-release=3
-source=(https://pypi.python.org/packages/source/m/mygpoclient/mygpoclient-1.7.tar.gz)
+version=1.8
+release=4
+source=(https://github.com/timcowchip/DISTFILES/raw/master/$name-$version.tar.gz)
 
 build() {
   cd $name-$version
