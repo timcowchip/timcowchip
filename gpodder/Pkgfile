@@ -4,18 +4,15 @@
 # Depends on: intltool, python, dbus-python, pygtk, podcastparser, mygpoclient
 
 name=gpodder
-version=3.9.3
+version=3.10.0
 release=5
-source=(http://gpodder.org/src/$name-$version.tar.gz)
+source=(https://github.com/gpodder/gpodder/archive/3.10.0.tar.gz)
 
 build(){
 	cd $name-$version
+	
 	make 
-	mkdir -p $PKG/usr/bin
-	mkdir -p $PKG/usr/man/man1
-	sed -i \
-    "/Popen(\['ip\|Popen(\['ifconfig/s/Popen(\['/Popen(['\/sbin\//" \
-    src/gpodder/util.py
+	
 	make DESTDIR=$PKG install
 	rm -rf $PKG/usr/share/man
 	rm -rf $PKG/usr/share/locale
