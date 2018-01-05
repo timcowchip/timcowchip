@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqg1lHUZLG0nnXHl+e4COvDZzxBe75MdD0HIX4VdP3PooIws/LsQE/TQHwGfSfHLxfHBEgFX1bqhD0CD+TS73qAI=
-SHA256 (Pkgfile) = f4733ca8cb1c6a79fe5a77873ce406fd6da6bbbcab2f237e8d038a49687e5f21
-SHA256 (.footprint) = 8e3865d3f75ce466f7af348e6474054512fec8cc77404df53c1a97aada8afcf3
+RWQl8gtaJ/lzqllEdOwtL6RtXqoUHyCaq+A54d/iRwhUBytQmFY+y+tMRPZhVBScss6PMMelkNvG09bDNdnBGucYCHsuoULeKw0=
+SHA256 (Pkgfile) = 6a84dbdaf32bae080932c76db5a3764e4440eb306b60ef173cf89de7242cfacb
+SHA256 (.footprint) = 322fdbc43a583ba95ebbebbc5de358e6d000953fb3f83f59fffadb76bb7c7fa2
 SHA256 (mygpoclient-1.8.tar.gz) = 06d168285521028ed5d0ca7d5d466d3d8c3b7836ce6503f9b9550680ede23485

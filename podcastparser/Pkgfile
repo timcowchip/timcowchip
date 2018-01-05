@@ -10,5 +10,5 @@ source=(https://github.com/gpodder/podcastparser/archive/$version/$name-$version
 
 build() {
   cd $name-$version
-  python3 setup.py install --root=$PKG
+  python setup.py install --root=$PKG
 }
