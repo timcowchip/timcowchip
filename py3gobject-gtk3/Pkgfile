@@ -1,6 +1,6 @@
 # Description: Python3 bindings for GObject GTK3.
 # URL:         https://wiki.gnome.org/Projects/PyGObject
-# Maintainer:  fun, just.the.real.fun at gmail dot com
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
 # Depends on:  gtk3 py3cairo autoconf-archive
 
 name=py3gobject-gtk3
