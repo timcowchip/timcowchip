@@ -33,6 +33,7 @@ d:gtkmm3
 d:libical
 d:icon-naming-utils
 d:handbrake
+d:mygpoclient3
 d:conky
 d:sbc
 d:pavucontrol-qt
@@ -61,6 +62,7 @@ d:docbook2x
 d:ansiweather
 d:google-chrome
 d:tablelist
+d:podcastparser3
 d:mygpoclient
 d:p5-xml-simple
 d:vice
@@ -229,6 +231,7 @@ f:d91a7ee303918b5229fa643a4b12713c:handbrake/.footprint
 f:e8cc20a185c0aa418dbeab84e0c1d22f:handbrake/Pkgfile
 f:2782ce02a6394dc72988a81f5db236e0:handbrake/.md5sum
 f:d8c7b209a0002ece3fb2b88a0f97cff6:handbrake/.signature
+f:518a9e4847aa498798dfef30963c43bd:mygpoclient3/Pkgfile
 f:44cdadfe92266e99698e5424b7c6e265:conky/lua53.patch
 f:52595ab8abff02fb0d32fa029ffa1590:conky/.footprint
 f:e1f14025344538c215b95eaee8102039:conky/Pkgfile
@@ -269,7 +272,7 @@ f:69e51d5aafde68150a3be0b89b20edb3:tilda/.md5sum
 f:b7a7cd1e34b50ab6baa6edb98da302a1:tilda/.signature
 f:1830ae320f7da82b01727150d5153205:tilda/post-install
 f:30e0a12538d3ea8d9d966ec8e34ac957:dbus-python3/.footprint
-f:93ebb5033c29141783d16e05623d1469:dbus-python3/Pkgfile
+f:1672308838d7d502fecb371df1d54104:dbus-python3/Pkgfile
 f:23bb93ee5cbcad3359a176237c177ad0:dbus-python3/.md5sum
 f:121a68ecaed02e03c42106d8b1c2e38a:dbus-python3/.signature
 f:176bc98a0d47d849dbfab208798aaab2:numlockx/.footprint
@@ -302,11 +305,11 @@ f:65a8c832a034a221e8d147e239fad2b1:spacefm/Pkgfile
 f:72239c0f9277227c7b06f419e4a5b50f:spacefm/.md5sum
 f:ed7365e6b0a3c28a5b5d805c715df6aa:spacefm/.signature
 f:8768108eae199c96f27b62dbd53c5a70:podcastparser/.footprint
-f:686f0b8134ba49d2972e95d6f2aa865b:podcastparser/Pkgfile
+f:bbdd20163bd3ef9f67ae7ce89dcde7e1:podcastparser/Pkgfile
 f:82d97231a685e0495ab6fc7ea5efbf59:podcastparser/.md5sum
 f:9ea7033196c15daaa8043d6746f3465e:podcastparser/.signature
 f:13072e627db90f6d8075483c8a3f6073:py3gobject-gtk3/.footprint
-f:3a71ff52c4588a16d5f8c47a0b1a453f:py3gobject-gtk3/Pkgfile
+f:77fc725a5a7a7639febe7e905272c827:py3gobject-gtk3/Pkgfile
 f:0c7626109a888124d1f5f903ea4cdc48:py3gobject-gtk3/.md5sum
 f:51f6bd93691c7dfffd7b1c71a167b8ff:py3gobject-gtk3/.signature
 f:1642130c8bef6389f8a2aba63febb944:py3gobject-gtk3/.watch
@@ -354,8 +357,9 @@ f:7ae899f47dffc70b89b2822d9ead023a:tablelist/.footprint
 f:e3fcd6d9bdefabe32084148464aedd7e:tablelist/Pkgfile
 f:affee42478dd23d37eb90cb60c2354b8:tablelist/.md5sum
 f:7b38de8a3e41f08228406f81e3b98c1a:tablelist/.signature
+f:f027cac3822c861a1f21864b51961eba:podcastparser3/Pkgfile
 f:301dc071c096e601eb874cb725a472c9:mygpoclient/.footprint
-f:ff4916832a74ff85a343e215bc63100a:mygpoclient/Pkgfile
+f:e783504f1364d450f20eee872b68aca2:mygpoclient/Pkgfile
 f:76f8c1f13457f6ed18a4aae60495ff93:mygpoclient/.md5sum
 f:845885e4780916cf87cc95d16c5ae9d2:mygpoclient/.signature
 f:d500e35feb917a6821b73e54f6755f40:p5-xml-simple/.footprint
