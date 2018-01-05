@@ -1,0 +1,18 @@
+# Description: Python3 bindings for GObject GTK3.
+# URL:         https://wiki.gnome.org/Projects/PyGObject
+# Maintainer:  fun, just.the.real.fun at gmail dot com
+# Depends on:  gtk3 py3cairo autoconf-archive
+
+name=py3gobject-gtk3
+version=3.27.1
+release=1
+source=(
+	https://github.com/GNOME/pygobject/archive/$version/py3gobject-$version.tar.gz
+	.watch
+)
+
+build() {
+	cd */
+	./autogen.sh --prefix=/usr --with-python=python3
+	make install DESTDIR=$PKG
+}
