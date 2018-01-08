@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqrOlp5O6q51udA1xiQBqNv6BN0SO0SJ3owegtsqGykhWvEIpckMuYaxva1H68QbomWd4SMY6FrWk3i+3O9yFWAE=
+SHA256 (Pkgfile) = 61d1c0b4261cad7691579b47ffc52349f99bd01bde4be5d2888f77c39af7aa72
+SHA256 (.footprint) = ccdb10b71d13f2f7381af70728b30c85df3f63936c06887f75a3a008bf10584d
+SHA256 (soundconverter-3.0.0-beta1.tar.xz) = e7a7a0cc27fd4165b4fae3baa7b735eda9b92b80ff6a7d8976a50679c4832f38
