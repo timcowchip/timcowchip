@@ -9,7 +9,6 @@ d:bwidget
 d:idesk-extras
 d:p5-xml-sax-base
 d:flburn
-d:openobex
 d:p5-xml-namespacesupport
 d:wego
 d:PySensors
@@ -46,6 +45,7 @@ d:tilda
 d:dbus-python3
 d:numlockx
 d:jq
+d:soundconverter
 d:libpeas
 d:libkomparediff2
 d:udevil
@@ -124,10 +124,6 @@ f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
-f:55838074b9536f8ae3d7b27ca89cf0db:openobex/.footprint
-f:e67b2788e1838b540593f76b8e7aba2f:openobex/Pkgfile
-f:c54742f1d26c9757d80620a9535633aa:openobex/.md5sum
-f:8c5328ca41e81e14fc14d73e9fc1b280:openobex/.signature
 f:566099da8c964b2b7a145045fbe5cd42:p5-xml-namespacesupport/.footprint
 f:9873885c927c55ff7cc543d735f8aa50:p5-xml-namespacesupport/Pkgfile
 f:6fb7777adfa52dbefc55fdd0ddf0c6e9:p5-xml-namespacesupport/.md5sum
@@ -283,6 +279,10 @@ f:a5bc6729f3a7709d27b0ae7ef3dc167a:jq/.footprint
 f:56d2fa349b29884f3b6891e51c80f540:jq/Pkgfile
 f:4215db7fc2b91c150fa63c4d619e572f:jq/.md5sum
 f:372e5f571d8ba53a12b5730ed8217991:jq/.signature
+f:0d574ade06f14105fcbce3cb7230ce44:soundconverter/.footprint
+f:b637f4e840ac797f224a7d4658393db7:soundconverter/Pkgfile
+f:5b1de9317d000b7d32334f56a18b01c2:soundconverter/.md5sum
+f:d81c60144d529543852c01d108893976:soundconverter/.signature
 f:0a23b16e27b41171f4b5c2735c6b5a45:libpeas/.footprint
 f:791c22dbca2d420713150c4e00f11a49:libpeas/Pkgfile
 f:b0c67a8a67afd5f1734cc4182bf7db19:libpeas/.md5sum
@@ -403,9 +403,11 @@ f:48d26c2a037ad8d8746970b3400b0232:qmmp/Pkgfile
 f:1d3b6a7175d80cc6fa5382b9d2bd4556:qmmp/.md5sum
 f:cdbcac0f8e0af84d5783b5eca3456af2:qmmp/.signature
 f:bb574ba52cb5c1446e230dabc1259dde:gpodder/.footprint
-f:e7276ec78ce32a98e65f3fa97c35565c:gpodder/Pkgfile
+f:63ba698c3af8a0d6aba04bfbb108d569:gpodder/Pkgfile
 f:4a34cb52f442ba4dce733552b2ae0dd4:gpodder/.md5sum
 f:22e2256ae243e83068b6386ba0e032a6:gpodder/.signature
+f:2303a104690a614935f06f5c6d2ab3ef:gpodder/3.10.0.tar.gz
+f:743e5ffb990e6c9390913ed19d143c30:gpodder/mate.txt
 f:ac4537011fd5627e065ae26b37db36d0:qupzilla/.footprint
 f:3ca119f698f2c43b3ddb96efe7ecc3b2:qupzilla/Pkgfile
 f:8d79f630ed3ae13a95c2b3b6c53573a4:qupzilla/.md5sum
