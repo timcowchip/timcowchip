@@ -1,0 +1,19 @@
+# Description: music player for gnome
+# URL: http://www.exaile.org
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: gtk3 gstreamer mutagen python-dbus python-gobject python-cairo udisks2 librsvg gst-plugins-good
+
+name=exaile
+version=4.0.0-beta2
+pkgrel=1
+release=1
+
+source=(https://github.com/$name/$name/archive/$version.tar.gz)
+
+build() {
+  cd $name-$version
+  make
+
+  make DESTDIR="$PKG/" PREFIX="/usr" install
+  make clean
+}
