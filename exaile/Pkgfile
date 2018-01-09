@@ -15,5 +15,6 @@ build() {
   make
 
   make DESTDIR="$PKG/" PREFIX="/usr" install
+  rm -rf ${PKG}/usr/share/locale/
   make clean
 }
