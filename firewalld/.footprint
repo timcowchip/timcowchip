@@ -15,6 +15,7 @@ drwxr-xr-x	timcowchip/users	etc/firewalld/zones/
 drwxr-xr-x	timcowchip/users	etc/modprobe.d/
 -rw-r--r--	timcowchip/users	etc/modprobe.d/firewalld-sysctls.conf
 drwxr-xr-x	timcowchip/users	etc/rc.d/
+-rwxr-xr-x	timcowchip/users	etc/rc.d/firewalld
 drwxr-xr-x	timcowchip/users	etc/rc.d/init.d/
 -rwxr-xr-x	timcowchip/users	etc/rc.d/init.d/firewalld
 drwxr-xr-x	timcowchip/users	etc/sysconfig/

@@ -6,7 +6,7 @@
 name=firewalld
 version=0.4.4.6
 release=1
-source=(https://github.com/firewalld/firewalld/archive/v0.4.4.6.tar.gz)
+source=(https://github.com/firewalld/firewalld/archive/v0.4.4.6.tar.gz \ firewalld)
 build() {
 	cd $name-$version
 	./autogen.sh
@@ -20,4 +20,5 @@ build() {
 
 	make
 	make  DESTDIR=$PKG  install
+	install -D -m 0755 $SRC/firewalld $PKG/etc/rc.d/firewalld
 }

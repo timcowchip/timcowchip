@@ -347,10 +347,11 @@ f:2c7cfb7ad9b28b4e738ea4dc3a0b6b52:wmfs2/.footprint
 f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wmfs2/.md5sum
 f:130a640db3a3f34379e71c6130e274eb:wmfs2/.signature
-f:b256796c909395d7f9d9a405bab77f8e:firewalld/.footprint
-f:b16bd0e7533a66e485a870b0a6b3b03c:firewalld/Pkgfile
-f:fd2cc8e320bf4b2c60ab259945b1c000:firewalld/.md5sum
-f:8405eef89a0d02c81998a1cdccdfd7df:firewalld/.signature
+f:52d2c9c8cb7ba02de76d8c27d9303398:firewalld/.footprint
+f:00466482463ad280893736f7ff831240:firewalld/Pkgfile
+f:a93e4d49b0ebb0051d6318c029939a8a:firewalld/.md5sum
+f:a6bf2827a99e7870c4b07857a198df21:firewalld/.signature
+f:36cd6d62965ea53172bba41c1b9b4abc:firewalld/firewalld
 f:e73a7dce2fd38258705264767968d1a2:docbook2x/.footprint
 f:fcd01f35f3eb59cb6bb2bcbce8171859:docbook2x/Pkgfile
 f:5461df2862efce10d5ac90b0d09eff4f:docbook2x/.md5sum
