@@ -1,0 +1,14 @@
+# Description: python-slip (convenience, extension, and workaround code)
+# URL: https://github.com/nphilipp/python-slip
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: python-setuptools
+
+name=python-slip
+version=0.6.5
+release=1
+source=(https://github.com/nphilipp/$name/releases/download/$name-$version/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+  python setup.py.in install --root=$PKG
+}

@@ -1,0 +1,23 @@
+# Description: dynamically managed firewall gui
+# URL: http://www.firewalld.org/
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: python-slip ebtables ipset
+
+name=firewalld
+version=0.4.4.6
+release=1
+source=(https://github.com/firewalld/firewalld/archive/v0.4.4.6.tar.gz)
+build() {
+	cd $name-$version
+	./autogen.sh
+	./configure \
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	--localstatedir=/var \
+	--mandir=/usr/man \
+	--disable-systemd \
+	--disable-nls
+
+	make
+	make  DESTDIR=$PKG  install
+}
