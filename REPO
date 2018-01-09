@@ -44,6 +44,7 @@ d:idesk
 d:tilda
 d:dbus-python3
 d:numlockx
+d:python-slip
 d:jq
 d:soundconverter
 d:libpeas
@@ -56,8 +57,10 @@ d:py3gobject-gtk3
 d:blueman
 d:tea
 d:xdialog
+d:decorator
 d:dconf
 d:wmfs2
+d:firewalld
 d:docbook2x
 d:ansiweather
 d:google-chrome
@@ -76,6 +79,7 @@ d:qmmp
 d:gpodder
 d:qupzilla
 d:audacity
+d:exaile
 d:qtermwidget
 d:libwnck
 f:a96552149fb05b98f2121e28ab942727:wmbiff/.footprint
@@ -275,6 +279,10 @@ f:176bc98a0d47d849dbfab208798aaab2:numlockx/.footprint
 f:f59214bbf0fe64345d1248794aabdceb:numlockx/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:numlockx/.md5sum
 f:da928c1a0872b36f75d2d16df8eed7ad:numlockx/.signature
+f:d707bfc4dae749cd103d1e3814bc2aee:python-slip/.footprint
+f:5a22571e61c36f2272fa557e7adbe4ef:python-slip/Pkgfile
+f:fbeedb844eafdbaa66a94dfe48ff48ba:python-slip/.md5sum
+f:0bacfbc1020955b13d14954894fd5e28:python-slip/.signature
 f:a5bc6729f3a7709d27b0ae7ef3dc167a:jq/.footprint
 f:56d2fa349b29884f3b6891e51c80f540:jq/Pkgfile
 f:4215db7fc2b91c150fa63c4d619e572f:jq/.md5sum
@@ -305,7 +313,7 @@ f:65a8c832a034a221e8d147e239fad2b1:spacefm/Pkgfile
 f:72239c0f9277227c7b06f419e4a5b50f:spacefm/.md5sum
 f:ed7365e6b0a3c28a5b5d805c715df6aa:spacefm/.signature
 f:8768108eae199c96f27b62dbd53c5a70:podcastparser/.footprint
-f:bbdd20163bd3ef9f67ae7ce89dcde7e1:podcastparser/Pkgfile
+f:46d80ceb37eb212b0095ce92d45ce4c3:podcastparser/Pkgfile
 f:82d97231a685e0495ab6fc7ea5efbf59:podcastparser/.md5sum
 f:9ea7033196c15daaa8043d6746f3465e:podcastparser/.signature
 f:13072e627db90f6d8075483c8a3f6073:py3gobject-gtk3/.footprint
@@ -327,6 +335,10 @@ f:f208bf222ddefd06a57c467b9660b06a:xdialog/.footprint
 f:e9688425401726b2715b1e84d06cc730:xdialog/Pkgfile
 f:47473d02ff9a2fb4a13ed2582c1c9958:xdialog/.md5sum
 f:d5fbf5c7d4ae4d71916b6cc039a5a604:xdialog/.signature
+f:97b9b1a25b4fb95d0c5fb6bf64ff78e3:decorator/.footprint
+f:95e2c948c5c2d014840387e9aa502bc0:decorator/Pkgfile
+f:c408d42151ed600e9a0d23e253c7a71b:decorator/.md5sum
+f:0a4a8023615937e08e7a272a3ff8af34:decorator/.signature
 f:599ef60a7ff1dafd5a316ec66cd919cf:dconf/.footprint
 f:20a3e2cef93ab61cf709527fd0a57c01:dconf/Pkgfile
 f:84ba726a5a45d792387f712b240ba231:dconf/.md5sum
@@ -335,6 +347,10 @@ f:2c7cfb7ad9b28b4e738ea4dc3a0b6b52:wmfs2/.footprint
 f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wmfs2/.md5sum
 f:130a640db3a3f34379e71c6130e274eb:wmfs2/.signature
+f:b256796c909395d7f9d9a405bab77f8e:firewalld/.footprint
+f:b16bd0e7533a66e485a870b0a6b3b03c:firewalld/Pkgfile
+f:fd2cc8e320bf4b2c60ab259945b1c000:firewalld/.md5sum
+f:8405eef89a0d02c81998a1cdccdfd7df:firewalld/.signature
 f:e73a7dce2fd38258705264767968d1a2:docbook2x/.footprint
 f:fcd01f35f3eb59cb6bb2bcbce8171859:docbook2x/Pkgfile
 f:5461df2862efce10d5ac90b0d09eff4f:docbook2x/.md5sum
@@ -357,7 +373,7 @@ f:7ae899f47dffc70b89b2822d9ead023a:tablelist/.footprint
 f:e3fcd6d9bdefabe32084148464aedd7e:tablelist/Pkgfile
 f:affee42478dd23d37eb90cb60c2354b8:tablelist/.md5sum
 f:7b38de8a3e41f08228406f81e3b98c1a:tablelist/.signature
-f:f027cac3822c861a1f21864b51961eba:podcastparser3/Pkgfile
+f:bbdd20163bd3ef9f67ae7ce89dcde7e1:podcastparser3/Pkgfile
 f:301dc071c096e601eb874cb725a472c9:mygpoclient/.footprint
 f:e783504f1364d450f20eee872b68aca2:mygpoclient/Pkgfile
 f:76f8c1f13457f6ed18a4aae60495ff93:mygpoclient/.md5sum
@@ -419,6 +435,10 @@ f:e00e66a0063de39118f9ca1392126cfc:audacity/.signature
 f:021a080c82bd22cff6cbb42c6005c0e5:audacity/fix-vamp-build.patch
 f:9fe2201794d21f864d78dd075fb31362:audacity/ffmpeg.patch
 f:21ca8300556a7e63a7b66dd9875af37b:audacity/fix-return_null.patch
+f:a3fa7d19b6d680a4498ccd87e044fc2d:exaile/.footprint
+f:b1b2c09ac439e59a04899345840d4786:exaile/Pkgfile
+f:475f8f048d26a6738fd6efb18fa0048c:exaile/.md5sum
+f:9ce322e9c85182861085323cf6bf20a7:exaile/.signature
 f:92576c1f5ee2a94b1dac57e2ccfb226d:qtermwidget/Pkgfile
 f:002285a6b08f77aa3b2489235d4529ae:qtermwidget/.md5sum
 f:a59b504b2f568b86f2d035e5dee4790a:qtermwidget/.signature
