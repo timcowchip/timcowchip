@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqowhSDWxtC260zyO/Xxx3FS5jbwP2wjXFMYkUQWN/uxvX6xgtFrkK2JN3r5qzCbaTtYoOi5ZDI/0GardROiaNwY=
+SHA256 (Pkgfile) = ee1b0113dc7d519c830332ee11fbfdf15bcec21dadfb68492b642691f0857b5b
+SHA256 (.footprint) = ae4a415954c224748ab0a0472a8de99f4e7af5d937b37af2cfd8d5e2d868c509
+SHA256 (decorator-4.1.2.tar.gz) = 7cb64d38cb8002971710c8899fbdfb859a23a364b7c99dab19d1f719c2ba16b5

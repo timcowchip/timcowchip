@@ -1,0 +1,13 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/lib/
+drwxr-xr-x	timcowchip/users	usr/lib/python2.7/
+drwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/
+drwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/decorator-4.1.2-py2.7.egg-info/
+-rw-rw-r--	timcowchip/users	usr/lib/python2.7/site-packages/decorator-4.1.2-py2.7.egg-info/PKG-INFO
+-rw-rw-r--	timcowchip/users	usr/lib/python2.7/site-packages/decorator-4.1.2-py2.7.egg-info/SOURCES.txt
+-rw-rw-r--	timcowchip/users	usr/lib/python2.7/site-packages/decorator-4.1.2-py2.7.egg-info/dependency_links.txt
+-rw-rw-r--	timcowchip/users	usr/lib/python2.7/site-packages/decorator-4.1.2-py2.7.egg-info/not-zip-safe
+-rw-rw-r--	timcowchip/users	usr/lib/python2.7/site-packages/decorator-4.1.2-py2.7.egg-info/pbr.json
+-rw-rw-r--	timcowchip/users	usr/lib/python2.7/site-packages/decorator-4.1.2-py2.7.egg-info/top_level.txt
+-rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/decorator.py
+-rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/decorator.pyc

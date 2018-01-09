@@ -1,1 +1,0 @@
-install nf_conntrack @MODPROBE@ --ignore-install nf_conntrack && @SYSCTL@ --pattern 'net[.]netfilter[.]nf_conntrack.*' --system

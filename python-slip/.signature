@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzqtfIf6rGIpLW5DN/zOzYPG8CL8Z31Zj9TjcZnLRa1X9NmMlUrSDiBjxwzuJOcjJJBEo4Dk1VQlc6z7RqdjJLYQk=
+SHA256 (Pkgfile) = 68fbd142d2f67ad1c77f4eceb48fa72f2a8b42505ff31b3d4ca10dbe7492e247
+SHA256 (.footprint) = 936da43845e90d5578cad362b902079bfbfae4af13a16a2d7cf3ea0ff208592c
+SHA256 (python-slip-0.6.5.tar.bz2) = c726c086f0dd93a0ac7a0176f383a12af91b6657b78a301e3f5b25d9f8d4d10b

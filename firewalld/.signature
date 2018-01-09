@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQl8gtaJ/lzquKoa8odx7c9SGbcAU5LRRGMptGrlJ9XE8Rgrrms/6JdFb8kgtDYL7P1q72fqwH7zlfLpYfHLcQuMGQeMtW8RA4=
+SHA256 (Pkgfile) = 52c847e4489c010cda0f283e6611fc68e8cdca8ff29bb183c5e59d4add5e8663
+SHA256 (.footprint) = 6b7eed7a92b14f1adb7fdc0371fc88967d7724755acd7cda7ebfe588ebf8a24f
+SHA256 (v0.4.4.6.tar.gz) = a7bf9dd341f3f4c261fa8a8e217160ec815e9dbf32edc25aed44719a2273e94e
