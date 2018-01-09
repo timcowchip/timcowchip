@@ -12,6 +12,7 @@ build() {
 	./autogen.sh
 	./configure \
 	--prefix=/usr \
+	--libdir=/usr/lib \
 	--sysconfdir=/etc \
 	--localstatedir=/var \
 	--mandir=/usr/man \
