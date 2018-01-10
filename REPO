@@ -81,7 +81,6 @@ d:qupzilla
 d:audacity
 d:exaile
 d:qtermwidget
-d:libwnck
 f:a96552149fb05b98f2121e28ab942727:wmbiff/.footprint
 f:c974d77334675aa2d527a5e26748ecfd:wmbiff/Pkgfile
 f:77cbb2b0c2ee71ad4e151314502d3819:wmbiff/.md5sum
@@ -348,9 +347,9 @@ f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wmfs2/.md5sum
 f:130a640db3a3f34379e71c6130e274eb:wmfs2/.signature
 f:52d2c9c8cb7ba02de76d8c27d9303398:firewalld/.footprint
-f:26809bbb60c476299205b54b6dc7fb37:firewalld/Pkgfile
+f:ca9c706e011e95b83520a51088e6fafc:firewalld/Pkgfile
 f:a93e4d49b0ebb0051d6318c029939a8a:firewalld/.md5sum
-f:0967534a7080e7576d0cced5d4bddf06:firewalld/.signature
+f:13a045ca87f645fd3fee85d06b6f4d3b:firewalld/.signature
 f:36cd6d62965ea53172bba41c1b9b4abc:firewalld/firewalld
 f:e73a7dce2fd38258705264767968d1a2:docbook2x/.footprint
 f:fcd01f35f3eb59cb6bb2bcbce8171859:docbook2x/Pkgfile
@@ -443,7 +442,3 @@ f:9ce322e9c85182861085323cf6bf20a7:exaile/.signature
 f:92576c1f5ee2a94b1dac57e2ccfb226d:qtermwidget/Pkgfile
 f:002285a6b08f77aa3b2489235d4529ae:qtermwidget/.md5sum
 f:a59b504b2f568b86f2d035e5dee4790a:qtermwidget/.signature
-f:020fa6572a235dca3e2c21f3ae6a1a5e:libwnck/.footprint
-f:da52b7bb9fd5e90225150e012446b603:libwnck/Pkgfile
-f:1a3d2c546f2cd40ac6deace7d7ae8c0d:libwnck/.md5sum
-f:6d0b5427e32e67d5620b9dd7c8fa301a:libwnck/.signature

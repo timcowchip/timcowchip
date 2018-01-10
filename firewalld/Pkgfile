@@ -1,7 +1,7 @@
 # Description: dynamically managed firewall gui
 # URL: http://www.firewalld.org/
 # Maintainer: Chris Farrell, timcowchip at gorge dot net
-# Depends on: python-slip ebtables ipset
+# Depends on: decorator python-slip iptables ebtables ipset
 
 name=firewalld
 version=0.4.4.6
@@ -12,7 +12,6 @@ build() {
 	./autogen.sh
 	./configure \
 	--prefix=/usr \
-	--libdir=/usr/lib \
 	--sysconfdir=/etc \
 	--localstatedir=/var \
 	--mandir=/usr/man \
