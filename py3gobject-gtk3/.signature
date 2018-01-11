@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqgpu3keuoWgzQLTgCDU335fvFrO3q+puPq9F427fIXKl5zsz5TlzS6Cyp9wQ7aSe797k0dsLub3/XQiylZi4xAM=
-SHA256 (Pkgfile) = 4c69a2ebd122617b245015590e9dae0451cfa0e21a39ad7da2d46ef492b6f64a
-SHA256 (.footprint) = 155333ef313419b33d6845591b668e31a64c6b7620f583be794848d314088818
-SHA256 (py3gobject-3.27.1.tar.gz) = 85365cb142fed39d73775321d0004e79a74354d5793301d0145d6cf94641ad43
-SHA256 (.watch) = d17a0670e8bd9d30a39f3b184c27f322303a8f1af0001d765bf2fb56d3548255
