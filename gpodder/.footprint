@@ -187,8 +187,6 @@ drwxr-xr-x	timcowchip/users	usr/lib/python2.7/site-packages/gpodder/test/
 -rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/gpodder/youtube.py
 -rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/gpodder/youtube.pyc
 -rw-r--r--	timcowchip/users	usr/lib/python2.7/site-packages/gpodder/youtube.pyo
-drwxr-xr-x	timcowchip/users	usr/man/
-drwxr-xr-x	timcowchip/users	usr/man/man1/
 drwxr-xr-x	timcowchip/users	usr/share/
 drwxr-xr-x	timcowchip/users	usr/share/applications/
 -rw-r--r--	timcowchip/users	usr/share/applications/gpodder-url-handler.desktop
