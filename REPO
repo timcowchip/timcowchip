@@ -43,6 +43,7 @@ d:idesk
 d:tilda
 d:dbus-python3
 d:numlockx
+d:xfce4-weather-plugin
 d:python-slip
 d:jq
 d:soundconverter
@@ -274,6 +275,10 @@ f:176bc98a0d47d849dbfab208798aaab2:numlockx/.footprint
 f:f59214bbf0fe64345d1248794aabdceb:numlockx/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:numlockx/.md5sum
 f:da928c1a0872b36f75d2d16df8eed7ad:numlockx/.signature
+f:21b5da20b8e7452c966c51f7fcfb5bc3:xfce4-weather-plugin/.footprint
+f:1b0d128749e49c648e21e0d6e850ed5b:xfce4-weather-plugin/Pkgfile
+f:c3f7aef08abe2bf7ccce8c51a6549eab:xfce4-weather-plugin/.md5sum
+f:30e4d674ae4409381328d95e983e745a:xfce4-weather-plugin/.signature
 f:d707bfc4dae749cd103d1e3814bc2aee:python-slip/.footprint
 f:5a22571e61c36f2272fa557e7adbe4ef:python-slip/Pkgfile
 f:fbeedb844eafdbaa66a94dfe48ff48ba:python-slip/.md5sum
