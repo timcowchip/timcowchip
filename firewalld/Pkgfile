@@ -22,6 +22,7 @@ build() {
     --with-ebtables='/usr/sbin/ebtables' \
     --with-ebtables-restore='/usr/sbin/ebtables-restore' \
     --with-ipset='/usr/sbin/ipset' \
+    --disable-schemas-compile \
 	--disable-systemd \
 	--disable-nls
 
