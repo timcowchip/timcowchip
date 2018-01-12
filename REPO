@@ -338,9 +338,9 @@ f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wmfs2/.md5sum
 f:130a640db3a3f34379e71c6130e274eb:wmfs2/.signature
 f:52d2c9c8cb7ba02de76d8c27d9303398:firewalld/.footprint
-f:ca9c706e011e95b83520a51088e6fafc:firewalld/Pkgfile
+f:fa0d3cef1f622d5fa91d35c0267e49d6:firewalld/Pkgfile
 f:a93e4d49b0ebb0051d6318c029939a8a:firewalld/.md5sum
-f:13a045ca87f645fd3fee85d06b6f4d3b:firewalld/.signature
+f:75f6c10b16c94c0af8b9221769126dc6:firewalld/.signature
 f:36cd6d62965ea53172bba41c1b9b4abc:firewalld/firewalld
 f:e73a7dce2fd38258705264767968d1a2:docbook2x/.footprint
 f:fcd01f35f3eb59cb6bb2bcbce8171859:docbook2x/Pkgfile

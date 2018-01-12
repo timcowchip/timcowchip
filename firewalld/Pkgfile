@@ -15,6 +15,13 @@ build() {
 	--sysconfdir=/etc \
 	--localstatedir=/var \
 	--mandir=/usr/man \
+	--with-iptables='/usr/sbin/iptables' \
+    --with-iptables-restore='/usr/sbin/iptables-restore' \
+    --with-ip6tables='/usr/sbin/ip6tables' \
+    --with-ip6tables-restore='/usr/sbin/ip6tables-restore' \
+    --with-ebtables='/usr/sbin/ebtables' \
+    --with-ebtables-restore='/usr/sbin/ebtables-restore' \
+    --with-ipset='/usr/sbin/ipset' \
 	--disable-systemd \
 	--disable-nls
 
