@@ -12,6 +12,7 @@ build() {
 	./autogen.sh
 	./configure \
 	--prefix=/usr \
+	--sbindir='/usr/sbin' \
 	--sysconfdir=/etc \
 	--localstatedir=/var \
 	--mandir=/usr/man \
