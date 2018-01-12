@@ -16,6 +16,7 @@ build() {
 	--sysconfdir=/etc \
 	--localstatedir=/var \
 	--mandir=/usr/man \
+	--enable-sysconfig \
 	--with-iptables='/usr/sbin/iptables' \
     --with-iptables-restore='/usr/sbin/iptables-restore' \
     --with-ip6tables='/usr/sbin/ip6tables' \
