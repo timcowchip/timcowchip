@@ -1,0 +1,22 @@
+# Description: Object-oriented GUI and set of compilers for various firewall platforms
+# URL: https://github.com/fwbuilder
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: libxslt net-snmp qt4 desktop-file-utils hicolor-icon-theme shared-mime-info
+
+name=fwbuilder
+version=5.3.7
+release=1
+
+source=(https://github.com/$name/$name/archive/v$version.tar.gz \ fwbuilder.xml)
+
+build() {
+    cd "$name-$version"
+
+	find -name "qmake.inc.in" -exec sed -e 's/\/usr\/include//g' -i {} \;
+    ./autogen.sh --prefix=/usr
+    make
+
+    make INSTALL_ROOT="${PKG}" install
+    echo "MimeType=text/x-xml-fwbuilder;" >> "$PKG/usr/share/applications/${name}.desktop"
+    install -Dm644 "$SRC/fwbuilder.xml" "$PKG/usr/share/mime/packages/fwbuilder.xml"
+}
