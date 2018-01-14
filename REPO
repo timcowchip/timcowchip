@@ -321,12 +321,10 @@ f:2b33a026fef6366def729009e9d561a7:blueman/Pkgfile
 f:51c5cdfa065f078d56037b5d72e24c99:blueman/.md5sum
 f:218bd29145f0069554b9f3acddf14372:blueman/.signature
 f:51b54bebb527e4291b0ec4b8ad6c9250:blueman/org.blueman.Mechanism.conf
-f:14dcbb3b500bce22bebc06de58e2fe98:fwbuilder/.footprint
-f:d8c50872979f3e80d601d4d5e64f1f5e:fwbuilder/fwbuilder#5.3.7-1.pkg.tar.gz
+f:a54b5b345344fb4c37f3fd462ac77bd8:fwbuilder/.footprint
 f:76b010177d9e68fdefb062b4695ceb4a:fwbuilder/Pkgfile
 f:9390ae66b1bda5d90dc18ef6e0447b85:fwbuilder/.md5sum
-f:3ba7a1e2a4047ee108fe65375b03fa70:fwbuilder/.signature
-f:0c33b278b096d815d3f8920bb3290869:fwbuilder/v5.3.7.tar.gz
+f:5246124208f05993f4b190e01867be3e:fwbuilder/.signature
 f:520e08069addcdb946794458f49f3d10:fwbuilder/fwbuilder.xml
 f:aa13fe4a8450516406e833814a355820:tea/.footprint
 f:7c097d2ea6c84322d97a76b62350df9d:tea/Pkgfile
