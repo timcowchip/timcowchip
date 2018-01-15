@@ -1,0 +1,41 @@
+# Description: Firewall daemon with D-Bus interface
+# URL: https://github.com/t-woerner/firewalld
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: dbus-glib dconf ebtables hicolor-icon-theme ipset iptables python-slip docbook-xsl intltool
+
+name=firewalld
+version=0.4.4.6
+release=1
+
+source=("https://github.com/t-woerner/firewalld/archive/v${version}.tar.gz" 'FireWallD')
+
+build() {
+  cd firewalld-${version}
+
+
+
+  ./autogen.sh
+
+  ./configure \
+    --prefix='/usr' \
+    --localstatedir='/var' \
+    --sbindir='/usr/sbin' \
+    --sysconfdir='/etc' \
+    --with-sysconfigdir='/etc/conf.d' \
+	--with-iptables=/usr/sbin/iptables \
+	--with-iptables-restore=/usr/sbin/iptables-restore \
+	--with-ip6tables=/usr/sbin/ip6tables \
+	--with-ip6tables-restore=/usr/sbin/ip6tables-restore \
+	--with-ebtables=/usr/sbin/ebtables \
+	--with-ebtables-restore=/usr/sbin/ebtables-restore \
+	--with-ipset=/usr/sbin/ipset \
+	--enable-sysconfig \
+	--disable-systemd 
+	
+  make
+
+  make DESTDIR="${PKG}" install
+  install -D -m 0755 $SRC/FireWallD $PKG/etc/rc.d/FireWallD
+}
+
+

@@ -60,6 +60,7 @@ d:xdialog
 d:decorator
 d:dconf
 d:wmfs2
+d:firewalld
 d:docbook2x
 d:ansiweather
 d:google-chrome
@@ -347,6 +348,11 @@ f:2c7cfb7ad9b28b4e738ea4dc3a0b6b52:wmfs2/.footprint
 f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:wmfs2/.md5sum
 f:130a640db3a3f34379e71c6130e274eb:wmfs2/.signature
+f:8490344ec2a8f16fee11592cb916ab1b:firewalld/.footprint
+f:32da43ced6fc2541edae02a4aca0e215:firewalld/Pkgfile
+f:36cd6d62965ea53172bba41c1b9b4abc:firewalld/FireWallD
+f:fe83b90f47e1c657ff8e005803b8e150:firewalld/.md5sum
+f:ad6854ed58c54260fa31f6cfcea2da5b:firewalld/.signature
 f:e73a7dce2fd38258705264767968d1a2:docbook2x/.footprint
 f:fcd01f35f3eb59cb6bb2bcbce8171859:docbook2x/Pkgfile
 f:5461df2862efce10d5ac90b0d09eff4f:docbook2x/.md5sum
