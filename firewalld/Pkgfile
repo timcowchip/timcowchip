@@ -36,6 +36,7 @@ build() {
 
   make DESTDIR="${PKG}" install
   install -D -m 0755 $SRC/FireWallD $PKG/etc/rc.d/FireWallD
+  rm -rf ${PKG}/usr/share/locale/
 }
 
 
