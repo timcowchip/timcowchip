@@ -11,14 +11,16 @@ source=()
 
 build() {
 
+  set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fpic")
+  set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpic")
+
   git clone https://github.com/rilian-la-te/vala-panel.git
   
   cd "${SRC}/${name}"
   
   git submodule init && git submodule update
 
-  set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fpic")
-  set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpic")
+
   cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_WNCK=ON
   make
 
