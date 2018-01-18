@@ -18,7 +18,7 @@ build() {
   git submodule init && git submodule update
 
   
-  cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_WNCK=ON -DENABLE_fPIC=ON
+  cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_WNCK=ON
   make
 
   cd "${SRC}/${name}"
