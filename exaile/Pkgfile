@@ -4,7 +4,7 @@
 # Depends on: gtk3 gstreamer mutagen python-dbus python-gobject python-cairo udisks2 librsvg gst-plugins-good
 
 name=exaile
-version=4.0.0-beta2
+version=4.0.0-rc3
 pkgrel=1
 release=1
 
