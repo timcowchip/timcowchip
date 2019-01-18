@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqvEK1d9fTG69SH+b85+PB/HqCdSH1zHysczvnVLigzS4xOCouVBNr45DK13AGuxzEBV2loYvWAt07kIS2J+NlQk=
-SHA256 (Pkgfile) = 39ca9249a30389e27b7f6c2c7d99737cf90e066bc709dcb4a5fb964306423ab0
-SHA256 (.footprint) = aaacb3bf0d2c2e6605064f0d0c440c9b230cd01e37153e8c0fae4a111f8d965b
-SHA256 (audacity-2.1.2.tar.gz) = 90007b50cdc3885607b1afef2f158777a61c1658e869a88ec4d98c59c133f9bd
-SHA256 (ffmpeg.patch) = b6b58c4f3134126efaa4677a239bdf1f7c72b9dd40414d94df77e7adc85f980c
-SHA256 (fix-return_null.patch) = 9dad93541f75414dcf906655bbb7d4272581b49ffe0f1fb82c78b73ddc226af6
-SHA256 (fix-vamp-build.patch) = 583858cabd55a4d00fdcdfe7acd666d510d98d6012e048f069895b8e3c599700
