@@ -4,9 +4,9 @@
 # Depends on:	grub2
 
 name=os-prober
-version=1.76
+version=1.77
 release=2
-source=("http://ftp.de.debian.org/debian/pool/main/o/os-prober/os-prober_1.76.tar.xz" "grub")
+source=("http://ftp.de.debian.org/debian/pool/main/o/os-prober/os-prober_1.76.tar.xz")
 
 build() {
 	cd $name-$version
@@ -41,9 +41,6 @@ cp linux-boot-probes/common/* $PKG/usr/lib/linux-boot-probes/
 mkdir $PKG/usr/lib/linux-boot-probes/mounted
 cp linux-boot-probes/mounted/common/* $PKG/usr/lib/linux-boot-probes/mounted
 cp linux-boot-probes/mounted/x86/* $PKG/usr/lib/linux-boot-probes/mounted
-
-mkdir -p $PKG/etc/default/
-cp $SRC/grub $PKG/etc/default/
 
 mkdir -p $PKG/usr/share/$name
 cp common.sh $PKG/usr/share/$name
