@@ -5,7 +5,7 @@
 # Depends on: gtk3 eudev shared-mime-info desktop-file-utils xorg-libxdamage 
 
 name=spacefm
-version=1.0.5
+version=1.0.6
 release=1
 source=(https://github.com/IgnorantGuru/$name/archive/$version.tar.gz)
 
@@ -16,7 +16,8 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--disable-nls \
-		--disable-pixmaps
+		--disable-pixmaps \
+                --disable-video-thumbnails
 		
 	make
 	make DESTDIR=$PKG install
