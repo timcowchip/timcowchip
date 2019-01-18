@@ -33,7 +33,6 @@ d:libisofs
 d:masterpdf
 d:libisoburn
 d:mygpoclient
-d:gnome-bluetooth
 d:flburn
 d:tablelist
 d:p5-xml-sax
@@ -186,11 +185,6 @@ f:845885e4780916cf87cc95d16c5ae9d2:mygpoclient/.signature
 f:e783504f1364d450f20eee872b68aca2:mygpoclient/Pkgfile
 f:301dc071c096e601eb874cb725a472c9:mygpoclient/.footprint
 f:76f8c1f13457f6ed18a4aae60495ff93:mygpoclient/.md5sum
-f:dfe5e395a6e24672b1fe5cc1c27d120a:gnome-bluetooth/61-gnome-bluetooth-rfkill.rules
-f:b8181a883a70b992eee1b52a61ac6dff:gnome-bluetooth/.signature
-f:d1d40878815a5957c4a5f023504a98de:gnome-bluetooth/Pkgfile
-f:856efd4cccf26df18a5d6f2ce6a927e5:gnome-bluetooth/.footprint
-f:8c289b7e2268cff32e9180399d1d9a81:gnome-bluetooth/.md5sum
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
