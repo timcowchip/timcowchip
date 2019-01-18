@@ -3,7 +3,6 @@ d:isomaster
 d:glances
 d:os-prober
 d:wego
-d:icon-naming-utils
 d:wmfs2
 d:udevil
 d:dbus-python3
@@ -17,7 +16,6 @@ d:numlockx
 d:xdialog
 d:libdaemon
 d:PySensors
-d:gsettings-desktop-schemas
 d:gnome-icon-theme
 d:python-slip
 d:wmnotify
@@ -31,7 +29,6 @@ d:flburn
 d:tablelist
 d:wmbiff
 d:vice
-d:gtkmm3
 d:spacefm
 d:libcanberra-gtk3
 d:pavucontrol
@@ -49,17 +46,13 @@ f:e05d599b1f2c68af76a17fcc4f572056:glances/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:glances/.md5sum
 f:b9256f134ce9f2a63ee19f84cc5e0023:os-prober/grub
 f:aa91c8bd4d4f3e0b7944bd7d5d02a9bd:os-prober/.signature
-f:bbe6d1b1557e193473b03f6a5c4569cb:os-prober/Pkgfile
+f:6f1ac9595559a50108a89cc325f64835:os-prober/Pkgfile
 f:37dcf9aeb012008561059045304e8429:os-prober/.footprint
 f:f6a48612e0d664bf9e3acc14fc733e38:os-prober/.md5sum
 f:18883f2d3f67f473ce15fc2ed638537a:wego/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:2df494694e1f6dcb3f995cbbca27a89d:wego/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:wego/.md5sum
-f:5094c352f91bbffe7d785be7294fa5d1:icon-naming-utils/.signature
-f:b2bd378a25ced3bfa7164d0e7fb895aa:icon-naming-utils/Pkgfile
-f:86315e910d358d65254c17bd97a629d5:icon-naming-utils/.footprint
-f:b7f7ebf3387c29f58821780f39a6d1e8:icon-naming-utils/.md5sum
 f:130a640db3a3f34379e71c6130e274eb:wmfs2/.signature
 f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
 f:2c7cfb7ad9b28b4e738ea4dc3a0b6b52:wmfs2/.footprint
@@ -113,10 +106,6 @@ f:af5a7de3bd8ae9517f6e6ae92367078a:PySensors/.signature
 f:f7153b82de1656b6117ecb1c5fc89d0c:PySensors/Pkgfile
 f:4a46c5d04c24a9926b87009edc519a94:PySensors/.footprint
 f:e3d938b7fca16f5f37dd46c5f3868397:PySensors/.md5sum
-f:e6b1f7887b2c1d4df1ee9ee223c5cf7d:gsettings-desktop-schemas/.signature
-f:53c330c83dd6824d993b6b611dbb2775:gsettings-desktop-schemas/Pkgfile
-f:b8762e4ec2eb04799712a626eb5b46fb:gsettings-desktop-schemas/.footprint
-f:a92e2cb72b82613c2675fee2eef1b729:gsettings-desktop-schemas/.md5sum
 f:d393e95c010e3ca95c7475636e7bd389:gnome-icon-theme/.signature
 f:a2e003ba513e0cfe3f4946167a915cd7:gnome-icon-theme/Pkgfile
 f:8e4e3bd7407b8da65526b50afd54d985:gnome-icon-theme/.footprint
@@ -172,10 +161,6 @@ f:008a9527dc15808029952caed55f5a8c:vice/vice
 f:38c43042600c5ec9a9816f9ff2c9f8ea:vice/.footprint
 f:768377ae66a4bb3f15f93c18c592b689:vice/icons.tar.gz
 f:6d9a9547fd494c93d07335d92154e64f:vice/.md5sum
-f:9e1036e88f4a93b4fbf8abeb7bbac184:gtkmm3/.signature
-f:fa771a91d16163484b729b1b8c396e1e:gtkmm3/Pkgfile
-f:3d40e861c44b681d37fd4481be55ea06:gtkmm3/.footprint
-f:f781eadb294b72ee16bf9b3e2f3a025f:gtkmm3/.md5sum
 f:ed7365e6b0a3c28a5b5d805c715df6aa:spacefm/.signature
 f:65a8c832a034a221e8d147e239fad2b1:spacefm/Pkgfile
 f:9f8d8df300d88f7591be25777b525248:spacefm/.footprint
