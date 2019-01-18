@@ -6,7 +6,7 @@
 name=os-prober
 version=1.77
 release=3
-source=("http://ftp.de.debian.org/debian/pool/main/o/os-prober/os-prober_1.76.tar.xz")
+source=("http://ftp.de.debian.org/debian/pool/main/o/os-prober/os-prober_1.77.tar.xz")
 
 build() {
 	cd $name-$version
