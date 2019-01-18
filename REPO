@@ -7,8 +7,6 @@ d:icon-naming-utils
 d:wmfs2
 d:p5-xml-sax-base
 d:udevil
-d:gpodder
-d:podcastparser
 d:dbus-python3
 d:exaile
 d:psutil
@@ -32,7 +30,6 @@ d:soundconverter
 d:libisofs
 d:masterpdf
 d:libisoburn
-d:mygpoclient
 d:flburn
 d:tablelist
 d:p5-xml-sax
@@ -81,14 +78,6 @@ f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:043d9e660da45c5555563310c4cbeced:udevil/README
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
 f:c610b33f52f7554171c5c90411835260:udevil/.md5sum
-f:647affb5f97aaab11f9b136beb9f6106:gpodder/.signature
-f:d5aa5f455a0415a7ca9993a685cc9c19:gpodder/Pkgfile
-f:2ac4ec424482d9510e314f0fe522cc2b:gpodder/.footprint
-f:4a34cb52f442ba4dce733552b2ae0dd4:gpodder/.md5sum
-f:9ea7033196c15daaa8043d6746f3465e:podcastparser/.signature
-f:bbdd20163bd3ef9f67ae7ce89dcde7e1:podcastparser/Pkgfile
-f:8768108eae199c96f27b62dbd53c5a70:podcastparser/.footprint
-f:82d97231a685e0495ab6fc7ea5efbf59:podcastparser/.md5sum
 f:121a68ecaed02e03c42106d8b1c2e38a:dbus-python3/.signature
 f:1672308838d7d502fecb371df1d54104:dbus-python3/Pkgfile
 f:30e0a12538d3ea8d9d966ec8e34ac957:dbus-python3/.footprint
@@ -181,10 +170,6 @@ f:06048db9bf405eb5f8d0acdad3047253:libisoburn/.signature
 f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
 f:b847e1bab5dad24bac4d1110e747aceb:libisoburn/.footprint
 f:08a34f2fdd6a0a11b1a7c2bf610a756b:libisoburn/.md5sum
-f:845885e4780916cf87cc95d16c5ae9d2:mygpoclient/.signature
-f:e783504f1364d450f20eee872b68aca2:mygpoclient/Pkgfile
-f:301dc071c096e601eb874cb725a472c9:mygpoclient/.footprint
-f:76f8c1f13457f6ed18a4aae60495ff93:mygpoclient/.md5sum
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
