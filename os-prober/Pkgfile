@@ -5,7 +5,7 @@
 
 name=os-prober
 version=1.77
-release=2
+release=3
 source=("http://ftp.de.debian.org/debian/pool/main/o/os-prober/os-prober_1.76.tar.xz")
 
 build() {
