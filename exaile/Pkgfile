@@ -1,7 +1,7 @@
 # Description: music player for gnome
 # URL: http://www.exaile.org
 # Maintainer: Chris Farrell, timcowchip at gorge dot net
-# Depends on: gtk3 gstreamer mutagen python-dbus python-gobject python-cairo udisks2 librsvg gst-plugins-good
+# Depends on: gtk3 gstreamer mutagen dbus-python python-gobject python-cairo udisks2 librsvg gst-plugins-good
 
 name=exaile
 version=4.0.0-rc3
