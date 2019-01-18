@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqnA6oR8Rf4vRJq9gp5I3XKhKru1mDcEdu7+/VvLFcT/8fhTyjIC9QUf4KKzpHi0tveo/XQZqtnRkSmVfHlf1tQQ=
-SHA256 (Pkgfile) = 9da71c2f6c3fb26e78c146d2de9b4ba56613085e71d04f02c5372ddfe61c6eaa
-SHA256 (.footprint) = 15c983c26e7aa5da1bc7db0ff4464f5daae98e1870f2ad5d9a70b896ddd3f7d6
-SHA256 (dconf-editor-3.26.2.tar.xz) = e57f017fe5bebc550a644553235b473b90d8e23e64051e886a4a209bcdd72a53
-SHA256 (Makefile.patch) = 349148f530607c9d998475f487224385c5a18afb7b6b55aadb31ecd7bc345e12

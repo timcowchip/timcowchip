@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqpm5JZHGu6bnYZFcyH2noKRdu1J0BgG59ivw/OmkUGpz7L4bW4JeGqjZHkN+tYOS9Vk8tNYxZtxDrsxILCEeiQI=
-SHA256 (Pkgfile) = 466c5a96a5f6b18e5d91972c5152a2f1655beb6779eae6977b63395a8324e860
-SHA256 (.footprint) = 5ac687d39ef52755e88ddd3cf46dccc7940730c2d49ef98e32eff7042cfdda4e
-SHA256 (avahi-0.6.32.tar.gz) = d54991185d514a0aba54ebeb408d7575b60f5818a772e28fa0e18b98bc1db454
-SHA256 (avahi-daemon.rc) = 8ea37feb9aa317c574f520431ed563945d26ee6de7c4b183272abbaba737b176
