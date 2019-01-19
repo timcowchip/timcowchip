@@ -11,7 +11,6 @@ d:sbc
 d:jwm
 d:numlockx
 d:xdialog
-d:libdaemon
 d:gnome-icon-theme
 d:wmnotify
 d:gnome-icon-theme-symbolic
@@ -79,10 +78,6 @@ f:d5fbf5c7d4ae4d71916b6cc039a5a604:xdialog/.signature
 f:e9688425401726b2715b1e84d06cc730:xdialog/Pkgfile
 f:f208bf222ddefd06a57c467b9660b06a:xdialog/.footprint
 f:47473d02ff9a2fb4a13ed2582c1c9958:xdialog/.md5sum
-f:419fa310727640dadcf16c911213010f:libdaemon/.signature
-f:e6f418a5fc9fa4ac927a04d482487a9b:libdaemon/Pkgfile
-f:c0195a410623d354490ba792770db9f6:libdaemon/.footprint
-f:0d3f90705096d2119a3563516fdb379c:libdaemon/.md5sum
 f:d393e95c010e3ca95c7475636e7bd389:gnome-icon-theme/.signature
 f:a2e003ba513e0cfe3f4946167a915cd7:gnome-icon-theme/Pkgfile
 f:8e4e3bd7407b8da65526b50afd54d985:gnome-icon-theme/.footprint
