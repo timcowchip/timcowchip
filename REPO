@@ -1,4 +1,3 @@
-d:libical
 d:isomaster
 d:os-prober
 d:wego
@@ -26,10 +25,6 @@ d:vice
 d:spacefm
 d:libcanberra-gtk3
 d:pavucontrol
-f:8c0012606e539cd8172ae4729d811760:libical/.signature
-f:7efbb1892a0c758b3afe3fb83529f368:libical/Pkgfile
-f:e0b5fe7c36b1a8af7f506da6b680dfd7:libical/.footprint
-f:3303d2703fea461a0d73da0377ab6626:libical/.md5sum
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
 f:fb522f055d78d7d33e99fee888e1e6b1:isomaster/Pkgfile
 f:34473d47cae17d05f7e6c1304718ac90:isomaster/.footprint
