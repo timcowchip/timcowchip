@@ -1,7 +1,7 @@
 # Description: A fast and easy-to-use status bar
 # URL:         https://github.com/jaagr/polybar
 # Maintainer:  Chris Farrell, timcowchip at gorge dot net
-# Depends on: cairo xorg-xcb-util-image xorg-xcb-util-wm xorg-xcb-util-xrm xorg-xcb-util-cursor cmake git python python3 pkg-config
+# Depends on: cairo xorg-xcb-util-image xorg-xcb-util-wm xcb-util-xrm xorg-xcb-util-cursor cmake git python python3 pkg-config
 
 name=polybar
 version=3.3.0
