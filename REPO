@@ -14,7 +14,6 @@ d:xdialog
 d:gnome-icon-theme
 d:wmnotify
 d:gnome-icon-theme-symbolic
-d:soundconverter
 d:libisofs
 d:libisoburn
 d:flburn
@@ -89,10 +88,6 @@ f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
-f:d81c60144d529543852c01d108893976:soundconverter/.signature
-f:b637f4e840ac797f224a7d4658393db7:soundconverter/Pkgfile
-f:0d574ade06f14105fcbce3cb7230ce44:soundconverter/.footprint
-f:5b1de9317d000b7d32334f56a18b01c2:soundconverter/.md5sum
 f:d871335fd48cfeb7993457c1f2c6205c:libisofs/.signature
 f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:39e06a5f22fd5f3c481f1414fab40953:libisofs/.footprint
@@ -110,14 +105,13 @@ f:c974d77334675aa2d527a5e26748ecfd:wmbiff/Pkgfile
 f:a96552149fb05b98f2121e28ab942727:wmbiff/.footprint
 f:77cbb2b0c2ee71ad4e151314502d3819:wmbiff/.md5sum
 f:5644bcd1ad05ca10ac27872a76e42ef1:vice/vice.desktop
-f:f737c1618615f96998d98582bb030101:vice/.signature
-f:27159f1e1caa2cedc3ce075e13556c4b:vice/Pkgfile
+f:b21aa71e0f3e784788ff2cdf35ddceef:vice/Pkgfile
 f:008a9527dc15808029952caed55f5a8c:vice/vice
 f:38c43042600c5ec9a9816f9ff2c9f8ea:vice/.footprint
 f:768377ae66a4bb3f15f93c18c592b689:vice/icons.tar.gz
 f:6d9a9547fd494c93d07335d92154e64f:vice/.md5sum
 f:ed7365e6b0a3c28a5b5d805c715df6aa:spacefm/.signature
-f:22a97659d3358496ee4833e8f49b2363:spacefm/Pkgfile
+f:a2fd0473a151043d0d38f634bd7668dc:spacefm/Pkgfile
 f:9f8d8df300d88f7591be25777b525248:spacefm/.footprint
 f:72239c0f9277227c7b06f419e4a5b50f:spacefm/.md5sum
 f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
