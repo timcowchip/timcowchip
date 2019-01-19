@@ -1,0 +1,22 @@
+# Description: A fast and easy-to-use status bar
+# URL:         https://github.com/jaagr/polybar
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on: cairo xcb-util-image xcb-util-wm xcb-util-xrm xcb-util-cursor cmake git python python3 pkg-config
+
+name=polybar
+version=3.3.0
+release=1
+
+source=(https://github.com/jaagr/polybar/releases/download/${version}/polybar-${version}.tar)
+
+build() {
+  
+  mkdir -p "$SRC/$name/build"
+
+  cd "$SRC/$name/build" || exit 1
+  cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+  cmake --build .
+
+  cmake --build "$SRC/$name/build" --target install -- DESTDIR="${PKG}"
+  install -Dm644 "$SRC/$name/LICENSE" "${PKG}/usr/share/licenses/${name}/LICENSE"
+}
