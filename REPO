@@ -16,7 +16,6 @@ d:wmnotify
 d:gnome-icon-theme-symbolic
 d:soundconverter
 d:libisofs
-d:masterpdf
 d:libisoburn
 d:flburn
 d:wmbiff
@@ -98,10 +97,6 @@ f:d871335fd48cfeb7993457c1f2c6205c:libisofs/.signature
 f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
 f:39e06a5f22fd5f3c481f1414fab40953:libisofs/.footprint
 f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
-f:0a16a98b76970e837bacf35c06689dc1:masterpdf/.signature
-f:6e70c6e118bf38a9f438ebafe551963a:masterpdf/Pkgfile
-f:5004df968403350a1c16b77fec689a17:masterpdf/.footprint
-f:bb1bbd6ea8e91abff21fdf48118493ba:masterpdf/.md5sum
 f:06048db9bf405eb5f8d0acdad3047253:libisoburn/.signature
 f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
 f:b847e1bab5dad24bac4d1110e747aceb:libisoburn/.footprint
