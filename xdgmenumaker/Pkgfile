@@ -1,0 +1,16 @@
+# Description: application menu generator for window managers
+# URL:         https://github.com/gapan/xdgmenumaker
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on: txt2tags python-pyxdg
+
+name=xdgmenumaker
+version=1.5
+release=1
+
+source=(https://github.com/gapan/${name}/archive/1.5/${name}-${version}.tar.gz)
+
+build() {
+         cd ${name}-${version}
+         make
+         make install DESTDIR=$PKG PREFIX=/usr
+        }
