@@ -5,6 +5,7 @@ d:wmfs2
 d:udevil
 d:dbus-python3
 d:exaile
+d:xdgmenumaker
 d:libburn
 d:tint2
 d:sbc
@@ -12,7 +13,6 @@ d:jwm
 d:numlockx
 d:xdialog
 d:gnome-icon-theme
-d:wmnotify
 d:gnome-icon-theme-symbolic
 d:libisofs
 d:libisoburn
@@ -53,6 +53,9 @@ f:9ce322e9c85182861085323cf6bf20a7:exaile/.signature
 f:42c7e69a0082b27e5ce0e3b049014336:exaile/Pkgfile
 f:a3fa7d19b6d680a4498ccd87e044fc2d:exaile/.footprint
 f:475f8f048d26a6738fd6efb18fa0048c:exaile/.md5sum
+f:15a656a6fb784791024907eef49c1d6b:xdgmenumaker/Pkgfile
+f:755a2300cfd7b556d37122128bfb6ffe:xdgmenumaker/.footprint
+f:d315eb7371fd47cdd2cc0ebc31bf6f28:xdgmenumaker/.md5sum
 f:c8d96eba751cfa97173492d271bd75d1:libburn/.signature
 f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
 f:f2c2907e9967a56464caf34fe1e785c1:libburn/.footprint
@@ -65,7 +68,7 @@ f:298759897c5a4f2d42246e409191b6c2:sbc/.signature
 f:d033da4039fbf98857bd9869e42e79cb:sbc/Pkgfile
 f:b34cf50cf83274c18d9b10a3b2d705d0:sbc/.footprint
 f:e2976a841f7882a52d917b3acd5a4c7e:sbc/.md5sum
-f:f66a7693f58176ccc35a14bd51efb81a:jwm/jwm.desktop
+f:ad898472f7538ffc3ff511c055fee535:jwm/jwm.desktop
 f:f573b32254eef6b4de766b784ddf37e7:jwm/Pkgfile
 f:bbe8bebd34382d5b9351ff7c3ba4b806:jwm/.footprint
 f:f62c5cc1abdd3d98f596f1ff84eb3b4b:jwm/.md5sum
@@ -81,10 +84,6 @@ f:d393e95c010e3ca95c7475636e7bd389:gnome-icon-theme/.signature
 f:a2e003ba513e0cfe3f4946167a915cd7:gnome-icon-theme/Pkgfile
 f:8e4e3bd7407b8da65526b50afd54d985:gnome-icon-theme/.footprint
 f:d4e26d1c00b957d322ad67ee146a052b:gnome-icon-theme/.md5sum
-f:860ebd0ba376deb88ced34239b5cb031:wmnotify/.signature
-f:9e9e85cec289bcd0d80d093c9838715e:wmnotify/Pkgfile
-f:e25abfa4374bf1122ee94342688842ad:wmnotify/.footprint
-f:3a3810476231565aadb03fc3a288c902:wmnotify/.md5sum
 f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
@@ -106,7 +105,7 @@ f:c974d77334675aa2d527a5e26748ecfd:wmbiff/Pkgfile
 f:a96552149fb05b98f2121e28ab942727:wmbiff/.footprint
 f:77cbb2b0c2ee71ad4e151314502d3819:wmbiff/.md5sum
 f:5644bcd1ad05ca10ac27872a76e42ef1:vice/vice.desktop
-f:b21aa71e0f3e784788ff2cdf35ddceef:vice/Pkgfile
+f:6c7a00bbb64c459f5367d7723ce8c0ff:vice/Pkgfile
 f:008a9527dc15808029952caed55f5a8c:vice/vice
 f:38c43042600c5ec9a9816f9ff2c9f8ea:vice/.footprint
 f:768377ae66a4bb3f15f93c18c592b689:vice/icons.tar.gz
