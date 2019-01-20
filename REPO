@@ -18,7 +18,6 @@ d:gnome-icon-theme-symbolic
 d:libisofs
 d:libisoburn
 d:flburn
-d:wmbiff
 d:vice
 d:polybar
 d:spacefm
@@ -104,7 +103,6 @@ f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
-f:50466b6e4a143cf4e55546b34d5792e6:wmbiff/wmbiff-0.4.27.tar.gz
 f:5644bcd1ad05ca10ac27872a76e42ef1:vice/vice.desktop
 f:6c7a00bbb64c459f5367d7723ce8c0ff:vice/Pkgfile
 f:008a9527dc15808029952caed55f5a8c:vice/vice
