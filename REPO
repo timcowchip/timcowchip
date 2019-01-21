@@ -7,7 +7,6 @@ d:udevil
 d:dbus-python3
 d:exaile
 d:xdgmenumaker
-d:libburn
 d:tint2
 d:sbc
 d:jwm
@@ -15,8 +14,6 @@ d:numlockx
 d:xdialog
 d:gnome-icon-theme
 d:gnome-icon-theme-symbolic
-d:libisofs
-d:libisoburn
 d:flburn
 d:vice
 d:polybar
@@ -59,10 +56,6 @@ f:475f8f048d26a6738fd6efb18fa0048c:exaile/.md5sum
 f:15a656a6fb784791024907eef49c1d6b:xdgmenumaker/Pkgfile
 f:755a2300cfd7b556d37122128bfb6ffe:xdgmenumaker/.footprint
 f:d315eb7371fd47cdd2cc0ebc31bf6f28:xdgmenumaker/.md5sum
-f:c8d96eba751cfa97173492d271bd75d1:libburn/.signature
-f:32de24a1610aede8a52e1edb2fb607ad:libburn/Pkgfile
-f:f2c2907e9967a56464caf34fe1e785c1:libburn/.footprint
-f:443f991736bdd78d646a8f849c1413b6:libburn/.md5sum
 f:33450f97761c1f016d13b88cb55ffa5d:tint2/.signature
 f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
 f:00e8f714230c9392bbe3ca2f4134dc7b:tint2/.footprint
@@ -91,14 +84,6 @@ f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
-f:d871335fd48cfeb7993457c1f2c6205c:libisofs/.signature
-f:350f293a5a20a50a2753e2821e4b1ff2:libisofs/Pkgfile
-f:39e06a5f22fd5f3c481f1414fab40953:libisofs/.footprint
-f:cbcf77b378ad6a28eba62d82ac1c4e4b:libisofs/.md5sum
-f:06048db9bf405eb5f8d0acdad3047253:libisoburn/.signature
-f:4764f141e2bb745950c69a39340b091e:libisoburn/Pkgfile
-f:b847e1bab5dad24bac4d1110e747aceb:libisoburn/.footprint
-f:08a34f2fdd6a0a11b1a7c2bf610a756b:libisoburn/.md5sum
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
