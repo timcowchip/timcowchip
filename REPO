@@ -1,8 +1,8 @@
 d:isomaster
+d:google-chrome
 d:os-prober
 d:xdg-user-dirs
 d:wego
-d:wmfs2
 d:udevil
 d:dbus-python3
 d:exaile
@@ -27,6 +27,10 @@ f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
 f:fb522f055d78d7d33e99fee888e1e6b1:isomaster/Pkgfile
 f:34473d47cae17d05f7e6c1304718ac90:isomaster/.footprint
 f:151c0053a66b5b08779c7666a920fad6:isomaster/.md5sum
+f:26139587ae9b4ade7a813d0e6456725a:google-chrome/.signature
+f:5c8333fed862ba3058787cbfd77f6df9:google-chrome/Pkgfile
+f:a1d05f7c9421790782f740a314f1fbc1:google-chrome/.footprint
+f:5058aab521532e7bb64cf4d6a73abc27:google-chrome/.md5sum
 f:b9256f134ce9f2a63ee19f84cc5e0023:os-prober/grub
 f:aa91c8bd4d4f3e0b7944bd7d5d02a9bd:os-prober/.signature
 f:19950e3168499d062949172aedeadc7b:os-prober/Pkgfile
@@ -39,10 +43,6 @@ f:18883f2d3f67f473ce15fc2ed638537a:wego/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:2df494694e1f6dcb3f995cbbca27a89d:wego/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:wego/.md5sum
-f:130a640db3a3f34379e71c6130e274eb:wmfs2/.signature
-f:189c241a49251a3725bdd81f38aa98ad:wmfs2/Pkgfile
-f:2c7cfb7ad9b28b4e738ea4dc3a0b6b52:wmfs2/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:wmfs2/.md5sum
 f:9f64bcb11f5d43cc1d9b472f23b6ab91:udevil/.signature
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:043d9e660da45c5555563310c4cbeced:udevil/README
