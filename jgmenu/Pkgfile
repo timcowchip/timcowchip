@@ -1,0 +1,21 @@
+# Description: Small X11 menu intended to be used with openbox and tint2
+# URL:         http://www.github.com/johanmalm/jgmenu
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  xorg-libx11 cairo pango xorg-libxrandr librsvg libxml2 glib2 menu-cache python
+
+name=jgmenu
+version=1.6
+release=1
+pkgdesc="Small X11 menu intended to be used with openbox and tint2"
+arch=('i686' 'x86_64')
+url="http://www.github.com/johanmalm/jgmenu"
+license=('GPL')
+depends=('libx11' 'cairo' 'pango' 'libxrandr' 'librsvg' 'libxml2' 'glib2' 'menu-cache' 'python')
+source=("http://www.github.com/johanmalm/jgmenu/archive/v${version}.tar.gz")
+
+build() {
+	cd "$name-$version"
+	make
+
+	make DESTDIR="$PKG" prefix=/usr install
+}
