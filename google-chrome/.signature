@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQIxEqomaLdYF0+1+EfsYOjgz1kLPQXGnlq0Ii1dA1cC4n0j50JlnIj9F+YdB8a/RMkiUU1NQSoisjC4j+cePYWPUv3YCyGGAQ=
+SHA256 (Pkgfile) = f5eaa5d1ee4c90440cd1508fb25e7bf647350cf773f3dda9d8c8bc59e10d47a8
+SHA256 (.footprint) = 0752cc58856404470f6ae69631fd5a2ebd74df02607730fad2df58c8c60aa394
+SHA256 (google-chrome-stable_current_amd64.deb) = c2b2b56d854b7666ba1e7c090c0e599d695ff40a8676eb018da4ccbb4ac7711e
