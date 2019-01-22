@@ -15,6 +15,6 @@ build()
   install -d "$PKG"{/opt/,/usr/bin/,/usr/share/applications/}
   cp -a --no-preserve=ownership "$SRC/master-pdf-editor-4" "$PKG/opt/"
   sed "s/VERMAJ/${version}/g" masterpdfeditor.desktop > "$PKG/usr/share/applications/masterpdfeditor${version}.desktop"
-  ln -s /opt/master-pdf-editor-${version}/masterpdfeditor${version} -t "$PKG/usr/bin/"
+  ln -s /opt/master-pdf-editor-/masterpdfeditor-4 -t "$PKG/usr/bin/"
   install -Dm644 master-pdf-editor-4/license.txt -t "$PKG/usr/share/licenses/$name/"
 }

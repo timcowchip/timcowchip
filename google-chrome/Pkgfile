@@ -1,7 +1,7 @@
 # Description: web browser by Google (Stable Channel)
 # URL:         https://www.google.com/chrome
 # Maintainer:  Chris Farrell, timcowchip at gorge dot net
-# Depends on: alsa-lib gtk3 xorg-libxtst nss
+# Depends on: alsa-lib gtk3 xorg-libxtst nss cups
 
 name=google-chrome
 version=71.0.3578.98
