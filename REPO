@@ -4,6 +4,7 @@ d:os-prober
 d:xdg-user-dirs
 d:wego
 d:udevil
+d:jgmenu
 d:dbus-python3
 d:exaile
 d:xdgmenumaker
@@ -14,10 +15,12 @@ d:numlockx
 d:xdialog
 d:gnome-icon-theme
 d:gnome-icon-theme-symbolic
+d:masterpdfeditor
 d:flburn
 d:vice
 d:polybar
 d:spacefm
+d:handbrake
 d:libcanberra-gtk3
 d:pavucontrol
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
@@ -45,6 +48,10 @@ f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:043d9e660da45c5555563310c4cbeced:udevil/README
 f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
 f:c610b33f52f7554171c5c90411835260:udevil/.md5sum
+f:0ba51ba9a806e3b0db7ce5d12bee4c05:jgmenu/.signature
+f:e387f5b4e1a4fa60f5afc1dfc91bdf6a:jgmenu/Pkgfile
+f:2523707ee0ee6bd85fb0d6b1a2800ae2:jgmenu/.footprint
+f:8ce6632fadf6134e2e122eeb646c6dee:jgmenu/.md5sum
 f:121a68ecaed02e03c42106d8b1c2e38a:dbus-python3/.signature
 f:1672308838d7d502fecb371df1d54104:dbus-python3/Pkgfile
 f:30e0a12538d3ea8d9d966ec8e34ac957:dbus-python3/.footprint
@@ -84,6 +91,12 @@ f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
+f:76df81799e6de3cd6e76c2dde7453460:masterpdfeditor/masterpdfeditor.desktop
+f:60ebbb54467f347ab231e75c2473a1e3:masterpdfeditor/.signature
+f:a9594498b434927d3cc648c9807db4c3:masterpdfeditor/Pkgfile
+f:c3d8db0bd155059443a1a866a478639d:masterpdfeditor/.footprint
+f:4bae67dbcc097799fa173e006558dc1d:masterpdfeditor/.md5sum
+f:aed4ccad84c9a86457c4b571e2d44ae1:Pkgfile
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
@@ -101,6 +114,7 @@ f:ed7365e6b0a3c28a5b5d805c715df6aa:spacefm/.signature
 f:a2fd0473a151043d0d38f634bd7668dc:spacefm/Pkgfile
 f:9f8d8df300d88f7591be25777b525248:spacefm/.footprint
 f:72239c0f9277227c7b06f419e4a5b50f:spacefm/.md5sum
+f:47564fad44403777756d93f12455b67e:handbrake/Pkgfile
 f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:91c2c1c896d1e20746c0670b2c767528:libcanberra-gtk3/.footprint
