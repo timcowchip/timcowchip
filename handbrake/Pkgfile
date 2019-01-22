@@ -1,0 +1,21 @@
+# Description: Multithreaded video transcoder
+# URL:         https://handbrake.fr/
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  intltool python nasm wget cmake bzip2 zlib gst-plugins-base libnotify dbus-glib gtk3 xz libass lame libxml2 opus libvorbis libtheora libsamplerate speex x264 jansson librsvg libgudev desktop-file-utils hicolor-icon-theme 
+
+name=handbrake
+version=1.2.0
+release=1
+
+source=(https://download.handbrake.fr/releases/$version/HandBrake-$version-source.tar.bz2)
+
+build() {
+  cd "$SRC/HandBrake-$version"
+
+  		./configure --launch  \
+		--prefix=/usr \
+		--disable-gtk-update-checks 
+	cd build	
+	make DESTDIR=$PKG install
+}
+

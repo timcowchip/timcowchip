@@ -25,18 +25,6 @@ d:handbrake/contrib
 d:handbrake/contrib/x265
 d:handbrake/contrib/x265/x265_2.9
 d:handbrake/contrib/x265/x265_2.9/8bit
-d:handbrake/work
-d:handbrake/work/src
-d:handbrake/work/src/HandBrake-1.2.0
-d:handbrake/work/src/HandBrake-1.2.0/build
-d:handbrake/work/src/HandBrake-1.2.0/build/contrib
-d:handbrake/work/src/HandBrake-1.2.0/build/contrib/lib
-d:handbrake/work/src/HandBrake-1.2.0/build/contrib/lib/pkgconfig
-d:handbrake/work/src/HandBrake-1.2.0/build/contrib/include
-d:handbrake/work/src/HandBrake-1.2.0/build/contrib/include/dvdnav
-d:handbrake/work/src/HandBrake-1.2.0/build/contrib/share
-d:handbrake/work/src/HandBrake-1.2.0/build/contrib/share/doc
-d:handbrake/work/src/HandBrake-1.2.0/build/contrib/share/doc/libdvdnav
 d:libcanberra-gtk3
 d:pavucontrol
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
@@ -44,7 +32,7 @@ f:fb522f055d78d7d33e99fee888e1e6b1:isomaster/Pkgfile
 f:34473d47cae17d05f7e6c1304718ac90:isomaster/.footprint
 f:151c0053a66b5b08779c7666a920fad6:isomaster/.md5sum
 f:26139587ae9b4ade7a813d0e6456725a:google-chrome/.signature
-f:5c8333fed862ba3058787cbfd77f6df9:google-chrome/Pkgfile
+f:9ba0e62047541a9fd1d411963a72da84:google-chrome/Pkgfile
 f:a1d05f7c9421790782f740a314f1fbc1:google-chrome/.footprint
 f:5058aab521532e7bb64cf4d6a73abc27:google-chrome/.md5sum
 f:b9256f134ce9f2a63ee19f84cc5e0023:os-prober/grub
@@ -59,6 +47,7 @@ f:18883f2d3f67f473ce15fc2ed638537a:wego/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:2df494694e1f6dcb3f995cbbca27a89d:wego/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:wego/.md5sum
+f:d10d44f9c783ee8c3325e0e304886b52:timcowchip.sec
 f:9f64bcb11f5d43cc1d9b472f23b6ab91:udevil/.signature
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:043d9e660da45c5555563310c4cbeced:udevil/README
@@ -109,10 +98,9 @@ f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
 f:76df81799e6de3cd6e76c2dde7453460:masterpdfeditor/masterpdfeditor.desktop
 f:60ebbb54467f347ab231e75c2473a1e3:masterpdfeditor/.signature
-f:0b647960acf70b64eac8e1c569ef7b62:masterpdfeditor/Pkgfile
+f:0bb5890294f9ef8554231fe4729d5d12:masterpdfeditor/Pkgfile
 f:c3d8db0bd155059443a1a866a478639d:masterpdfeditor/.footprint
 f:4bae67dbcc097799fa173e006558dc1d:masterpdfeditor/.md5sum
-f:aed4ccad84c9a86457c4b571e2d44ae1:Pkgfile
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
@@ -135,7 +123,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:handbrake/contrib/x265/.stamp.x265.extract
 f:d41d8cd98f00b204e9800998ecf8427e:handbrake/contrib/x265/.stamp.x265.patch
 f:d41d8cd98f00b204e9800998ecf8427e:handbrake/contrib/x265/.stamp.x265_8.patch
 f:efc3839160fa3224ce1b234aae12deca:handbrake/HandBrake-1.2.0-source.tar.bz2
-f:fe736869b52890a4f463ebfa065ac993:handbrake/Pkgfile
+f:de9d92c7b9fd2252a1248689ba9f148b:handbrake/handbrake#1.2.0-1.pkg.tar.gz
+f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
 f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:91c2c1c896d1e20746c0670b2c767528:libcanberra-gtk3/.footprint
