@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/timcowchip.pub
+RWQIxEqomaLdYEAEmHi+TsiGrknTHtxhFwPlqTxXot9ayM4+B2RKKTbi1UgGaMvIOSQOl0ZU90xtYDpEF0Gq4C9N3Qre2jr9ewk=
+SHA256 (Pkgfile) = 301d5b95b2e66dacf3c5bbf4b8e18719b9b75855cfcda80e2ab90dd7d9f65f91
+SHA256 (.footprint) = 5be9285e59b8d88fcac5898fa37d777702aa7af5aaca2d753e7352aac35b239d
+SHA256 (HandBrake-1.2.0-source.tar.bz2) = 113b398a50147d48c8777e6ff2c4de6825af5f1079b3822e41bf0eacec9c940d
