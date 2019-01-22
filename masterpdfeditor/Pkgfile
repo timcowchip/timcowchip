@@ -1,7 +1,7 @@
 # Description: A complete solution for creation and editing PDF files
 # URL:         https://code-industry.net/free-pdf-editor/
 # Maintainer:  Chris Farrell, timcowchip at gorge dot net
-# Depends on:  cc-libs glibc qt5-base sane 
+# Depends on:  glibc qt5 sane 
 
 name=masterpdfeditor
 version=4.3.89
