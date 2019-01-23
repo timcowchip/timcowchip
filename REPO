@@ -21,10 +21,6 @@ d:vice
 d:polybar
 d:spacefm
 d:handbrake
-d:handbrake/contrib
-d:handbrake/contrib/x265
-d:handbrake/contrib/x265/x265_2.9
-d:handbrake/contrib/x265/x265_2.9/8bit
 d:libcanberra-gtk3
 d:pavucontrol
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
@@ -118,13 +114,10 @@ f:ed7365e6b0a3c28a5b5d805c715df6aa:spacefm/.signature
 f:a2fd0473a151043d0d38f634bd7668dc:spacefm/Pkgfile
 f:9f8d8df300d88f7591be25777b525248:spacefm/.footprint
 f:72239c0f9277227c7b06f419e4a5b50f:spacefm/.md5sum
-f:d41d8cd98f00b204e9800998ecf8427e:handbrake/contrib/x265/.stamp.x265_8.extract
-f:d41d8cd98f00b204e9800998ecf8427e:handbrake/contrib/x265/.stamp.x265.extract
-f:d41d8cd98f00b204e9800998ecf8427e:handbrake/contrib/x265/.stamp.x265.patch
-f:d41d8cd98f00b204e9800998ecf8427e:handbrake/contrib/x265/.stamp.x265_8.patch
-f:efc3839160fa3224ce1b234aae12deca:handbrake/HandBrake-1.2.0-source.tar.bz2
-f:de9d92c7b9fd2252a1248689ba9f148b:handbrake/handbrake#1.2.0-1.pkg.tar.gz
+f:90e1af5d3058e62c0402ffc426aadc6f:handbrake/.signature
 f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
+f:fe245f08f32e32215853852003a9ab50:handbrake/.footprint
+f:80351bbb1e7fd96b20f6129d89fc061d:handbrake/.md5sum
 f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:91c2c1c896d1e20746c0670b2c767528:libcanberra-gtk3/.footprint
