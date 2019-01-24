@@ -1,7 +1,7 @@
 # Description: VICE Commodore emulator with ethernet and sdlsound
 # URL: http://www.viceteam.org/
 # Maintainer: Chris Farrell, timcowchip at gmail dot com
-# Depends on: gtk xorg-libxdamage vte icu xorg-bdftopcf xorg-mkfontdir xorg-mkfontscale libpcap libnet libsdl dialog texinfo xdialog
+# Depends on: gtk xorg-libxdamage vte icu xorg-bdftopcf xorg-mkfontdir xorg-mkfontscale libpcap libnet libsdl2 dialog texinfo xdialog
 
 name=vice
 version=3.3
