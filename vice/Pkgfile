@@ -14,7 +14,6 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--enable-ethernet \
-		--enable-gnomeui \
 		--enable-fullscreen  \
 		--with-sdlsound
 
