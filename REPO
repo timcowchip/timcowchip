@@ -1,6 +1,7 @@
 d:isomaster
 d:google-chrome
 d:os-prober
+d:xa
 d:wego
 d:udevil
 d:jgmenu
@@ -35,6 +36,7 @@ f:aa91c8bd4d4f3e0b7944bd7d5d02a9bd:os-prober/.signature
 f:19950e3168499d062949172aedeadc7b:os-prober/Pkgfile
 f:37dcf9aeb012008561059045304e8429:os-prober/.footprint
 f:f6a48612e0d664bf9e3acc14fc733e38:os-prober/.md5sum
+f:182978fa6cac33fe7f96e6310c98017e:xa/Pkgfile
 f:18883f2d3f67f473ce15fc2ed638537a:wego/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:2df494694e1f6dcb3f995cbbca27a89d:wego/.footprint

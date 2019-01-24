@@ -1,0 +1,18 @@
+# Description: Cross-assembler for 6502 microprocessor
+# URL: http://www.floodgap.com/retrotech/xa/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on:
+
+name=xa
+version=2.3.8
+release=1
+
+source=("http://www.floodgap.com/retrotech/xa/dists/${name}-${version}.tar.gz")
+
+
+build() {
+	cd "${SRC}/${name}-${version}"
+	make
+
+	make DESTDIR="${PKG}/usr" install
+}
