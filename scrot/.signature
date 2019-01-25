@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/contrib.pub
+RWSagIOpLGJF3/dK8XNBB8+ftwkV7WArGzKphmW2yx4EPNlm2YtJy3QcvHT9rDjlCQdiQtwZtRNGRIe4ELJrRMrx0JZURGeUbw8=
+SHA256 (Pkgfile) = 1467fb8232d13b69e36da0edd61d8e0887366d8ae723ec77178b7cca85b4b2ab
+SHA256 (.footprint) = 9a61b025348f90c81cfe640d1e5a21298a496725798dbe27fcde1a3c9da63247
+SHA256 (scrot_0.8.orig.tar.gz) = 613d1cf524c2b62ce3c65f1232ea4f05c7daf248d5e82ff2a6892c98093994f2
+SHA256 (scrot_0.8-13.debian.tar.gz) = 508bb60c9f476d593a49ca0f1bbe0b3d5a742289146c5b33033435fc286e2376

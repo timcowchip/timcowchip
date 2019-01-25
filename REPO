@@ -21,6 +21,7 @@ d:vice
 d:polybar
 d:spacefm
 d:handbrake
+d:scrot
 d:libcanberra-gtk3
 d:pavucontrol
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
@@ -41,7 +42,6 @@ f:18883f2d3f67f473ce15fc2ed638537a:wego/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:2df494694e1f6dcb3f995cbbca27a89d:wego/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:wego/.md5sum
-f:d10d44f9c783ee8c3325e0e304886b52:timcowchip.sec
 f:9f64bcb11f5d43cc1d9b472f23b6ab91:udevil/.signature
 f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
 f:043d9e660da45c5555563310c4cbeced:udevil/README
@@ -59,6 +59,8 @@ f:9ce322e9c85182861085323cf6bf20a7:exaile/.signature
 f:42c7e69a0082b27e5ce0e3b049014336:exaile/Pkgfile
 f:a3fa7d19b6d680a4498ccd87e044fc2d:exaile/.footprint
 f:475f8f048d26a6738fd6efb18fa0048c:exaile/.md5sum
+f:cad7f0b937542087b9d20fc2fb748a23:xdgmenumaker/xdgmenumaker#1.5-1.pkg.tar.gz
+f:d79547d6c746a54ebe97359e840bcfe4:xdgmenumaker/xdgmenumaker-1.5.tar.gz
 f:15a656a6fb784791024907eef49c1d6b:xdgmenumaker/Pkgfile
 f:755a2300cfd7b556d37122128bfb6ffe:xdgmenumaker/.footprint
 f:d315eb7371fd47cdd2cc0ebc31bf6f28:xdgmenumaker/.md5sum
@@ -116,6 +118,11 @@ f:90e1af5d3058e62c0402ffc426aadc6f:handbrake/.signature
 f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
 f:fe245f08f32e32215853852003a9ab50:handbrake/.footprint
 f:80351bbb1e7fd96b20f6129d89fc061d:handbrake/.md5sum
+f:0b12cab4dfebe3f0550f15d83934ff0b:scrot/.signature
+f:2d583c2086edb55032c2e9c5d8acfa9e:scrot/Pkgfile
+f:3cb3f8d248312343ae28da458ea31b56:scrot/scrot#0.8.13-1.pkg.tar.gz
+f:a58cbcf9472cae776cce19b9f85e2281:scrot/.footprint
+f:cba091fa91a84a5f6ce54d7d860d46b1:scrot/master.zip
 f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:91c2c1c896d1e20746c0670b2c767528:libcanberra-gtk3/.footprint
