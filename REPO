@@ -9,7 +9,6 @@ d:dbus-python3
 d:exaile
 d:xdgmenumaker
 d:tint2
-d:sbc
 d:jwm
 d:numlockx
 d:xdialog
@@ -66,10 +65,6 @@ f:54b67039ada9e099218b09f0a1112c9d:tint2/.signature
 f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
 f:00e8f714230c9392bbe3ca2f4134dc7b:tint2/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
-f:298759897c5a4f2d42246e409191b6c2:sbc/.signature
-f:d033da4039fbf98857bd9869e42e79cb:sbc/Pkgfile
-f:b34cf50cf83274c18d9b10a3b2d705d0:sbc/.footprint
-f:e2976a841f7882a52d917b3acd5a4c7e:sbc/.md5sum
 f:ad898472f7538ffc3ff511c055fee535:jwm/jwm.desktop
 f:f573b32254eef6b4de766b784ddf37e7:jwm/Pkgfile
 f:bbe8bebd34382d5b9351ff7c3ba4b806:jwm/.footprint
