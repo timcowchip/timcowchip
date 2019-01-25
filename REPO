@@ -120,9 +120,7 @@ f:fe245f08f32e32215853852003a9ab50:handbrake/.footprint
 f:80351bbb1e7fd96b20f6129d89fc061d:handbrake/.md5sum
 f:0b12cab4dfebe3f0550f15d83934ff0b:scrot/.signature
 f:2d583c2086edb55032c2e9c5d8acfa9e:scrot/Pkgfile
-f:3cb3f8d248312343ae28da458ea31b56:scrot/scrot#0.8.13-1.pkg.tar.gz
 f:a58cbcf9472cae776cce19b9f85e2281:scrot/.footprint
-f:cba091fa91a84a5f6ce54d7d860d46b1:scrot/master.zip
 f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:91c2c1c896d1e20746c0670b2c767528:libcanberra-gtk3/.footprint
