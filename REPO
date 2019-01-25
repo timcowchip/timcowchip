@@ -5,7 +5,6 @@ d:xa
 d:wego
 d:udevil
 d:jgmenu
-d:dbus-python3
 d:exaile
 d:xdgmenumaker
 d:tint2
@@ -14,7 +13,6 @@ d:numlockx
 d:xdialog
 d:gnome-icon-theme
 d:gnome-icon-theme-symbolic
-d:masterpdfeditor
 d:flburn
 d:vice
 d:polybar
@@ -50,10 +48,6 @@ f:0ba51ba9a806e3b0db7ce5d12bee4c05:jgmenu/.signature
 f:e387f5b4e1a4fa60f5afc1dfc91bdf6a:jgmenu/Pkgfile
 f:2523707ee0ee6bd85fb0d6b1a2800ae2:jgmenu/.footprint
 f:8ce6632fadf6134e2e122eeb646c6dee:jgmenu/.md5sum
-f:121a68ecaed02e03c42106d8b1c2e38a:dbus-python3/.signature
-f:1672308838d7d502fecb371df1d54104:dbus-python3/Pkgfile
-f:30e0a12538d3ea8d9d966ec8e34ac957:dbus-python3/.footprint
-f:23bb93ee5cbcad3359a176237c177ad0:dbus-python3/.md5sum
 f:9ce322e9c85182861085323cf6bf20a7:exaile/.signature
 f:42c7e69a0082b27e5ce0e3b049014336:exaile/Pkgfile
 f:a3fa7d19b6d680a4498ccd87e044fc2d:exaile/.footprint
@@ -85,11 +79,6 @@ f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
-f:76df81799e6de3cd6e76c2dde7453460:masterpdfeditor/masterpdfeditor.desktop
-f:60ebbb54467f347ab231e75c2473a1e3:masterpdfeditor/.signature
-f:0bb5890294f9ef8554231fe4729d5d12:masterpdfeditor/Pkgfile
-f:c3d8db0bd155059443a1a866a478639d:masterpdfeditor/.footprint
-f:4bae67dbcc097799fa173e006558dc1d:masterpdfeditor/.md5sum
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint

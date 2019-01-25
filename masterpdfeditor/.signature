@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQIxEqomaLdYOIfvpUWcAirXt7zsfgAhph4hBzYeK/PiXazfZF0oAH8/Nmfc8kaktuB8sZgzRvfUbpb5PtzORSoRWRywHfSgAA=
-SHA256 (Pkgfile) = 2cea76d451c724ae27b9e076db05e779ec1af37e38f8ba89231860131ed55787
-SHA256 (.footprint) = bd7fd1a858f864ba2d36aa83277586242aad68a304bb9a724797936cbb1d0102
-SHA256 (master-pdf-editor-4.3.89_qt5.amd64.tar.gz) = ac77db75bcc5f2bce21d98a55c07176e15682b0abe5a83708c53d38721fdab4c
-SHA256 (masterpdfeditor.desktop) = 7c585afe0760855a0a509d6edf10d9f1dd6b73c045ec6cac39939a96d0ce796b

@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/timcowchip.pub
-RWQl8gtaJ/lzqhvssUAGcyS8JEImWEd4HJLJgeExeeb2ghSFC7RDWS5IKuE6A2S4JPmq16eohnTUDgeqKp8oNUEwpmpHXoqqGwc=
-SHA256 (Pkgfile) = 3c68f724d529cc237585bd7c9125e8c833f84c578f00cfbfcfe125ad4f111197
-SHA256 (.footprint) = cc40531e883fc252ce4a0049464b2ff8813f9f8987bda6d66f4e031c539b3fd7
-SHA256 (dbus-python-1.2.4.tar.gz) = e2f1d6871f74fba23652e51d10873e54f71adab0525833c19bad9e99b1b2f9cc
