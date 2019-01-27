@@ -19,7 +19,6 @@ d:vice
 d:polybar
 d:spacefm
 d:handbrake
-d:scrot
 d:libcanberra-gtk3
 d:pavucontrol
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
@@ -105,9 +104,6 @@ f:90e1af5d3058e62c0402ffc426aadc6f:handbrake/.signature
 f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
 f:fe245f08f32e32215853852003a9ab50:handbrake/.footprint
 f:80351bbb1e7fd96b20f6129d89fc061d:handbrake/.md5sum
-f:0b12cab4dfebe3f0550f15d83934ff0b:scrot/.signature
-f:2d583c2086edb55032c2e9c5d8acfa9e:scrot/Pkgfile
-f:a58cbcf9472cae776cce19b9f85e2281:scrot/.footprint
 f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:91c2c1c896d1e20746c0670b2c767528:libcanberra-gtk3/.footprint
