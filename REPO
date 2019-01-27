@@ -3,7 +3,6 @@ d:google-chrome
 d:os-prober
 d:xa
 d:wego
-d:udevil
 d:jgmenu
 d:exaile
 d:xdgmenumaker
@@ -17,7 +16,6 @@ d:masterpdfeditor
 d:flburn
 d:vice
 d:polybar
-d:spacefm
 d:handbrake
 d:libcanberra-gtk3
 d:pavucontrol
@@ -39,11 +37,6 @@ f:18883f2d3f67f473ce15fc2ed638537a:wego/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:2df494694e1f6dcb3f995cbbca27a89d:wego/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:wego/.md5sum
-f:9f64bcb11f5d43cc1d9b472f23b6ab91:udevil/.signature
-f:7060267942f47f7f12dd21822dfaf1ef:udevil/Pkgfile
-f:043d9e660da45c5555563310c4cbeced:udevil/README
-f:d1796cea96ee5f7cd47a8a303a7b7013:udevil/.footprint
-f:c610b33f52f7554171c5c90411835260:udevil/.md5sum
 f:0ba51ba9a806e3b0db7ce5d12bee4c05:jgmenu/.signature
 f:e387f5b4e1a4fa60f5afc1dfc91bdf6a:jgmenu/Pkgfile
 f:2523707ee0ee6bd85fb0d6b1a2800ae2:jgmenu/.footprint
@@ -96,10 +89,6 @@ f:6d9a9547fd494c93d07335d92154e64f:vice/.md5sum
 f:fd4c9710bfa06fe6c93f5a50f53a957b:polybar/Pkgfile
 f:a15521deda3f19278a6d2f3895da887c:polybar/.footprint
 f:b670ab167cdaf33479b31fa421b2ab62:polybar/.md5sum
-f:ed7365e6b0a3c28a5b5d805c715df6aa:spacefm/.signature
-f:a2fd0473a151043d0d38f634bd7668dc:spacefm/Pkgfile
-f:9f8d8df300d88f7591be25777b525248:spacefm/.footprint
-f:72239c0f9277227c7b06f419e4a5b50f:spacefm/.md5sum
 f:90e1af5d3058e62c0402ffc426aadc6f:handbrake/.signature
 f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
 f:fe245f08f32e32215853852003a9ab50:handbrake/.footprint
