@@ -18,7 +18,6 @@ d:vice
 d:polybar
 d:handbrake
 d:libcanberra-gtk3
-d:pavucontrol
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
 f:fb522f055d78d7d33e99fee888e1e6b1:isomaster/Pkgfile
 f:34473d47cae17d05f7e6c1304718ac90:isomaster/.footprint
@@ -97,7 +96,3 @@ f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
 f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
 f:91c2c1c896d1e20746c0670b2c767528:libcanberra-gtk3/.footprint
 f:b32dcc5c223da1edf6dc675afe4c8481:libcanberra-gtk3/.md5sum
-f:3b3ec6eeec345e203b0bf30d2d42596d:pavucontrol/.signature
-f:9a9535fde2cb8e0afa25c39e4469b16a:pavucontrol/Pkgfile
-f:7309d2c82c4822fc645e722fd5d072b1:pavucontrol/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:pavucontrol/.md5sum
