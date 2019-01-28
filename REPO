@@ -17,7 +17,6 @@ d:flburn
 d:vice
 d:polybar
 d:handbrake
-d:libcanberra-gtk3
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
 f:fb522f055d78d7d33e99fee888e1e6b1:isomaster/Pkgfile
 f:34473d47cae17d05f7e6c1304718ac90:isomaster/.footprint
@@ -92,7 +91,3 @@ f:90e1af5d3058e62c0402ffc426aadc6f:handbrake/.signature
 f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
 f:fe245f08f32e32215853852003a9ab50:handbrake/.footprint
 f:80351bbb1e7fd96b20f6129d89fc061d:handbrake/.md5sum
-f:1367b98391d29814b891bee31380596b:libcanberra-gtk3/.signature
-f:afddcdfb758f90b348ddf925ec5f3a80:libcanberra-gtk3/Pkgfile
-f:91c2c1c896d1e20746c0670b2c767528:libcanberra-gtk3/.footprint
-f:b32dcc5c223da1edf6dc675afe4c8481:libcanberra-gtk3/.md5sum
