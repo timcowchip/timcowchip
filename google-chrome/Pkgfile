@@ -4,8 +4,8 @@
 # Depends on: alsa-lib gtk3 xorg-libxtst nss cups
 
 name=google-chrome
-version=71.0.3578.98
-release=1
+version=72.0.3626.81
+release=2
 
 source=("https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
 

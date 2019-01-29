@@ -11,6 +11,7 @@ d:jwm
 d:numlockx
 d:xdialog
 d:gnome-icon-theme
+d:ecwolf
 d:gnome-icon-theme-symbolic
 d:masterpdfeditor
 d:flburn
@@ -22,7 +23,7 @@ f:fb522f055d78d7d33e99fee888e1e6b1:isomaster/Pkgfile
 f:34473d47cae17d05f7e6c1304718ac90:isomaster/.footprint
 f:151c0053a66b5b08779c7666a920fad6:isomaster/.md5sum
 f:26139587ae9b4ade7a813d0e6456725a:google-chrome/.signature
-f:9ba0e62047541a9fd1d411963a72da84:google-chrome/Pkgfile
+f:e8f88fa213164e875a77db218a03d058:google-chrome/Pkgfile
 f:a1d05f7c9421790782f740a314f1fbc1:google-chrome/.footprint
 f:5058aab521532e7bb64cf4d6a73abc27:google-chrome/.md5sum
 f:b9256f134ce9f2a63ee19f84cc5e0023:os-prober/grub
@@ -66,6 +67,7 @@ f:d393e95c010e3ca95c7475636e7bd389:gnome-icon-theme/.signature
 f:a2e003ba513e0cfe3f4946167a915cd7:gnome-icon-theme/Pkgfile
 f:8e4e3bd7407b8da65526b50afd54d985:gnome-icon-theme/.footprint
 f:d4e26d1c00b957d322ad67ee146a052b:gnome-icon-theme/.md5sum
+f:e2221b1432f8fea17059bf1bf9c4a257:ecwolf/Pkgfile
 f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
