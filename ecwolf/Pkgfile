@@ -1,0 +1,39 @@
+# Description: Advanced source port of "Wolfenstein 3D" and "Spear of Destiny" based on Wolf4SDL
+# URL:         http://maniacsvault.net/ecwolf
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  sdl_mixer libvorbis flac opusfile libmikmod fluidsynth libjpeg-turbo mercurial
+
+name=ecwolf
+version=1.3.3
+release=2
+
+source=("http://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-$version-src.7z" "audiohed.wl1"  "audiot.wl1"  "config.wl1"  "maphead.wl1"  "vgadict.wl1"  "vgagraph.wl1"  "vgahead.wl1"  "vswap.wl1"  "Wolfenstien.desktop"  "Wolfenstien.png"
+)
+
+build() {
+
+  cmake $SRC/ecwolf-$version-src -DBUILD_PATCHUTIL=ON -DGPL=ON 
+  make
+
+  install -Dm755 ecwolf "$PKG"/usr/bin/ecwolf
+  install -m755 tools/patchutil/patchutil "$PKG"/usr/bin/ecwolf-patchutil
+
+  install -Dm644 ecwolf.pk3 "$PKG"/usr/share/ecwolf/ecwolf.pk3
+  install -Dm644 audiohed.wl1 "$PKG"/usr/share/ecwolf/audiohed.wl1
+  install -Dm644 audiot.wl1 "$PKG"/usr/share/ecwolf/audiot.wl1
+  install -Dm644 config.wl1 "$PKG"/usr/share/ecwolf/config.wl1
+  install -Dm644 maphead.wl1 "$PKG"/usr/share/ecwolf/maphead.wl1
+  install -Dm644 vgadict.wl1 "$PKG"/usr/share/ecwolf/vgadict.wl1
+  install -Dm644 vgagraph.wl1 "$PKG"/usr/share/ecwolf/vgagraph.wl1
+  install -Dm644 vgahead.wl1 "$PKG"/usr/share/ecwolf/vgahead.wl1
+  install -Dm644 vswap.wl1 "$PKG"/usr/share/ecwolf/vswap.wl1
+  install -Dm644 Wolfenstien.png "$PKG"/usr/share/pixmaps/Wolfenstien.png
+  install -Dm644 Wolfenstien.desktop "$PKG"/usr/share/applications/Wolfenstien.desktop
+  
+  cd $SRC/ecwolf-$version-src
+
+  install -d "$PKG"/usr/share/doc/ecwolf
+  install -Dm644 README.md docs/README.txt "$PKG"/usr/share/doc/ecwolf
+
+  install -Dm644 docs/license-id.txt "$PKG"/usr/share/licenses/ecwolf/license-id.txt
+}

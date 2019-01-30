@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Wolfenstien
+Comment=
+Exec=/usr/bin/ecwolf --fullscreen
+Icon=Wolfenstien.png
+Path=/usr/share/ecwolf
+Terminal=false
+StartupNotify=true
