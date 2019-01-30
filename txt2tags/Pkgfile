@@ -1,0 +1,15 @@
+# Description: A minimal markup document generator.
+# URL: https://txt2tags.org/
+# Maintainer: Daryl Fonseca-Holt, wyatt at prairieturtle dot ca
+# Depends on: python
+# Optional: txt2tags-vim
+
+name=txt2tags
+version=2.6
+release=1
+source=(https://github.com/txt2tags/txt2tags/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+	install -m 0755 -D txt2tags $PKG/usr/bin/txt2tags
+}

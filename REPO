@@ -3,6 +3,7 @@ d:google-chrome
 d:os-prober
 d:xa
 d:wego
+d:xcb-util-xrm
 d:jgmenu
 d:opusfile
 d:exaile
@@ -16,6 +17,7 @@ d:ecwolf
 d:gnome-icon-theme-symbolic
 d:masterpdfeditor
 d:flburn
+d:txt2tags
 d:vice
 d:polybar
 d:handbrake
@@ -37,6 +39,9 @@ f:18883f2d3f67f473ce15fc2ed638537a:wego/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
 f:2df494694e1f6dcb3f995cbbca27a89d:wego/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:wego/.md5sum
+f:4e0333659df5c68486a4be4752ac5c2b:xcb-util-xrm/Pkgfile
+f:1700373db247c09133916deface77aab:xcb-util-xrm/.footprint
+f:490aa170c89fb1aff2039326c715240a:xcb-util-xrm/.md5sum
 f:0ba51ba9a806e3b0db7ce5d12bee4c05:jgmenu/.signature
 f:e387f5b4e1a4fa60f5afc1dfc91bdf6a:jgmenu/Pkgfile
 f:2523707ee0ee6bd85fb0d6b1a2800ae2:jgmenu/.footprint
@@ -97,6 +102,9 @@ f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
 f:68cb5fba564a684dce599f8c4ed39b1b:flburn/.md5sum
+f:e5350d8955466093627ec2c255215e50:txt2tags/Pkgfile
+f:aa83ab577d91f3084dadfa01f3fc4871:txt2tags/.footprint
+f:866cc561ddebe4edc463771b835451b2:txt2tags/.md5sum
 f:5644bcd1ad05ca10ac27872a76e42ef1:vice/vice.desktop
 f:26ca4c7c91aa9acaebc30464fea5ac3f:vice/Pkgfile
 f:008a9527dc15808029952caed55f5a8c:vice/vice

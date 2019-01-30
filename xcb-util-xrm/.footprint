@@ -1,0 +1,12 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/include/
+drwxr-xr-x	timcowchip/users	usr/include/xcb/
+-rw-r--r--	timcowchip/users	usr/include/xcb/xcb_xrm.h
+drwxr-xr-x	timcowchip/users	usr/lib/
+-rw-r--r--	timcowchip/users	usr/lib/libxcb-xrm.a
+-rwxr-xr-x	timcowchip/users	usr/lib/libxcb-xrm.la
+lrwxrwxrwx	timcowchip/users	usr/lib/libxcb-xrm.so -> libxcb-xrm.so.0.0.0
+lrwxrwxrwx	timcowchip/users	usr/lib/libxcb-xrm.so.0 -> libxcb-xrm.so.0.0.0
+-rwxr-xr-x	timcowchip/users	usr/lib/libxcb-xrm.so.0.0.0
+drwxr-xr-x	timcowchip/users	usr/lib/pkgconfig/
+-rw-r--r--	timcowchip/users	usr/lib/pkgconfig/xcb-xrm.pc
