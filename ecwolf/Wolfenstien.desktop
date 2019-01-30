@@ -2,8 +2,9 @@
 Version=1.0
 Type=Application
 Name=Wolfenstien
-Comment=
+Comment=Advanced source port of "Wolfenstein 3D"
 Exec=/usr/bin/ecwolf --fullscreen
+Categories=Game;Emulator;
 Icon=Wolfenstien.png
 Path=/usr/share/ecwolf
 Terminal=false
