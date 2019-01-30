@@ -7,7 +7,7 @@ name=ecwolf
 version=1.3.3
 release=2
 
-source=("http://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-$version-src.7z" "audiohed.wl1"  "audiot.wl1"  "config.wl1"  "maphead.wl1"  "vgadict.wl1"  "vgagraph.wl1"  "vgahead.wl1"  "vswap.wl1"  "Wolfenstien.desktop"  "Wolfenstien.png"
+source=("http://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-$version-src.7z" "audiohed.wl1"  "audiot.wl1"  "config.wl1"  "gamemaps.wl1" "maphead.wl1"  "vgadict.wl1"  "vgagraph.wl1"  "vgahead.wl1"  "vswap.wl1"  "Wolfenstien.desktop"  "Wolfenstien.png"
 )
 
 build() {
@@ -22,6 +22,7 @@ build() {
   install -Dm644 audiohed.wl1 "$PKG"/usr/share/ecwolf/audiohed.wl1
   install -Dm644 audiot.wl1 "$PKG"/usr/share/ecwolf/audiot.wl1
   install -Dm644 config.wl1 "$PKG"/usr/share/ecwolf/config.wl1
+  install -Dm644 gamemaps.wl1 "$PKG"/usr/share/ecwolf/gamemaps.wl1
   install -Dm644 maphead.wl1 "$PKG"/usr/share/ecwolf/maphead.wl1
   install -Dm644 vgadict.wl1 "$PKG"/usr/share/ecwolf/vgadict.wl1
   install -Dm644 vgagraph.wl1 "$PKG"/usr/share/ecwolf/vgagraph.wl1
