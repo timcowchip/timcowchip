@@ -7,7 +7,7 @@ name=ecwolf
 version=1.3.3
 release=2
 
-source=("http://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-$version-src.7z" "audiohed.wl6"  "audiot.wl6"  "config.wl6"  "gamemaps.wl6" "maphead.wl6"  "vgadict.wl6"  "vgagraph.wl6"  "vgahead.wl6"  "vswap.wl6"  "Wolfenstien.desktop"  "Wolfenstien.png"
+source=("http://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-$version-src.7z" "audiohed.wl6"  "audiot.wl6"  "config.wl6"  "gamemaps.wl6" "maphead.wl6"  "vgadict.wl6"  "vgagraph.wl6"  "vgahead.wl6"  "vswap.wl6"  "savegam0.wl6" "savegam1.wl6" "savegam2.wl6" "Wolfenstien.desktop"  "Wolfenstien.png"
 )
 
 build() {
@@ -28,6 +28,9 @@ build() {
   install -Dm644 vgagraph.wl6 "$PKG"/usr/share/ecwolf/vgagraph.wl6
   install -Dm644 vgahead.wl6 "$PKG"/usr/share/ecwolf/vgahead.wl6
   install -Dm644 vswap.wl6 "$PKG"/usr/share/ecwolf/vswap.wl6
+  install -Dm644 savegam0.wl6 "$PKG"/usr/share/ecwolf/savegam0.wl6
+  install -Dm644 savegam1.wl6 "$PKG"/usr/share/ecwolf/savegam1.wl6
+  install -Dm644 savegam2.wl6 "$PKG"/usr/share/ecwolf/savegam2.wl6
   install -Dm644 Wolfenstien.png "$PKG"/usr/share/pixmaps/Wolfenstien.png
   install -Dm644 Wolfenstien.desktop "$PKG"/usr/share/applications/Wolfenstien.desktop
   
