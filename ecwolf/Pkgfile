@@ -28,7 +28,7 @@ build() {
   install -Dm644 vgagraph.wl1 "$PKG"/usr/share/ecwolf/vgagraph.wl1
   install -Dm644 vgahead.wl1 "$PKG"/usr/share/ecwolf/vgahead.wl1
   install -Dm644 vswap.wl1 "$PKG"/usr/share/ecwolf/vswap.wl1
-  install -Dm644 Wolfenstien.png "$PKG"/usr/share/applications/Wolfenstien.png
+  install -Dm644 Wolfenstien.png "$PKG"/usr/share/pixmaps/Wolfenstien.png
   install -Dm644 Wolfenstien.desktop "$PKG"/usr/share/applications/Wolfenstien.desktop
   
   cd $SRC/ecwolf-$version-src
