@@ -7,7 +7,7 @@ name=ecwolf
 version=1.3.3
 release=2
 
-source=("http://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-$version-src.7z" "audiohed.wl1"  "audiot.wl1"  "config.wl1"  "gamemaps.wl1" "maphead.wl1"  "vgadict.wl1"  "vgagraph.wl1"  "vgahead.wl1"  "vswap.wl1"  "Wolfenstien.desktop"  "Wolfenstien.png"
+source=("http://maniacsvault.net/ecwolf/files/ecwolf/1.x/ecwolf-$version-src.7z" "audiohed.wl6"  "audiot.wl6"  "config.wl6"  "gamemaps.wl6" "maphead.wl6"  "vgadict.wl6"  "vgagraph.wl6"  "vgahead.wl6"  "vswap.wl6"  "Wolfenstien.desktop"  "Wolfenstien.png"
 )
 
 build() {
@@ -19,15 +19,15 @@ build() {
   install -m755 tools/patchutil/patchutil "$PKG"/usr/bin/ecwolf-patchutil
 
   install -Dm644 ecwolf.pk3 "$PKG"/usr/share/ecwolf/ecwolf.pk3
-  install -Dm644 audiohed.wl1 "$PKG"/usr/share/ecwolf/audiohed.wl1
-  install -Dm644 audiot.wl1 "$PKG"/usr/share/ecwolf/audiot.wl1
-  install -Dm644 config.wl1 "$PKG"/usr/share/ecwolf/config.wl1
-  install -Dm644 gamemaps.wl1 "$PKG"/usr/share/ecwolf/gamemaps.wl1
-  install -Dm644 maphead.wl1 "$PKG"/usr/share/ecwolf/maphead.wl1
-  install -Dm644 vgadict.wl1 "$PKG"/usr/share/ecwolf/vgadict.wl1
-  install -Dm644 vgagraph.wl1 "$PKG"/usr/share/ecwolf/vgagraph.wl1
-  install -Dm644 vgahead.wl1 "$PKG"/usr/share/ecwolf/vgahead.wl1
-  install -Dm644 vswap.wl1 "$PKG"/usr/share/ecwolf/vswap.wl1
+  install -Dm644 audiohed.wl6 "$PKG"/usr/share/ecwolf/audiohed.wl6
+  install -Dm644 audiot.wl6 "$PKG"/usr/share/ecwolf/audiot.wl6
+  install -Dm644 config.wl6 "$PKG"/usr/share/ecwolf/config.wl6
+  install -Dm644 gamemaps.wl6 "$PKG"/usr/share/ecwolf/gamemaps.wl6
+  install -Dm644 maphead.wl6 "$PKG"/usr/share/ecwolf/maphead.wl6
+  install -Dm644 vgadict.wl6 "$PKG"/usr/share/ecwolf/vgadict.wl6
+  install -Dm644 vgagraph.wl6 "$PKG"/usr/share/ecwolf/vgagraph.wl6
+  install -Dm644 vgahead.wl6 "$PKG"/usr/share/ecwolf/vgahead.wl6
+  install -Dm644 vswap.wl6 "$PKG"/usr/share/ecwolf/vswap.wl6
   install -Dm644 Wolfenstien.png "$PKG"/usr/share/pixmaps/Wolfenstien.png
   install -Dm644 Wolfenstien.desktop "$PKG"/usr/share/applications/Wolfenstien.desktop
   
