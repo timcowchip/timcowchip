@@ -1,0 +1,26 @@
+# Description: Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+# URL:         https://xorg.freedesktop.org/
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  xorg-libfontenc xorg-util-macros
+
+name=xorg-luit
+version=1.1.1
+release=1
+
+source=(https://xorg.freedesktop.org/archive/individual/app/luit-${version}.tar.bz2
+        git_fixes.diff)
+
+build() {
+  cd luit-${version}
+  patch -Np1 -i $SRC/git_fixes.diff
+  autoreconf -vfi
+  ./configure --prefix=/usr
+  make
+
+  cd "${SRC}/luit-${version}"
+  make DESTDIR="${PKG}" install
+  mkdir -p $PKG/usr/X11R6/bin
+  ln -s $PKG/usr/bin/luit $PKG/usr/X11R6/bin/luit
+  install -m755 -d "${PKG}/usr/share/licenses/${name}"
+  install -m644 COPYING "${PKG}/usr/share/licenses/${name}/"
+}
