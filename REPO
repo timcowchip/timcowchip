@@ -99,10 +99,9 @@ f:6256c9938f57cde5a6fc5959472f711f:gnome-icon-theme-symbolic/.signature
 f:7be4cfe351770f4501681f79c6d2c42f:gnome-icon-theme-symbolic/Pkgfile
 f:6ca3dd3ba328f1bcf047962b43c0ae6c:gnome-icon-theme-symbolic/.footprint
 f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
-f:d41d8cd98f00b204e9800998ecf8427e:masterpdfeditor/master-pdf-editor-5_qt5.amd64.tar.gz.partial
-f:0757a6a8b57b5debaac228f794f1f6ed:masterpdfeditor/Pkgfile
-f:61966cfe55e24fe7b07950a572aebed1:masterpdfeditor/.footprint
-f:60290ca316348c1c8ecb1fcdb1b47639:masterpdfeditor/.md5sum
+f:727239fd90df27181a9a1ce28c887450:masterpdfeditor/Pkgfile
+f:61eedb314c6fbbc3142983d8e8ea0113:masterpdfeditor/.footprint
+f:48ce93b9223ffae3ee2852ef7c0ffbe7:masterpdfeditor/.md5sum
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint

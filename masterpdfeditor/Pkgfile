@@ -4,10 +4,10 @@
 # Depends on: glibc nspr nss qt5 sane
 
 name=masterpdfeditor
-version=5
+version=4
 release=1
 
-source=("https://code-industry.net/public/master-pdf-editor-5.3.00_qt5.amd64.tar.gz")
+source=("https://code-industry.net/public/master-pdf-editor-4.3.89_qt5.amd64.tar.gz")
 
 build() {
 
