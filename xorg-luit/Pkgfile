@@ -20,7 +20,7 @@ build() {
   cd "${SRC}/luit-${version}"
   make DESTDIR="${PKG}" install
   mkdir -p $PKG/usr/X11R6/bin
-  ln -s $PKG/usr/bin/luit $PKG/usr/X11R6/bin/luit
+  ln -s /usr/bin/luit $PKG/usr/X11R6/bin/luit
   install -m755 -d "${PKG}/usr/share/licenses/${name}"
   install -m644 COPYING "${PKG}/usr/share/licenses/${name}/"
 }

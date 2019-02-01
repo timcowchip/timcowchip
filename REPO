@@ -61,8 +61,8 @@ f:54b67039ada9e099218b09f0a1112c9d:tint2/.signature
 f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
 f:00e8f714230c9392bbe3ca2f4134dc7b:tint2/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
-f:6abf42d6aa2727410e85b0082e32eb8e:xorg-luit/Pkgfile
-f:70ba2bbecffa3d97a0f549503c9dbfd6:xorg-luit/.footprint
+f:83b5f038ce66293b7420778682816117:xorg-luit/Pkgfile
+f:4b4bebecd741ccbba4be5d54a9b29049:xorg-luit/.footprint
 f:cfefbb3b4e2ef1ce3fee8ed13facbd42:xorg-luit/.md5sum
 f:7860a57664588767268bb0a7c7ccae60:xorg-luit/git_fixes.diff
 f:ad898472f7538ffc3ff511c055fee535:jwm/jwm.desktop

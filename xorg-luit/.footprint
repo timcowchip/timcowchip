@@ -1,7 +1,7 @@
 drwxr-xr-x	timcowchip/users	usr/
 drwxr-xr-x	timcowchip/users	usr/X11R6/
 drwxr-xr-x	timcowchip/users	usr/X11R6/bin/
-lrwxrwxrwx	timcowchip/users	usr/X11R6/bin/luit -> /home/timcowchip/timcowchip/xorg-luit/work/pkg/usr/bin/luit
+lrwxrwxrwx	timcowchip/users	usr/X11R6/bin/luit -> /usr/bin/luit
 drwxr-xr-x	timcowchip/users	usr/bin/
 -rwxr-xr-x	timcowchip/users	usr/bin/luit
 drwxr-xr-x	timcowchip/users	usr/share/
