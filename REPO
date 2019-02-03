@@ -6,6 +6,7 @@ d:wego
 d:xcb-util-xrm
 d:jgmenu
 d:opusfile
+d:mutagen
 d:exaile
 d:xdgmenumaker
 d:tint2
@@ -51,6 +52,9 @@ f:8ce6632fadf6134e2e122eeb646c6dee:jgmenu/.md5sum
 f:afac2365964b19fcb6ef17661bc940ea:opusfile/Pkgfile
 f:c42b0216934a56a3cba7db3fe2b0b22e:opusfile/.footprint
 f:3f0ed86b34ccfb1bfab639ffa1c7756d:opusfile/.md5sum
+f:05129c70ce7d1fb0d5d0095c419ddb9c:mutagen/Pkgfile
+f:59b94b3b4ef166e9bd6874ffb1f0c335:mutagen/.footprint
+f:565257ca2786cf14a335c79158872365:mutagen/.md5sum
 f:9ce322e9c85182861085323cf6bf20a7:exaile/.signature
 f:42c7e69a0082b27e5ce0e3b049014336:exaile/Pkgfile
 f:a3fa7d19b6d680a4498ccd87e044fc2d:exaile/.footprint

@@ -1,0 +1,16 @@
+# Description: Python based tagging library.
+# URL: http://www.sacredchao.net/quodlibet/wiki/Development/Mutagen
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: python
+
+name=mutagen
+version=1.42.0
+release=1
+source="https://github.com/quodlibet/mutagen/releases/download/release-$version/$name-$version.tar.gz"
+
+build() {
+    cd mutagen-$version
+	 sed -i -e 's|share/man/man1|man/man1|g' setup.py
+    python setup.py build
+    python setup.py install --root $PKG
+}
