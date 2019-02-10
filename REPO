@@ -10,6 +10,7 @@ d:mutagen
 d:exaile
 d:xdgmenumaker
 d:tint2
+d:falkon
 d:xorg-luit
 d:jwm
 d:numlockx
@@ -66,6 +67,9 @@ f:54b67039ada9e099218b09f0a1112c9d:tint2/.signature
 f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
 f:00e8f714230c9392bbe3ca2f4134dc7b:tint2/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
+f:1ab73c47150ee8bf2fbc8208b35a1f89:falkon/Pkgfile
+f:7a1ec2f1cdb9739aae385a79ae8d6822:falkon/.footprint
+f:e544119c5940ee15c15b2b7262c2aa8b:falkon/.md5sum
 f:83b5f038ce66293b7420778682816117:xorg-luit/Pkgfile
 f:4b4bebecd741ccbba4be5d54a9b29049:xorg-luit/.footprint
 f:cfefbb3b4e2ef1ce3fee8ed13facbd42:xorg-luit/.md5sum
