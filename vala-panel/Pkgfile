@@ -1,0 +1,28 @@
+# Description: Gtk3 panel for compositing window managers
+# URL:         https://gitlab.com/vala-panel-project/vala-panel
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  gtk3 libwnck-gtk3 cmake vala
+
+name=vala-panel
+version=0.4.86
+release=1
+pkgdesc="Gtk3 panel for compositing window managers"
+url="https://gitlab.com/vala-panel-project/vala-panel"
+arch=('i686' 'x86_64')
+
+source=()
+
+build() {
+
+	git clone https://gitlab.com/vala-panel-project/${name}.git
+	cd ${name}
+	git submodule init && git submodule update
+  
+	cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DENABLE_WNCK=ON
+	make
+
+	make DESTDIR="${PKG}" install
+	
+}
+
+
