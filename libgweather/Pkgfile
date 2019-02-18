@@ -12,8 +12,10 @@ source=()
 build() {
 
   git clone https://gitlab.gnome.org/GNOME/libgweather.git
-  meson $name build -D gtk_doc=true
-  ninja -C build
-  meson test -C build
+  
+  meson $name build -D prefix=/usr 
+  ninja -C build 
+  
   DESTDIR="$PKG" meson install -C build
+  rm -rf "${PKG}/usr/share/locale"
 }
