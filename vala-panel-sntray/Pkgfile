@@ -1,0 +1,33 @@
+# Description: Plugin for xfce4-panel and vala-panel to show StatusNotifierItems (AppIndicators) via FlowBox
+# URL:         https://gitlab.com/vala-panel-project/xfce4-sntray-plugin
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  cmake vala gtk3 libpeas
+
+
+name=vala-panel-sntray
+version=0.4.11
+release=1
+
+source=()
+
+build(){
+
+	git clone https://gitlab.com/vala-panel-project/xfce4-sntray-plugin.git
+	cd xfce4-sntray-plugin
+	git submodule init && git submodule update
+	cmake -DCMAKE_INSTALL_PREFIX=/usr 
+	make
+
+    make -C "src" DESTDIR="${PKG}" install
+	make -C "data" DESTDIR="${PKG}" install
+	make -C "po" DESTDIR="${PKG}" install
+	rm -rf "${PKG}/usr/lib/xfce4"
+	rm -rf "${PKG}/usr/share/xfce4"
+	rm -rf "${PKG}/usr/share/mate-panel"
+	rm -rf "${PKG}/usr/lib/mate-panel"
+	rm -rf "${PKG}/usr/lib/budgie-desktop"
+	rm -rf "${PKG}/usr/share/glib-2.0"
+	rm -rf "${PKG}/usr/share/dbus-1"
+	rm -rf "${PKG}/usr/share/locale"
+	
+}

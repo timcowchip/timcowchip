@@ -1,0 +1,21 @@
+# Description: Helper library for geocoding services
+# URL:         https://gitlab.gnome.org/GNOME/geocode-glib
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  glib2 json-glib libsoup intltool gobject-introspection git gtk-doc meson
+
+name=geocode-glib
+version=3.26.0
+release=1
+
+source=()
+
+build() {
+
+  git clone https://gitlab.gnome.org/GNOME/geocode-glib.git
+  
+  meson $name build -D enable-installed-tests=false
+  ninja -C build
+
+  DESTDIR="$PKG" meson install -C build
+}
+

@@ -1,0 +1,19 @@
+# Description: Location and timezone database and weather-lookup library
+# URL:         https://wiki.gnome.org/Projects/LibGWeather
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  libsoup gtk3 geocode-glib dconf gobject-introspection vala git gtk-doc glade meson
+
+name=libgweather
+version=3.28.2
+release=1
+
+source=()
+
+build() {
+
+  git clone https://gitlab.gnome.org/GNOME/libgweather.git
+  meson $name build -D gtk_doc=true
+  ninja -C build
+
+  DESTDIR="$pkgdir" meson install -C build
+}
