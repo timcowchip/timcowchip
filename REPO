@@ -52,7 +52,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:wego/.md5sum
 f:4e0333659df5c68486a4be4752ac5c2b:xcb-util-xrm/Pkgfile
 f:1700373db247c09133916deface77aab:xcb-util-xrm/.footprint
 f:490aa170c89fb1aff2039326c715240a:xcb-util-xrm/.md5sum
-f:f0a5c606d6ceb411dcce75d887af97c5:libgweather/Pkgfile
+f:e5dc0355cf9173e1231885d64c194c61:libgweather/Pkgfile
+f:a70e21d4221393878765d9219ea07d19:libgweather/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:libgweather/.md5sum
 f:0ba51ba9a806e3b0db7ce5d12bee4c05:jgmenu/.signature
 f:e387f5b4e1a4fa60f5afc1dfc91bdf6a:jgmenu/Pkgfile
 f:2523707ee0ee6bd85fb0d6b1a2800ae2:jgmenu/.footprint

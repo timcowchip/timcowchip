@@ -14,6 +14,6 @@ build() {
   git clone https://gitlab.gnome.org/GNOME/libgweather.git
   meson $name build -D gtk_doc=true
   ninja -C build
-
-  DESTDIR="$pkgdir" meson install -C build
+  meson test -C build
+  DESTDIR="$PKG" meson install -C build
 }
