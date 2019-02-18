@@ -1,0 +1,24 @@
+# Description: Weather StatusNotifierItems for Indicator plugins
+# URL:         https://gitlab.com/vala-panel-project/vala-panel-extras
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  cmake vala gtk3 libpeas libgweather geocode-glib
+
+name=vala-panel-extras
+version=0.1.8
+release=1
+
+source=()
+
+build() {
+
+  git clone https://github.com/timcowchip/vala-panel-extras.git
+  cd $name
+   
+  cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_WEATHER=ON -DENABLE_ALSA=OFF -DENABLE_XKB=OFF -DENABLE_GTOP=OFF -DENABLE_VOLUME=OFF -DENABLE_BATTERY=OFF -DGSETTINGS_COMPILE=OFF
+  make
+  
+  make -C "applets/weather" DESTDIR="${PKG}" install
+  make -C "po" DESTDIR="${PKG}" install
+  install -D -m644 data/gschemas/org.valapanel.weather.gschema.xml "$PKG/usr/share/glib-2.0/schemas/org.valapanel.weather.gschema.xml"
+  rm -rf "${PKG}/usr/share/locale"
+}
