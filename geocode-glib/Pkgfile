@@ -13,7 +13,7 @@ build() {
 
   git clone https://gitlab.gnome.org/GNOME/geocode-glib.git
   
-  meson $name build -D enable-installed-tests=false
+  meson $name build -D prefix=/usr 
   ninja -C build
 
   DESTDIR="$PKG" meson install -C build
