@@ -14,7 +14,11 @@ drwxr-xr-x	timcowchip/users	usr/share/applications/
 -rw-r--r--	timcowchip/users	usr/share/applications/org.valapanel.xkb.desktop
 drwxr-xr-x	timcowchip/users	usr/share/glib-2.0/
 drwxr-xr-x	timcowchip/users	usr/share/glib-2.0/schemas/
+-rw-r--r--	timcowchip/users	usr/share/glib-2.0/schemas/org.valapanel.batt.gschema.xml
+-rw-r--r--	timcowchip/users	usr/share/glib-2.0/schemas/org.valapanel.gtop.gschema.xml
+-rw-r--r--	timcowchip/users	usr/share/glib-2.0/schemas/org.valapanel.volume.gschema.xml
 -rw-r--r--	timcowchip/users	usr/share/glib-2.0/schemas/org.valapanel.weather.gschema.xml
+-rw-r--r--	timcowchip/users	usr/share/glib-2.0/schemas/org.valapanel.xkb.gschema.xml
 drwxr-xr-x	timcowchip/users	usr/share/vala-panel-extras/
 drwxr-xr-x	timcowchip/users	usr/share/vala-panel-extras/xkb/
 drwxr-xr-x	timcowchip/users	usr/share/vala-panel-extras/xkb/icons/
