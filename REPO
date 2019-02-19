@@ -21,6 +21,7 @@ d:xorg-luit
 d:jwm
 d:dconf-editor
 d:numlockx
+d:vala
 d:xdialog
 d:gnome-icon-theme
 d:ecwolf
@@ -110,6 +111,9 @@ f:da928c1a0872b36f75d2d16df8eed7ad:numlockx/.signature
 f:f59214bbf0fe64345d1248794aabdceb:numlockx/Pkgfile
 f:176bc98a0d47d849dbfab208798aaab2:numlockx/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:numlockx/.md5sum
+f:3a935783c87a027f778209dbd1f0488c:vala/Pkgfile
+f:0b89ef02cd3cb900ae777be26155a3c1:vala/.footprint
+f:b4100cad87066e8fcc9b6976a0b1631a:vala/.md5sum
 f:d5fbf5c7d4ae4d71916b6cc039a5a604:xdialog/.signature
 f:e9688425401726b2715b1e84d06cc730:xdialog/Pkgfile
 f:f208bf222ddefd06a57c467b9660b06a:xdialog/.footprint
