@@ -28,7 +28,7 @@ build() {
   install -D -m644 data/gschemas/org.valapanel.gtop.gschema.xml "$PKG/usr/share/glib-2.0/schemas/org.valapanel.gtop.gschema.xml"
   install -D -m644 data/gschemas/org.valapanel.volume.gschema.xml "$PKG/usr/share/glib-2.0/schemas/org.valapanel.volume.gschema.xml"
   install -D -m644 data/gschemas/org.valapanel.xkb.gschema.xml "$PKG/usr/share/glib-2.0/schemas/org.valapanel.xkb.gschema.xml"
-  install -D -m644 data/gschemas/org.valapanel.batt.gschema.xml "$PKG/usr/share/glib-2.0/schemas/org.valapanel.batt.gschema.xml"
+  install -D -m644 data/gschemas/org.valapanel.battery.gschema.xml "$PKG/usr/share/glib-2.0/schemas/org.valapanel.batt.gschema.xml"
   
   rm -rf "${PKG}/usr/share/locale"
 }
