@@ -18,7 +18,9 @@ d:vala-panel-sntray
 d:falkon
 d:xorg-luit
 d:jwm
+d:dconf-editor
 d:numlockx
+d:vala
 d:xdialog
 d:gnome-icon-theme
 d:ecwolf
@@ -99,10 +101,13 @@ f:ad898472f7538ffc3ff511c055fee535:jwm/jwm.desktop
 f:f573b32254eef6b4de766b784ddf37e7:jwm/Pkgfile
 f:bbe8bebd34382d5b9351ff7c3ba4b806:jwm/.footprint
 f:f62c5cc1abdd3d98f596f1ff84eb3b4b:jwm/.md5sum
+f:d55c8dc4a42ab232e6ea22506e11b2d6:dconf-editor/dconf-editor#3.30.2-1.pkg.tar.gz
+f:cf74896844f867b013b6a77bc2a992aa:dconf-editor/Pkgfile
 f:da928c1a0872b36f75d2d16df8eed7ad:numlockx/.signature
 f:f59214bbf0fe64345d1248794aabdceb:numlockx/Pkgfile
 f:176bc98a0d47d849dbfab208798aaab2:numlockx/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:numlockx/.md5sum
+f:297a72df737320e252eb7d0d6258d8cb:vala/Pkgfile
 f:d5fbf5c7d4ae4d71916b6cc039a5a604:xdialog/.signature
 f:e9688425401726b2715b1e84d06cc730:xdialog/Pkgfile
 f:f208bf222ddefd06a57c467b9660b06a:xdialog/.footprint
@@ -155,6 +160,8 @@ f:90e1af5d3058e62c0402ffc426aadc6f:handbrake/.signature
 f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
 f:fe245f08f32e32215853852003a9ab50:handbrake/.footprint
 f:80351bbb1e7fd96b20f6129d89fc061d:handbrake/.md5sum
-f:d466cf815263859c8a7cce9bc9c81f4a:vala-panel-extras/Pkgfile
-f:7e5cdb9dc7b72da631d2c047aebda38b:vala-panel-extras/.footprint
+f:1bfd0932183bc45bb0f772e11364c295:vala-panel-extras/vala-panel-extras#0.1.8-1.pkg.tar.gz
+f:627ed74e27650ad8b5f860f26a174def:vala-panel-extras/post-install
+f:fc91e1724d6d902a97625e9d666fddfd:vala-panel-extras/Pkgfile
+f:970881b7233cf4cd4dec8cf38591ed76:vala-panel-extras/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel-extras/.md5sum

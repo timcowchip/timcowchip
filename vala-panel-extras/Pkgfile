@@ -11,14 +11,19 @@ source=()
 
 build() {
 
-  git clone https://github.com/timcowchip/vala-panel-extras.git
+  git clone https://gitlab.com/timcowchip1/vala-panel-extras.git
   cd $name
+  git submodule init && git submodule update
    
-  cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_WEATHER=ON -DENABLE_ALSA=OFF -DENABLE_XKB=OFF -DENABLE_GTOP=OFF -DENABLE_VOLUME=OFF -DENABLE_BATTERY=OFF -DGSETTINGS_COMPILE=OFF
+  cmake ./ -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_WEATHER=ON -DENABLE_ALSA=ON -DENABLE_XKB=ON -DENABLE_GTOP=ON -DENABLE_VOLUME=ON -DENABLE_BATTERY=ON -DGSETTINGS_COMPILE=OFF
   make
   
   make -C "applets/weather" DESTDIR="${PKG}" install
-  make -C "po" DESTDIR="${PKG}" install
+  make -C "applets/gtop" DESTDIR="${PKG}" install
+  make -C "applets/volume" DESTDIR="${PKG}" install
+  make -C "applets/xkb" DESTDIR="${PKG}" install
+  make -C "applets/batt" DESTDIR="${PKG}" install
+  
   install -D -m644 data/gschemas/org.valapanel.weather.gschema.xml "$PKG/usr/share/glib-2.0/schemas/org.valapanel.weather.gschema.xml"
   rm -rf "${PKG}/usr/share/locale"
 }
