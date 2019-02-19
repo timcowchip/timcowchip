@@ -1,7 +1,7 @@
 # Description: self-hosting compiler that translates Vala source code into C
 # URL:         http://live.gnome.org/Vala
 # Maintainer:  Chris Farrell, timcowchip at gorge dot net
-# Depends on:  glib
+# Depends on:  glib graphviz
 
 name=vala
 version=0.42.5
