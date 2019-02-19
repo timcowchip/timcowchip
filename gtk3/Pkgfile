@@ -1,6 +1,6 @@
 # Description: A multi-platform toolkit for creating graphical user interfaces
 # URL: http://www.gtk.org/
-# Maintainer: Fredrik Rinnestam, fredrik at crux dot nu
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
 # Depends on: gdk-pixbuf, pango, at-spi2-atk, libepoxy
 
 name=gtk3
