@@ -1,0 +1,19 @@
+# Description: dconf Editor
+# URL:         https://wiki.gnome.org/Projects/dconf
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  gtk3 dconf vala meson git
+
+name=dconf-editor
+version=3.30.2
+release=1
+
+source=()
+
+build() {
+  git clone https://gitlab.gnome.org/GNOME/dconf-editor.git
+  
+  meson $name build -D prefix=/usr
+  ninja -C build
+
+  DESTDIR="$PKG" meson install -C build
+}
