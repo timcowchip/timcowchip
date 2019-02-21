@@ -21,6 +21,7 @@ d:xorg-luit
 d:jwm
 d:dconf-editor
 d:numlockx
+d:gtk-theme-numix-solarized
 d:vala
 d:xdialog
 d:gnome-icon-theme
@@ -110,6 +111,9 @@ f:da928c1a0872b36f75d2d16df8eed7ad:numlockx/.signature
 f:f59214bbf0fe64345d1248794aabdceb:numlockx/Pkgfile
 f:176bc98a0d47d849dbfab208798aaab2:numlockx/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:numlockx/.md5sum
+f:fe1afb1dfdbd5bc57d28be1c99c2e06a:gtk-theme-numix-solarized/Pkgfile
+f:51bfbd03ff32d9af1526b0d960842268:gtk-theme-numix-solarized/.footprint
+f:31e2a32edd18370a65e1050014996fb9:gtk-theme-numix-solarized/.md5sum
 f:35ca83148e30d31c0f98d4789f75db25:vala/Pkgfile
 f:0b89ef02cd3cb900ae777be26155a3c1:vala/.footprint
 f:b4100cad87066e8fcc9b6976a0b1631a:vala/.md5sum

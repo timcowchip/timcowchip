@@ -1,0 +1,18 @@
+# Description: Solarized versions of Numix GTK2 and GTK3 theme
+# URL: https://github.com/Ferdi265/numix-solarized-gtk-theme
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on: gtk-engine-murrine
+
+name=gtk-theme-numix-solarized
+version=20180913
+release=1
+
+source=("https://github.com/Ferdi265/numix-solarized-gtk-theme/releases/download/$version/NumixSolarized-$version.tar.gz")
+
+
+build()
+{
+	mkdir -p $PKG/usr/share/themes
+	mv NumixSolarized/* $PKG/usr/share/themes
+}
+
