@@ -1,0 +1,17 @@
+# Description: Python client Library for the gpodder.net web service
+# URL: https://github.com/gpodder/mygpoclient
+# Maintainer: Chris Farrell, timcowchip at gorge dot net
+# Depends on: python3
+
+name=mygpoclient
+version=1.8
+release=1
+
+source=(https://github.com/gpodder/$name/archive/$version.tar.gz)
+
+build() {
+
+  cd $name-$version
+  python3 setup.py install --root="$PKG" --optimize=1
+}
+

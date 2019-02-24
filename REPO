@@ -8,6 +8,8 @@ d:libgweather
 d:jgmenu
 d:opusfile
 d:geocode-glib
+d:gpodder
+d:podcastparser
 d:vala-panel
 d:mutagen
 d:gtk3
@@ -28,6 +30,7 @@ d:gnome-icon-theme
 d:ecwolf
 d:gnome-icon-theme-symbolic
 d:masterpdfeditor
+d:mygpoclient
 d:flburn
 d:txt2tags
 d:vice
@@ -69,6 +72,12 @@ f:3f0ed86b34ccfb1bfab639ffa1c7756d:opusfile/.md5sum
 f:59db548a01d72bc281ed5c3d50865d72:geocode-glib/Pkgfile
 f:54757a2868843dd99af8f2dc107e28bc:geocode-glib/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:geocode-glib/.md5sum
+f:d15d769c783d34d382a0e130a7ab64e7:gpodder/Pkgfile
+f:5f2bb863681fc886bdf0d9d71029c607:podcastparser/podcastparser#0.6.4-1.pkg.tar.gz
+f:e44d600ffe099ad689aa8132c2824358:podcastparser/Pkgfile
+f:35229a8949603abab0b75cf7abdf107d:podcastparser/.footprint
+f:93eb67ce21165bf3f79a4a8b40e021fd:podcastparser/0.6.4.tar.gz
+f:a7e296b58616929f23ca564dadbbb9e7:podcastparser/.md5sum
 f:627ed74e27650ad8b5f860f26a174def:vala-panel/post-install
 f:ac04b3b8d3fe2b9c8c0aa8704e4ac749:vala-panel/Pkgfile
 f:3fd8f021b3094e06ff6bc91f91054ade:vala-panel/.footprint
@@ -146,6 +155,11 @@ f:d78be1ae91037e2d376a8f245717341b:gnome-icon-theme-symbolic/.md5sum
 f:727239fd90df27181a9a1ce28c887450:masterpdfeditor/Pkgfile
 f:61eedb314c6fbbc3142983d8e8ea0113:masterpdfeditor/.footprint
 f:48ce93b9223ffae3ee2852ef7c0ffbe7:masterpdfeditor/.md5sum
+f:e9648674b842ce5f6bb77a379eeb5908:mygpoclient/1.8.tar.gz
+f:1a9ee89121878b0d603079fcd74561f1:mygpoclient/Pkgfile
+f:c28c096adf9bffc2eab0217c71540100:mygpoclient/.footprint
+f:08a938f302d638df84e246cf6f1955c3:mygpoclient/.md5sum
+f:96c4659cb19d835efd2916ad3a3b5cc3:mygpoclient/mygpoclient#1.8-1.pkg.tar.gz
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint

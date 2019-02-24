@@ -1,0 +1,13 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/lib/
+drwxr-xr-x	timcowchip/users	usr/lib/python3.6/
+drwxr-xr-x	timcowchip/users	usr/lib/python3.6/site-packages/
+drwxr-xr-x	timcowchip/users	usr/lib/python3.6/site-packages/__pycache__/
+-rw-r--r--	timcowchip/users	usr/lib/python3.6/site-packages/__pycache__/podcastparser.cpython-36.opt-1.pyc
+-rw-r--r--	timcowchip/users	usr/lib/python3.6/site-packages/__pycache__/podcastparser.cpython-36.pyc
+-rw-r--r--	timcowchip/users	usr/lib/python3.6/site-packages/podcastparser-0.6.4-py3.6.egg-info
+-rw-r--r--	timcowchip/users	usr/lib/python3.6/site-packages/podcastparser.py
+drwxr-xr-x	timcowchip/users	usr/share/
+drwxr-xr-x	timcowchip/users	usr/share/licenses/
+drwxr-xr-x	timcowchip/users	usr/share/licenses/-podcastparser/
+-rw-r--r--	timcowchip/users	usr/share/licenses/-podcastparser/LICENSE
