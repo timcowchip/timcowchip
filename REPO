@@ -1,5 +1,6 @@
 d:isomaster
 d:google-chrome
+d:qmmp
 d:os-prober
 d:xa
 d:wego
@@ -47,6 +48,9 @@ f:26139587ae9b4ade7a813d0e6456725a:google-chrome/.signature
 f:7ae844b2eab115a6f546924928b9f9e0:google-chrome/Pkgfile
 f:a1d05f7c9421790782f740a314f1fbc1:google-chrome/.footprint
 f:5058aab521532e7bb64cf4d6a73abc27:google-chrome/.md5sum
+f:abdad145f0f4e68554407271e7c92c32:qmmp/Pkgfile
+f:7a8c2b6a78aee26e9b2b9b897a3a1f8f:qmmp/.footprint
+f:524ee78d1044c1a2d979ba8e2e37d9e1:qmmp/.md5sum
 f:b9256f134ce9f2a63ee19f84cc5e0023:os-prober/grub
 f:aa91c8bd4d4f3e0b7944bd7d5d02a9bd:os-prober/.signature
 f:19950e3168499d062949172aedeadc7b:os-prober/Pkgfile
