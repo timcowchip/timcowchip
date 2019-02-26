@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="GNOME / gnome-bluetooth" property="og:title">
+<meta content="Welcome to GNOME’s integrated development platform, powered by GitLab" property="og:description">
+<meta content="https://gitlab.gnome.org/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.gnome.org/GNOME/gnome-bluetooth" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="GNOME / gnome-bluetooth" property="twitter:title">
+<meta content="Welcome to GNOME’s integrated development platform, powered by GitLab" property="twitter:description">
+<meta content="https://gitlab.gnome.org/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>GNOME / gnome-bluetooth · GitLab</title>
+<meta content="Welcome to GNOME’s integrated development platform, powered by GitLab" name="description">
+<link rel="shortcut icon" type="image/png" href="/uploads/-/system/appearance/favicon/1/GnomeLogoVertical.svg.png" id="favicon" data-original-href="/uploads/-/system/appearance/favicon/1/GnomeLogoVertical.svg.png" />
+<link rel="stylesheet" media="all" href="/assets/application-e26a276298f24265784769e832caf976e30efdf8b813712fba20da91fbf0e405.css" />
+<link rel="stylesheet" media="print" href="/assets/print-c8ff536271f8974b8a9a5f75c0ca25d2b8c1dceb4cff3c01d1603862a0bdcbfc.css" />
+
+
+
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://gitlab.gnome.org/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=500;gon.asset_host=null;gon.webpack_public_path="/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.gitlab_url="https://gitlab.gnome.org";gon.revision="ce13864";gon.gitlab_logo="/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg";gon.sprite_file_icons="/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.suggested_label_colors=["#0033CC","#428BCA","#44AD8E","#A8D695","#5CB85C","#69D100","#004E00","#34495E","#7F8C8D","#A295D6","#5843AD","#8E44AD","#FFECDB","#AD4363","#D10069","#CC0033","#FF0000","#D9534F","#D1D100","#F0AD4E","#AD8D43"];gon.first_day_of_week=0;
+//]]>
+</script>
+
+
+<script src="/assets/webpack/runtime.2758e43e.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.587b17f4.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons~pages.groups~pages.groups.activity~pages.groups.boards~pages.groups.clusters.destroy~pages.g~99a59a9e.dd9cf9fb.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons~pages.groups.milestones.edit~pages.groups.milestones.new~pages.projects.blame.show~pages.pro~bedd5722.087ab757.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.projects.show.36f066ba.chunk.js" defer="defer"></script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="pkhd2hC3SQZ4idWlP2xwLIn3USt0DApWJI69HFrmg1NRVuzAwGFG3VFXj9T79Sev1En98bYdxvIJ1lzUWhDgfQ==" />
+<meta content="origin-when-cross-origin" name="referrer">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+<link rel="alternate" type="application/atom+xml" title="gnome-bluetooth activity" href="/GNOME/gnome-bluetooth.atom" />
+
+
+
+</head>
+
+<body class="ui-indigo  gl-browser-generic gl-platform-other" data-find-file="/GNOME/gnome-bluetooth/find_file/master" data-group="" data-page="projects:show" data-project="gnome-bluetooth">
+
+<script>
+  gl = window.gl || {};
+  gl.client = {"isGeneric":true,"isOther":true};
+</script>
+
+
+<header class="navbar navbar-gitlab qa-navbar navbar-expand-sm js-navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<a title="Dashboard" id="logo" href="/"><img data-src="/uploads/-/system/appearance/header_logo/1/logo.png" class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li class="home"><a title="Projects" class="dashboard-shortcuts-projects" href="/explore">Projects
+</a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></li><li>
+<a title="About GitLab CE" href="/help">Help</a>
+</li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item d-none d-sm-none d-md-block m-auto">
+<div class="search search-form" data-track-event="activate_form_input" data-track-label="navbar_search">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump to…" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" tabindex="1" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" aria-label="Search or jump to…" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
+</div>
+<svg class="s16 search-icon"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" class="js-search-group-options" />
+<input type="hidden" name="project_id" id="search_project_id" value="1617" class="js-search-project-options" data-project-path="gnome-bluetooth" data-name="gnome-bluetooth" data-issues-path="/GNOME/gnome-bluetooth/issues" data-mr-path="/GNOME/gnome-bluetooth/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="repository_ref" id="repository_ref" value="master" />
+
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="1617" data-autocomplete-project-ref="master"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-sm-none d-md-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=1617"><svg class="s16"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#search"></use></svg>
+</a></li>
+<li class="nav-item header-help dropdown">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><svg class="s16"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#question"></use></svg>
+<svg class="caret-down"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li>
+<a href="/help">Help</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+</a></li>
+
+</ul>
+
+</div>
+</li>
+<li class="nav-item">
+<div>
+<a class="btn btn-sign-in" href="/users/sign_in?redirect_to_referer=yes">Sign in / Register</a>
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="gnome-bluetooth" href="/GNOME/gnome-bluetooth"><div class="avatar-container s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg1">G</div>
+</div>
+<div class="sidebar-context-title">
+gnome-bluetooth
+</div>
+</a></div>
+<ul class="sidebar-top-level-items">
+<li class="home active"><a class="shortcuts-project" href="/GNOME/gnome-bluetooth"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/GNOME/gnome-bluetooth"><strong class="fly-out-top-item-name">
+Project
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="active"><a title="Project details" class="shortcuts-project" href="/GNOME/gnome-bluetooth"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity qa-activity-link" href="/GNOME/gnome-bluetooth/activity"><span>Activity</span>
+</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/GNOME/gnome-bluetooth/releases"><span>Releases</span>
+</a></li>
+<li class=""><a title="Cycle Analytics" class="shortcuts-project-cycle-analytics" href="/GNOME/gnome-bluetooth/cycle_analytics"><span>Cycle Analytics</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-tree qa-project-menu-repo" href="/GNOME/gnome-bluetooth/tree/master"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#doc-text"></use></svg>
+</div>
+<span class="nav-item-name">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/GNOME/gnome-bluetooth/tree/master"><strong class="fly-out-top-item-name">
+Repository
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a href="/GNOME/gnome-bluetooth/tree/master">Files
+</a></li><li class=""><a href="/GNOME/gnome-bluetooth/commits/master">Commits
+</a></li><li class=""><a class="qa-branches-link" href="/GNOME/gnome-bluetooth/branches">Branches
+</a></li><li class=""><a href="/GNOME/gnome-bluetooth/tags">Tags
+</a></li><li class=""><a href="/GNOME/gnome-bluetooth/graphs/master">Contributors
+</a></li><li class=""><a href="/GNOME/gnome-bluetooth/network/master">Graph
+</a></li><li class=""><a href="/GNOME/gnome-bluetooth/compare?from=master&amp;to=master">Compare
+</a></li><li class=""><a href="/GNOME/gnome-bluetooth/graphs/master/charts">Charts
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/GNOME/gnome-bluetooth/issues"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+3
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/GNOME/gnome-bluetooth/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+3
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/GNOME/gnome-bluetooth/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Board" href="/GNOME/gnome-bluetooth/boards"><span>
+Board
+</span>
+</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/GNOME/gnome-bluetooth/labels"><span>
+Labels
+</span>
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/GNOME/gnome-bluetooth/milestones"><span>
+Milestones
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-merge_requests qa-merge-requests-link" href="/GNOME/gnome-bluetooth/merge_requests"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/GNOME/gnome-bluetooth/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-pipelines qa-link-pipelines" href="/GNOME/gnome-bluetooth/pipelines"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/GNOME/gnome-bluetooth/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/GNOME/gnome-bluetooth/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/GNOME/gnome-bluetooth/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/GNOME/gnome-bluetooth/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li><li class=""><a title="Charts" class="shortcuts-pipelines-charts" href="/GNOME/gnome-bluetooth/pipelines/charts"><span>
+Charts
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-wiki qa-wiki-link" href="/GNOME/gnome-bluetooth/wikis/home"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/GNOME/gnome-bluetooth/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-snippets" href="/GNOME/gnome-bluetooth/snippets"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#snippet"></use></svg>
+</div>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/GNOME/gnome-bluetooth/snippets"><strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</a></li></ul>
+</li><li class=""><a title="Members" class="shortcuts-tree" href="/GNOME/gnome-bluetooth/settings/members"><div class="nav-icon-container">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#users"></use></svg>
+</div>
+<span class="nav-item-name">
+Members
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/GNOME/gnome-bluetooth/project_members"><strong class="fly-out-top-item-name">
+Members
+</strong>
+</a></li></ul>
+</li><a class="toggle-sidebar-button js-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="icon-angle-double-left"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#angle-double-left"></use></svg>
+<svg class="icon-angle-double-right"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#angle-double-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/GNOME/gnome-bluetooth/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a title="Network" class="shortcuts-network" href="/GNOME/gnome-bluetooth/network/master">Graph
+</a></li>
+<li class="hidden">
+<a title="Charts" class="shortcuts-repository-charts" href="/GNOME/gnome-bluetooth/graphs/master/charts">Charts
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/GNOME/gnome-bluetooth/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/GNOME/gnome-bluetooth/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="/GNOME/gnome-bluetooth/commits/master">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/GNOME/gnome-bluetooth/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+
+<div class="mobile-overlay"></div>
+<div class="alert-wrapper">
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited limit-container-width" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<i aria-hidden="true" data-hidden="true" class="fa fa-bars"></i>
+</button><div class="breadcrumbs-links js-title-container">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/GNOME"><img class="avatar-tile lazy" width="15" height="15" data-src="/uploads/-/system/group/avatar/8/gnomelogo.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />GNOME</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#angle-right"></use></svg></li> <li><a href="/GNOME/gnome-bluetooth"><span class="breadcrumb-item-text js-breadcrumb-item-text">gnome-bluetooth</span></a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/GNOME/gnome-bluetooth">Details</a></h2>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+<div class="flash-container flash-container-page">
+</div>
+
+<div class="d-flex"></div>
+</div>
+<div class=" limit-container-width">
+<div class="content" id="content-body">
+
+<div class="js-signature-container" data-signatures-path="/GNOME/gnome-bluetooth/commits/master/signatures"></div>
+<div class="container-fluid container-limited limit-container-width">
+
+<div class="project-home-panel">
+<div class="row append-bottom-8">
+<div class="home-panel-title-row col-md-12 col-lg-6 d-flex">
+<div class="avatar-container home-panel-avatar append-right-default float-none">
+<div class="avatar avatar-tile s64 identicon bg1">G</div>
+</div>
+<div class="d-flex flex-column flex-wrap align-items-baseline">
+<div class="d-inline-flex align-items-baseline">
+<h1 class="home-panel-title prepend-top-8 append-bottom-5 qa-project-name">
+gnome-bluetooth
+<span class="visibility-icon text-secondary prepend-left-4 has-tooltip" data-container="body" title="Public - The project can be accessed without any authentication.">
+<i aria-hidden="true" data-hidden="true" class="fa fa-globe icon"></i>
+</span>
+</h1>
+</div>
+<div class="home-panel-metadata d-flex align-items-center text-secondary">
+<span class="text-secondary">
+Project ID: 1617
+</span>
+</div>
+</div>
+</div>
+<div class="project-repo-buttons col-md-12 col-lg-6 d-inline-flex flex-wrap justify-content-lg-end">
+<div class="count-buttons d-inline-flex">
+<div class="count-badge d-inline-flex align-item-stretch append-right-8">
+<a class="btn btn-default btn-xs has-tooltip count-badge-button d-flex align-items-center star-btn" title="You must sign in to star a project" href="/users/sign_in"><svg class="icon"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#star-o"></use></svg>
+<span>Star</span>
+</a><span class="star-count count-badge-count d-flex align-items-center">
+1
+</span>
+</div>
+
+
+</div>
+<div class="project-clone-holder d-inline-flex d-md-none btn-block">
+<div class="btn-group mobile-git-clone js-mobile-git-clone btn-block">
+<button class="btn btn-primary flex-fill bold justify-content-center input-group-text clone-dropdown-btn js-clone-dropdown-label" data-toggle="tooltip" data-placement="bottom" data-container="body" data-button-text="Copy HTTPS clone URL" data-hide-button-icon="true" data-class="btn-primary flex-fill bold justify-content-center input-group-text clone-dropdown-btn js-clone-dropdown-label" data-clipboard-text="https://gitlab.gnome.org/GNOME/gnome-bluetooth.git" type="button" title="Copy to clipboard" aria-label="Copy to clipboard">Copy HTTPS clone URL</button>
+<button class="btn btn-primary dropdown-toggle js-dropdown-toggle" data-toggle="dropdown" type="button">
+<svg class="dropdown-btn-icon icon"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#arrow-down"></use></svg>
+</button>
+<ul class="dropdown-menu dropdown-menu-selectable dropdown-menu-right clone-options-dropdown" data-dropdown>
+<li>
+<a class="copy ssh clone url-selector is-active" href="git@gitlab.gnome.org:GNOME/gnome-bluetooth.git" data-clone-type="ssh"><strong class="dropdown-menu-inner-title">Copy SSH clone URL</strong><span class="dropdown-menu-inner-content">git@gitlab.gnome.org:GNOME/gnome-bluetooth.git</span></a>
+</li>
+<li>
+<a class="copy https clone url-selector " href="https://gitlab.gnome.org/GNOME/gnome-bluetooth.git" data-clone-type="http"><strong class="dropdown-menu-inner-title">Copy HTTPS clone URL</strong><span class="dropdown-menu-inner-content">https://gitlab.gnome.org/GNOME/gnome-bluetooth.git</span></a>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="project-clone-holder d-none d-md-inline-flex">
+<div class="git-clone-holder js-git-clone-holder input-group">
+<a class="input-group-text btn btn-primary btn-xs clone-dropdown-btn qa-clone-dropdown" data-toggle="dropdown" href="#" id="clone-dropdown">
+<span class="append-right-4 js-clone-dropdown-label">
+Clone
+</span>
+<svg class="icon"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#arrow-down"></use></svg>
+</a>
+<ul class="p-3 dropdown-menu dropdown-menu-right dropdown-menu-large dropdown-menu-selectable clone-options-dropdown qa-clone-options">
+<li class="pb-2">
+<label class="label-bold">
+Clone with SSH
+</label>
+<div class="input-group">
+<input type="text" name="ssh_project_clone" id="ssh_project_clone" value="git@gitlab.gnome.org:GNOME/gnome-bluetooth.git" class="js-select-on-focus form-control qa-ssh-clone-url" readonly="readonly" aria-label="Project clone URL" />
+<div class="input-group-append">
+<button class="btn input-group-text btn-default btn-clipboard" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy URL to clipboard" data-class="input-group-text btn-default btn-clipboard" data-clipboard-target="#ssh_project_clone" type="button" title="Copy URL to clipboard" aria-label="Copy URL to clipboard"><svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#duplicate"></use></svg></button>
+
+</div>
+</div>
+</li>
+<li>
+<label class="label-bold">
+Clone with HTTPS
+</label>
+<div class="input-group">
+<input type="text" name="http_project_clone" id="http_project_clone" value="https://gitlab.gnome.org/GNOME/gnome-bluetooth.git" class="js-select-on-focus form-control qa-http-clone-url" readonly="readonly" aria-label="Project clone URL" />
+<div class="input-group-append">
+<button class="btn input-group-text btn-default btn-clipboard" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy URL to clipboard" data-class="input-group-text btn-default btn-clipboard" data-clipboard-target="#http_project_clone" type="button" title="Copy URL to clipboard" aria-label="Copy URL to clipboard"><svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#duplicate"></use></svg></button>
+
+</div>
+</div>
+</li>
+</ul>
+</div>
+
+
+</div>
+</div>
+</div>
+<nav class="project-stats">
+<div class="nav-links quick-links">
+<ul class="nav">
+<li class="nav-item">
+<a class="nav-link stat-link d-flex align-items-center" href="/GNOME/gnome-bluetooth/blob/master/COPYING"><svg class="s16 icon append-right-4"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#scale"></use></svg><strong class="project-stat-value">GNU GPLv2</strong></a></li>
+<li class="nav-item">
+<a class="nav-link stat-link d-flex align-items-center" href="/GNOME/gnome-bluetooth/commits/master"><svg class="s16 icon append-right-4"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#commit"></use></svg><strong class="project-stat-value">3,112</strong> Commits</a></li>
+<li class="nav-item">
+<a class="nav-link stat-link d-flex align-items-center" href="/GNOME/gnome-bluetooth/branches"><svg class="s16 icon append-right-4"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#branch"></use></svg><strong class="project-stat-value">20</strong> Branches</a></li>
+<li class="nav-item">
+<a class="nav-link stat-link d-flex align-items-center" href="/GNOME/gnome-bluetooth/tags"><svg class="s16 icon append-right-4"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#label"></use></svg><strong class="project-stat-value">100</strong> Tags</a></li>
+<li class="nav-item">
+<a class="nav-link stat-link d-flex align-items-center" href="/GNOME/gnome-bluetooth/tree/master"><svg class="s16 icon append-right-4"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#doc-code"></use></svg><strong class="project-stat-value">7 MB</strong> Files</a></li>
+</ul>
+
+</div>
+</nav>
+<div class="home-panel-home-desc mt-1">
+</div>
+</div>
+
+<div class="progress repository-languages-bar"><div class="progress-bar has-tooltip" style="width: 97.35%; background-color:#555555" data-html="true" title="&lt;span class=&quot;repository-language-bar-tooltip-language&quot;&gt;C&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;repository-language-bar-tooltip-share&quot;&gt;97.4%&lt;/span&gt;"></div><div class="progress-bar has-tooltip" style="width: 2.17%; background-color:#007800" data-html="true" title="&lt;span class=&quot;repository-language-bar-tooltip-language&quot;&gt;Meson&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;repository-language-bar-tooltip-share&quot;&gt;2.2%&lt;/span&gt;"></div><div class="progress-bar has-tooltip" style="width: 0.38%; background-color:#ecdebe" data-html="true" title="&lt;span class=&quot;repository-language-bar-tooltip-language&quot;&gt;Roff&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;repository-language-bar-tooltip-share&quot;&gt;0.4%&lt;/span&gt;"></div><div class="progress-bar has-tooltip" style="width: 0.09%; background-color:#3572A5" data-html="true" title="&lt;span class=&quot;repository-language-bar-tooltip-language&quot;&gt;Python&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;repository-language-bar-tooltip-share&quot;&gt;0.1%&lt;/span&gt;"></div><div class="progress-bar has-tooltip" style="width: 0.02%; background-color:#563d7c" data-html="true" title="&lt;span class=&quot;repository-language-bar-tooltip-language&quot;&gt;CSS&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;repository-language-bar-tooltip-share&quot;&gt;0.0%&lt;/span&gt;"></div></div>
+<div class="project-show-files">
+<div class="tree-holder clearfix" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-container">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="/GNOME/gnome-bluetooth/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="tree" />
+<input type="hidden" name="path" id="path" value="" />
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/GNOME/gnome-bluetooth/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">master</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
+<div class="dropdown-page-one">
+<div class="dropdown-title"><span>Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i aria-hidden="true" data-hidden="true" class="fa fa-times dropdown-menu-close-icon"></i></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" /><i aria-hidden="true" data-hidden="true" class="fa fa-search dropdown-input-search"></i><i aria-hidden="true" data-hidden="true" role="button" class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li class="breadcrumb-item">
+<a href="/GNOME/gnome-bluetooth/tree/master">gnome-bluetooth
+</a></li>
+</ul>
+</div>
+<div class="tree-controls">
+<a class="btn" href="/GNOME/gnome-bluetooth/commits/master">History</a>
+<a class="btn shortcuts-find-file" rel="nofollow" href="/GNOME/gnome-bluetooth/find_file/master"><i aria-hidden="true" data-hidden="true" class="fa fa-search"></i>
+<span>Find file</span>
+</a>
+<div class="project-action-button dropdown inline">
+<button aria-label="Download" class="btn has-tooltip" data-display="static" data-toggle="dropdown" title="Download">
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#download"></use></svg>
+<span class="sr-only">Select Archive Format</span>
+<svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#arrow-down"></use></svg>
+</button>
+<ul class="dropdown-menu dropdown-menu-right" role="menu">
+<li class="dropdown-header">
+Source code
+</li>
+<li>
+<a rel="nofollow" download="" href="/GNOME/gnome-bluetooth/-/archive/master/gnome-bluetooth-master.zip"><span>Download zip</span>
+</a></li>
+<li>
+<a rel="nofollow" download="" href="/GNOME/gnome-bluetooth/-/archive/master/gnome-bluetooth-master.tar.gz"><span>Download tar.gz</span>
+</a></li>
+<li>
+<a rel="nofollow" download="" href="/GNOME/gnome-bluetooth/-/archive/master/gnome-bluetooth-master.tar.bz2"><span>Download tar.bz2</span>
+</a></li>
+<li>
+<a rel="nofollow" download="" href="/GNOME/gnome-bluetooth/-/archive/master/gnome-bluetooth-master.tar"><span>Download tar</span>
+</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+<div class="info-well d-none d-sm-block project-last-commit append-bottom-default">
+<div class="well-segment">
+<ul class="blob-commit-info">
+<li class="commit flex-row js-toggle-container" id="commit-5479cd84">
+<div class="avatar-cell d-none d-sm-block">
+<a href="mailto:terence@honles.com"><img alt="Terence Honles&#39;s avatar" src="https://secure.gravatar.com/avatar/084b12d4e5ad272b02f4d3681185504b?s=72&amp;d=identicon" class="avatar s36 d-none d-sm-inline" title="Terence Honles" /></a>
+</div>
+<div class="commit-detail flex-list">
+<div class="commit-content qa-commit-content">
+<a class="commit-row-message item-title" href="/GNOME/gnome-bluetooth/commit/5479cd84d5a8e2f272c1a1d8218b2a5de599e838">lib: Add oui for "Evoluent VerticalMouse 4"</a>
+<span class="commit-row-message d-block d-sm-none">
+&middot;
+5479cd84
+</span>
+<div class="d-block d-sm-none">
+<a class="ci-status-link ci-status-icon-success " title="Commit: passed" data-toggle="tooltip" data-placement="left" data-container="body" href="/GNOME/gnome-bluetooth/commit/5479cd84d5a8e2f272c1a1d8218b2a5de599e838/pipelines?ref=master"><svg class="s24"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#status_success"></use></svg></a>
+</div>
+<button class="text-expander js-toggle-button">
+<svg class="s12"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#ellipsis_h"></use></svg>
+</button>
+<div class="committer">
+<a class="commit-author-link" href="mailto:terence@honles.com">Terence Honles</a> authored <time class="js-timeago" title="Feb 13, 2019 2:23am" datetime="2019-02-13T02:23:17Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Feb 13, 2019</time>
+</div>
+<pre class="commit-row-description js-toggle-content append-bottom-8">&#x000A;The mouse's manual doesn't give any details on how to pair&#x000A;it, but it claims to be "Mac only", so the behaviour was likely&#x000A;the same one as Apple's own mice, with a "0000" pincode.&#x000A;This was tested successfully.</pre>
+</div>
+<div class="commit-actions flex-row d-none d-sm-flex">
+
+<a class="ci-status-link ci-status-icon-success " title="Commit: passed" data-toggle="tooltip" data-placement="left" data-container="body" href="/GNOME/gnome-bluetooth/commit/5479cd84d5a8e2f272c1a1d8218b2a5de599e838/pipelines?ref=master"><svg class="s24"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#status_success"></use></svg></a>
+<div class="js-commit-pipeline-status" data-endpoint="/GNOME/gnome-bluetooth/commit/5479cd84d5a8e2f272c1a1d8218b2a5de599e838/pipelines?ref=master"></div>
+<div class="commit-sha-group">
+<div class="label label-monospace">
+5479cd84
+</div>
+<button class="btn btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA to clipboard" data-class="btn btn-default" data-clipboard-text="5479cd84d5a8e2f272c1a1d8218b2a5de599e838" type="button" title="Copy commit SHA to clipboard" aria-label="Copy commit SHA to clipboard"><svg><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#duplicate"></use></svg></button>
+
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+
+<div class="project-buttons append-bottom-default">
+<ul class="nav">
+<li class="nav-item">
+<a class="nav-link btn btn-default d-flex align-items-center" href="/GNOME/gnome-bluetooth/blob/master/README"><svg class="s16 icon append-right-4"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#doc-text"></use></svg>README</a></li>
+<li class="nav-item">
+<a class="nav-link btn btn-default d-flex align-items-center" href="/GNOME/gnome-bluetooth/blob/master/ChangeLog.README"><svg class="s16 icon append-right-4"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#doc-text"></use></svg>CHANGELOG</a></li>
+<li class="nav-item">
+<a class="nav-link btn btn-default d-flex align-items-center" href="/GNOME/gnome-bluetooth/blob/master/.gitlab-ci.yml"><svg class="s16 icon append-right-4"><use xlink:href="/assets/icons-24aaa921aa9e411162e6913688816c79861d0de4bee876cf6fc4c794be34ee91.svg#doc-text"></use></svg>CI/CD configuration</a></li>
+</ul>
+
+</div>
+<div class="tree-content-holder js-tree-content" data-logs-path="/GNOME/gnome-bluetooth/refs/master/logs_tree/">
+<div class="table-holder bordered-box">
+<table class="qa-file-tree table table_da39a3ee5e6b4b0d3255bfef95601890afd80709 tree-table" id="tree-slider">
+<thead>
+<tr>
+<th>Name</th>
+<th class="d-none d-sm-table-cell">
+<div class="float-left">Last commit</div>
+</th>
+<th class="text-right">Last update</th>
+</tr>
+</thead>
+<tr class="tree-item file_71ab8b6afb1bae3df247e0286da35e0da16564ff">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-folder fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/tree/master/docs/reference/libgnome-bluetooth" title="docs/reference/libgnome-bluetooth">
+<span>docs/reference/libgnome-bluetooth</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_ae7368cab1ca7ca754b38d49da064df87968ffe4">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-folder fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/tree/master/icons" title="icons">
+<span>icons</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_9d062bafff17ba8b9a1215c4c51485134d509d91">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-folder fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/tree/master/lib" title="lib">
+<span>lib</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_13a5d51391f6a6ff5a94394b0dee6a35bf66fd73">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-folder fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/tree/master/po" title="po">
+<span>po</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_0c1132f6a5e55e3185c526e70e0f702155f3a5f4">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-folder fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/tree/master/sendto" title="sendto">
+<span>sendto</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_587d266bb27a4dc3022bbed44dfa19849df3044c">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/.gitlab-ci.yml" title=".gitlab-ci.yml">
+<span>.gitlab-ci.yml</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_dad57a4c245a8007c90257aef0514c8b6a0f600c">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/AUTHORS" title="AUTHORS">
+<span>AUTHORS</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_6156cd6ac57d8b88e473d9202392ec064b623c93">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/COPYING" title="COPYING">
+<span>COPYING</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_cfc26e1bcd63eff33aa0bfdbe3edac51e2c2ef2d">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/COPYING.LIB" title="COPYING.LIB">
+<span>COPYING.LIB</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_3095bc7155b097b1f90b7d353c12b5e12c366059">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/ChangeLog.README" title="ChangeLog.README">
+<span>ChangeLog.README</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_fdf3673626e532399037b36e1c0620719c562a10">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/ChangeLog.pre-2.27" title="ChangeLog.pre-2.27">
+<span>ChangeLog.pre-2.27</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_572378cf179c50ade4591b0f42a539fe3de5c4ba">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/MAINTAINERS" title="MAINTAINERS">
+<span>MAINTAINERS</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_9f621eb5fd3bcb2fa5c7bd228c9b1ad42edc46c8">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/NEWS" title="NEWS">
+<span>NEWS</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_69e27356ef629022720d868ab0c0e3394775b6c1">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/README" title="README">
+<span>README</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_98d0eb0599979290ffcb860549f7ebac5af6b9b7">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/gnome-bluetooth.doap" title="gnome-bluetooth.doap">
+<span>gnome-bluetooth.doap</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_0cc1139e3347f573ae1feee5b73dbc8a8a21fcfa">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/meson.build" title="meson.build">
+<span>meson.build</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_ca9bb7eff80503c97c83505e8acea4002fd87ac6">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/meson_options.txt" title="meson_options.txt">
+<span>meson_options.txt</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+<tr class="tree-item file_18561521fdd8259bc039a8f2f4d1230a09fefe6a">
+<td class="tree-item-file-name">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a class="str-truncated" href="/GNOME/gnome-bluetooth/blob/master/meson_post_install.py" title="meson_post_install.py">
+<span>meson_post_install.py</span>
+</a>
+</td>
+<td class="d-none d-sm-table-cell tree-commit"></td>
+<td class="tree-time-ago text-right">
+<span class="log_loading hide">
+<i class="fa fa-spinner fa-spin"></i>
+Loading commit data...
+</span>
+</td>
+</tr>
+
+</table>
+</div>
+<article class="file-holder limited-width-container readme-holder" id="readme">
+<div class="js-file-title file-title">
+<i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o fa-fw"></i>
+<a href="/GNOME/gnome-bluetooth/blob/master/README"><strong>
+README
+</strong>
+</a></div>
+<div class="blob-viewer" data-rich-type="markup" data-type="rich" data-url="/GNOME/gnome-bluetooth/blob/master/README?format=json&amp;viewer=rich">
+<div class="text-center prepend-top-default append-bottom-default">
+<i aria-hidden="true" aria-label="Loading content…" class="fa fa-spinner fa-spin fa-2x"></i>
+</div>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
+

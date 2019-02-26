@@ -1,0 +1,13 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/lib/
+drwxr-xr-x	timcowchip/users	usr/lib/python3.6/
+drwxr-xr-x	timcowchip/users	usr/lib/python3.6/site-packages/
+drwxr-xr-x	timcowchip/users	usr/lib/python3.6/site-packages/setproctitle-1.1.10-py3.6.egg-info/
+-rw-rw-r--	timcowchip/users	usr/lib/python3.6/site-packages/setproctitle-1.1.10-py3.6.egg-info/PKG-INFO
+-rw-rw-r--	timcowchip/users	usr/lib/python3.6/site-packages/setproctitle-1.1.10-py3.6.egg-info/SOURCES.txt
+-rw-rw-r--	timcowchip/users	usr/lib/python3.6/site-packages/setproctitle-1.1.10-py3.6.egg-info/dependency_links.txt
+-rw-rw-r--	timcowchip/users	usr/lib/python3.6/site-packages/setproctitle-1.1.10-py3.6.egg-info/top_level.txt
+drwxr-xr-x	timcowchip/users	usr/share/
+drwxr-xr-x	timcowchip/users	usr/share/licenses/
+drwxr-xr-x	timcowchip/users	usr/share/licenses/python3-setproctitle/
+-rw-r--r--	timcowchip/users	usr/share/licenses/python3-setproctitle/COPYRIGHT

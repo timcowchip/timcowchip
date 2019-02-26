@@ -1,0 +1,21 @@
+# Description: The GNOME Bluetooth Subsystem
+# URL:         https://wiki.gnome.org/Projects/GnomeBluetooth
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  gtk3 libnotify bluez libcanberra gobject-introspection gtk-doc docbook-xsl
+
+name=gnome-bluetooth
+version=3.28.2
+release=1
+
+source=(61-gnome-bluetooth-rfkill.rules)
+
+build() {
+
+  git clone https://gitlab.gnome.org/GNOME/gnome-bluetooth.git
+
+  meson $name build -D prefix=/usr -D gtk_doc=true -D icon_update=false -D systemd=false
+  ninja -C build
+
+  DESTDIR="$PKG" meson install -C build
+  install -Dt "$PKG/usr/lib/udev/rules.d" -m644 61-gnome-bluetooth-rfkill.rules
+}

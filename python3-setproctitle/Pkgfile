@@ -1,0 +1,19 @@
+# Description: Allows a python process to change its process title
+# URL:         https://github.com/dvarrazzo/py-setproctitle
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on: python3
+
+name=python3-setproctitle
+version=1.1.10
+release=3
+
+source=(https://files.pythonhosted.org/packages/source/s/setproctitle/setproctitle-$version.tar.gz)
+
+build() {
+    cd "$SRC"/setproctitle-$version
+
+    python3 setup.py install --skip-build -O1 --root="$PKG"
+	install -m0644 -D COPYRIGHT "$PKG/usr/share/licenses/$name/COPYRIGHT"
+}
+
+

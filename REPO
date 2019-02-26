@@ -6,6 +6,7 @@ d:wego
 d:xcb-util-xrm
 d:libgweather
 d:jgmenu
+d:blueberry
 d:opusfile
 d:geocode-glib
 d:gpodder
@@ -28,10 +29,12 @@ d:gtk-theme-numix-solarized
 d:vala
 d:xdialog
 d:gnome-icon-theme
+d:python3-setproctitle
 d:ecwolf
 d:gnome-icon-theme-symbolic
 d:masterpdfeditor
 d:mygpoclient
+d:gnome-bluetooth
 d:flburn
 d:txt2tags
 d:vice
@@ -67,6 +70,9 @@ f:0ba51ba9a806e3b0db7ce5d12bee4c05:jgmenu/.signature
 f:e387f5b4e1a4fa60f5afc1dfc91bdf6a:jgmenu/Pkgfile
 f:2523707ee0ee6bd85fb0d6b1a2800ae2:jgmenu/.footprint
 f:8ce6632fadf6134e2e122eeb646c6dee:jgmenu/.md5sum
+f:85efe598e6fd6351d73331dc0df3e5e6:blueberry/Pkgfile
+f:7618783126168641ef367ff4dec8395b:blueberry/.footprint
+f:b8552ed63c14d9df6bc3dc3bb3244954:blueberry/.md5sum
 f:afac2365964b19fcb6ef17661bc940ea:opusfile/Pkgfile
 f:c42b0216934a56a3cba7db3fe2b0b22e:opusfile/.footprint
 f:3f0ed86b34ccfb1bfab639ffa1c7756d:opusfile/.md5sum
@@ -138,6 +144,9 @@ f:d393e95c010e3ca95c7475636e7bd389:gnome-icon-theme/.signature
 f:a2e003ba513e0cfe3f4946167a915cd7:gnome-icon-theme/Pkgfile
 f:8e4e3bd7407b8da65526b50afd54d985:gnome-icon-theme/.footprint
 f:d4e26d1c00b957d322ad67ee146a052b:gnome-icon-theme/.md5sum
+f:96a916fb4c845d5f5e9ab66dd92b06eb:python3-setproctitle/Pkgfile
+f:0649e90ea6f1814735f1184a91108c6e:python3-setproctitle/.footprint
+f:d7491d3ffdd5a0ac5461240024f55693:python3-setproctitle/.md5sum
 f:61bf1616e78367853c91f2c04e2c1cb7:ecwolf/vgahead.wl1
 f:3cfeac19987430183745627edcf8a1e7:ecwolf/Wolfenstien.png
 f:7b6dd4e55c33c33a41d1600be5df3228:ecwolf/maphead.wl1
@@ -162,6 +171,9 @@ f:48ce93b9223ffae3ee2852ef7c0ffbe7:masterpdfeditor/.md5sum
 f:1a9ee89121878b0d603079fcd74561f1:mygpoclient/Pkgfile
 f:c28c096adf9bffc2eab0217c71540100:mygpoclient/.footprint
 f:08a938f302d638df84e246cf6f1955c3:mygpoclient/.md5sum
+f:d7b9c51a6dfbb7b7a44c3fd904eaf3b0:gnome-bluetooth/gnome-bluetooth#3.28.2-1.pkg.tar.gz
+f:dfe5e395a6e24672b1fe5cc1c27d120a:gnome-bluetooth/61-gnome-bluetooth-rfkill.rules
+f:21b97df6b94e021f17cbd77e4b019ecc:gnome-bluetooth/Pkgfile
 f:9cdef202a4d936121584240a3ff29b54:flburn/.signature
 f:976c4e40caa080496810b8d4c01ff6bc:flburn/Pkgfile
 f:f48820c0c2ac4e25a4220c98ab4a7c18:flburn/.footprint
