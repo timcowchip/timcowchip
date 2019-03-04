@@ -1,0 +1,20 @@
+# Description: X11 interface to lm_sensors
+# URL:         http://www.linuxhardware.org/xsensors/
+# Maintainer: Chris Farrell, timcowchip at gmail dot com
+# Depends on:  lm_sensors, gtk
+
+name=xsensors
+version=0.80
+release=1
+
+source=(https://github.com/Mystro256/$name/archive/$version.tar.gz)
+
+build () {
+    cd $name-$version
+
+    ./configure \
+	--prefix=/usr
+
+    make
+    make DESTDIR=$PKG install
+}
