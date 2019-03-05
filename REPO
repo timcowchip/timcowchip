@@ -191,12 +191,8 @@ f:b670ab167cdaf33479b31fa421b2ab62:polybar/.md5sum
 f:1043f18e498a21d58a0326ed83e9f942:python3-feedparser/Pkgfile
 f:d83798c43d8bb0ca1750a2bb797e4555:python3-feedparser/.footprint
 f:383d1e27c038a4707210178ddf66e3b7:python3-feedparser/.md5sum
-f:404bfeed0f0982cdddabf9a865a84665:xsensors/xsensors#0.80-1.pkg.tar.gz
 f:e9d92e7ca850edcd9f0a595f29ac8850:xsensors/Pkgfile
-f:785ab0c26c4f6faf113b922088b5d4ec:xsensors/0.80.tar.gz
-f:d41d8cd98f00b204e9800998ecf8427e:xsensors/.tar.gz.partial
 f:0cd77d1363f4326ca4fdf10a47fba656:xsensors/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:xsensors/xsensors-0.80.tar.gz.partial
 f:22e9c361324ffd885364817a3e7875d7:xsensors/.md5sum
 f:90e1af5d3058e62c0402ffc426aadc6f:handbrake/.signature
 f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
