@@ -15,7 +15,6 @@ build() {
     make QMAKE=/usr/bin/qmake-qt5 \
     LRELEASE=lrelease-qt5 \
     PREFIX=/usr
-    	
-	make DESTDIR=$PKG install
+    DESTDIR=$PKG PREFIX=/usr -j1 install	
 }
 
