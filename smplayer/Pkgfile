@@ -1,0 +1,21 @@
+# Description: smplayer (graphical user interface for MPlayer)
+# URL:         https://www.smplayer.info/
+# Maintainer:  Chris Farrell, timcowchip at gorge dot net
+# Depends on:  mplayer qt5 
+
+name=smplayer
+version=19.1.0
+release=1
+
+source=(https://downloads.sourceforge.net/$name/$name-$version.tar.bz2)
+
+build() {
+    cd "$name-$version"
+
+    make QMAKE=/usr/bin/qmake-qt5 \
+    LRELEASE=lrelease-qt5 \
+    PREFIX=/usr
+    	
+	make DESTDIR=$PKG install
+}
+
