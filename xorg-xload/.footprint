@@ -1,0 +1,13 @@
+drwxr-xr-x	timcowchip/users	usr/
+drwxr-xr-x	timcowchip/users	usr/bin/
+-rwxr-xr-x	timcowchip/users	usr/bin/xload
+drwxr-xr-x	timcowchip/users	usr/share/
+drwxr-xr-x	timcowchip/users	usr/share/X11/
+drwxr-xr-x	timcowchip/users	usr/share/X11/app-defaults/
+-rw-r--r--	timcowchip/users	usr/share/X11/app-defaults/XLoad
+drwxr-xr-x	timcowchip/users	usr/share/licenses/
+drwxr-xr-x	timcowchip/users	usr/share/licenses/xorg-xload/
+-rw-r--r--	timcowchip/users	usr/share/licenses/xorg-xload/COPYING
+drwxr-xr-x	timcowchip/users	usr/share/man/
+drwxr-xr-x	timcowchip/users	usr/share/man/man1/
+-rw-r--r--	timcowchip/users	usr/share/man/man1/xload.1.gz

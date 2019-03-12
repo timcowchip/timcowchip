@@ -41,6 +41,7 @@ d:polybar
 d:python3-feedparser
 d:xsensors
 d:handbrake
+d:xorg-xload
 d:vala-panel-extras
 f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
 f:fb522f055d78d7d33e99fee888e1e6b1:isomaster/Pkgfile
@@ -198,6 +199,9 @@ f:90e1af5d3058e62c0402ffc426aadc6f:handbrake/.signature
 f:07519e5075828123ce2bbd77113794c8:handbrake/Pkgfile
 f:fe245f08f32e32215853852003a9ab50:handbrake/.footprint
 f:80351bbb1e7fd96b20f6129d89fc061d:handbrake/.md5sum
+f:d47ad9b41de5c0b3be43cc5b2befcfdd:xorg-xload/Pkgfile
+f:b061c2bf00f869da0cb3cc432b72fca8:xorg-xload/.footprint
+f:4476a2cad2dcc5dc55457600d25d817d:xorg-xload/.md5sum
 f:627ed74e27650ad8b5f860f26a174def:vala-panel-extras/post-install
 f:125feaaaf6bad16c629213a4102cfbf1:vala-panel-extras/Pkgfile
 f:c8690053065b9d06f1c4ece3179526b6:vala-panel-extras/.footprint
