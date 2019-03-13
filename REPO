@@ -1,9 +1,11 @@
 d:isomaster
+d:glances
 d:google-chrome
 d:os-prober
 d:xa
 d:wego
 d:xcb-util-xrm
+d:python3-psutil
 d:libgweather
 d:jgmenu
 d:blueberry
@@ -47,6 +49,9 @@ f:e5afe63571a3d0dcc18258b5e57b6add:isomaster/.signature
 f:fb522f055d78d7d33e99fee888e1e6b1:isomaster/Pkgfile
 f:34473d47cae17d05f7e6c1304718ac90:isomaster/.footprint
 f:151c0053a66b5b08779c7666a920fad6:isomaster/.md5sum
+f:3d37d22577ce9e52ac935fb6c7d2184f:glances/Pkgfile
+f:01071e46cea08d5650869751cf0ce0ad:glances/.footprint
+f:89dbc253849efedfda1cb0822961b4a0:glances/.md5sum
 f:26139587ae9b4ade7a813d0e6456725a:google-chrome/.signature
 f:7ae844b2eab115a6f546924928b9f9e0:google-chrome/Pkgfile
 f:a1d05f7c9421790782f740a314f1fbc1:google-chrome/.footprint
@@ -64,6 +69,10 @@ f:d41d8cd98f00b204e9800998ecf8427e:wego/.md5sum
 f:4e0333659df5c68486a4be4752ac5c2b:xcb-util-xrm/Pkgfile
 f:1700373db247c09133916deface77aab:xcb-util-xrm/.footprint
 f:490aa170c89fb1aff2039326c715240a:xcb-util-xrm/.md5sum
+f:8bac8ea8fd508d5b82bc9d2fa85d628c:python3-psutil/fix_test_disk_io_counters_sysfs.patch
+f:5de771466fca488e980347a30a295131:python3-psutil/Pkgfile
+f:cf4c240ba1a90b238e3025166e93f0bf:python3-psutil/.footprint
+f:3fbf14faabf034d4585ebb870c0c5a41:python3-psutil/.md5sum
 f:5a5ea3e84068f32a7c9cbefc465d1f57:libgweather/Pkgfile
 f:1a1258c87ef7cb26a7ec6393c9071c5b:libgweather/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libgweather/.md5sum
@@ -87,7 +96,7 @@ f:e44d600ffe099ad689aa8132c2824358:podcastparser/Pkgfile
 f:35229a8949603abab0b75cf7abdf107d:podcastparser/.footprint
 f:a7e296b58616929f23ca564dadbbb9e7:podcastparser/.md5sum
 f:627ed74e27650ad8b5f860f26a174def:vala-panel/post-install
-f:ac04b3b8d3fe2b9c8c0aa8704e4ac749:vala-panel/Pkgfile
+f:40a86d37a21c524aa606511d94903603:vala-panel/Pkgfile
 f:3fd8f021b3094e06ff6bc91f91054ade:vala-panel/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
 f:05129c70ce7d1fb0d5d0095c419ddb9c:mutagen/Pkgfile
@@ -112,8 +121,8 @@ f:878115815f3e4ef59edc0fd4c8f958d9:tint2/Pkgfile
 f:00e8f714230c9392bbe3ca2f4134dc7b:tint2/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:tint2/.md5sum
 f:627ed74e27650ad8b5f860f26a174def:vala-panel-sntray/post-install
-f:4528f6f991faae1caae30e7bc2f3c623:vala-panel-sntray/Pkgfile
-f:d523d346726df1dd7ea25b689d2872c3:vala-panel-sntray/.footprint
+f:cfb63566a9418545fc43ea8ccb978b26:vala-panel-sntray/Pkgfile
+f:a84415c0ae7b475aa6442fa695938fa2:vala-panel-sntray/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:vala-panel-sntray/.md5sum
 f:83b5f038ce66293b7420778682816117:xorg-luit/Pkgfile
 f:4b4bebecd741ccbba4be5d54a9b29049:xorg-luit/.footprint
@@ -131,9 +140,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:numlockx/.md5sum
 f:fe1afb1dfdbd5bc57d28be1c99c2e06a:gtk-theme-numix-solarized/Pkgfile
 f:51bfbd03ff32d9af1526b0d960842268:gtk-theme-numix-solarized/.footprint
 f:31e2a32edd18370a65e1050014996fb9:gtk-theme-numix-solarized/.md5sum
-f:35ca83148e30d31c0f98d4789f75db25:vala/Pkgfile
-f:0b89ef02cd3cb900ae777be26155a3c1:vala/.footprint
-f:b4100cad87066e8fcc9b6976a0b1631a:vala/.md5sum
+f:bfb26a754fa53641a1afb721f181771a:vala/Pkgfile
+f:bb27bf048d8cb0dafb6984a30647e0a8:vala/.footprint
+f:0c98d595808618f62721f19f04efc31c:vala/.md5sum
 f:d5fbf5c7d4ae4d71916b6cc039a5a604:xdialog/.signature
 f:e9688425401726b2715b1e84d06cc730:xdialog/Pkgfile
 f:f208bf222ddefd06a57c467b9660b06a:xdialog/.footprint

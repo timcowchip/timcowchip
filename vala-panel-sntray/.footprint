@@ -1,9 +1,17 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib64/
+drwxr-xr-x	root/root	usr/lib64/mate-panel/
+-rwxr-xr-x	root/root	usr/lib64/mate-panel/libsntray-mate.so
 drwxr-xr-x	root/root	usr/lib64/vala-panel/
 drwxr-xr-x	root/root	usr/lib64/vala-panel/applets/
 -rwxr-xr-x	root/root	usr/lib64/vala-panel/applets/libsntray.so
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/glib-2.0/
+drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
+-rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.valapanel.toplevel.sntray.gschema.xml
+drwxr-xr-x	root/root	usr/share/mate-panel/
+drwxr-xr-x	root/root	usr/share/mate-panel/applets/
+-rw-r--r--	root/root	usr/share/mate-panel/applets/org.vala-panel.SNTray.mate-panel-applet
 drwxr-xr-x	root/root	usr/share/vala-panel/
 drwxr-xr-x	root/root	usr/share/vala-panel/applets/
 -rw-r--r--	root/root	usr/share/vala-panel/applets/org.valapanel.sntray.plugin

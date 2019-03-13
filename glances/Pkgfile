@@ -1,0 +1,19 @@
+# Description: CLI curses-based monitoring tool
+# URL:         https://github.com/nicolargo/glances
+# Maintainer:  Chris Farrell, timcowchip at gmail dot com
+# Depends on:  python3 python3-psutil python3-setuptools
+
+
+name=glances
+version=3.1.0
+release=1
+
+source=("https://github.com/nicolargo/glances/archive/v${version}.tar.gz")
+
+build() {
+	
+  cd "glances-${version}"
+  python3 setup.py install --prefix=/usr --root="${PKG}" --optimize=1
+}
+
+
