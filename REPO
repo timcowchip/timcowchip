@@ -2,6 +2,7 @@ d:isomaster
 d:glances
 d:google-chrome
 d:os-prober
+d:medit
 d:xa
 d:wego
 d:xcb-util-xrm
@@ -61,6 +62,9 @@ f:aa91c8bd4d4f3e0b7944bd7d5d02a9bd:os-prober/.signature
 f:19950e3168499d062949172aedeadc7b:os-prober/Pkgfile
 f:37dcf9aeb012008561059045304e8429:os-prober/.footprint
 f:f6a48612e0d664bf9e3acc14fc733e38:os-prober/.md5sum
+f:48f3014ba1bc5224940c24b17230e498:medit/Pkgfile
+f:4148f47d9cba589335e3250ca318bd8a:medit/.footprint
+f:3691fc6628a31c007bcb3d4360c3ffe5:medit/.md5sum
 f:182978fa6cac33fe7f96e6310c98017e:xa/Pkgfile
 f:18883f2d3f67f473ce15fc2ed638537a:wego/.signature
 f:c4624e1e041942f087f224ef5eb1423b:wego/Pkgfile
