@@ -36,6 +36,7 @@ d:ecwolf
 d:gnome-icon-theme-symbolic
 d:masterpdfeditor
 d:mygpoclient
+d:wayland-protocols
 d:gnome-bluetooth
 d:flburn
 d:txt2tags
@@ -106,7 +107,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
 f:05129c70ce7d1fb0d5d0095c419ddb9c:mutagen/Pkgfile
 f:59b94b3b4ef166e9bd6874ffb1f0c335:mutagen/.footprint
 f:565257ca2786cf14a335c79158872365:mutagen/.md5sum
-f:3e303fdfde9ac9a580e375c617d42d30:gtk3/Pkgfile
+f:fe3ba51ca0592d0fffcb343bf0daa90d:gtk3/Pkgfile
 f:a34375187486a26d0a966575a287e569:gtk3/.footprint
 f:756bce50f8f13d7cf192c31f2cda5378:gtk3/.md5sum
 f:b1f4ea3fdd3bd95effd129d77e1d4263:dbus-python3/Pkgfile
@@ -184,6 +185,7 @@ f:48ce93b9223ffae3ee2852ef7c0ffbe7:masterpdfeditor/.md5sum
 f:1a9ee89121878b0d603079fcd74561f1:mygpoclient/Pkgfile
 f:c28c096adf9bffc2eab0217c71540100:mygpoclient/.footprint
 f:08a938f302d638df84e246cf6f1955c3:mygpoclient/.md5sum
+f:b677d2bb87505c78d9943bd4bbcd45ce:wayland-protocols/Pkgfile
 f:dfe5e395a6e24672b1fe5cc1c27d120a:gnome-bluetooth/61-gnome-bluetooth-rfkill.rules
 f:21b97df6b94e021f17cbd77e4b019ecc:gnome-bluetooth/Pkgfile
 f:ea01da355ce22dd4d9ad47ddb901954e:gnome-bluetooth/.footprint
