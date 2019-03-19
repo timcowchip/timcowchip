@@ -106,7 +106,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:vala-panel/.md5sum
 f:05129c70ce7d1fb0d5d0095c419ddb9c:mutagen/Pkgfile
 f:59b94b3b4ef166e9bd6874ffb1f0c335:mutagen/.footprint
 f:565257ca2786cf14a335c79158872365:mutagen/.md5sum
-f:b1cbf4bb6efe15ce3be1904f71ed865e:gtk3/Pkgfile
+f:3e303fdfde9ac9a580e375c617d42d30:gtk3/Pkgfile
+f:a34375187486a26d0a966575a287e569:gtk3/.footprint
+f:756bce50f8f13d7cf192c31f2cda5378:gtk3/.md5sum
 f:b1f4ea3fdd3bd95effd129d77e1d4263:dbus-python3/Pkgfile
 f:65f5304cba22b2999ce455c84d0c28b0:dbus-python3/.footprint
 f:bc9655420cae2576d2d18af25f432eec:dbus-python3/.md5sum
