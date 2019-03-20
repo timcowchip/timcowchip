@@ -6,9 +6,7 @@
 name=vala-panel
 version=0.4.86
 release=1
-pkgdesc="Gtk3 panel for compositing window managers"
 url="https://gitlab.com/vala-panel-project/vala-panel"
-arch=('i686' 'x86_64')
 
 source=()
 
