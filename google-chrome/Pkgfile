@@ -5,7 +5,7 @@
 
 name=google-chrome
 version=73.0.3683.86
-release=4
+release=5
 
 source=("https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
 

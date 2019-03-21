@@ -55,9 +55,9 @@ f:3d37d22577ce9e52ac935fb6c7d2184f:glances/Pkgfile
 f:01071e46cea08d5650869751cf0ce0ad:glances/.footprint
 f:89dbc253849efedfda1cb0822961b4a0:glances/.md5sum
 f:26139587ae9b4ade7a813d0e6456725a:google-chrome/.signature
-f:7ae844b2eab115a6f546924928b9f9e0:google-chrome/Pkgfile
+f:fb820ce0d31b32ea24451e77e3388a78:google-chrome/Pkgfile
 f:a1d05f7c9421790782f740a314f1fbc1:google-chrome/.footprint
-f:5058aab521532e7bb64cf4d6a73abc27:google-chrome/.md5sum
+f:b26df41efb0955de2bf6ad9b69e842f0:google-chrome/.md5sum
 f:b9256f134ce9f2a63ee19f84cc5e0023:os-prober/grub
 f:aa91c8bd4d4f3e0b7944bd7d5d02a9bd:os-prober/.signature
 f:19950e3168499d062949172aedeadc7b:os-prober/Pkgfile
